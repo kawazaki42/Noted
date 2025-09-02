@@ -1,3 +1,7 @@
+<!-- ![alt text](532bgq3crp961.webp) -->
+
+<img src="532bgq3crp961.webp" width=500>
+
 $D=b^2-4ac$
 
 |false|false|
@@ -20,5 +24,3 @@ $
 3 & 4
 \end{array}
 $
-
-![alt text](532bgq3crp961.webp)
