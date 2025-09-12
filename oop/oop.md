@@ -84,6 +84,9 @@ string s = format("{:.3f}", 3'000'000.14159265)
 #include <math.h>    // sqrt - квадратный корень
 #include <format>    // -std=c++20
 
+#include "unitA.h"
+#include "geometry.h"
+
 using namespace std;  // искать в стандартной библиотеке
 
 
@@ -94,6 +97,16 @@ float distance_from_0(float x1, float y1) {
 
 
 int main(){
+    // if(distance_from_0(1.0, 0.0) != 1.0) {
+    //     clog << "СЛОМАЛАСЬ ФУНКЦИЯ!!!" << endl;
+    //     exit(1);
+    // }
+
+    assert(distance_from_0(1.0, 0.0) == 1.0);
+    assert( abs(distance_from_0(0.0, 0.1)) - 0.1 < 1e-6);
+
+    Point p1;  // NOTE: no `struct` keyword needed
+
     float x, y;
     float d;
 
@@ -109,5 +122,59 @@ int main(){
 
     std::cout << std::format("Расстояние = {:.2f}\n", d);
     return 0;
+}
+```
+
+```c++
+/// @file unitA.h
+
+#pragma once
+
+struct A {
+    int x;
+}
+```
+
+```c++
+/// @file geometry.cpp
+
+
+struct Point {
+    double x, y;
+};
+
+
+float distance_from_0(float x1, float y1) {
+    
+}
+
+
+float distance( const Point &p1, const Point, &p2 ) {
+    // & - аналог ключевого слова var в паскале
+    // память экономим!
+    return sqrt( pow(p1.x, p2.x, 2) + pow(p1.y, p2.y, 2) );
+}
+
+void read_point( Point &point ) {
+    cout << "x = ";
+    cin >> point.x;
+
+    cout << "y = ";
+    cin >> point.y;
+}
+
+// Одинаковое имя с разными аргументами можно в C++!
+// Называется перегрузка функций
+
+Point read_point() {
+    Point point;
+
+    return point;
+}
+
+Point *read_point() {
+    Point point;
+
+    return &point;  // висячий указать! ошибка!
 }
 ```
