@@ -17,14 +17,25 @@
 #include "calc.h"
 
 // использовать функции из стандартной библиотеки C++
-using namespace std;
+// using namespace std;
 
 
 /**
  * Главная процедура.
  * @return 0 при успешном завершении
  */ 
-int main() {
+int main(int argc, char **argv) {
+
+    // argv[0] - имя программы
+    // аргументы идут после
+    if(argc - 1 >= 1) {
+        // if(std::string("--test") == std::string(argv[1]) ) {
+        if(std::string("--test") == argv[1] ) {
+            calc::test::run();
+            return 0;
+        }
+    }
+
     /// Входные данные
     double x, y, z;
 
@@ -34,18 +45,26 @@ int main() {
      * endl - перевод строки
      */
 
-    cout << "Введите x: ";
-    cin >> x;
+    std::cout << "Введите x: ";
+    std::cin >> x;
 
-    cout << "Введите y: ";
-    cin >> y;
+    std::cout << "Введите y: ";
+    std::cin >> y;
 
-    cout << "Введите z: ";
-    cin >> z;
+    std::cout << "Введите z: ";
+    std::cin >> z;
 
-    cout << endl;
-    cout << "a = " << calc_a(x, y) << endl;
-    cout << "b = " << calc_b(z) << endl;
+    std::cout << std::endl;
+
+    std::cout
+        << "a = "
+        << calc::calc_a(x, y)
+        << std::endl;
+
+    std::cout
+        << "b = "
+        << calc::calc_b(z)
+        << std::endl;
 
     return 0;
 }

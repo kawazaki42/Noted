@@ -14,17 +14,28 @@
 #include <cmath>
 
 
-/**
- * Вычислить величину `a` по условиям задачи.
- * @param x, y входные данные задачи
- * @see https://ivtipm.github.io/Programming/Glava01/index01.htm#z11
- */
-double calc_a(double x, double y);
+namespace calc {
+    /**
+     * Вычислить величину `a` по условиям задачи.
+     * @param x, y входные данные задачи
+     * @see https://ivtipm.github.io/Programming/Glava01/index01.htm#z11
+     */
+    double calc_a(double x, double y);
+    
+    
+    /**
+     * Вычислить величину `b` по условиям задачи.
+     * @param z входные данные задачи
+     * @see https://ivtipm.github.io/Programming/Glava01/index01.htm#z11
+     */
+    double calc_b(double z);
 
+    namespace test
+    {
+        const double EPSILON = 1e-6;
 
-/**
- * Вычислить величину `b` по условиям задачи.
- * @param z входные данные задачи
- * @see https://ivtipm.github.io/Programming/Glava01/index01.htm#z11
- */
-double calc_b(double z);
+        bool is_close(double a, double b);
+
+        void run();
+    }
+}
