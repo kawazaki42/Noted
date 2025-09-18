@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2025-09-05T11:44:54.147596400</meta:creation-date><dc:date>2025-09-18T19:12:32.896011100</dc:date><meta:editing-duration>PT6M41S</meta:editing-duration><meta:editing-cycles>6</meta:editing-cycles><meta:generator>LibreOffice/25.2.5.2$Windows_X86_64 LibreOffice_project/03d19516eb2e1dd5d4ccd751a0d6f35f35e08022</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="40" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2025-09-05T11:44:54.147596400</meta:creation-date><dc:date>2025-09-18T20:09:54.042762300</dc:date><meta:editing-duration>PT1H3M57S</meta:editing-duration><meta:editing-cycles>17</meta:editing-cycles><meta:generator>LibreOffice/25.2.5.2$Windows_X86_64 LibreOffice_project/03d19516eb2e1dd5d4ccd751a0d6f35f35e08022</meta:generator><meta:document-statistic meta:table-count="2" meta:cell-count="169" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">11289</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">9934</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">23753</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">10911</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">4</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">20</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">5</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">23</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Sheet1_2">
+       <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">22</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
@@ -30,7 +47,7 @@
        <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">Sheet1_2</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1851</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
@@ -72,6 +89,22 @@
    <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">ru</config:config-item>
+     <config:config-item config:name="Country" config:type="string">RU</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
    <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
@@ -104,6 +137,9 @@
    <config:config-item-map-named config:name="ScriptConfiguration">
     <config:config-item-map-entry config:name="Sheet1">
      <config:config-item config:name="CodeName" config:type="string">Sheet1</config:config-item>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry config:name="Sheet1_2">
+     <config:config-item config:name="CodeName" config:type="string">Sheet1_2</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-named>
   </config:config-item-set>
@@ -140,6 +176,26 @@
   </style:style>
   <number:number-style style:name="N0">
    <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N130">
+   <number:number number:decimal-places="1" number:min-decimal-places="1" number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:number-style style:name="N131">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1">
+    <number:embedded-text number:position="6"> </number:embedded-text>
+    <number:embedded-text number:position="3"> </number:embedded-text>
+   </number:number>
+  </number:number-style>
+  <number:number-style style:name="N132">
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1">
+    <number:embedded-text number:position="3"> </number:embedded-text>
+   </number:number>
+  </number:number-style>
+  <number:number-style style:name="N133">
+   <number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="1">
+    <number:embedded-text number:position="6"> </number:embedded-text>
+    <number:embedded-text number:position="3"> </number:embedded-text>
+   </number:number>
   </number:number-style>
   <style:style style:name="Default" style:family="table-cell"/>
   <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
@@ -231,9 +287,30 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.061in"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.2811in"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.9417in"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.0673in"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.7862in"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.6772in"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.3846in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
    <style:table-row-properties style:row-height="0.178in" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
@@ -243,8 +320,33 @@
    <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
   </number:number-style>
   <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0in"/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N130"/>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N2"/>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="wrap"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Serif" fo:font-size="10pt" fo:language="ru" fo:country="RU" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Segoe UI" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Tahoma" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+  </style:style>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N131"/>
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:font-name="Liberation Sans"/>
+  </style:style>
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N133">
+   <style:text-properties style:font-name="Liberation Sans"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N133">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="ru" fo:country="RU" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="Segoe UI" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Tahoma" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties style:writing-mode="lr-tb"/>
@@ -304,206 +406,651 @@
   <office:spreadsheet>
    <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
    <table:table table:name="Sheet1" table:style-name="ta1">
-    <table:table-column table:style-name="co1" table:number-columns-repeated="5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce4"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce4"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce7"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce8"/>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
       <text:p>Вид растений</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>Масса (т) продуцируемого кислорода на 1 га растений в год</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Площадь насаждения (га) деревьев для продуцирования кислорода на 1 чел. в год</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Кол-во деревьев (шт) для продуцирования кислорода на 1 чел. в год</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6"/>
+     <table:table-cell table:style-name="ce2"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="2"/>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Сосна</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="10.9" calcext:value-type="float">
       <text:p>10.9</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B2]" office:value-type="float" office:value="0.109174311926606" calcext:value-type="float">
+      <text:p>0.11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C2]*[.$C$21]" office:value-type="float" office:value="131.009174311927" calcext:value-type="float">
+      <text:p>131.01</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Дуб</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="27" calcext:value-type="float">
-      <text:p>27</text:p>
+      <text:p>27.0</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B3]" office:value-type="float" office:value="0.0440740740740741" calcext:value-type="float">
+      <text:p>0.04</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C3]*[.$C$21]" office:value-type="float" office:value="52.8888888888889" calcext:value-type="float">
+      <text:p>52.89</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Липа</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="11.6" calcext:value-type="float">
       <text:p>11.6</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B4]" office:value-type="float" office:value="0.102586206896552" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C4]*[.$C$21]" office:value-type="float" office:value="123.103448275862" calcext:value-type="float">
+      <text:p>123.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Ель</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12</text:p>
+      <text:p>12.0</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B5]" office:value-type="float" office:value="0.0991666666666667" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C5]*[.$C$21]" office:value-type="float" office:value="119" calcext:value-type="float">
+      <text:p>119.00</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Тополь</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="34.9" calcext:value-type="float">
       <text:p>34.9</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B6]" office:value-type="float" office:value="0.0340974212034384" calcext:value-type="float">
+      <text:p>0.03</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C6]*[.$C$21]" office:value-type="float" office:value="40.9169054441261" calcext:value-type="float">
+      <text:p>40.92</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Лиственница</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="8" calcext:value-type="float">
-      <text:p>8</text:p>
+      <text:p>8.0</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B7]" office:value-type="float" office:value="0.14875" calcext:value-type="float">
+      <text:p>0.15</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C7]*[.$C$21]" office:value-type="float" office:value="178.5" calcext:value-type="float">
+      <text:p>178.50</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Клён</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="12.4" calcext:value-type="float">
       <text:p>12.4</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B8]" office:value-type="float" office:value="0.0959677419354839" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C8]*[.$C$21]" office:value-type="float" office:value="115.161290322581" calcext:value-type="float">
+      <text:p>115.16</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Сирень</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="15.3" calcext:value-type="float">
       <text:p>15.3</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B9]" office:value-type="float" office:value="0.0777777777777778" calcext:value-type="float">
+      <text:p>0.08</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C9]*[.$C$21]" office:value-type="float" office:value="93.3333333333333" calcext:value-type="float">
+      <text:p>93.33</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Осина</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
-      <text:p>13</text:p>
+      <text:p>13.0</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B10]" office:value-type="float" office:value="0.0915384615384615" calcext:value-type="float">
+      <text:p>0.09</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C10]*[.$C$21]" office:value-type="float" office:value="109.846153846154" calcext:value-type="float">
+      <text:p>109.85</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Граб</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12</text:p>
+      <text:p>12.0</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B11]" office:value-type="float" office:value="0.0991666666666667" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C11]*[.$C$21]" office:value-type="float" office:value="119" calcext:value-type="float">
+      <text:p>119.00</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Кедр</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="14.3" calcext:value-type="float">
       <text:p>14.3</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B12]" office:value-type="float" office:value="0.0832167832167832" calcext:value-type="float">
+      <text:p>0.08</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C12]*[.$C$21]" office:value-type="float" office:value="99.8601398601399" calcext:value-type="float">
+      <text:p>99.86</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Ясень</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="11.9" calcext:value-type="float">
       <text:p>11.9</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B13]" office:value-type="float" office:value="0.1" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C13]*[.$C$21]" office:value-type="float" office:value="120" calcext:value-type="float">
+      <text:p>120.00</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Лещина</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
-      <text:p>12</text:p>
+      <text:p>12.0</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B14]" office:value-type="float" office:value="0.0991666666666667" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C14]*[.$C$21]" office:value-type="float" office:value="119" calcext:value-type="float">
+      <text:p>119.00</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Бук</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="11.5" calcext:value-type="float">
       <text:p>11.5</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B15]" office:value-type="float" office:value="0.103478260869565" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C15]*[.$C$21]" office:value-type="float" office:value="124.173913043478" calcext:value-type="float">
+      <text:p>124.17</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Пихта</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="8.6" calcext:value-type="float">
       <text:p>8.6</text:p>
      </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+     <table:table-cell table:formula="of:=[.$C$20]/[.B16]" office:value-type="float" office:value="0.138372093023256" calcext:value-type="float">
+      <text:p>0.14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C16]*[.$C$21]" office:value-type="float" office:value="166.046511627907" calcext:value-type="float">
+      <text:p>166.05</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Берёза</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="20.7" calcext:value-type="float">
       <text:p>20.7</text:p>
      </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B17]" office:value-type="float" office:value="0.057487922705314" calcext:value-type="float">
+      <text:p>0.06</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.C17]*[.$C$21]" office:value-type="float" office:value="68.9855072463768" calcext:value-type="float">
+      <text:p>68.99</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="2">
      <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="5"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
-     <table:table-cell table:number-columns-repeated="5"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro1">
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Потребление кислорода в год на 1 чел, т</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell office:value-type="float" office:value="1.19" calcext:value-type="float">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1.19" calcext:value-type="float">
       <text:p>1.19</text:p>
      </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1">
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Плотность насаждений, шт/га</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1200" calcext:value-type="float">
+      <text:p>1200</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Население Забайкальского края, чел.</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell office:value-type="float" office:value="983838" calcext:value-type="float">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="Default" office:value-type="float" office:value="983838" calcext:value-type="float">
       <text:p>983838</text:p>
      </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1">
+    <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Население России, чел.</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="146119928" calcext:value-type="float">
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce5" office:value-type="float" office:value="146119928" calcext:value-type="float">
       <text:p>146119928</text:p>
      </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Sheet1_2" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce4"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce8"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce8"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Вид растений</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Масса (т) продуцируемого кислорода на 1 га растений в год</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Площадь насаждения (га) деревьев для продуцирования кислорода на 1 чел. в год</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p>Площадь насаждения (га) деревьев для обеспечения кислородом населения Забайкальского края в год</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Площадь насаждения (га) деревьев для обеспечения кислородом населения России в год</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Сосна</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10.9" calcext:value-type="float">
+      <text:p>10.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B2]" office:value-type="float" office:value="0.109174311926606" calcext:value-type="float">
+      <text:p>0.11</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C2]" office:value-type="float" office:value="107409.836697248" calcext:value-type="float">
+      <text:p><text:s/>107 409.84</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C2]" office:value-type="float" office:value="15952542.5981651" calcext:value-type="float">
+      <text:p>15 952 542.60</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Дуб</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="27" calcext:value-type="float">
+      <text:p>27.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B3]" office:value-type="float" office:value="0.0440740740740741" calcext:value-type="float">
+      <text:p>0.04</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C3]" office:value-type="float" office:value="43361.7488888889" calcext:value-type="float">
+      <text:p><text:s/>43 361.75</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C3]" office:value-type="float" office:value="6440100.53037037" calcext:value-type="float">
+      <text:p>6 440 100.53</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Липа</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="11.6" calcext:value-type="float">
+      <text:p>11.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B4]" office:value-type="float" office:value="0.102586206896552" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C4]" office:value-type="float" office:value="100928.20862069" calcext:value-type="float">
+      <text:p><text:s/>100 928.21</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C4]" office:value-type="float" office:value="14989889.1655172" calcext:value-type="float">
+      <text:p>14 989 889.17</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ель</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B5]" office:value-type="float" office:value="0.0991666666666667" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C5]" office:value-type="float" office:value="97563.935" calcext:value-type="float">
+      <text:p><text:s/>97 563.94</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C5]" office:value-type="float" office:value="14490226.1933333" calcext:value-type="float">
+      <text:p>14 490 226.19</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Тополь</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="34.9" calcext:value-type="float">
+      <text:p>34.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B6]" office:value-type="float" office:value="0.0340974212034384" calcext:value-type="float">
+      <text:p>0.03</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C6]" office:value-type="float" office:value="33546.3386819484" calcext:value-type="float">
+      <text:p><text:s/>33 546.34</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C6]" office:value-type="float" office:value="4982312.73123209" calcext:value-type="float">
+      <text:p>4 982 312.73</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Лиственница</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8" calcext:value-type="float">
+      <text:p>8.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B7]" office:value-type="float" office:value="0.14875" calcext:value-type="float">
+      <text:p>0.15</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C7]" office:value-type="float" office:value="146345.9025" calcext:value-type="float">
+      <text:p><text:s/>146 345.90</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C7]" office:value-type="float" office:value="21735339.29" calcext:value-type="float">
+      <text:p>21 735 339.29</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Клён</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12.4" calcext:value-type="float">
+      <text:p>12.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B8]" office:value-type="float" office:value="0.0959677419354839" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C8]" office:value-type="float" office:value="94416.7112903226" calcext:value-type="float">
+      <text:p><text:s/>94 416.71</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C8]" office:value-type="float" office:value="14022799.5419355" calcext:value-type="float">
+      <text:p>14 022 799.54</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Сирень</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15.3" calcext:value-type="float">
+      <text:p>15.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B9]" office:value-type="float" office:value="0.0777777777777778" calcext:value-type="float">
+      <text:p>0.08</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C9]" office:value-type="float" office:value="76520.7333333333" calcext:value-type="float">
+      <text:p><text:s/>76 520.73</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C9]" office:value-type="float" office:value="11364883.2888889" calcext:value-type="float">
+      <text:p>11 364 883.29</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Осина</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="13" calcext:value-type="float">
+      <text:p>13.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B10]" office:value-type="float" office:value="0.0915384615384615" calcext:value-type="float">
+      <text:p>0.09</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C10]" office:value-type="float" office:value="90059.0169230769" calcext:value-type="float">
+      <text:p><text:s/>90 059.02</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C10]" office:value-type="float" office:value="13375593.4092308" calcext:value-type="float">
+      <text:p>13 375 593.41</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Граб</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B11]" office:value-type="float" office:value="0.0991666666666667" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C11]" office:value-type="float" office:value="97563.935" calcext:value-type="float">
+      <text:p><text:s/>97 563.94</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C11]" office:value-type="float" office:value="14490226.1933333" calcext:value-type="float">
+      <text:p>14 490 226.19</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Кедр</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="14.3" calcext:value-type="float">
+      <text:p>14.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B12]" office:value-type="float" office:value="0.0832167832167832" calcext:value-type="float">
+      <text:p>0.08</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C12]" office:value-type="float" office:value="81871.8335664336" calcext:value-type="float">
+      <text:p><text:s/>81 871.83</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C12]" office:value-type="float" office:value="12159630.372028" calcext:value-type="float">
+      <text:p>12 159 630.37</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Ясень</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="11.9" calcext:value-type="float">
+      <text:p>11.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B13]" office:value-type="float" office:value="0.1" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C13]" office:value-type="float" office:value="98383.8" calcext:value-type="float">
+      <text:p><text:s/>98 383.80</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C13]" office:value-type="float" office:value="14611992.8" calcext:value-type="float">
+      <text:p>14 611 992.80</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Лещина</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B14]" office:value-type="float" office:value="0.0991666666666667" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C14]" office:value-type="float" office:value="97563.935" calcext:value-type="float">
+      <text:p><text:s/>97 563.94</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C14]" office:value-type="float" office:value="14490226.1933333" calcext:value-type="float">
+      <text:p>14 490 226.19</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Бук</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="11.5" calcext:value-type="float">
+      <text:p>11.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B15]" office:value-type="float" office:value="0.103478260869565" calcext:value-type="float">
+      <text:p>0.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C15]" office:value-type="float" office:value="101805.845217391" calcext:value-type="float">
+      <text:p><text:s/>101 805.85</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C15]" office:value-type="float" office:value="15120236.0278261" calcext:value-type="float">
+      <text:p>15 120 236.03</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Пихта</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8.6" calcext:value-type="float">
+      <text:p>8.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B16]" office:value-type="float" office:value="0.138372093023256" calcext:value-type="float">
+      <text:p>0.14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C16]" office:value-type="float" office:value="136135.723255814" calcext:value-type="float">
+      <text:p><text:s/>136 135.72</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C16]" office:value-type="float" office:value="20218920.2697674" calcext:value-type="float">
+      <text:p>20 218 920.27</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Берёза</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="20.7" calcext:value-type="float">
+      <text:p>20.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$20]/[.B17]" office:value-type="float" office:value="0.057487922705314" calcext:value-type="float">
+      <text:p>0.06</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$22]*[.$C17]" office:value-type="float" office:value="56558.8028985507" calcext:value-type="float">
+      <text:p><text:s/>56 558.80</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$C$23]*[.$C17]" office:value-type="float" office:value="8400131.12657005" calcext:value-type="float">
+      <text:p>8 400 131.13</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="2">
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Потребление кислорода в год на 1 чел, т</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce9" office:value-type="float" office:value="1.19" calcext:value-type="float">
+      <text:p>1.19</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Плотность насаждений, шт/га</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce9" office:value-type="float" office:value="1200" calcext:value-type="float">
+      <text:p>1200</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Население Забайкальского края, чел.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce10" office:value-type="float" office:value="983838" calcext:value-type="float">
+      <text:p><text:s/>983 838</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Население России, чел.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:style-name="ce11" office:value-type="float" office:value="146119928" calcext:value-type="float">
+      <text:p>146 119 928</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
