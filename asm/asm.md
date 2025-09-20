@@ -35,3 +35,11 @@ mov AL, 17
 mov AX, 300  ; перезапишет! т.к. AX = AH + AL
 mov BX, 300  ; норм
 ```
+
+```asm
+add r1, r2
+
+; AL=2
+add AL, 3
+; AL=5
+```
