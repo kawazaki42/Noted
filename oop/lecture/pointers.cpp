@@ -5,8 +5,6 @@ using namespace std;
 
 
 int main() {
-    // АНТИПРИМЕР!
-
     // указатель на тип float
     float *p;
     float x = 42;
