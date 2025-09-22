@@ -76,3 +76,32 @@ Use Active Gerund (though meaning is passive) after:
 reprimand - выговор
 
 №71.4 in written form
+
+1. Teaching is a stressful job.
+2. Learning a foreign language is a time-consuming process.
+3. Watching TV is my way to have a rest.
+4. My hobbies are reading, travelling, and meeting with friends
+5. Stop talking - start working.
+6. She loves reading books by Russian classical writers.
+7. Choosing a job (career) is the most important step in each <!-- man's -->
+   person's life
+8. The rector <!-- president? --> congratulated everyone on finishing
+   the university.
+9. My brother promises to stop <!-- give up --> smoking every day,
+   but keeps doing that.
+10. Her manner of speaking annoys <!-- is annoying --> everyone.
+13. 
+11. He couldn't resist
+12. Please, wipe your feet before  entering
+14. Her greatest enjoyment is gossiping (? making gossips )
+15. I hate being left alone on weekends
+16. This 
+17. Is this worth spending time on at all?
+
+hiking - ходить пешком
+
+hiker - турист
+
+182 №3 №4 письменно
+
+еще пересказ статьи
