@@ -18,9 +18,11 @@ $D=b^2-4ac$
 ```
 
 ```math
-\begin{array}{c|c}
-1 & 2 \\
+\begin{array}
+1 & 2 
 \hline
 3 & 4
 \end{array}
 ```
+
+$$A \text{ AA } \dot{A} \mathring {\text A} \overset{\circ} A \mathring A$$
