@@ -379,3 +379,8 @@ void print_matr(float **M, size_t n, size_t m) {
 ```
 
 nullptr, если неадекватное значение
+
+Статическая библиотека
+
+.cpp -> .o -> unit.lib или unit.a
+
