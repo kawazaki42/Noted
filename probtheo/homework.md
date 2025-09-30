@@ -21,15 +21,42 @@
 (1/6)^3 = 1/216
 ```
 
+$$m = \tilde C^1_1 \cdot \tilde C^1_1 \cdot \tilde C^1_1$$
+
+```math
+n = \tilde C^1_6 \cdot \tilde C^1_6 \cdot \tilde C^1_6
+```
+
+<!-- ---
+
+Порядок не важен, повторения возможны
+
+$$m = C^1_1 \cdot C^1_1 \cdot C^1_1$$
+
+```math
+n = C^1_6 \cdot C^1_6 \cdot C^1_6
+``` -->
+
 б:
 ```math
 1 \cdot 1/6 \cdot 1/6 = 1/36
 ```
 
+```math
+m = 
+```
+
+
 в:
 ```math
 % (1/6) * (1/5) * (1/4) = 1/120
 6/6 \cdot 5/6 \cdot 4/6 = 20/36 = 5/9
+```
+
+$$n = \tilde C ^3 _6$$
+
+```math
+m = C^3_6
 ```
 
 9\)
