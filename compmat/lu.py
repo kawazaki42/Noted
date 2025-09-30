@@ -164,4 +164,8 @@ for i in range(matrix_order):
     for j in range(matrix_order):
         recomputed_column[i] += x[j] * test_matrix[i][j]
 
+print()
+
+print(x)
+
 print(recomputed_column)
