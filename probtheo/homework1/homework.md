@@ -61,7 +61,7 @@ m = C^3_6
 
 9\)
 
-![alt text](image.png)
+![alt text](cube.png)
 
 ровно одна грань:
 ```math
