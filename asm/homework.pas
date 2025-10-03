@@ -13,42 +13,40 @@ function solve(a, b, c: Int32): Int32;
 begin
   asm
     // счетчик
-    mov ecx, 0
+    mov ecx, 1
 
-    // ecx++
-    inc ecx
-
-    // ebx = a * ecx
+    // eax = a * ecx
     mov eax, a    // 1ый множитель
     imul ecx      // умножить на ecx
 
+    // ebx = eax  // потому что eax - для результата умножения
     mov ebx, eax  // результат в ebx
+    inc ecx       // ecx++
 
-    // ecx++
-    inc ecx
-
-    // ebx += b * ecx
+    // eax = b * ecx
     mov eax, b    // 1ый множитель
     imul ecx      // умножить на ecx
 
-    add ebx, eax  // результат прибавить к ebx
+    add ebx, eax  // ebx += eax
+    inc ecx       // ecx++
 
-    // ecx++
-    inc ecx
-
-    // eax = c*ecx + ebx
+    // eax = c*ecx
     mov eax, c    // 1ый множитель
     imul ecx      // умножить на ecx
 
-    add eax, ebx  // теперь сумма в eax.
-                  // она же - делимое
+    // eax += ebx
+    add eax, ebx
+    
+    // теперь сумма в eax.
+    // она же - делимое
 
     // очищаем старшую часть делимого
 
     // mov edx, 0  // не учитывает знак!
 
-    cdq  // делает именно то что нам нужно!
-         // (т.е. расширяет EAX до EDX:EAX учитывая знак)
+    // расширяет EAX до EDX:EAX учитывая знак
+    // (то что нужно!)
+    cdq
 
     mov ebx, 3    // делитель
     idiv ebx      // деление:
