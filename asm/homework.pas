@@ -15,12 +15,10 @@ begin
     // счетчик
     mov ecx, 1
 
-    // eax = a * ecx
-    mov eax, a    // 1ый множитель
-    imul ecx      // умножить на ecx (1)
-
-    // ebx = eax  // потому что eax - для результата умножения
-    mov ebx, eax  // результат в ebx
+    // в ebx будем хранить сумму.
+    // a * 1 = a
+    // ebx := a;
+    mov ebx, a
     inc ecx       // ecx++
 
     // eax = b * ecx
