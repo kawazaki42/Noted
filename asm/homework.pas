@@ -101,7 +101,7 @@ begin
         WriteLn('Assert(',res,' <> 2);');
         Assert(res <> 2);
         // Assert(False);
-        WriteLn('ПАНИКА! ТЕСТЫ ОТКЛЮЧЕНЫ!!!');
+        WriteLn('ПАНИКА! ЗАВЕДОМО ЛОЖНЫЙ ТЕСТ НЕ ПРОВАЛЕН! ТЕСТЫ ОТКЛЮЧЕНЫ!!!');
       end;
   end;
 
