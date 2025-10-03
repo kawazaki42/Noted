@@ -18,63 +18,66 @@ begin
     mov ecx, 0
 
     // ecx++
-    inc cl
+    inc ecx
 
-    // a *= ecx  // временно используя eax
-    mov eax, a
-    imul ecx
-    mov a, eax
-
-    // ecx++
-    inc cl
-
-    // b *= ecx  // временно используя eax
-    mov eax, b
-    imul ecx
-    mov b, eax
+    // ebx = a * ecx
+    mov eax, a    // 1ый множитель
+    imul ecx      // умножить на ecx
+    mov ebx, eax  // результат в ebx
 
     // ecx++
-    inc cl
+    inc ecx
 
-    // c *= ecx  // временно используя eax
-    mov eax, c
-    imul ecx
-    mov c, eax
+    // ebx += b * ecx
+    mov eax, b    // 1ый множитель
+    imul ecx      // умножить на ecx
+    add ebx, eax  // результат прибавить к ebx
 
-    // eax = a + b + c
-    mov eax, a
-    add eax, b
-    add eax, c
+    // ecx++
+    inc ecx
 
-    // Пусть sum = eax (для псевдокода ниже)
+    // ebx += c * ecx
+    mov eax, c    // 1ый множитель
+    imul ecx      // умножить на ecx
+    add ebx, eax  // результат прибавить к ebx
+
+    // Пусть sum = ebx (для псевдокода ниже)
 
     // очищам старшую часть делимого
     // mov edx, 0  // не учитывает знак!
-    cdq  // делает именно то что нам нужно
-    mov ebx, 3  // делитель
-    idiv ebx    // деление:
+    cdq  // делает именно то что нам нужно!
+         // (т.е. расширяет EAX до EDX:EAX учитывая знак)
+    mov eax, ebx  // сумма, она же делимое
+    mov ebx, 3    // делитель
+    idiv ebx      // деление:
     // eax := sum div 3
     // edx := sum mod 3
 
     // quot   := sum div 3
-    mov quot, eax
+    // mov quot, eax
 
     // remain := sum mod 3
-    mov remain, edx
+    // mov remain, edx
+
+    mov ebx, edx
 
     // eax = 3 * remain
-    mov eax, remain
-    mov ebx, 3
-    imul ebx
+    // mov eax, remain
+    // mov ebx, 3
+    // imul ebx
+    // imul eax, 3
+    imul ebx, 3
 
     // ebx = quot
-    mov ebx, quot
+    // mov ebx, quot
 
     // ebx -= eax
-    sub ebx, eax
+    // sub ebx, eax
+
+    sub eax, ebx
 
     // res = quot - 3*remain
-    mov @result, ebx
+    // mov @result, ebx
     // mov eax, ebx
     // mov [res], ebx
   end;
