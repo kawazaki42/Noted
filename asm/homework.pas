@@ -41,48 +41,32 @@ begin
     imul ecx      // умножить на ecx
     add ebx, eax  // результат прибавить к ebx
 
-    // Пусть sum = ebx (для псевдокода ниже)
+
+    mov eax, ebx  // сумма, она же делимое
 
     // очищам старшую часть делимого
     // mov edx, 0  // не учитывает знак!
     cdq  // делает именно то что нам нужно!
          // (т.е. расширяет EAX до EDX:EAX учитывая знак)
-    mov eax, ebx  // сумма, она же делимое
+
     mov ebx, 3    // делитель
     idiv ebx      // деление:
     // eax := sum div 3
     // edx := sum mod 3
 
-    // quot   := sum div 3
-    // mov quot, eax
-
-    // remain := sum mod 3
-    // mov remain, edx
-
+    // сохраним остаток в ebx
     mov ebx, edx
 
-    // eax = 3 * remain
-    // mov eax, remain
-    // mov ebx, 3
-    // imul ebx
-    // imul eax, 3
-    // imul ebx, 3
-    mov eax, 
-    mov edx, 3
-    imul ebx, edx
+    // ebx *= 3
+    imul ebx, 3
 
-    // ebx = quot
-    // mov ebx, quot
-
-    // ebx -= eax
-    // sub ebx, eax
-
+    // eax -= ebx
+    // где:
+    // - eax - частное
+    // - ebx - утроенный остаток
     sub eax, ebx
 
-    // res = quot - 3*remain
-    // mov @result, ebx
-    // mov eax, ebx
-    // mov [res], ebx
+    mov @result, eax
   end;
 end;
 
