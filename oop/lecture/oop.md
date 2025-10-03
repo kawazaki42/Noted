@@ -384,3 +384,7 @@ nullptr, если неадекватное значение
 
 .cpp -> .o -> unit.lib или unit.a
 
+```c++
+try {}
+catch (const std::exception &e) {}
+```
