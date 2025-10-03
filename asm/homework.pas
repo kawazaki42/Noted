@@ -21,6 +21,7 @@ begin
     // ebx = a * ecx
     mov eax, a    // 1ый множитель
     imul ecx      // умножить на ecx
+
     mov ebx, eax  // результат в ebx
 
     // ecx++
@@ -29,21 +30,23 @@ begin
     // ebx += b * ecx
     mov eax, b    // 1ый множитель
     imul ecx      // умножить на ecx
+
     add ebx, eax  // результат прибавить к ebx
 
     // ecx++
     inc ecx
 
-    // ebx += c * ecx
+    // eax = c*ecx + ebx
     mov eax, c    // 1ый множитель
     imul ecx      // умножить на ecx
-    add ebx, eax  // результат прибавить к ebx
 
+    add eax, ebx  // теперь сумма в eax.
+                  // она же - делимое
 
-    mov eax, ebx  // сумма, она же делимое
+    // очищаем старшую часть делимого
 
-    // очищам старшую часть делимого
     // mov edx, 0  // не учитывает знак!
+
     cdq  // делает именно то что нам нужно!
          // (т.е. расширяет EAX до EDX:EAX учитывая знак)
 
