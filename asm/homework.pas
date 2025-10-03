@@ -13,7 +13,7 @@ function solve(a, b, c: Int32): Int32;
 begin
   asm
     // в ebx будем хранить сумму.
-    // a * 1 = a
+    // a * 1 = a  // XXX: это читерство???
     // ebx := a;
     mov ebx, a
 
