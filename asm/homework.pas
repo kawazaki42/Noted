@@ -17,7 +17,7 @@ begin
 
     // eax = a * ecx
     mov eax, a    // 1ый множитель
-    imul ecx      // умножить на ecx
+    imul ecx      // умножить на ecx (1)
 
     // ebx = eax  // потому что eax - для результата умножения
     mov ebx, eax  // результат в ebx
@@ -25,14 +25,14 @@ begin
 
     // eax = b * ecx
     mov eax, b    // 1ый множитель
-    imul ecx      // умножить на ecx
+    imul ecx      // умножить на ecx (2)
 
     add ebx, eax  // ebx += eax
     inc ecx       // ecx++
 
     // eax = c*ecx
     mov eax, c    // 1ый множитель
-    imul ecx      // умножить на ecx
+    imul ecx      // умножить на ecx (3)
 
     // eax += ebx
     add eax, ebx
