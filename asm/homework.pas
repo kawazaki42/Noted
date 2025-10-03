@@ -66,7 +66,10 @@ begin
     // mov ebx, 3
     // imul ebx
     // imul eax, 3
-    imul ebx, 3
+    // imul ebx, 3
+    mov eax, 
+    mov edx, 3
+    imul ebx, edx
 
     // ebx = quot
     // mov ebx, quot
