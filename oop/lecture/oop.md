@@ -388,3 +388,197 @@ nullptr, если неадекватное значение
 try {}
 catch (const std::exception &e) {}
 ```
+
+git
+===
+
+надо чтобы хранить 2 копии папки, стабильная и не очень
+
+или если надо что то исправить в многих версиях
+
+совместная работа
+
+---
+
+т.н. системы управления версий
+
+Репозиторий (хранилище) - папка с кодом, за которой следит гит
+
+Может быть локальный и удаленный
+
+---
+
+с гитом надо самому работать! он не автоматичен.
+
+Установить гит (консольная версия (ну она по дефолтам))
+
+НЕ СТАВЬТЕ VIM ПЖ А ТО ВЫ ОТТУДА НЕ ВЫЙДЕТЕ!!!!!!
+
+ну или если уже...
+
+нажмите `Esc` `:` `q` `!` `Enter`
+
+---
+
+```bash
+git --version
+cd my_project
+git init
+# появится папка .git (скрытая).
+# не удаляем!
+
+git add main.cpp  # теперь гит следит за main.cpp
+
+# фиксируем изменения за ВСЕМИ отслеживаемыми файлами
+git commit -am "new repo"
+
+# ... меняем файл main.cpp
+# Не забываем сохнарить (Ctrl-S)!
+
+git commit -am "написал Hello World"
+
+git commit -am "коммит без изменений!"
+
+# коммит не произойдет если изменений нету
+
+git commit -am "add new feature"
+
+clang++ main.cpp -o main
+
+# блин, где-то накосячили!
+
+git log
+
+# список коммитов...
+
+git checkout d7a7
+
+# файл вернулся!
+
+git checkout main
+
+# вернулись на главную ветку
+
+# разница между d7a7 и главной веткой
+git diff d7a7
+
+# делаем новую функцию в main
+
+# создаем новую ветку
+git branch dev
+
+# показать ветки
+git branch
+
+# переключаемся
+git switch dev
+
+# пока что ветки ничем не отличаются!
+
+# делаем новую функцию...
+
+git commit -am "+ func: hello_world"
+
+git commit -am "fix: hello_world"
+
+git commit -am "upd: hello_world: add doc"
+
+# возвращаемся к ветке main
+git switch main
+
+# файл стал каким был до hello_world!
+
+# добавить в текущую ветку изменения из другой
+git merge dev
+
+# статус репозитория: какие изменения есть?
+git status
+
+# удалить ветку
+# git branch -d dev
+
+
+```
+
+собранные файлы (напр. `*.exe`) не добавляем
+
+```bash
+git switch dev
+
+git commit -am '...'
+
+git branch add_unit
+
+git switch add_unit
+
+git commit -am "fix: hello_world"
+
+git switch dev
+
+git merge add_unit
+
+# Конфликт! какое из изменений "правильнее"
+
+# наш файл изменили, там хаос теперь, обе версии там...
+
+# Оставляем как будет лучше (буквально, руками)
+
+git commit -am "merge: hello_world"
+
+# кайф.
+
+# все не нужна больше
+git branch -d add_unit
+
+# сидим на dev
+
+clang++ main.cpp unit.cpp -o main
+
+git ls-files
+
+# unit.h и unit.cpp пока не отслеживается!
+
+# а то не добавятся
+git add unit.h unit.cpp
+
+git commit -am "+ unit.h, unit.cpp"
+
+# убрать из отслеживания
+git rm --cached a.exe
+
+# то же самое НО ТАКЖЕ УДАЛЯЕТ И САМ ФАЙЛ
+git rm a.exe
+```
+
+После создания репы на гитхабе:
+
+```bash
+# добавить удаленный репозиторий в локальный
+git remote add "origin" git@github.com/VetrovSV/my_project.git
+
+# переименовать ветку
+# git branch -M main
+
+git config --local user.name "VetrovSV"
+git config --local user.name "goida@goool.org"
+
+# Отправляем данные на гитхаб
+git push -u "origin" main
+git push -u "origin" dev
+
+# опять что то меняем...
+
+git commit -am "..."
+
+git push  # без аргументов
+
+# теперь гит знает куда отправлять изменения.
+
+# допустим версия на гитхабе изменилась
+
+# скачиваем себе изменения
+git pull
+
+# полностью скачать новый репозиторий (напр. на другом компе где стоит гит)
+git clone
+```
