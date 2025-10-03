@@ -18,25 +18,28 @@ begin
     // счетчик
     mov ecx, 0
 
-    // ecx++; a *= ecx
+    // ecx++
     inc cl
+
+    // a *= ecx  // временно используя eax
     mov eax, [a]
     imul ecx
-    //mul ecx
     mov [a], eax
 
-    // ecx++; b *= ecx
+    // ecx++
     inc cl
+
+    // b *= ecx  // временно используя eax
     mov eax, [b]
     imul ecx
-    //mul ecx
     mov [b], eax
 
-    // ecx++; c *= ecx
+    // ecx++
     inc cl
+
+    // c *= ecx  // временно используя eax
     mov eax, [c]
     imul ecx
-    //mul ecx
     mov [c], eax
 
     // eax = a + b + c
@@ -44,21 +47,32 @@ begin
     add eax, [b]
     add eax, [c]
 
-    // quot   := eax div 3
-    // remain := eax mod 3
+    // Пусть sum = eax (для псевдокода ниже)
+
     mov edx, 0  // очищам старшую часть делимого
-    mov ebx, 3
-    idiv ebx
+    mov ebx, 3  // делитель
+    idiv ebx    // деление:
+    // eax := sum div 3
+    // edx := sum mod 3
+
+    // quot   := sum div 3
     mov [quot], eax
+
+    // remain := sum mod 3
     mov [remain], edx
 
+    // eax = 3 * remain
     mov eax, [remain]
     mov ebx, 3
     imul ebx
 
+    // ebx = quot
     mov ebx, [quot]
+
+    // ebx -= eax
     sub ebx, eax
 
+    // res = quot - 3*remain
     mov [res], ebx
   end;
 
