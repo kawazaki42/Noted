@@ -52,18 +52,13 @@ begin
     // eax := sum div 3
     // edx := sum mod 3
 
-    // // сохраним остаток в ebx
-    // mov ebx, edx
-
-    // // ebx *= 3
-    // imul ebx, 3
-
+    // edx *= 3
     imul edx, 3
 
-    // eax -= ebx
+    // eax -= edx
     // где:
     // - eax - частное
-    // - ebx - утроенный остаток
+    // - edx - утроенный остаток
     sub eax, edx
 
     mov @result, eax
