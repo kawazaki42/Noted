@@ -10,8 +10,6 @@ var
 // stdcall;
 
 function solve(a, b, c: Int32): Int32;
-var
-  quot, remain: Int32;
 begin
   asm
     // счетчик
