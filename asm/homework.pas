@@ -12,27 +12,14 @@ var
 function solve(a, b, c: Int32): Int32;
 begin
   asm
-    // в ebx будем хранить сумму.
-    // a * 1 = a  // XXX: это читерство???
-    // ebx := a;
-    mov ebx, a
+    mov eax, a
 
-    // счетчик
-    mov ecx, 2
+    add eax, b
+    add eax, b
 
-    // eax = b * ecx
-    mov eax, b    // 1ый множитель
-    imul ecx      // умножить на ecx (2)
-
-    add ebx, eax  // ebx += eax
-    inc ecx       // ecx++
-
-    // eax = c*ecx
-    mov eax, c    // 1ый множитель
-    imul ecx      // умножить на ecx (3)
-
-    // eax += ebx
-    add eax, ebx
+    add eax, c
+    add eax, c
+    add eax, c
     
     // теперь сумма в eax.
     // она же - делимое
