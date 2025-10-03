@@ -5,13 +5,14 @@ var
   a, b, c: Int32;
   res: Int32;
 
+// procedure solve(var a, b, c: Int32);
+// assembler;
+// stdcall;
+
 function solve(a, b, c: Int32): Int32;
 var
   quot, remain: Int32;
 begin
-// procedure solve(var a, b, c: Int32);
-// assembler;
-// stdcall;
   asm
     // счетчик
     mov ecx, 0
@@ -88,12 +89,18 @@ begin
         Assert(solve(0, 5, 10) = 10);
         Assert(solve(-4, 7, -2) = -2);
         Assert(solve(1, 1, 1) = 2);
+        Assert(solve(-4, -7, -2) = -8);
+        Assert(solve(-4, -8, -2) = -2);
+        Assert(solve(-4, -7, -3) = -9);
         WriteLn('Кайф');
         Exit;
       end;
       '--fail': begin
         WriteLn('Проверка на бдительность: щас программа должна провалить тест.');
-        Assert(False);
+        res := solve(1, 1, 1);
+        WriteLn('Assert(',res,' <> 2);');
+        Assert(res <> 2);
+        // Assert(False);
         WriteLn('ПАНИКА! ТЕСТЫ ОТКЛЮЧЕНЫ!!!');
       end;
   end;
