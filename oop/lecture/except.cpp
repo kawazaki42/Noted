@@ -4,7 +4,7 @@
 // todo: doc
 float triangle_square(float h, float a) {
     if( (a > 0) and (h > 0) )
-        return 0.5 * a * b;
+        return 0.5 * a * h;
     else
         // throw std::string("Error: a < 0 or h < 0");
         throw std::invalid_argument("Error: a < 0 or h < 0");
@@ -14,7 +14,7 @@ float triangle_square(float h, float a) {
     // std::cerr << "Error in triangle_square" << std::endl;
     // return 0;
 
-    std::cout << "сюда функция не зайдет!"
+    std::cout << "сюда функция не зайдет!";
 }
 
 
@@ -22,7 +22,7 @@ float triangle_square(float h, float a) {
 float triangle_square2(float h, float a) {
     try {
         if( (a > 0) and (h > 0) )
-            return 0.5 * a * b;
+            return 0.5 * a * h;
         else
             // throw std::string("Error: a < 0 or h < 0");
             throw std::invalid_argument("Error: a < 0 or h < 0");
@@ -30,8 +30,8 @@ float triangle_square2(float h, float a) {
         // std::cerr << "Error in triangle_square" << std::endl;
         // return 0;
     
-        std::cout << "сюда функция не зайдет!"
-    } catch () {
+        std::cout << "сюда функция не зайдет!";
+    } catch (std::exception e) {
         // ...
     }
 }
@@ -41,7 +41,7 @@ int main() {
     try {
         std::cout << "S = " << triangle_square(1, 1) << std::endl;
         std::cout << "S = " << triangle_square(-3, 1) << std::endl;
-        std::cout << "сюда функция не зайдет!"
+        std::cout << "сюда функция не зайдет!";
     // } catch (std::string error) {
     } catch (std::invalid_argument error) {
         std::cerr << "Возникла ошибка во время вызова triangle_square"
