@@ -239,3 +239,53 @@ But that also gives a dystopian feeling about some kind of machine wars,
 similar to that in sci-fi films such as The Terminator and the like.
 
 You know, I wish the best to machines, but don't want to see them rule by using brute force.
+
+## Infinitive
+
+Active:
+- Simple: to do
+- Continuous: to be doing
+- Perfect: to have done
+- Perfect Continuous: to have been doing
+
+Passive:
+- Simple: to be done
+- Continuous: NONE
+- Perfect: to have being done
+- Perfect Continuous: NONE
+
+4.6-10
+
+5.7-12
+
+6) He was the last (person) to come - Он пришел последним
+
+7) Anne was the only student to pass the exam - Анна сдала экзамен последней
+
+8) I was the third customer to complain to the manager about the service.
+   
+   Я был третьим клиентом, который пожаловался менеджеру (управляющему) о качесте услуг.
+
+9) Neil Armstrong was the first (man) to walk on the Moon.
+
+   Нил Армстронг был первым, кто ходил (приземлился на поверхности) по Луне.
+
+10) He was the first (man) to swim the Channel.
+
+    Он первым переплыл (этот) канал.
+
+---
+
+7) Задачи, ожидающие выполнения компьютером, могут находиться в очереди.
+
+8) Управляющие сигналы указывают операции, которые необходимо выполнить.
+
+9) Изобретение нового периферийного устройства потребовало бы правки архитектуры (редизайна) процессора.
+
+10) Для того, чтобы позволить оборудованию от разных производителей работать в сети,
+    был разработан строгий набор правил - _протокол_.
+
+11) Данный метод недостаточно хорош для нашего исследования.
+
+12) Мы постоянно улучшаем (обновляем) наши программы (more formally: ПО), чтобы
+    удовлетворить нужды пользователей.
