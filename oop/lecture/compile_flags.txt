@@ -1,0 +1,10 @@
+-x
+c++
+-isystem
+C:/msys64/clang64/include/c++/v1
+-isystem
+C:/msys64/clang64/lib/clang/20/include
+-isystem
+C:/msys64/clang64/include
+-target
+x86_64-pc-windows-gnu
