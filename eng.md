@@ -105,3 +105,137 @@ hiker - турист
 182 №3 №4 письменно
 
 еще пересказ статьи - теперь уже про нее мнение
+
+### Ten Myths about Robots
+
+#### 1 Robots will take away jobs from people.
+
+The article primarily sees robots as assistants on factories.
+
+It mentions that humans will take the quality assurance and control parts in manufacturing.
+
+But I disagree with the article's point of view.
+
+Manual labor will be done by robots.
+
+This might be good news because it's often hard and dangerous.
+
+But employees won't get salary if their job can be done by a robot which is less expensive.
+
+#### 2 Robots are expensive
+
+The article states that they currently are, but in the future, thanks to technological development, they'll become more affordable.
+
+Personally, I agree with this point of view.
+
+Today we have more computing power in our pockets than early computer engineers had in specialized buildings.
+
+As the article says, devices for mechanical work (_actuators_) aren't decreasing in price as much as sensors and processors do.
+
+But technology develops rapidly, so I believe it might be possible to overcome this issue.
+
+#### 3 High-level operations are what robots are supposedly used (_for?_)
+
+(Meaning they aren't flexible _?_)
+
+The article states that robots are able to be reprogrammed and rebuilt for a different purpose.
+
+Generally, I agree with that, but it depends highly on the manufacturer.
+
+A company may wish to increase its income by making its customers to buy separate devices for different tasks,
+even through they could've been carried out by a single device.
+
+Sadly, it's common today in computer systems.
+
+#### 4 The programming in robots is hard because of how complex they are
+
+The article states that it's possible to 'teach' a robot or, more precisely, 'fine-tune'
+its movements rather than programming them ahead-of-time.
+
+Well, it's a good technique that allows faster installation of robotic systems.
+
+Another mentioned approach is using modelling, which may also be reasonable.
+
+Personally, I always thought that programming in robots, like in microcontrollers
+and other embedded systems involved
+low-level control, possible in languages like ARM assembly, C or C++.
+
+But if information in the text is true, it changes my world!
+
+But, as the myth #2 is still true, there's no possibility for me to test it out...
+
+#### 5 Robot systems are complex, and the programs are difficult to support
+
+The text states that robots are more reliable than other factory machines,
+most possibly meaning devices not designed for jobs involving mechanical movement.
+
+Well, as for me, it's hard to believe.
+
+There's so many parameters that need to be accounted.
+
+Moreover, movable parts are not usually as durable as cameras or logic components,
+and are currently more expensive.
+
+But regarding programming, they are really more stable here.
+
+They have a single task, so there's little things that can go wrong on the software level.
+
+#### 6 Robots do whatever I tell them to do
+
+(Meaning voice and, probably, text commands)
+
+The article says that automation is more common than voice control in robots.
+
+I agree with that.
+
+Natural language processing and especially speech recognition
+are tasks that are separate from the robot's operation, so in
+manufacturing contexts, it's probably better to program them directly.
+
+#### 7 Robots are machines built to look like a human
+
+Absolutely a myth.
+
+If automated response programs (bots) can be considered robots on their own,
+they don't even represent a machine to begin with!
+
+The article gives a dictionary defenition of a robot as an anthropomorphic machine,
+but overall it states that the robot's functionality defines its design.
+
+Some robots are given such traits though.
+
+#### 8 Robots are strong but they are not agile
+
+The article mentions an experiment with eggs, paper, and 80 times weight of a robot,
+which proves that myth wrong.
+
+Personally, I agree with the arcticle on that topic.
+
+It shows that robots are able to be taught nearly everything.
+
+#### 9 Robots are smart, but they cannot determine intent
+
+Again, it depends on the particular model.
+
+Some robots are designed for simply assembling two parts together.
+
+But when you speak about AI, ANNs, big data and such,
+I believe they are really smarter than humans and are cabable of 'self-awareness'.
+
+The article contains similar thoughts.
+
+#### 10 Robots can learn, but they cannot be self-evolved
+
+The article mentions a robot that was able to self-evolve while 3D-printing
+a new version of itself.
+
+There is even a quote about AI creating products!
+
+What a meta-level!
+
+I also tend to believe they're better students than we are...
+
+But that also gives a dystopian feeling about some kind of machine wars,
+similar to that in sci-fi films such as The Terminator and the like.
+
+You know, I wish the best to machines, but don't want to see them rule by using brute force.
