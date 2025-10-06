@@ -1,0 +1,7 @@
+,,
+1,"Xyz *","Xy (1;2)"
+2,"XyNOTz *","Yz (1;5)"
+3,"XNOTyNOTz *","XNOTz (2; 3)"
+4,"NOTxNOTyNOTz *","NOTyNOTz (3;4)"
+5,"NOTxyz *","NOTxNOTy (4; 6)"
+6,"NOTxNOTyz *","NOTxz (5;6)"
