@@ -1079,7 +1079,7 @@ k^1_1 \lor k^{00}_{23} = 1
 3.5 Карты Карно
 ===
 
-![alt text](carno.excalidraw.svg)
+![alt text](karnaugh.excalidraw.svg)
 
 3.6 Метод Квайна.
 ===
