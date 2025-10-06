@@ -1,0 +1,9 @@
+CompileFlags:
+  # BuiltinHeaders: QueryDriver
+  Compiler: clang++
+  Add: 
+    - -isystemC:/msys64/clang64/include/c++/v1
+    - -isystemC:/msys64/clang64/lib/clang/20/include
+    - -isystemC:/msys64/clang64/include
+    - -target
+    - x86_64-pc-windows-gnu
