@@ -22,6 +22,9 @@
 // ssize_t
 #include <cstddef>
 
+// файловые потоки
+#include <fstream>
+
 // // rand, srand
 // #include <cstdlib>
 
@@ -36,9 +39,10 @@
 
 // Библиотека случайных чисел из C++
 #include <random>
+#include <vector>
 
 // математические константы
-// #include <numbers>
+#include <numbers>
 
 
 // Внутренние зависимости
@@ -55,11 +59,24 @@ namespace calc {
     double sin_abs_sum(double nums[], size_t len) {
         double sum = 0.0;
 
+        // for(double elem : nums) {
         for(size_t i = 0; i < len; i++) {
             sum += nums[i];
         }
 
         return sin( abs(sum) );
+    }
+
+    double sin_abs_sum(std::vector<double> nums) {
+        // double sum = std::accumulate(nums.begin(), nums.end(), 0);
+
+        double sum = 0.0;
+
+        for(double elem : nums) {
+            sum += elem;
+        }
+
+        return sum;
     }
 
     /// Тесты для логики программы.
@@ -72,22 +89,33 @@ namespace calc {
             return std::abs(a - b) < test::EPSILON;
         }
         
-        /// TODO
-        /// запустить один тест
-        inline void one(double nums[], size_t len, double expected) {
-            assert(
-                is_close(
-                    sin_abs_sum(nums, len),
-                    expected
-                )
-            );
-        }
+        // /// TODO
+        // /// запустить один тест
+        // inline void one(double nums[], size_t len, double expected) {
+        //     assert((
+        //         is_close(
+        //             sin_abs_sum(nums, len),
+        //             expected
+        //         ), "..."
+        //     ));
+        // }
 
         /// TODO
         /// запустить все тесты
         void all() {
-            double set[] = {1, -1, 2, -2};
-            one(set, 4, 0);
+            // double set[] = {1, -1, 2, -2};
+            // one(set, 4, 1);
+            // std::vector data{1, -1, 2, -2};
+
+            double res, expected;
+
+            res = sin_abs_sum({1, -1, 2, -2});
+            // expected = 0.0;
+
+            assert( is_close(res, 0.0) );
+
+            res = sin_abs_sum({std::numbers::pi, std::numbers::pi, std::numbers::pi, std::numbers::pi,});
+            assert( is_close(res, 0.0) );
         }
     }
 }
@@ -163,6 +191,20 @@ namespace arr {
             if(rowpos == ELEMS_PER_ROW-1) {
                 std::cout << std::endl;
             }
+        }
+    }
+
+    namespace file {
+        std::vector<double> open(std::string name) {
+            std::ifstream f(name);
+
+            std::vector<double> result;
+
+            for(double n; f >> n;) {
+                result.push_back(n);
+            }
+
+            return result;
         }
     }
 }

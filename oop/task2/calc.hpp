@@ -35,6 +35,8 @@ namespace calc {
         /// @return true, если значения достаточно близки
         /// @return false, если значения достаточно далеки
         inline bool is_close(double a, double b);
+
+        void all();
     }
 }
 

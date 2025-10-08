@@ -15,6 +15,7 @@
 // Страндартная библиотека
  
 // ввод-вывод
+#include <corecrt.h>
 #include <iostream>
 
 // Зависимости внутри проекта
@@ -24,8 +25,17 @@
 
 /// Главная процедура программы.
 /// @return 0 при успешном завершении программы
-int main() {
+int main(int argc, char **argv) {
     // const size_t n = 20;
+
+    const std::string FLAG_TEST = "--test";
+
+    if(argc >= 1) {
+        if(argv[1] == FLAG_TEST) {
+            calc::test::all();
+            return 0;
+        }
+    }
 
     size_t n;
 
