@@ -2,6 +2,7 @@ CompileFlags:
   # BuiltinHeaders: QueryDriver
   Compiler: clang++
   Add: 
+    - -std=c++20
     - -isystemC:/msys64/clang64/include/c++/v1
     - -isystemC:/msys64/clang64/lib/clang/20/include
     - -isystemC:/msys64/clang64/include
