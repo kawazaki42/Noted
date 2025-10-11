@@ -289,3 +289,18 @@ Passive:
 
 12) Мы постоянно улучшаем (обновляем) наши программы (more formally: ПО), чтобы
     удовлетворить нужды пользователей.
+
+### Homework
+
+#### Task 11
+
+| A                | B               |
+| :--------------- | :-------------- |
+| 1. useless       | f) beneficial   |
+| 2. close         | h) remote       |
+| 3. conceal       | a) stand for    |
+| 4. office worker | g) telecommuter |
+| 5. question      | c) reply        |
+| 6. neglect       | e) deal with    |
+| 7. permission    | b) prevention   |
+| 8. irresponsible | d) reliable     |
