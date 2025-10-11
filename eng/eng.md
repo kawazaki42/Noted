@@ -304,3 +304,18 @@ Passive:
 | 6. neglect       | e) deal with    |
 | 7. permission    | b) prevention   |
 | 8. irresponsible | d) reliable     |
+
+#### Task 12
+
+| left               | right         |
+| :----------------- | :------------ |
+| 1. cloud computing | g) technology |
+| 2. Internet        | d) gateway    |
+| 3. information     | h) highway    |
+| 4. digital         | a) stream     |
+| 5. frequency       | c) band       |
+| 6. bold            | e) italics    |
+| 7. dedicated       | b) system     |
+| 8. remote          | f) server     |
+
+
