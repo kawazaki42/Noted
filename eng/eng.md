@@ -318,4 +318,21 @@ Passive:
 | 7. dedicated       | b) system     |
 | 8. remote          | f) server     |
 
+#### Task 14
 
+1. The front seats of the car __<u>tilts</u>__ _[can be tilted]_.
+2. Allowing staff to __<u>conduct</u>__ can give small firms
+   a valuable competitive andvantage.
+3. The computer generates a steady __<u>stream</u>__ of e-mails.
+4. Today's society is sometimes called the __<u>information</u>__ society
+5. No one can __<u>prevent</u>__ you from attending this meeting
+6. We consider all qualified job applicants, __<u>irrespective</u>__ of age
+7. For basic internet connections at home, the __<u>gateway</u>__ is
+   the Internet Service Provider that gives you access to the entire Internet
+8. A __<u>dedicated</u>__ system is a system that is specifically
+   __<u>close</u>__ to and controlled for a specific mission, either for
+   full-time operation or a specified period of time
+9. In the simplest terms, __<u>cloud</u>__ computing means storing and
+   accessing data and programs over the Internet instead of your computer's
+   hard drive.
+10. The computer centre will bring lasting __<u>benefit</u>__ to the community
