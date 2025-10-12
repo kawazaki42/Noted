@@ -17,6 +17,7 @@
 // ввод-вывод
 #include <corecrt.h>
 #include <iostream>
+#include <memory>
 
 // Зависимости внутри проекта
 
@@ -28,9 +29,11 @@
 int main(int argc, char **argv) {
     // const size_t n = 20;
 
-    const std::string FLAG_TEST = "--test";
+    const std::string FLAG_TEST{"--test"};
 
-    if(argc >= 1) {
+    // NOTE: argv включает в себя имя проргаммы!
+    // argc - длина argv
+    if(argc-1 >= 1) {
         if(argv[1] == FLAG_TEST) {
             calc::test::all();
             return 0;
@@ -44,7 +47,9 @@ int main(int argc, char **argv) {
     std::cin >> n;
 
     // Последовательность действительных чисел согласно условию задачи.
-    double *a = new double[n];
+    std::unique_ptr<double> a{new double[n]};
+    // double *a = new double[n];
+
 
     // Заполняем случайными числами
     arr::randomize(a, n);
@@ -59,8 +64,9 @@ int main(int argc, char **argv) {
     std::cout
         << std::endl
         << "Синус модуля суммы последовательности: "
-        << calc::sin_abs_sum(a, n);
+        << calc::sin_abs_sum(a, n)
+        << std::endl;
 
     // Не забываем очистить память
-    delete[] a;
+    // delete[] a;
 }

@@ -53,19 +53,19 @@
 
 /// Логика программы.
 namespace calc {
-    /// Найти синус модуля суммы последовательности.
-    /// @param nums последовательность (динамический массив)
-    /// @param len длина последовательности
-    double sin_abs_sum(double nums[], size_t len) {
-        double sum = 0.0;
+    // /// Найти синус модуля суммы последовательности.
+    // /// @param nums последовательность (динамический массив)
+    // /// @param len длина последовательности
+    // double sin_abs_sum(double nums[], size_t len) {
+    //     double sum = 0.0;
 
-        // for(double elem : nums) {
-        for(size_t i = 0; i < len; i++) {
-            sum += nums[i];
-        }
+    //     // for(double elem : nums) {
+    //     for(size_t i = 0; i < len; i++) {
+    //         sum += nums[i];
+    //     }
 
-        return sin( abs(sum) );
-    }
+    //     return sin( abs(sum) );
+    // }
 
     double sin_abs_sum(std::vector<double> nums) {
         // double sum = std::accumulate(nums.begin(), nums.end(), 0);

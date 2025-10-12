@@ -17,13 +17,26 @@
 // size_t
 #include <cstddef>
 
+#include <cmath>
+#include <random>
+
 
 /// Логика программы.
 namespace calc {
     /// Найти синус модуля суммы последовательности.
     /// @param nums последовательность (динамический массив)
     /// @param len длина последовательности
-    double sin_abs_sum(double nums[], size_t len);
+    template <typename E>
+    double sin_abs_sum(E nums[], size_t len) {
+        E sum{0.0};
+
+        // for(double elem : nums) {
+        for(size_t i = 0; i < len; i++) {
+            sum += nums[i];
+        }
+
+        return std::sin( std::abs(sum) );
+    }
 
     /// Тесты для логики программы.
     namespace test {
@@ -48,12 +61,33 @@ namespace arr {
     /// @param len длина массива
     /// @param min минимальное значение случайного числа
     /// @param max максимальное значение случайного числа
+    template <typename E>
     void randomize(
-        double nums[],
+        E nums[],
         size_t len,
         double min = -100.0,
         double max = +100.0
-    );
+    ) {
+        // // Инициализируем генератор случайных чисел.
+        // TODO: вынести в main?
+        // srand(time(NULL));
+
+        // устройство - источник случайных чисел
+        std::random_device rd;
+
+        // "движок" случайных чисел
+        std::default_random_engine eng(rd());
+
+        // диапазон случайных чисел
+        std::uniform_real_distribution dist(min, max);
+
+        for(size_t i = 0; i < len; i++) {
+            // следующее случайное число
+            // в диапазоне dist
+            // сгенерированное при помощи eng
+            nums[i] = dist(eng);
+        }
+    }
 
     /// Отобразить массив на стандартном выводе.
     ///
