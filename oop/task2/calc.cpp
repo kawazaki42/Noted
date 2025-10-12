@@ -37,12 +37,14 @@
 // потоки ввода-вывода (для arr::display)
 #include <iostream>
 
-// Библиотека случайных чисел из C++
-#include <random>
-#include <vector>
-
 // математические константы
 #include <numbers>
+
+// Библиотека случайных чисел из C++
+#include <random>
+
+// std::vector (динамический массив)
+#include <vector>
 
 
 // Внутренние зависимости
@@ -64,7 +66,7 @@ namespace calc {
             sum += nums[i];
         }
 
-        return sin( abs(sum) );
+        return std::sin( std::abs(sum) );
     }
 
     double sin_abs_sum(std::vector<double> nums) {
@@ -76,7 +78,7 @@ namespace calc {
             sum += elem;
         }
 
-        return sum;
+        return std::sin( std::abs(sum) );
     }
 
     /// Тесты для логики программы.
@@ -114,7 +116,13 @@ namespace calc {
 
             assert( is_close(res, 0.0) );
 
-            res = sin_abs_sum({std::numbers::pi, std::numbers::pi, std::numbers::pi, std::numbers::pi,});
+            res = sin_abs_sum({
+                std::numbers::pi,
+                std::numbers::pi,
+                std::numbers::pi,
+                std::numbers::pi,
+            });
+            // std::cout << res;
             assert( is_close(res, 0.0) );
         }
     }
