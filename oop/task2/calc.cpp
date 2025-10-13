@@ -203,7 +203,7 @@ namespace arr {
     }
 
     namespace file {
-        std::vector<double> open(std::string name) {
+        std::vector<double> load(std::string name) {
             std::ifstream f(name);
 
             std::vector<double> result;
