@@ -157,7 +157,10 @@ $$\Delta a \approx | a_{кальк} - a | = 0.00434539959895587506412855091515$$
 -->
 $$\Delta a \approx | a_{кальк} - a | = 0.0043453996$$
 
-$$\delta a \approx \frac{ \Delta a }{ | a_{кальк} | } \approx 0.0006338417 $$
+```math
+\delta a \approx \frac{ \Delta a }{ | a_{кальк} | } \approx 0.0006338417
+\approx 0.00063
+```
 
 <!-- 3 верные цифры в узком смысле -->
 
@@ -175,13 +178,16 @@ $$\Delta b \approx | b_{кальк} - b | = 0.0004736842$$
 
 <!-- 0.0004736842 / 0.7894736842 -->
 
-$$\delta b \approx \frac{ \Delta b }{ | b_{кальк} | } \approx 0.0006000000$$
+```math
+\delta b \approx \frac{ \Delta b }{ | b_{кальк} | } \approx 0.0006000000
+\approx 0.00060
+```
 
 <!-- 6e-4 * 0.7894736842 -->
 
 ---
 
-$$\delta b < \delta a$$
+$$\delta a > \delta b$$
 
 поэтому вычисление $b$ точнее.
 
