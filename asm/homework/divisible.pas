@@ -1,31 +1,41 @@
 {$asmmode intel}
-
-function IsDivisible(a, b: Int32): ByteBool;
+// {$mode objfpc}
 // label divisible;
+
+
+function IsDivisible(a, b: Int32): Boolean;
+label divisible;
 begin
+    // Exit;
+
     asm
-        mov eax, a
+        mov eax, [a]
 
         // mov ebx, b
         // idiv ebx
 
-        idiv b
+        // do it in one step
 
-        // cmp edx, 0
+        idiv [b]
 
-        mov @result, dl
+        cmp edx, 0
+        je divisible
 
-        // mov c, 42
+        mov @result, True
+        ret
+
+    divisible:
+        mov @result, False
     end;
-// divisible:
+    // IsDivisible := False;
+    // Exit(False);
 
-    WriteLn(IsDivisible);
-
-    IsDivisible := not IsDivisible;
-
+// 1:
+    // IsDivisible := True;
+    // Exit;
+    // Exit(True);
 end;
 
-// label divisible;
 
 var
     a, b: Int32;
@@ -42,12 +52,12 @@ begin
     begin
         WriteLn(a,' делится на ',b);
         if b = 2 then
-            WriteLn('т.е. ',a,' нечетно');
+            WriteLn('т.е. ',a,' четно');
     end else
     begin
         WriteLn(a,' НЕ делится на ',b);
         if b = 2 then
-            WriteLn('т.е. ',a,' четно');
+            WriteLn('т.е. ',a,' нечетно');
     end;
 
     // WriteLn(c);
