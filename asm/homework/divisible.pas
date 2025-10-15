@@ -1,31 +1,37 @@
 {$asmmode intel}
+{$goto on}
 // {$mode objfpc}
 // label divisible;
 
 
 function IsDivisible(a, b: Int32): Boolean;
-label divisible;
+// assembler;
+// label divisible;
+// var
+    // r: Byte;
 begin
     // Exit;
 
     asm
-        mov eax, [a]
+        mov eax, a
+        cdq
 
-        // mov ebx, b
-        // idiv ebx
+        mov ebx, b
+        idiv ebx
 
         // do it in one step
 
-        idiv [b]
+        // idiv [b]
 
         cmp edx, 0
-        je divisible
+        // je divisible
 
-        mov @result, True
-        ret
-
-    divisible:
         mov @result, False
+        // ret
+
+    // divisible:
+        // mov r, 0
+        mov @result, True
     end;
     // IsDivisible := False;
     // Exit(False);
@@ -34,6 +40,10 @@ begin
     // IsDivisible := True;
     // Exit;
     // Exit(True);
+
+    // IsDivisible := Boolean(r);
+
+    // WriteLn(r);
 end;
 
 
