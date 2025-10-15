@@ -58,7 +58,7 @@ namespace calc {
     /// Найти синус модуля суммы последовательности.
     /// @param nums последовательность (динамический массив)
     /// @param len длина последовательности
-    double sin_abs_sum(double nums[], size_t len) {
+    double sin_abs_sum(const double nums[], size_t len) {
         double sum = 0.0;
 
         // for(double elem : nums) {
@@ -69,7 +69,7 @@ namespace calc {
         return std::sin( std::abs(sum) );
     }
 
-    double sin_abs_sum(std::vector<double> nums) {
+    double sin_abs_sum(const std::vector<double> nums) {
         // double sum = std::accumulate(nums.begin(), nums.end(), 0);
 
         double sum = 0.0;
@@ -124,6 +124,22 @@ namespace calc {
             });
             // std::cout << res;
             assert( is_close(res, 0.0) );
+
+            // TODO: сделать с вектором из нулей
+
+            // assert( is_close(double a, double b) )
+
+            assert(
+                is_close(
+                    sin_abs_sum({
+                    std::numbers::pi,
+                    std::numbers::pi,
+                    std::numbers::pi,
+                    std::numbers::pi / 2,
+                    }),
+                    -1.0
+                )
+            );
         }
     }
 }
@@ -146,10 +162,10 @@ namespace arr {
         // TODO: вынести в main?
         // srand(time(NULL));
 
-        // устройство - источник случайных чисел
+        // устройство-источник случайных чисел
         std::random_device rd;
 
-        // "движок" случайных чисел
+        // реализация генератора случайных чисел
         std::default_random_engine eng(rd());
 
         // диапазон случайных чисел
@@ -163,15 +179,103 @@ namespace arr {
         }
     }
 
+    void randomize(std::vector<double> &a, double min, double max) {
+        // устройство-источник случайных чисел
+        std::random_device rd;
+    
+        // реализация генератора случайных чисел
+        std::default_random_engine eng(rd());
+    
+        // диапазон случайных чисел
+        std::uniform_real_distribution dist(min, max);
+    
+        // для заполнения вектора необходимо брать каждый элемент по ссылке
+        for(double &e : a) {
+            // следующее случайное число
+            // в диапазоне dist
+            // сгенерированное при помощи eng
+            e = dist(eng);
+        }
+    }
+
+    // std::vector<double> randvec(size_t len, double min, double max) {
+    //     std::vector<double> result(len);
+
+
+    //     return result;
+    // }
+
+    // double *input(size_t len) {
+    //     double *result = new double[len];
+
+    //     for(size_t i = 0; i < len; i++)
+    //         std::cin >> result[i];
+
+    //     return result;
+    // }
+
+    // std::vector<double> input(size_t len) {
+    //     std::vector<double> result(len);
+
+    //     for(double &e : result) {
+    //         std::cin >> e;
+    //     }
+
+    //     return result;
+    // }
+
+    void fill_from_stdin(std::vector<double> &a) {
+        for(double &e : a) {
+            std::cin >> e;
+        }
+    }
+
+    const size_t ELEMS_PER_ROW = 10;
+
     /// Отобразить массив на стандартном выводе.
     ///
     /// Группы по 10 чисел разделяются на отдельные строки.
     /// @param nums массив
     /// @param len длина массива
     void display(double nums[], size_t len) {
-        const size_t ELEMS_PER_ROW = 10;
 
         for(size_t i = 0; i < len; i++) {
+            // операция над потоком вывода:
+            std::cout
+
+                // не использовать формат по типу 6.022e+23
+                // для дробных чисел
+                << std::fixed
+
+                // кол-во цифр после запятой
+                << std::setprecision(2)
+
+                // ширина одного поля (числа)
+                << std::setw(10)
+
+                // само число
+                << nums[i];
+            
+            // делим числа на группы:
+            // 0-9, 10-19, 20-29...
+            // (по 10 чисел в каждой)
+
+            /// Позиция элемента в строке
+            size_t rowpos = i % ELEMS_PER_ROW;
+
+            // Если элемент последний в строке, выполнить перенос
+            if(rowpos == ELEMS_PER_ROW-1) {
+                std::cout << std::endl;
+            }
+        }
+    }
+
+    /// Отобразить массив на стандартном выводе.
+    ///
+    /// Группы по 10 чисел разделяются на отдельные строки.
+    /// @param nums последовательность (`std::vector`)
+    void display(const std::vector<double> nums) {
+        for(size_t i = 0; i < nums.size(); i++) {
             // операция над потоком вывода:
             std::cout
 
@@ -209,8 +313,12 @@ namespace arr {
             std::vector<double> result;
 
             for(double n; f >> n;) {
+                // NOTE: каждый вызов push_back выделяет память наперед.
                 result.push_back(n);
             }
+
+            // освободить выделенную но не использованную память
+            result.shrink_to_fit();
 
             return result;
         }

@@ -16,6 +16,8 @@
 
 // size_t
 #include <cstddef>
+#include <string>
+#include <vector>
 
 
 /// Логика программы.
@@ -24,6 +26,7 @@ namespace calc {
     /// @param nums последовательность (динамический массив)
     /// @param len длина последовательности
     double sin_abs_sum(double nums[], size_t len);
+    double sin_abs_sum(const std::vector<double> nums);
 
     /// Тесты для логики программы.
     namespace test {
@@ -54,6 +57,13 @@ namespace arr {
         double min = -100.0,
         double max = +100.0
     );
+    void randomize(
+        std::vector<double> &a,
+        double min = -100.0,
+        double max = -100.0
+    );
+
+    void fill_from_stdin(std::vector<double> &a);
 
     /// Отобразить массив на стандартном выводе.
     ///
@@ -61,6 +71,15 @@ namespace arr {
     /// @param nums массив
     /// @param len длина массива
     void display(double nums[], size_t len);
+
+    /// @param nums последовательность (`std::vector`)
+    void display(const std::vector<double> nums);
+
+
+    namespace file {
+        std::vector<double> load(std::string name);
+    }
+
 }
 
 
