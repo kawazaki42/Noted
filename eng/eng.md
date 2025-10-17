@@ -336,3 +336,26 @@ Passive:
    accessing data and programs over the Internet instead of your computer's
    hard drive.
 10. The computer centre will bring lasting __<u>benefit</u>__ to the community
+
+---
+
+c 234 №15 устно
+
+с 237 №21 пись
+
+21. .
+    1. __Encrypted data__ (_non-readable text_)
+       can only be decoded or decrypted by the party that
+       posesses the associated key.
+    2. __Full disk encryption__ technology enables you to encrypt every piece
+       of data on a disk.
+    3. __Single sign-on scheme__ requires individuals to log in using
+       _multiple factors of authentication_
+    4. ___Factors_ of authentication__ may include a password, a smart card
+       or a fingerprint.
+    <!-- 5. __Personal data__ may appear secure while confined away in a machine -->
+    5. Though __critical information__ may appear secure while confined away
+       in a machine, there is always a chance thay your data can be
+       compromised
+
+с 234: 13, 14
