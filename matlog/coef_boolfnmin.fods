@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2025-10-20T12:43:30.309559600</meta:creation-date><dc:date>2025-10-20T22:49:39.977528300</dc:date><meta:editing-duration>PT1H18M27S</meta:editing-duration><meta:editing-cycles>18</meta:editing-cycles><meta:generator>LibreOffice/25.2.5.2$Windows_X86_64 LibreOffice_project/03d19516eb2e1dd5d4ccd751a0d6f35f35e08022</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="336" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2025-10-20T12:43:30.309559600</meta:creation-date><dc:date>2025-10-20T23:29:45.558158800</dc:date><meta:editing-duration>PT1H39M31S</meta:editing-duration><meta:editing-cycles>20</meta:editing-cycles><meta:generator>LibreOffice/25.2.5.2$Windows_X86_64 LibreOffice_project/03d19516eb2e1dd5d4ccd751a0d6f35f35e08022</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="392" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">2258</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">38671</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">17611</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">22126</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet4">
-       <config:config-item config:name="CursorPositionX" config:type="int">17</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">31</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">11</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">9</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">7</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -72,6 +72,15 @@
    <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
    <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
@@ -327,9 +336,7 @@
   <office:spreadsheet>
    <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
    <table:table table:name="Sheet4" table:style-name="ta1">
-    <table:table-column table:style-name="co1" table:number-columns-repeated="5" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co1" table:default-cell-style-name="ce4"/>
-    <table:table-column table:style-name="co1" table:number-columns-repeated="5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="11" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co1" table:number-columns-repeated="6" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
@@ -344,7 +351,7 @@
       <text:p>z</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>k_1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -373,7 +380,7 @@
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B2]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B2]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
       <text:p>k_1^0</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C2]" office:value-type="string" office:string-value="k_2^0" calcext:value-type="string">
@@ -408,7 +415,7 @@
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B3]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B3]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
       <text:p>k_1^0</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C3]" office:value-type="string" office:string-value="k_2^0" calcext:value-type="string">
@@ -446,7 +453,7 @@
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B4]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B4]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
       <text:p>k_1^0</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C4]" office:value-type="string" office:string-value="k_2^1" calcext:value-type="string">
@@ -481,7 +488,7 @@
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B5]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B5]" office:value-type="string" office:string-value="k_1^0" calcext:value-type="string">
       <text:p>k_1^0</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C5]" office:value-type="string" office:string-value="k_2^1" calcext:value-type="string">
@@ -516,7 +523,7 @@
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B6]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B6]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
       <text:p>k_1^1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C6]" office:value-type="string" office:string-value="k_2^0" calcext:value-type="string">
@@ -554,7 +561,7 @@
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B7]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B7]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
       <text:p>k_1^1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C7]" office:value-type="string" office:string-value="k_2^0" calcext:value-type="string">
@@ -589,7 +596,7 @@
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B8]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B8]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
       <text:p>k_1^1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C8]" office:value-type="string" office:string-value="k_2^1" calcext:value-type="string">
@@ -621,7 +628,7 @@
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="Default" table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B9]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.F$1] &amp; &quot;^&quot; &amp; [.$B9]" office:value-type="string" office:string-value="k_1^1" calcext:value-type="string">
       <text:p>k_1^1</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=[.G$1] &amp; &quot;^&quot; &amp; [.$C9]" office:value-type="string" office:string-value="k_2^1" calcext:value-type="string">
@@ -648,9 +655,210 @@
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="18"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 0" calcext:value-type="string">
+      <text:p>k 1 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 0" calcext:value-type="string">
+      <text:p>k 2 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 0" calcext:value-type="string">
+      <text:p>k 3 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {00}" calcext:value-type="string">
+      <text:p>k {12} {00}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {00}" calcext:value-type="string">
+      <text:p>k {13} {00}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {00}" calcext:value-type="string">
+      <text:p>k {23} {00}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L2];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {000}" calcext:value-type="string">
+      <text:p>k {123} {000}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 0" calcext:value-type="string">
+      <text:p>k 1 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 0" calcext:value-type="string">
+      <text:p>k 2 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 1" calcext:value-type="string">
+      <text:p>k 3 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {00}" calcext:value-type="string">
+      <text:p>k {12} {00}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {01}" calcext:value-type="string">
+      <text:p>k {13} {01}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {01}" calcext:value-type="string">
+      <text:p>k {23} {01}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L3];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {001}" calcext:value-type="string">
+      <text:p>k {123} {001}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 0" calcext:value-type="string">
+      <text:p>k 1 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 1" calcext:value-type="string">
+      <text:p>k 2 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 0" calcext:value-type="string">
+      <text:p>k 3 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {01}" calcext:value-type="string">
+      <text:p>k {12} {01}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {00}" calcext:value-type="string">
+      <text:p>k {13} {00}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {10}" calcext:value-type="string">
+      <text:p>k {23} {10}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L4];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {010}" calcext:value-type="string">
+      <text:p>k {123} {010}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 0" calcext:value-type="string">
+      <text:p>k 1 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 1" calcext:value-type="string">
+      <text:p>k 2 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 1" calcext:value-type="string">
+      <text:p>k 3 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {01}" calcext:value-type="string">
+      <text:p>k {12} {01}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {01}" calcext:value-type="string">
+      <text:p>k {13} {01}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {11}" calcext:value-type="string">
+      <text:p>k {23} {11}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L5];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {011}" calcext:value-type="string">
+      <text:p>k {123} {011}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 1" calcext:value-type="string">
+      <text:p>k 1 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 0" calcext:value-type="string">
+      <text:p>k 2 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 0" calcext:value-type="string">
+      <text:p>k 3 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {10}" calcext:value-type="string">
+      <text:p>k {12} {10}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {10}" calcext:value-type="string">
+      <text:p>k {13} {10}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {00}" calcext:value-type="string">
+      <text:p>k {23} {00}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L6];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {100}" calcext:value-type="string">
+      <text:p>k {123} {100}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 1" calcext:value-type="string">
+      <text:p>k 1 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 0" calcext:value-type="string">
+      <text:p>k 2 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 1" calcext:value-type="string">
+      <text:p>k 3 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {10}" calcext:value-type="string">
+      <text:p>k {12} {10}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {11}" calcext:value-type="string">
+      <text:p>k {13} {11}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {01}" calcext:value-type="string">
+      <text:p>k {23} {01}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L7];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {101}" calcext:value-type="string">
+      <text:p>k {123} {101}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 1" calcext:value-type="string">
+      <text:p>k 1 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 1" calcext:value-type="string">
+      <text:p>k 2 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 0" calcext:value-type="string">
+      <text:p>k 3 0</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {11}" calcext:value-type="string">
+      <text:p>k {12} {11}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {10}" calcext:value-type="string">
+      <text:p>k {13} {10}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {10}" calcext:value-type="string">
+      <text:p>k {23} {10}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L8];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {110}" calcext:value-type="string">
+      <text:p>k {123} {110}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.F9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 1 1" calcext:value-type="string">
+      <text:p>k 1 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.G9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 2 1" calcext:value-type="string">
+      <text:p>k 2 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.H9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k 3 1" calcext:value-type="string">
+      <text:p>k 3 1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.I9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {12} {11}" calcext:value-type="string">
+      <text:p>k {12} {11}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.J9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {13} {11}" calcext:value-type="string">
+      <text:p>k {13} {11}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.K9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {23} {11}" calcext:value-type="string">
+      <text:p>k {23} {11}</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=ORG.LIBREOFFICE.REGEX([.L9];&quot;_|\^&quot;;&quot; &quot;;&quot;g&quot;)" office:value-type="string" office:string-value="k {123} {111}" calcext:value-type="string">
+      <text:p>k {123} {111}</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="18"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
@@ -769,636 +977,632 @@
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
-     <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:number-columns-repeated="18"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F12]);[.F12]);[.F2];&quot;\cancel{&quot;&amp;[.F2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F22]);[.F22]);[.F2];&quot;\cancel{&quot;&amp;[.F2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
       <text:p>\cancel{k_1^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G12]);[.G12]);[.G2];&quot;\cancel{&quot;&amp;[.G2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G22]);[.G22]);[.G2];&quot;\cancel{&quot;&amp;[.G2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
       <text:p>\cancel{k_2^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H12]);[.H12]);[.H2];&quot;\cancel{&quot;&amp;[.H2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H22]);[.H22]);[.H2];&quot;\cancel{&quot;&amp;[.H2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
       <text:p>\cancel{k_3^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I12]);[.I12]);[.I2];&quot;\cancel{&quot;&amp;[.I2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{00}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I22]);[.I22]);[.I2];&quot;\cancel{&quot;&amp;[.I2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{00}}" calcext:value-type="string">
       <text:p>\cancel{k_{12}^{00}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J12]);[.J12]);[.J2];&quot;\cancel{&quot;&amp;[.J2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{00}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J22]);[.J22]);[.J2];&quot;\cancel{&quot;&amp;[.J2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{00}}" calcext:value-type="string">
       <text:p>\cancel{k_{13}^{00}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K12]);[.K12]);[.K2];&quot;\cancel{&quot;&amp;[.K2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K22]);[.K22]);[.K2];&quot;\cancel{&quot;&amp;[.K2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
       <text:p>k_{23}^{00}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L12]);[.L12]);[.L2];&quot;\cancel{&quot;&amp;[.L2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{000}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L22]);[.L22]);[.L2];&quot;\cancel{&quot;&amp;[.L2]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{000}" calcext:value-type="string">
       <text:p>k_{123}^{000}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M2]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F22:.L22])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F32:.L32])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000}" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O22] &amp; &quot; = &quot; &amp; [.M2]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O32] &amp; &quot; = &quot; &amp; [.M2]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000} = 1" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P22] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P32] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000} = 1$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{00}} \lor k_{23}^{00} \lor k_{123}^{000} = 1$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F13]);[.F13]);[.F3];&quot;\cancel{&quot;&amp;[.F3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F23]);[.F23]);[.F3];&quot;\cancel{&quot;&amp;[.F3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
       <text:p>\cancel{k_1^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G13]);[.G13]);[.G3];&quot;\cancel{&quot;&amp;[.G3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G23]);[.G23]);[.G3];&quot;\cancel{&quot;&amp;[.G3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
       <text:p>\cancel{k_2^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H13]);[.H13]);[.H3];&quot;\cancel{&quot;&amp;[.H3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H23]);[.H23]);[.H3];&quot;\cancel{&quot;&amp;[.H3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
       <text:p>\cancel{k_3^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I13]);[.I13]);[.I3];&quot;\cancel{&quot;&amp;[.I3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{00}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I23]);[.I23]);[.I3];&quot;\cancel{&quot;&amp;[.I3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{00}}" calcext:value-type="string">
       <text:p>\cancel{k_{12}^{00}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J13]);[.J13]);[.J3];&quot;\cancel{&quot;&amp;[.J3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{01}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J23]);[.J23]);[.J3];&quot;\cancel{&quot;&amp;[.J3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{01}}" calcext:value-type="string">
       <text:p>\cancel{k_{13}^{01}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K13]);[.K13]);[.K3];&quot;\cancel{&quot;&amp;[.K3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{01}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K23]);[.K23]);[.K3];&quot;\cancel{&quot;&amp;[.K3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{01}}" calcext:value-type="string">
       <text:p>\cancel{k_{23}^{01}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L13]);[.L13]);[.L3];&quot;\cancel{&quot;&amp;[.L3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{001}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L23]);[.L23]);[.L3];&quot;\cancel{&quot;&amp;[.L3]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{001}}" calcext:value-type="string">
       <text:p>\cancel{k_{123}^{001}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M3]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F23:.L23])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F33:.L33])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}}" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O23] &amp; &quot; = &quot; &amp; [.M3]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}} = 0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O33] &amp; &quot; = &quot; &amp; [.M3]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}} = 0" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}} = 0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P23] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}} = 0$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P33] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}} = 0$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^0} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{00}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{001}} = 0$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F14]);[.F14]);[.F4];&quot;\cancel{&quot;&amp;[.F4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F24]);[.F24]);[.F4];&quot;\cancel{&quot;&amp;[.F4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
       <text:p>\cancel{k_1^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G14]);[.G14]);[.G4];&quot;\cancel{&quot;&amp;[.G4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G24]);[.G24]);[.G4];&quot;\cancel{&quot;&amp;[.G4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
       <text:p>\cancel{k_2^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H14]);[.H14]);[.H4];&quot;\cancel{&quot;&amp;[.H4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H24]);[.H24]);[.H4];&quot;\cancel{&quot;&amp;[.H4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
       <text:p>\cancel{k_3^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I14]);[.I14]);[.I4];&quot;\cancel{&quot;&amp;[.I4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{01}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I24]);[.I24]);[.I4];&quot;\cancel{&quot;&amp;[.I4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{01}}" calcext:value-type="string">
       <text:p>\cancel{k_{12}^{01}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J14]);[.J14]);[.J4];&quot;\cancel{&quot;&amp;[.J4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{00}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J24]);[.J24]);[.J4];&quot;\cancel{&quot;&amp;[.J4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{00}}" calcext:value-type="string">
       <text:p>\cancel{k_{13}^{00}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K14]);[.K14]);[.K4];&quot;\cancel{&quot;&amp;[.K4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{10}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K24]);[.K24]);[.K4];&quot;\cancel{&quot;&amp;[.K4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{10}}" calcext:value-type="string">
       <text:p>\cancel{k_{23}^{10}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L14]);[.L14]);[.L4];&quot;\cancel{&quot;&amp;[.L4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{010}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L24]);[.L24]);[.L4];&quot;\cancel{&quot;&amp;[.L4]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{010}}" calcext:value-type="string">
       <text:p>\cancel{k_{123}^{010}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M4]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F24:.L24])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F34:.L34])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}}" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O24] &amp; &quot; = &quot; &amp; [.M4]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}} = 0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O34] &amp; &quot; = &quot; &amp; [.M4]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}} = 0" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}} = 0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P24] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}} = 0$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P34] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}} = 0$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{00}} \lor \cancel{k_{23}^{10}} \lor \cancel{k_{123}^{010}} = 0$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F15]);[.F15]);[.F5];&quot;\cancel{&quot;&amp;[.F5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F25]);[.F25]);[.F5];&quot;\cancel{&quot;&amp;[.F5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^0}" calcext:value-type="string">
       <text:p>\cancel{k_1^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G15]);[.G15]);[.G5];&quot;\cancel{&quot;&amp;[.G5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G25]);[.G25]);[.G5];&quot;\cancel{&quot;&amp;[.G5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
       <text:p>\cancel{k_2^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H15]);[.H15]);[.H5];&quot;\cancel{&quot;&amp;[.H5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H25]);[.H25]);[.H5];&quot;\cancel{&quot;&amp;[.H5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
       <text:p>\cancel{k_3^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I15]);[.I15]);[.I5];&quot;\cancel{&quot;&amp;[.I5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{01}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I25]);[.I25]);[.I5];&quot;\cancel{&quot;&amp;[.I5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{01}}" calcext:value-type="string">
       <text:p>\cancel{k_{12}^{01}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J15]);[.J15]);[.J5];&quot;\cancel{&quot;&amp;[.J5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{01}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J25]);[.J25]);[.J5];&quot;\cancel{&quot;&amp;[.J5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{01}}" calcext:value-type="string">
       <text:p>\cancel{k_{13}^{01}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K15]);[.K15]);[.K5];&quot;\cancel{&quot;&amp;[.K5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{11}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K25]);[.K25]);[.K5];&quot;\cancel{&quot;&amp;[.K5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{11}}" calcext:value-type="string">
       <text:p>\cancel{k_{23}^{11}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L15]);[.L15]);[.L5];&quot;\cancel{&quot;&amp;[.L5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{011}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L25]);[.L25]);[.L5];&quot;\cancel{&quot;&amp;[.L5]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{011}}" calcext:value-type="string">
       <text:p>\cancel{k_{123}^{011}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M5]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F25:.L25])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F35:.L35])" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}}" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O25] &amp; &quot; = &quot; &amp; [.M5]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}} = 0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O35] &amp; &quot; = &quot; &amp; [.M5]" office:value-type="string" office:string-value="\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}} = 0" calcext:value-type="string">
       <text:p>\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}} = 0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P25] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}} = 0$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P35] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}} = 0$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^0} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{01}} \lor \cancel{k_{13}^{01}} \lor \cancel{k_{23}^{11}} \lor \cancel{k_{123}^{011}} = 0$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F16]);[.F16]);[.F6];&quot;\cancel{&quot;&amp;[.F6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F26]);[.F26]);[.F6];&quot;\cancel{&quot;&amp;[.F6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
       <text:p>\cancel{k_1^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G16]);[.G16]);[.G6];&quot;\cancel{&quot;&amp;[.G6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G26]);[.G26]);[.G6];&quot;\cancel{&quot;&amp;[.G6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
       <text:p>\cancel{k_2^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H16]);[.H16]);[.H6];&quot;\cancel{&quot;&amp;[.H6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H26]);[.H26]);[.H6];&quot;\cancel{&quot;&amp;[.H6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
       <text:p>\cancel{k_3^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I16]);[.I16]);[.I6];&quot;\cancel{&quot;&amp;[.I6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{10}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I26]);[.I26]);[.I6];&quot;\cancel{&quot;&amp;[.I6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{10}}" calcext:value-type="string">
       <text:p>\cancel{k_{12}^{10}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J16]);[.J16]);[.J6];&quot;\cancel{&quot;&amp;[.J6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J26]);[.J26]);[.J6];&quot;\cancel{&quot;&amp;[.J6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
       <text:p>k_{13}^{10}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K16]);[.K16]);[.K6];&quot;\cancel{&quot;&amp;[.K6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K26]);[.K26]);[.K6];&quot;\cancel{&quot;&amp;[.K6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
       <text:p>k_{23}^{00}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L16]);[.L16]);[.L6];&quot;\cancel{&quot;&amp;[.L6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{100}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L26]);[.L26]);[.L6];&quot;\cancel{&quot;&amp;[.L6]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{100}" calcext:value-type="string">
       <text:p>k_{123}^{100}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M6]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F26:.L26])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F36:.L36])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100}" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O26] &amp; &quot; = &quot; &amp; [.M6]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O36] &amp; &quot; = &quot; &amp; [.M6]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P26] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P36] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^0} \lor \cancel{k_{12}^{10}} \lor k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F17]);[.F17]);[.F7];&quot;\cancel{&quot;&amp;[.F7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F27]);[.F27]);[.F7];&quot;\cancel{&quot;&amp;[.F7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
       <text:p>\cancel{k_1^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G17]);[.G17]);[.G7];&quot;\cancel{&quot;&amp;[.G7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G27]);[.G27]);[.G7];&quot;\cancel{&quot;&amp;[.G7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^0}" calcext:value-type="string">
       <text:p>\cancel{k_2^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H17]);[.H17]);[.H7];&quot;\cancel{&quot;&amp;[.H7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H27]);[.H27]);[.H7];&quot;\cancel{&quot;&amp;[.H7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
       <text:p>\cancel{k_3^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I17]);[.I17]);[.I7];&quot;\cancel{&quot;&amp;[.I7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{10}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I27]);[.I27]);[.I7];&quot;\cancel{&quot;&amp;[.I7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{12}^{10}}" calcext:value-type="string">
       <text:p>\cancel{k_{12}^{10}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J17]);[.J17]);[.J7];&quot;\cancel{&quot;&amp;[.J7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{11}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J27]);[.J27]);[.J7];&quot;\cancel{&quot;&amp;[.J7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{11}}" calcext:value-type="string">
       <text:p>\cancel{k_{13}^{11}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K17]);[.K17]);[.K7];&quot;\cancel{&quot;&amp;[.K7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{01}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K27]);[.K27]);[.K7];&quot;\cancel{&quot;&amp;[.K7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{01}}" calcext:value-type="string">
       <text:p>\cancel{k_{23}^{01}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L17]);[.L17]);[.L7];&quot;\cancel{&quot;&amp;[.L7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{101}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L27]);[.L27]);[.L7];&quot;\cancel{&quot;&amp;[.L7]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{123}^{101}}" calcext:value-type="string">
       <text:p>\cancel{k_{123}^{101}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M7]" office:value-type="float" office:value="0" calcext:value-type="float">
       <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F27:.L27])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F37:.L37])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}}" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O27] &amp; &quot; = &quot; &amp; [.M7]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}} = 0" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O37] &amp; &quot; = &quot; &amp; [.M7]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}} = 0" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}} = 0</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P27] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}} = 0$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P37] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}} = 0$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^1} \lor \cancel{k_2^0} \lor \cancel{k_3^1} \lor \cancel{k_{12}^{10}} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{01}} \lor \cancel{k_{123}^{101}} = 0$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F18]);[.F18]);[.F8];&quot;\cancel{&quot;&amp;[.F8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F28]);[.F28]);[.F8];&quot;\cancel{&quot;&amp;[.F8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
       <text:p>\cancel{k_1^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G18]);[.G18]);[.G8];&quot;\cancel{&quot;&amp;[.G8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G28]);[.G28]);[.G8];&quot;\cancel{&quot;&amp;[.G8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
       <text:p>\cancel{k_2^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H18]);[.H18]);[.H8];&quot;\cancel{&quot;&amp;[.H8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H28]);[.H28]);[.H8];&quot;\cancel{&quot;&amp;[.H8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^0}" calcext:value-type="string">
       <text:p>\cancel{k_3^0}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I18]);[.I18]);[.I8];&quot;\cancel{&quot;&amp;[.I8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I28]);[.I28]);[.I8];&quot;\cancel{&quot;&amp;[.I8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
       <text:p>k_{12}^{11}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J18]);[.J18]);[.J8];&quot;\cancel{&quot;&amp;[.J8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J28]);[.J28]);[.J8];&quot;\cancel{&quot;&amp;[.J8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
       <text:p>k_{13}^{10}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K18]);[.K18]);[.K8];&quot;\cancel{&quot;&amp;[.K8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{10}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K28]);[.K28]);[.K8];&quot;\cancel{&quot;&amp;[.K8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{10}}" calcext:value-type="string">
       <text:p>\cancel{k_{23}^{10}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L18]);[.L18]);[.L8];&quot;\cancel{&quot;&amp;[.L8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{110}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L28]);[.L28]);[.L8];&quot;\cancel{&quot;&amp;[.L8]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{110}" calcext:value-type="string">
       <text:p>k_{123}^{110}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M8]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F28:.L28])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F38:.L38])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110}" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O28] &amp; &quot; = &quot; &amp; [.M8]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O38] &amp; &quot; = &quot; &amp; [.M8]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110} = 1" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P28] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P38] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110} = 1$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^0} \lor k_{12}^{11} \lor k_{13}^{10} \lor \cancel{k_{23}^{10}} \lor k_{123}^{110} = 1$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(OR(ISBLANK([.F19]);[.F19]);[.F9];&quot;\cancel{&quot;&amp;[.F9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.F29]);[.F29]);[.F9];&quot;\cancel{&quot;&amp;[.F9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_1^1}" calcext:value-type="string">
       <text:p>\cancel{k_1^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G19]);[.G19]);[.G9];&quot;\cancel{&quot;&amp;[.G9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.G29]);[.G29]);[.G9];&quot;\cancel{&quot;&amp;[.G9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_2^1}" calcext:value-type="string">
       <text:p>\cancel{k_2^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H19]);[.H19]);[.H9];&quot;\cancel{&quot;&amp;[.H9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.H29]);[.H29]);[.H9];&quot;\cancel{&quot;&amp;[.H9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_3^1}" calcext:value-type="string">
       <text:p>\cancel{k_3^1}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I19]);[.I19]);[.I9];&quot;\cancel{&quot;&amp;[.I9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.I29]);[.I29]);[.I9];&quot;\cancel{&quot;&amp;[.I9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
       <text:p>k_{12}^{11}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J19]);[.J19]);[.J9];&quot;\cancel{&quot;&amp;[.J9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{11}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.J29]);[.J29]);[.J9];&quot;\cancel{&quot;&amp;[.J9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{13}^{11}}" calcext:value-type="string">
       <text:p>\cancel{k_{13}^{11}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K19]);[.K19]);[.K9];&quot;\cancel{&quot;&amp;[.K9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{11}}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.K29]);[.K29]);[.K9];&quot;\cancel{&quot;&amp;[.K9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="\cancel{k_{23}^{11}}" calcext:value-type="string">
       <text:p>\cancel{k_{23}^{11}}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L19]);[.L19]);[.L9];&quot;\cancel{&quot;&amp;[.L9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{111}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(OR(ISBLANK([.L29]);[.L29]);[.L9];&quot;\cancel{&quot;&amp;[.L9]&amp;&quot;}&quot;)" office:value-type="string" office:string-value="k_{123}^{111}" calcext:value-type="string">
       <text:p>k_{123}^{111}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce4" table:formula="of:=[.M9]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F29:.L29])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 0; [.F39:.L39])" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111}" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.O29] &amp; &quot; = &quot; &amp; [.M9]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=[.O39] &amp; &quot; = &quot; &amp; [.M9]" office:value-type="string" office:string-value="\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111} = 1" calcext:value-type="string">
       <text:p>\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P29] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P39] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111} = 1$$" calcext:value-type="string">
       <text:p>$$\cancel{k_1^1} \lor \cancel{k_2^1} \lor \cancel{k_3^1} \lor k_{12}^{11} \lor \cancel{k_{13}^{11}} \lor \cancel{k_{23}^{11}} \lor k_{123}^{111} = 1$$</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
-     <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:number-columns-repeated="18"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F22])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F32])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G22])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G32])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H22])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H32])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I22])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I32])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J22])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J32])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K22])" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K32])" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
       <text:p>k_{23}^{00}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L22];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L22])" office:value-type="string" office:string-value="k_{123}^{000}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L32];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L32])" office:value-type="string" office:string-value="k_{123}^{000}" calcext:value-type="string">
       <text:p>k_{123}^{000}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M2];[.M2];&quot;&quot;)" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F32:.L32])" office:value-type="string" office:string-value="k_{23}^{00} \lor k_{123}^{000}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F42:.L42])" office:value-type="string" office:string-value="k_{23}^{00} \lor k_{123}^{000}" calcext:value-type="string">
       <text:p>k_{23}^{00} \lor k_{123}^{000}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M32]=1; [.O32] &amp; &quot; = &quot; &amp; [.M32]; &quot;&quot;)" office:value-type="string" office:string-value="k_{23}^{00} \lor k_{123}^{000} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.M42]=1; [.O42] &amp; &quot; = &quot; &amp; [.M42]; &quot;&quot;)" office:value-type="string" office:string-value="k_{23}^{00} \lor k_{123}^{000} = 1" calcext:value-type="string">
       <text:p>k_{23}^{00} \lor k_{123}^{000} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P32] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{23}^{00} \lor k_{123}^{000} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P42] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{23}^{00} \lor k_{123}^{000} = 1$$" calcext:value-type="string">
       <text:p>$$k_{23}^{00} \lor k_{123}^{000} = 1$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q32]&lt;&gt;&quot;$$$$&quot;;[.Q32];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{23}^{00} \lor k_{123}^{000} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.Q42]&lt;&gt;&quot;$$$$&quot;;[.Q42];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{23}^{00} \lor k_{123}^{000} = 1$$" calcext:value-type="string">
       <text:p>$$k_{23}^{00} \lor k_{123}^{000} = 1$$</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F33])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G33])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H33])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I33])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J33])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K33])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L23];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L23])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L33];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L33])">
       <text:p/>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M3];[.M3];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F33:.L33])">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F43:.L43])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M33]=1; [.O33] &amp; &quot; = &quot; &amp; [.M33]; &quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.M43]=1; [.O43] &amp; &quot; = &quot; &amp; [.M43]; &quot;&quot;)">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P33] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P43] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
       <text:p>$$$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q33]&lt;&gt;&quot;$$$$&quot;;[.Q33];&quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.Q43]&lt;&gt;&quot;$$$$&quot;;[.Q43];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F34])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G34])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H34])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I34])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J34])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K34])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L24];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L24])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L34];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L34])">
       <text:p/>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M4];[.M4];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F34:.L34])">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F44:.L44])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M34]=1; [.O34] &amp; &quot; = &quot; &amp; [.M34]; &quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.M44]=1; [.O44] &amp; &quot; = &quot; &amp; [.M44]; &quot;&quot;)">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P34] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P44] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
       <text:p>$$$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q34]&lt;&gt;&quot;$$$$&quot;;[.Q34];&quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.Q44]&lt;&gt;&quot;$$$$&quot;;[.Q44];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F35])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G35])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H35])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I35])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J35])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K35])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L25];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L25])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L35];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L35])">
       <text:p/>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M5];[.M5];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F35:.L35])">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F45:.L45])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M35]=1; [.O35] &amp; &quot; = &quot; &amp; [.M35]; &quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.M45]=1; [.O45] &amp; &quot; = &quot; &amp; [.M45]; &quot;&quot;)">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P35] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P45] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
       <text:p>$$$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q35]&lt;&gt;&quot;$$$$&quot;;[.Q35];&quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.Q45]&lt;&gt;&quot;$$$$&quot;;[.Q45];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F26])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F36])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G26])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G36])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H26])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H36])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I26])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I36])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J26])" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J36])" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
       <text:p>k_{13}^{10}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K26])" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K36])" office:value-type="string" office:string-value="k_{23}^{00}" calcext:value-type="string">
       <text:p>k_{23}^{00}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L26];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L26])" office:value-type="string" office:string-value="k_{123}^{100}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L36];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L36])" office:value-type="string" office:string-value="k_{123}^{100}" calcext:value-type="string">
       <text:p>k_{123}^{100}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M6];[.M6];&quot;&quot;)" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F36:.L36])" office:value-type="string" office:string-value="k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F46:.L46])" office:value-type="string" office:string-value="k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100}" calcext:value-type="string">
       <text:p>k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M36]=1; [.O36] &amp; &quot; = &quot; &amp; [.M36]; &quot;&quot;)" office:value-type="string" office:string-value="k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.M46]=1; [.O46] &amp; &quot; = &quot; &amp; [.M46]; &quot;&quot;)" office:value-type="string" office:string-value="k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1" calcext:value-type="string">
       <text:p>k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P36] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P46] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$" calcext:value-type="string">
       <text:p>$$k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q36]&lt;&gt;&quot;$$$$&quot;;[.Q36];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.Q46]&lt;&gt;&quot;$$$$&quot;;[.Q46];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$" calcext:value-type="string">
       <text:p>$$k_{13}^{10} \lor k_{23}^{00} \lor k_{123}^{100} = 1$$</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F37])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G37])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H37])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I37])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J37])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K37])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L27];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L27])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L37];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L37])">
       <text:p/>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M7];[.M7];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F37:.L37])">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F47:.L47])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M37]=1; [.O37] &amp; &quot; = &quot; &amp; [.M37]; &quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.M47]=1; [.O47] &amp; &quot; = &quot; &amp; [.M47]; &quot;&quot;)">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P37] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P47] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$$$" calcext:value-type="string">
       <text:p>$$$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q37]&lt;&gt;&quot;$$$$&quot;;[.Q37];&quot;&quot;)">
+     <table:table-cell table:formula="of:=IF([.Q47]&lt;&gt;&quot;$$$$&quot;;[.Q47];&quot;&quot;)">
       <text:p/>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F28])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F38])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G28])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G38])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H28])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H38])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I28])" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I38])" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
       <text:p>k_{12}^{11}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J28])" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J38])" office:value-type="string" office:string-value="k_{13}^{10}" calcext:value-type="string">
       <text:p>k_{13}^{10}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K28])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K38])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L28];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L28])" office:value-type="string" office:string-value="k_{123}^{110}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L38];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L38])" office:value-type="string" office:string-value="k_{123}^{110}" calcext:value-type="string">
       <text:p>k_{123}^{110}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M8];[.M8];&quot;&quot;)" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F38:.L38])" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F48:.L48])" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110}" calcext:value-type="string">
       <text:p>k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M38]=1; [.O38] &amp; &quot; = &quot; &amp; [.M38]; &quot;&quot;)" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.M48]=1; [.O48] &amp; &quot; = &quot; &amp; [.M48]; &quot;&quot;)" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1" calcext:value-type="string">
       <text:p>k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P38] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P48] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1$$" calcext:value-type="string">
       <text:p>$$k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q38]&lt;&gt;&quot;$$$$&quot;;[.Q38];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.Q48]&lt;&gt;&quot;$$$$&quot;;[.Q48];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1$$" calcext:value-type="string">
       <text:p>$$k_{12}^{11} \lor k_{13}^{10} \lor k_{123}^{110} = 1$$</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:formula="of:=IF(LEFT([.F29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F29])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.F39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.F39])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G29])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.G39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.G39])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H29])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.H39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.H39])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I29])" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.I39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.I39])" office:value-type="string" office:string-value="k_{12}^{11}" calcext:value-type="string">
       <text:p>k_{12}^{11}</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J29])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.J39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.J39])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K29])">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.K39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.K39])">
       <text:p/>
      </table:table-cell>
-     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L29];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L29])" office:value-type="string" office:string-value="k_{123}^{111}" calcext:value-type="string">
+     <table:table-cell table:style-name="ce4" table:formula="of:=IF(LEFT([.L39];8)=&quot;\cancel{&quot;; &quot;&quot;; [.L39])" office:value-type="string" office:string-value="k_{123}^{111}" calcext:value-type="string">
       <text:p>k_{123}^{111}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce7" table:formula="of:=IF([.M9];[.M9];&quot;&quot;)" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F39:.L39])" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{123}^{111}" calcext:value-type="string">
+     <table:table-cell table:formula="of:=COM.MICROSOFT.TEXTJOIN(&quot; \lor &quot;; 1; [.F49:.L49])" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{123}^{111}" calcext:value-type="string">
       <text:p>k_{12}^{11} \lor k_{123}^{111}</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.M39]=1; [.O39] &amp; &quot; = &quot; &amp; [.M39]; &quot;&quot;)" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{123}^{111} = 1" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.M49]=1; [.O49] &amp; &quot; = &quot; &amp; [.M49]; &quot;&quot;)" office:value-type="string" office:string-value="k_{12}^{11} \lor k_{123}^{111} = 1" calcext:value-type="string">
       <text:p>k_{12}^{11} \lor k_{123}^{111} = 1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P39] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{123}^{111} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=&quot;$$&quot; &amp; [.P49] &amp; &quot;$$&quot;" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{123}^{111} = 1$$" calcext:value-type="string">
       <text:p>$$k_{12}^{11} \lor k_{123}^{111} = 1$$</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=IF([.Q39]&lt;&gt;&quot;$$$$&quot;;[.Q39];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{123}^{111} = 1$$" calcext:value-type="string">
+     <table:table-cell table:formula="of:=IF([.Q49]&lt;&gt;&quot;$$$$&quot;;[.Q49];&quot;&quot;)" office:value-type="string" office:string-value="$$k_{12}^{11} \lor k_{123}^{111} = 1$$" calcext:value-type="string">
       <text:p>$$k_{12}^{11} \lor k_{123}^{111} = 1$$</text:p>
      </table:table-cell>
     </table:table-row>
