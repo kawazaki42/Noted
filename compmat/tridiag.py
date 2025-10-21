@@ -16,18 +16,39 @@ r = [3, 8, 2, 3, None]
 # результирующий столбец
 f = [10, 23, 12, 13, 12]
 
+
+def get_p(k):
+    if k == 0:
+        return f[0] / c[0]
+
+    n = f[k] - l[k] * get_p(k-1)
+    d = c[k] - l[k] * get_q(k-1)
+
+    return n/d
+
+
+def get_q(k):
+    if k == 0:
+        return r[0] / c[0]
+
+    d = c[k] - l[k] * get_q(k-1)
+
+    return r[k]/d
+
+
+
 def main(c, l, r, f):
-    # Выразим x_0 из x_1
-    # x_0 = (f_0 - r_0*x_1) / c_0
-    # x_0 = f_0/c_0 - r_0/c_0 * x_1
+    n = len(c)
 
-    # пусть:
-    # - p_0 = f_0 / c_0
-    # - q_0 = r_0 / c_0
+    x = [None] * n
 
-    # подставим:
-    # x_0 = p_0 - q_0*x_1
+    x[-1] = get_p(n-1)
 
-    # выразим x_1 через x_2:
-    # x_2 = (f_1 - l_1 x_0 - c_1 x_1) / r_1
-    # x_2 = (f_1 - l_1*(p_0 - q_0*x_1) - c_1 x_1) / r_1
+    for k in reversed(range(n-1)):
+        x[k] = get_p(k) - get_q(k) * x[k+1]
+
+    return x
+
+
+if __name__ == '__main__':
+    print( main(c, l, r, f) )
