@@ -307,7 +307,7 @@ namespace arr {
     }
 
     namespace file {
-        std::vector<double> load(std::string name) {
+        std::vector<double> load(const std::string &name) {
             std::ifstream f(name);
 
             std::vector<double> result;
@@ -321,6 +321,29 @@ namespace arr {
             result.shrink_to_fit();
 
             return result;
+        }
+
+        double *load(const std::string &name, size_t &size) {
+            std::ifstream f(name);
+
+            size_t count = 0;
+            for(double ignored; f >> ignored;)
+                count++;
+
+            double *result = new double[count];
+
+            // it - указатель, который мы используем в качестве итератора
+
+            for(double *it = result; it < result + count; it++)
+                f >> *it;
+
+            return result;
+        }
+
+        void save(const std::string &name, std::vector<double>) {
+            std::ofstream f(name);
+
+            for(const auto )
         }
     }
 }
