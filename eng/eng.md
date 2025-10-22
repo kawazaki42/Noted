@@ -359,3 +359,45 @@ c 234 №15 устно
        compromised
 
 с 234: 13, 14
+
+#### 13
+
+- Аппаратная реализация (_букв., транслит.:_ механизм)
+- Компонент безопасности (более буквально: _функция_)
+- Программные компоненты
+- Одноразовый пароль
+- Заражение вредоносным ПО
+- (ближе к разговорному) Угроза безопасности
+- Надежная система резервных копий (_букв._: решение для резервных копий)
+- Защита личных данных
+- Серия/номер паспорта, ИНН, СНИЛС [_отдаленные аналоги_];  
+  государственный (народный, национальный) идентификационный номер
+- Номерной знак автомобиля
+- Номер платежной (_букв._: кредитной) карты
+- Сбор данных (_осуждаем_)
+- Деловые (предположительно: коммерческие или торговые) интересы
+- Хост (_букв._ компьютер-хозяин)
+- Трояны (более формально: троянские кони) и сетевые черви
+- Книга email-адресов; книга адресов электронной почты
+- Адрес электронной почты пользователя
+
+#### 14
+
+A __computer__ (1) virus is a program or piece of code that is loaded onto
+your __computer__ (2) without your __knowledge__ (3) and runs against your
+wishes.  
+Viruses can also replicate themselves. All __computer__ (4) viruses
+are man-made. A simple virus that can make a copy of itself over and over
+again is __relatively__ (5) easy to produce.  
+Even such a simple virus is
+__dangerous__ (6) because it will __quickly__ (7) use all available memory
+and bring the system to a halt.  
+An even more __dangerous__ (8) type of virus
+is one capable of transmitting itself across networks and bypassing
+__security__ (9) systems.  
+Since 1987 many antivirus programs have become available.
+These programs __periodically__ (10) check your __computer__ (11) system
+for best-known types of viruses.  
+Some people distinguish between general viruses and worms. A worm is a
+special type of virus that can replicate itself and use memory, but cannot
+attach itself to other programs.
