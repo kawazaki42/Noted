@@ -401,3 +401,51 @@ for best-known types of viruses.
 Some people distinguish between general viruses and worms. A worm is a
 special type of virus that can replicate itself and use memory, but cannot
 attach itself to other programs.
+
+#### 30
+
+| бухвы   | цыхры  |
+| :-- | :---- |
+| a   | 4,14  |
+| b   | 8,17  |
+| c   | 1,22  |
+| d   | 5,15  |
+| e   | 7,20  |
+| f   | 10,23 |
+| g   | 3,16  |
+| h   | 9,25  |
+| I   | 13,19 |
+| j   | 6,26  |
+| k   | 12,18 |
+| l   | 2,21  |
+| m   | 11,24 |
+
+
+#### 32
+
+1. false: I am a fourth-year student...
+2. false: I hope you will excuse my English. I am a little out of practice
+3. In the fourth part, we will discuss the future prospects.
+4. true imo. Mobile learning is offered by mobile technologies
+5. Mobile phones are potential tools for collaborative learning
+<!-- 6. true (_екарный бабай_) -->
+6. A podcast can be downloaded onto iPhone
+7. can be, and probably already is
+8. I am developing a system named LOCH now.
+9.  true
+10. true
+11. Even though the system is a great idea,
+    there are some disadvantages of it.
+
+### 33
+1. h
+2. e
+3. k
+4. a
+5. c
+6. i
+7. f
+8. j
+9. b
+10. g
+11. d
