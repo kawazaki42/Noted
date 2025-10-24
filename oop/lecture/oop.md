@@ -603,3 +603,52 @@ MSVS (not code):
 > после лекций читаем учебник!
 >
 > (как было на тырфейсах)
+
+Парадигмы прораммирования
+- императивное
+  - основано на исполнении команд
+  - структурное
+    - (не `struct`!)
+    - if, while, for...
+    - алгоритмический код
+      - последовательность операторов
+      - условный оператор (выбора)
+      - операторы циклов
+        - for
+        - while
+        - do...
+  - процедурное
+    - "нечистые" функции (с побочкой)
+  - модульное
+  - обьектно-ориентированное
+    - когда удобнее делить задачу не на алгоритмы а на обьекты
+
+```c++
+struct Lecture {
+    string title;
+    vector<string> recap_themes;
+    vector<string> themes;
+    vector<string> questions;
+    string resume;
+
+    short duration;
+}
+```
+
+придумать класс
+- UML-диаграмма
+  - в draw.io - "Classifier"
+  - название класса
+  - атрибуты (поля)
+    - `+ title : string`
+    - `- duration : short`
+    - public: `+`
+    - private: `-`
+  - операции (методы)
+    - `+ Lecture(title : string, duration: short)`
+    - `+ Lecture(title : string, duration: short, themes : vector<string>)`
+    - `+ set_duration(duration : short)`
+    - `+ get_duration() : short`
+- потом на C++ написать
+
+для диаграм: <https://draw.io>
