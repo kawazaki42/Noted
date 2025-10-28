@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
             parse_argc--;
         } else {
             // input = arr::file::load(*parse_argv);
-            input = arr::file::load(*parse_argv, input_size);
+            input = arr::file::load<double>(*parse_argv, input_size);
             parse_argv++;
             parse_argc--;
         }
