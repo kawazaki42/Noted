@@ -60,7 +60,7 @@ namespace arr {
     void randomize(
         std::vector<double> &a,
         double min = -100.0,
-        double max = -100.0
+        double max = +100.0
     );
 
     void fill_from_stdin(std::vector<double> &a);
@@ -77,7 +77,8 @@ namespace arr {
 
 
     namespace file {
-        std::vector<double> load(std::string name);
+        std::vector<double> load(const std::string &name);
+        void dump(const std::string &name, std::vector<double> nums);
     }
 
 }

@@ -340,10 +340,12 @@ namespace arr {
             return result;
         }
 
-        void save(const std::string &name, std::vector<double>) {
+        void dump(const std::string &name, std::vector<double> nums) {
             std::ofstream f(name);
 
-            for(const auto )
+            for(const auto x : nums) {
+                f << x << std::endl;
+            }
         }
     }
 }

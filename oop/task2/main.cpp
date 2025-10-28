@@ -23,22 +23,55 @@
 // внутренняя логика
 #include "calc.hpp"
 
+// operator ""s
+using namespace std::string_literals;
+
 /// Главная процедура программы.
 /// @return 0 при успешном завершении программы
 int main(int argc, char **argv) {
     // const size_t n = 20;
 
     std::vector<double> input;
+    std::string outfile;
 
-    const std::string FLAG_TEST = "--test";
+    // const std::string FLAG_TEST = "--test";
 
-    if(argc-1 >= 1) {
-        if(argv[1] == FLAG_TEST) {
+    size_t parse_argc = argc;
+
+    using cstr = char *;
+    
+    // итератор "массива" аргументов-строк
+    cstr *parse_argv = argv;
+
+    // пропускаем argv[0], т.е. имя программы
+    parse_argc--;
+    parse_argv++;
+
+    while(parse_argc) {
+
+    // }
+
+    // if(argc-1 >= 1) {
+        // if(argv[1] == FLAG_TEST) {
+        if(*parse_argv == "--test"s) {
             calc::test::all();
             return 0;
-        } else
-            input = arr::file::load(argv[1]);
-    } else {
+        } else if (*parse_argv == "--dump"s) {
+            parse_argv++;
+            parse_argc--;
+
+            outfile = *parse_argv;
+
+            parse_argv++;
+            parse_argc--;
+        } else {
+            input = arr::file::load(*parse_argv);
+            parse_argv++;
+            parse_argc--;
+        }
+    }
+    // else {
+    if(input.size() == 0) {
         char response;
         std::cout << "Ввести числа вручную? (y/N) ";
         std::cin >> response;
@@ -61,6 +94,10 @@ int main(int argc, char **argv) {
             arr::display(input);
             std::cout << std::endl;
         }
+    }
+
+    if( !outfile.empty() ) {
+        arr::file::dump(outfile, input);
     }
 
     // Последовательность действительных чисел согласно условию задачи.
