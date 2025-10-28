@@ -31,7 +31,9 @@ using namespace std::string_literals;
 int main(int argc, char **argv) {
     // const size_t n = 20;
 
-    std::vector<double> input;
+    // std::vector<double> input;
+    double *input;
+    size_t input_size{0};
     std::string outfile;
 
     // const std::string FLAG_TEST = "--test";
@@ -65,39 +67,48 @@ int main(int argc, char **argv) {
             parse_argv++;
             parse_argc--;
         } else {
-            input = arr::file::load(*parse_argv);
+            // input = arr::file::load(*parse_argv);
+            input = arr::file::load(*parse_argv, input_size);
             parse_argv++;
             parse_argc--;
         }
     }
     // else {
-    if(input.size() == 0) {
+    // if(input.size() == 0) {
+    if(input_size == 0) {
         char response;
         std::cout << "Ввести числа вручную? (y/N) ";
         std::cin >> response;
 
-        size_t n;
+        // size_t n;
         std::cout << "Длина последовательности: ";
-        std::cin >> n;
+        // std::cin >> n;
+        std::cin >> input_size;
 
-        input.resize(n);
+        // input.resize(n);
+        input = new double[input_size];
 
         if(response == 'y') {
-            std::cout << std::format("Введите числа ({}):\n", n);
-            arr::fill_from_stdin(input);
+            // std::cout << std::format("Введите числа ({}):\n", n);
+            std::cout << std::format("Введите числа ({}):\n", input_size);
+            // arr::fill_from_stdin(input);
+            arr::fill_from_stdin(input, input_size);
         }
         else {
-            arr::randomize(input);
+            // arr::randomize(input);
+            arr::randomize(input, input_size);
 
             // Отображение последовательности
             std::cout << "Последовательность:" << std::endl;
-            arr::display(input);
+            // arr::display(input);
+            arr::display(input, input_size);
             std::cout << std::endl;
         }
     }
 
     if( !outfile.empty() ) {
-        arr::file::dump(outfile, input);
+        // arr::file::dump(outfile, input);
+        arr::file::dump(outfile, input, input_size);
     }
 
     // Последовательность действительных чисел согласно условию задачи.
@@ -109,8 +120,8 @@ int main(int argc, char **argv) {
     // Ответ на задачу
     std::cout
         << "Синус модуля суммы последовательности: "
-        // << calc::sin_abs_sum(a, n)
-        << calc::sin_abs_sum(input)
+        << calc::sin_abs_sum(input, input_size)
+        // << calc::sin_abs_sum(input)
         << std::endl;
 
     // Не забываем очистить память

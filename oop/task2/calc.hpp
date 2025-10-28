@@ -25,7 +25,7 @@ namespace calc {
     /// Найти синус модуля суммы последовательности.
     /// @param nums последовательность (динамический массив)
     /// @param len длина последовательности
-    double sin_abs_sum(double nums[], size_t len);
+    double sin_abs_sum(const double nums[], size_t len);
     double sin_abs_sum(const std::vector<double> nums);
 
     /// Тесты для логики программы.
@@ -64,6 +64,7 @@ namespace arr {
     );
 
     void fill_from_stdin(std::vector<double> &a);
+    void fill_from_stdin(double *nums, size_t size);
 
     /// Отобразить массив на стандартном выводе.
     ///
@@ -78,7 +79,9 @@ namespace arr {
 
     namespace file {
         std::vector<double> load(const std::string &name);
+        double *load(const std::string &name, size_t &size);
         void dump(const std::string &name, std::vector<double> nums);
+        void dump(const std::string &name, double *nums, size_t size);
     }
 
 }

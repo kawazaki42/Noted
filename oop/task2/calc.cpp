@@ -230,6 +230,12 @@ namespace arr {
         }
     }
 
+    void fill_from_stdin(double *nums, size_t size) {
+        for(size_t i{0}; i < size; i++) {
+            std::cin >> nums[i];
+        }
+    }
+
     const size_t ELEMS_PER_ROW = 10;
 
     /// Отобразить массив на стандартном выводе.
@@ -326,15 +332,18 @@ namespace arr {
         double *load(const std::string &name, size_t &size) {
             std::ifstream f(name);
 
-            size_t count = 0;
+            size = 0;
             for(double ignored; f >> ignored;)
-                count++;
+                size++;
 
-            double *result = new double[count];
+            double *result = new double[size];
+
+            f.clear();
+            f.seekg(0, std::ios::beg);
 
             // it - указатель, который мы используем в качестве итератора
 
-            for(double *it = result; it < result + count; it++)
+            for(double *it = result; it < (result + size); it++)
                 f >> *it;
 
             return result;
@@ -345,6 +354,14 @@ namespace arr {
 
             for(const auto x : nums) {
                 f << x << std::endl;
+            }
+        }
+
+        void dump(const std::string &name, double *nums, size_t size) {
+            std::ofstream f(name);
+
+            for(size_t i{0}; i < size; i++) {
+                f << nums[i] << std::endl;
             }
         }
     }
