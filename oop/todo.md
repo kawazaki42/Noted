@@ -1,11 +1,11 @@
 TODO:
 
 - task 2
-  - файлы
-  - тесты
-  - доки
+  - [x] файлы
+  - [x] тесты
+  - [ ] доки
   - try (required)
-  - template (at least 2 fns)
+  - [x] template (at least 2 fns)
 
 - task 1
   - try (optional)

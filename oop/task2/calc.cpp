@@ -23,7 +23,7 @@
 #include <cstddef>
 
 // файловые потоки
-#include <fstream>
+// #include <fstream>
 
 // // rand, srand
 // #include <cstdlib>
@@ -35,7 +35,7 @@
 // #include <iomanip>
 
 // потоки ввода-вывода (для arr::display)
-#include <iostream>
+// #include <iostream>
 
 // математические константы
 #include <numbers>
@@ -350,20 +350,20 @@ namespace arr {
         //     return result;
         // }
 
-        void dump(const std::string &name, std::vector<double> nums) {
-            std::ofstream f(name);
+        // void dump(const std::string &name, std::vector<double> nums) {
+        //     std::ofstream f(name);
 
-            for(const auto x : nums) {
-                f << x << std::endl;
-            }
-        }
+        //     for(const auto x : nums) {
+        //         f << x << std::endl;
+        //     }
+        // }
 
-        void dump(const std::string &name, double *nums, size_t size) {
-            std::ofstream f(name);
+        // void dump(const std::string &name, double *nums, size_t size) {
+        //     std::ofstream f(name);
 
-            for(size_t i{0}; i < size; i++) {
-                f << nums[i] << std::endl;
-            }
-        }
+        //     for(size_t i{0}; i < size; i++) {
+        //         f << nums[i] << std::endl;
+        //     }
+        // }
     }
 }

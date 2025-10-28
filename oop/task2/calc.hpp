@@ -243,6 +243,9 @@ namespace arr {
             return result;
         }
 
+        /// Загрузить массив чисел из файла.
+        /// @param name имя файла
+        /// @param[out] size переменная с размером массива
         template<typename T>
         T *load(const std::string &name, size_t &size) {
             std::ifstream f(name);
