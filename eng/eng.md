@@ -429,7 +429,7 @@ attach itself to other programs.
 4. true imo. Mobile learning is offered by mobile technologies
 5. Mobile phones are potential tools for collaborative learning
 <!-- 6. true (_екарный бабай_) -->
-6. A podcast can be downloaded onto iPhone
+6. A podcast can be downloaded __onto__ an iPhone
 7. can be, and probably already is
 8. I am developing a system named LOCH now.
 9.  true
@@ -449,3 +449,32 @@ attach itself to other programs.
 9. b
 10. g
 11. d
+
+---
+
+## Homework
+
+### 6
+
+1. ratio - the relationship in quantity between two things
+2. layout - the plan or design or arrangement of something
+3. density - the amount of data stored per unit of space
+4. scatternet - a computer network of two or more piconets
+5. appliance - a device, machine, or piece of equipment
+6. mode - a way of operating
+7. pitch - the slope of something
+8. piconet - a network created using a Bluetooth connection
+9. consumption - the act of using energy, food or materials
+10. multitude - a very large number of things or people
+
+### 7
+
+|              |                |
+| ------------ | -------------- |
+| 1. screen    | g) ratio       |
+| 2. power     | d) consumption |
+| 3. response  | a) time        |
+| 4. standby   | f) mode        |
+| 5. household | b) appliances  |
+| 6. keyboard  | e) layout      |
+| 7. pixel     | c) density     |
