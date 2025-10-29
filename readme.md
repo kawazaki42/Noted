@@ -5,18 +5,21 @@
 
 <img src="532bgq3crp961.webp" width=500>
 
+- ооп [oop/](oop/)
 - ассемблер [asm/](asm/)
 - вычмат [compmat/](compmat/)
-- экология [eco/](eco/)
+---
+- матлогика [matlog/](matlog/)
+- теория вероятностей [probtheo/](probtheo/)
+- ф ~~ш~~изика [phys/](phys/)
+---
 - English [eng/](eng/)
   - > Vanechkin, do you speak it?
 - право [legalese/](legalese/)
   - > канцелярит самый дурацкий язык програмирования
-- матлогика [matlog/](matlog/)
-- ооп [oop/](oop/)
+- экология [eco/](eco/)
 - философия [philo/](philo/)
-- ф ~~ш~~изика [phys/](phys/)
-- теория вероятностей [probtheo/](probtheo/)
+---
 - расписание (старое! TODO) [sched/](sched/)
   <!-- > [!CAUTION]
   >
