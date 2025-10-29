@@ -478,3 +478,22 @@ attach itself to other programs.
 | 5. household | b) appliances  |
 | 6. keyboard  | e) layout      |
 | 7. pixel     | c) density     |
+
+### 8
+
+1. We identify your needs, and <u>tailor</u> your training accordingly.
+2. They will <u>pitch</u> the roof at an angle of 75 degrees.
+3. He is going to <u>mount</u> the switch directly on the wall.
+4. She has decided not to <u>accept</u> the job.
+5. They apparently <u>lack</u> the desire to learn.
+6. We have set ourselves a series of goals to <u>achieve</u> by the end
+   of the month.
+7. The new light bulbs <u>consume</u> less electricity.
+8. Let me <u>state</u> at the outset that this report
+   contains little that is new.
+
+   // spoiled answer!
+
+   BTW: outset - synonym for beginning
+
+9. The student debates will <u>encompass</u> a range of subjects.
