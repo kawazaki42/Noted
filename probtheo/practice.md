@@ -880,3 +880,210 @@ x-0.5, 1 < x \leqslant 2 \\
 0, x > 2
 \end{cases}
 ```
+
+---
+
+```math
+f(x) =
+\begin{cases}
+x^2, x \in (1; 3)  \\
+0, x \notin (1; 3) \\
+%  \\
+\end{cases}
+```
+
+---
+
+```math
+f(x) =
+\begin{cases}
+0, x \leqslant 0  \\
+\frac{ 2x }{ 49 }, 0 < x \leqslant 7 \\
+1, x > 7 \\
+%  \\
+\end{cases}
+```
+
+- $P(5 < x \leqslant 8)$
+- $F(x)$
+- $M[x]$
+- $D[x]$
+- $\sigma[x]$
+
+```math
+F(x) = \int _{ -\infty } ^{ x } f(x) dx
+```
+
+```math
+F(x) =
+\begin{cases}
+0, x \leqslant 0  \\
+\int _{ 0 } ^{ x } \frac{ 2x }{ 49 } dx = \frac{ x^2 }{ 49 }, 0 < x \leqslant 7 \\
+0, x > 7 \\
+%  \\
+\end{cases}
+```
+
+```math
+ =
+\begin{cases}
+\int _{ -\infty } ^{ x } 0dx = 0, 0  \\
+\int _{ -\infty } ^{ 0 } 0 dx + \int _{ 0 } ^{ x } 2x/49, 0 < x \leqslant 7  \\
+\int _{ -\infty } ^{ 0 } 0 dx + \int _{ 0 } ^{ x } 2x/49 + \int _{ 7 } ^{ x } 0dx, x > 7  \\
+%  \\
+\end{cases}
+```
+
+```math
+M[x] = \int _{ -\infty } ^{ +\infty } x f(x) dx
+```
+
+```math
+M[x] = \int _{ 0 } ^{ 7 } x \frac{ 2x }{ 49 } dx
+```
+
+```math
+M[x] = \int _{ 0 } ^{ 7 } \frac{ 2x^2 }{ 49 } dx
+```
+
+
+```math
+M[x] = 2/49 \int _{ 0 } ^{ 7 } x^2 dx
+```
+
+```math
+M[x] = 2/49 \frac{ x^3 }{ 3 } | _{ 0 } ^{ 7 }
+```
+
+```math
+M[x] = \frac{ 2 }{ 49 } \frac{ 7^3 - 0^3 }{ 3 }
+```
+
+```math
+M[x] = \frac{ 2 }{ 1 } \frac{ 7 }{ 3 } = 14/3
+```
+
+---
+
+$$D[x] = M[x^2] - (M[x])^2$$
+<!-- 
+$$M[x^2] = \int _{ 0 } ^{ 7 } x \frac{ 4x^2 }{ 49^2 } dx$$
+
+$$M[x^2] = \int _{ 0 } ^{ 7 } \frac{ 4x^3 }{ 49^2 } dx$$
+
+$$M[x^2] = \frac{ 4 }{ 49^2 } \int _{ 0 } ^{ 7 } x^3 dx$$
+
+$$M[x^2] = \frac{ 4 }{ 49^2 } \frac{ x^4 }{ 4 } | _{ 0 } ^{ 7 }$$
+
+$$M[x^2] = \frac{ x^4 }{ 49^2 }  | _{ 0 } ^{ 7 }$$
+
+$$M[x^2] = \frac{ 7^4 - 0^4 }{ 49^2 } = 1$$
+
+$$D[x] = M[x^2] - (M[x])^2$$
+
+$$D[x] = 1 - (14/3)^2$$
+
+$$D[x] = 1 - (196/9)$$ -->
+
+$$M[x^2] = \int _{ 0 } ^{ 7 } x^2 \frac{ 2x }{ 49 } dx$$
+
+$$M[x^2] = \int _{ 0 } ^{ 7 } \frac{ 2x^3 }{ 49 } dx$$
+
+$$M[x^2] = 2/49 \int _{ 0 } ^{ 7 } { x^3 } dx$$
+
+$$M[x^2] = 2/49 \frac{ x^4 }{ 4 } | _{ 0 } ^{ 7 }$$
+
+$$M[x^2] = \frac{ 2 }{ 7^2 } \frac{ 7^4 }{ 4 } = 49/2$$
+
+$$D[x] = M[x^2] - (M[x])^2$$
+
+$$D[x] = 49/2 - (14/3)^2$$
+
+$$D[x] = 49/2 - (196/9)$$
+
+---
+
+P(5 < x \leqslant 8) = F(8) - F(5) = 1 - (25/49) = 24/49
+
+---
+
+```math
+F(x) =
+\begin{cases}
+0, x \leqslant 2  \\
+(x-3)^2, 2 < x \leqslant 3 \\
+1, x > 3 \\
+%  \\
+\end{cases}
+```
+
+- f(x)
+- M[x]
+- D[x]
+- P(|X-M[x]| < 2.5)
+
+```math
+f(x) =
+\begin{cases}
+0, x \leqslant 2  \\
+2(x-3) \cdot 1 = 2x - 6, 2 < x \leqslant 3 \\
+0, x > 3 \\
+%  \\
+\end{cases}
+```
+
+$$M[x] = \int _{ -\infty } ^{ +\infty } x f(x) dx$$
+
+$$M[x] = \int _{ 2 } ^{ 3 } x (2x-6) dx$$
+
+$$M[x] = \int _{ 2 } ^{ 3 } (2x^2-6x) dx$$
+
+$$M[x] = (2\int _{ 2 } ^{ 3 }x^2 dx)-6\int _{ 2 } ^{ 3 }x dx$$
+
+$$M[x] = (2 \frac{ x^3 }{ 3 } | _{ 2 } ^{ 3 }) - (6 \frac{ x^2 }{ 2 } | _{ 2 } ^{ 3 })$$
+
+$$M[x] = (2 \frac{ 3^3 - 2^3 }{ 3 }) - (6 \frac{ 3^2 - 2^2 }{ 2 })$$
+
+$$M[x] = (2 \frac{ 27 - 8 }{ 3 }) - (6 \frac{ 9 - 4 }{ 2 })$$
+
+$$M[x] = (2 \frac{ 19 }{ 3 }) - (6 \frac{ 5 }{ 2 })$$
+
+$$M[x] = (\frac{ 38 }{ 3 }) - (3 \cdot 5)$$
+
+$$M[x] = (\frac{ 38 }{ 3 }) - 15$$
+
+$$M[x] = (\frac{ 38 - 45 }{ 3 })$$
+
+$$M[x] = -\frac{ 7 }{ 3 }$$
+
+---
+
+$$M[x^2] = \int _{ -\infty } ^{ +\infty } x^2 f(x) dx$$
+
+$$M[x^2] = \int _{ 2 } ^{ 3 } x^2 (2x-6) dx$$
+
+$$M[x^2] = \int _{ 2 } ^{ 3 } (2x^3 - 6x^2) dx$$
+
+$$M[x^2] = 2 \int _{ 2 } ^{ 3 } x^3 dx - 6 \int _{ 2 } ^{ 3 } x^2 dx$$
+
+$$M[x^2] = 2 \frac{ x^4 }{ 4 } | _{ 2 } ^{ 3 } - 6 \frac{ x^3 }{ 3 } | _{ 2 } ^{ 3 }$$
+
+$$M[x^2] = 2 \frac{ 3^4 - 2^4 }{ 4 } - 6 \frac{ 3^3 - 2^3 }{ 3 }$$
+
+$$M[x^2] = \frac{ 3^4 - 2^4 }{ 2 } - 2 ( 3^3 - 2^3 )$$
+
+$$M[x^2] = \frac{ 81 - 16 }{ 2 } - 2 ( 27 - 8 )$$
+
+$$M[x^2] = \frac{ 65 }{ 2 } - 2 ( 19 )$$
+
+$$M[x^2] = \frac{ 65 }{ 2 } - 38$$
+
+$$M[x^2] = \frac{ 65 }{ 2 } - \frac{ 76 }{ 2 } = -\frac{ 11 }{ 2 }$$
+
+$$D[x] = M[x^2] - (M[x])^2$$
+
+$$D[x] = -\frac{ 11 }{ 2 } - \frac{ 49 }{ 9 }$$
+
+---
+
+$$P(-2.5 \leqslant x \leqslant 2.5)$$
