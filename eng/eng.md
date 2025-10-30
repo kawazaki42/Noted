@@ -497,3 +497,102 @@ attach itself to other programs.
    BTW: outset - synonym for beginning
 
 9. The student debates will <u>encompass</u> a range of subjects.
+
+## pres template (34/44)
+
+> ohhhh i'm really sorry for writing this....
+
+### Introduction
+
+Good morning, my name is <i></i>. I am a <i>second</i>-year student at the
+<i>Transbaikal State University</i> majoring in
+<i>Computer Science and Technology</i>.
+Today I'm going to speak to you about my research on
+<i>artifical intelligence</i>.
+
+### Context of research
+
+I had the opportunity to join Professor <i>Vetrov</i>'s lab, where the research
+focus is <i>software engineering and machine learning</i>.
+This is research for my coursework
+<i>on creating a simple computer vision model</i>.
+I got interested in this area because
+<i>AI is a growing trend that may be useful virtually in any other area and
+I wanted to see how it is implemented</i>.
+
+### Research question and significance
+
+I wanted to find out how to <i>train an artifical neural network</i>.
+This is an important question because AI models are used in a variety of areas.
+<!-- This question interested me because  -->
+
+### Research methods/design
+
+I thought the best way to answer this question would be by
+<i>training my own model</i>. I chose this method because
+<i>it helps you to understand what is AI fundamentally</i>.
+
+### Research activity
+
+Here's what I did.
+
+I signed up on Google Colab and found a dataset on the Internet.
+
+I imported some libraries that come pre-installed in Colab environment.
+
+The most important are TensorFlow, which is a library for multi-dimensional
+mathematics, and Keras, which is a front-end for it, designed specifically for
+working with ANNs.
+
+I loaded the files into a multi-dimensional NumPy array and passed them
+as arguments to the library functions.
+
+### Results
+
+Here's what I found out.
+
+ANN's input data is stored as multi-dimensional arrays.
+
+Each picture is an element of a big array.
+
+It is divided into lines and then further into individual pixels.
+
+Each pixel is either a number in range from 0 to 255,
+if the image is black-and-white, or a three-dimensional array storing the RGB
+color of the pixel.
+
+ANNs work best with non-integer values between 0 and 1, so they should be
+divided by 255 before passing to the training machinery.
+
+The accuracy of a model depends on its architecture, which is basically a
+collection of neuron layers.
+
+There are different kinds of neurons.
+They are organized into classes that represent layers of the same kind.
+One widely used kind is convolution layer.
+
+### Significance of results
+
+This result matters because _I've learned the basics of ML technology_.
+<!-- it doesn't. -->
+Now that I've learned this, I see that some other questions to ask are
+_what architectures I should use for particular tasks_.
+
+### Conclusion/Summary of main points
+
+I set out to answer _how to create an AI model_ by
+_attempting to create my own_.
+And I discovered _that it's an area that involves mathematics, engineering,
+trial and error on each particulat task_.
+This was interesting because _my work involved my knowledge of Python
+and linear algebra_.
+
+### Acknowledgements
+
+I am grateful to my advisor, Professor _Vetrov_, for his guidance _on
+building ANN architectures_.
+<!-- My work was supported by a __ award -->
+
+### Questions
+
+I would be happy to take your questions.
