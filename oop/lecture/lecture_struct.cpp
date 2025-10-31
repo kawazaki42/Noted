@@ -1,3 +1,4 @@
+#include <fstream>
 #include <iostream>
 // #include <stdexcept>
 #include <string>
@@ -80,4 +81,45 @@ int main() {
     cout << lec_oop_8->to_string() << endl;
 
     delete lec_oop_8;
+
+    // массив из объектов
+    // 10 объектов инициализированных дефолтным конструктором
+    // в авто памяти (стеке)
+    Lecture array[10];
+
+    array[3].set_duration(60);
+
+    // динамический массив
+    // в дин. памяти (куче)
+    Lecture *array2 = new Lecture[10];
+
+    array2[3].set_duration(60);
+
+    delete[] array2;  // см. cppreference
+
+    const size_t n = 10;
+
+    // статический массив из указателей на объект
+    // конструктор ни разу не вызвался!
+    Lecture *array_pointers[n];
+
+    for(size_t i{0}; i < n; i++) {
+        array_pointers[i] = new Lecture(
+            format("Лекция {}", i+1),
+            90 + rand()%5
+        );
+    }
+
+    for(size_t i{0}; i < n; i++) {
+        delete array_pointers[i];
+    }
+
+    Lecture lec_oop_13("Введение в ООП", 55, vector<string>{"Struct", "OOP", "UML"});
+
+    ofstream file("lec_14.txt");
+
+    file << lec_oop_13.title << endl;
+    file << lec_oop_13.get_duration() << endl;
+
+    file.close();
 }
