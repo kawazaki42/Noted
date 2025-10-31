@@ -518,21 +518,21 @@ x_{м\,газ} \approx 290.8938021952 \, м
 ```math
 \begin{equation} \tag{2.12a}
 \alpha = 5.7
-\text{ при } V_м \leqslant 0.5
+\text{ при } V_м' \leqslant 0.5
 \end{equation}
 ```
 
 ```math
 \begin{equation} \tag{2.12б}
 \alpha = 11.4 V_м'
-\text{ при } 0.5 < V_м \leqslant 2
+\text{ при } 0.5 < V_м' \leqslant 2
 \end{equation}
 ```
 
 ```math
 \begin{equation} \tag{2.12в}
-\alpha = 16 \sqrt{V_м}
-\text{ при } V_м > 2
+\alpha = 16 \sqrt{V_м'}
+\text{ при } V_м' > 2
 \end{equation}
 ```
 
@@ -607,6 +607,25 @@ U_м = V_м'
 U_м = 2.2 V_м
 \text{ при } V_м > 2
 \end{equation}
+```
+
+---
+
+```math
+% \begin{equation} \tag{2.13в}
+% \boxed{
+  U_м = V_м \cdot (1 + 0.12 \sqrt{f})
+% }
+% \text{ при } V_м > 2
+% \end{equation}
+```
+
+```math
+U_м = 2.7579252465 \cdot (1 + 0.12 \sqrt{8.1708482143})
+```
+
+```math
+U_м = 3.7039386898\, м/с
 ```
 
 ### Предельная концентрация в зависимости от расстояния
