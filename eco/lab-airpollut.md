@@ -436,3 +436,148 @@ C_{м\, тв} = \frac
     $$T_н = -25 \degree C$$
 
   $$\Delta T = 150 \degree C + 25 \degree C = 175 \degree C$$
+
+2.2 Расчет приземных концентраций на различном расстоянии от источника выбросов
+---
+
+Расстояние при максимальной приземной концентрации:
+
+```math
+\begin{equation} \tag{2.10}
+x_м = \frac{ 5 - F }{ 4 } \alpha \cdot H
+\end{equation}
+```
+
+При $f < 100$:
+
+```math
+\begin{equation} \tag{2.11a}
+\alpha = 2.48 \cdot (1 + 0.28 \cdot \sqrt[3]{f_e})
+\text{ при } V_м \leqslant 0.5
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.11б}
+\alpha = 4.95 V_м \cdot (1 + 0.28 \cdot \sqrt[3]{f})
+\text{ при } 0.5 < V_м \leqslant 2
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.11в}
+\alpha = 7 \sqrt{V_м} \cdot (1 + 0.28 \cdot \sqrt[3]{f})
+\text{ при } V_м \geqslant 2
+\end{equation}
+```
+
+При $f > 100$ или $\Delta T \approx 0$:
+
+```math
+\begin{equation} \tag{2.12a}
+\alpha = 5.7
+\text{ при } V_м \leqslant 0.5
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.12б}
+\alpha = 11.4 V_м'
+\text{ при } 0.5 < V_м \leqslant 2
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.12в}
+\alpha = 16 \sqrt{V_м}
+\text{ при } V_м > 2
+\end{equation}
+```
+
+### Опасная скорость
+
+на уровне флюгера (10 м от земли), м/с
+
+<!-- U_м -->
+
+При $f < 100$:
+
+```math
+\begin{equation} \tag{2.13a}
+U_м = 0.5
+\text{ при } V_м \leqslant 0.5
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.13б}
+U_м = V_м
+\text{ при } 0.5 < V_м \leqslant 2
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.13в}
+U_м = V_м \cdot (1 + 0.12 \sqrt{f})
+\text{ при } V_м > 2
+\end{equation}
+```
+
+При $f \geqslant 100$ или $\Delta T \approx 0$:
+
+```math
+\begin{equation} \tag{2.14a}
+U_м = 0.5
+\text{ при } V_м \leqslant 0.5
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.14б}
+U_м = V_м'
+\text{ при } 0.5 < V_м \leqslant 2
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.14в}
+U_м = 2.2 V_м
+\text{ при } V_м > 2
+\end{equation}
+```
+
+### Предельная концентрация в зависимости от расстояния
+
+$$C = S_1 \cdot C_м$$
+
+```math
+\begin{equation} \tag{2.16а}
+S_1 = 3(x/x_м)^4 - 8(x/x_м)^3 + 6(x/x_м)^2
+\text{ при } x/x_м \leqslant 1
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.16б}
+S_1 = \frac{ 1.13 }{ 0.13(x/x_м)^2 + 1 }
+\text{ при } 1 < x/x_м \leqslant 8
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.16в}
+S_1 = \frac{ x/x_м }{ 3.58(x/x_м)^2 -35.2(x/x_м) + 120 }
+\text{ при } x/x_м > 8 \text{ и } F \leqslant 1.5
+\end{equation}
+```
+
+```math
+\begin{equation} \tag{2.16г}
+S_1 = \frac{ 1 }{ 0.1(x/x_м)^2 + 2.47(x/x_м) - 17.8 }
+\text{ при } x/x_м > 8 \text{ и } F > 1.5
+\end{equation}
+```
+
+> масштаб соблюдаем!
+>
+> и единицы
