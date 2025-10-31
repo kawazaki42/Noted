@@ -274,7 +274,10 @@ C_{м\, тв} = \frac
   ```
 
   ```math
-  f \approx 8.1708482143 \frac{ м }{ с^2 \cdot \degree C }
+  \boxed{
+    f \approx 8.1708482143
+  }
+  \frac{ м }{ с^2 \cdot \degree C }
   ```
 
   ---
@@ -328,7 +331,10 @@ C_{м\, тв} = \frac
   ```
 
   ```math
-  V_{м} \approx 2.7579252465 \sqrt[3]{ м^2/с * \degree C }
+  \boxed{
+    V_{м} \approx 2.7579252465
+  }
+  \sqrt[3]{ м^2/с * \degree C }
   ```
 
   $$V_м \geqslant 2 \Rightarrow n = 1$$
@@ -448,6 +454,40 @@ x_м = \frac{ 5 - F }{ 4 } \alpha \cdot H
 \end{equation}
 ```
 
+---
+
+```math
+x_{м\,тв} = \frac{ 5 - 3 }{ 4 } \cdot 18.1808626372 \cdot 16 \, м
+```
+
+```math
+x_{м\,тв} = \frac{ 2 \cdot 16 }{ 4 } \cdot 18.1808626372 \, м
+```
+
+```math
+x_{м\,тв} = { 2 \cdot 4 } \cdot 18.1808626372 \, м
+```
+
+```math
+x_{м\,тв} \approx 145.4469010976 \, м
+```
+
+---
+
+```math
+x_{м\,газ} = \frac{ 5 - 1 }{ 4 } \cdot 18.1808626372 \cdot 16 \, м
+```
+
+```math
+x_{м\,газ} = 18.1808626372 \cdot 16 \, м \cdot 1
+```
+
+```math
+x_{м\,газ} \approx 290.8938021952 \, м
+```
+
+---
+
 При $f < 100$:
 
 ```math
@@ -466,7 +506,9 @@ x_м = \frac{ 5 - F }{ 4 } \alpha \cdot H
 
 ```math
 \begin{equation} \tag{2.11в}
-\alpha = 7 \sqrt{V_м} \cdot (1 + 0.28 \cdot \sqrt[3]{f})
+\boxed{
+  \alpha = 7 \sqrt{V_м} \cdot (1 + 0.28 \cdot \sqrt[3]{f})
+}
 \text{ при } V_м \geqslant 2
 \end{equation}
 ```
@@ -494,6 +536,25 @@ x_м = \frac{ 5 - F }{ 4 } \alpha \cdot H
 \end{equation}
 ```
 
+---
+
+```math
+% \begin{equation} \tag{2.11в}
+% \boxed{
+  \alpha = 7 \sqrt{V_м} \cdot (1 + 0.28 \cdot \sqrt[3]{f})
+% }
+% \text{ при } V_м \geqslant 2
+% \end{equation}
+```
+
+```math
+\alpha = 7 \sqrt{2.7579252465} \cdot (1 + 0.28 \cdot \sqrt[3]{8.1708482143})
+```
+
+```math
+\alpha \approx 18.1808626372
+```
+
 ### Опасная скорость
 
 на уровне флюгера (10 м от земли), м/с
@@ -518,7 +579,9 @@ U_м = V_м
 
 ```math
 \begin{equation} \tag{2.13в}
-U_м = V_м \cdot (1 + 0.12 \sqrt{f})
+\boxed{
+  U_м = V_м \cdot (1 + 0.12 \sqrt{f})
+}
 \text{ при } V_м > 2
 \end{equation}
 ```
@@ -581,3 +644,9 @@ S_1 = \frac{ 1 }{ 0.1(x/x_м)^2 + 2.47(x/x_м) - 17.8 }
 > масштаб соблюдаем!
 >
 > и единицы
+>
+> C_{max} при U_m
+>
+> C_m при неблагоприятных условиях отдельно
+>
+> вывод по каждому графику
