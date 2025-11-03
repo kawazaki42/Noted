@@ -3,8 +3,8 @@ TODO:
 - task 2
   - [x] файлы
   - [x] тесты
-  - [ ] доки
-  - try (required)
+  - [x] доки
+  - [ ] try (required)
   - [x] template (at least 2 fns)
 
 - task 1
