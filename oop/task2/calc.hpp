@@ -41,6 +41,8 @@ namespace calc {
         return std::sin( std::abs(sum) );
     }
 
+    /// Найти синус модуля суммы последовательности.
+    /// @param nums последовательность (`std::vector`)
     template<typename T>
     T sin_abs_sum(const std::vector<T> nums) {
         // T sum = std::accumulate(nums.begin(), nums.end(), 0);
@@ -67,7 +69,11 @@ namespace calc {
         constexpr bool is_close(T a, T b) {
             return std::abs(a - b) < test::EPSILON;
         }
-
+        
+        /// Запустить набор тестов.
+        ///
+        /// Завершает программу с ошибкой,
+        /// если хотя бы один тест провалится.
         void all();
     }
 }
@@ -79,7 +85,9 @@ namespace arr {
     /// @param nums массив
     /// @param len длина массива
     /// @param min минимальное значение случайного числа
+    ///            (по умолчанию -100)
     /// @param max максимальное значение случайного числа
+    ///            (по умолчанию +100)
     template<typename T>
     void randomize(
         T nums[],
@@ -108,6 +116,12 @@ namespace arr {
         }
     }
 
+    /// Заполнить массив случайными числами.
+    /// @param nums массив (`std::vector`)
+    /// @param min минимальное значение случайного числа
+    ///            (по умолчанию -100)
+    /// @param max максимальное значение случайного числа
+    ///            (по умолчанию +100)
     template<typename T>
     void randomize(
         std::vector<T> &nums,
@@ -132,9 +146,9 @@ namespace arr {
         }
     }
 
-    // Заполнить массив со стандартного ввода.
-    // @param nums массив
-    // @param size размер массива (для вектора вычисляется как `nums.size()`)
+    /// Заполнить массив со стандартного ввода.
+    /// @param nums массив (`std::vector`) с заданным размером
+    ///             (`std::vector::resize`)
     template<typename T>
     void fill_from_stdin(std::vector<T> &nums) {
         for(double &e : nums) {
@@ -142,6 +156,9 @@ namespace arr {
         }
     }
 
+    /// Заполнить массив со стандартного ввода.
+    /// @param nums массив
+    /// @param size размер массива
     template<typename T>
     void fill_from_stdin(T *nums, size_t size) {
         for(size_t i{0}; i < size; i++) {
@@ -151,9 +168,10 @@ namespace arr {
 
     /// Отобразить массив на стандартном выводе.
     ///
-    /// Группы по 10 чисел разделяются на отдельные строки.
     /// @param nums массив
     /// @param len длина массива
+    /// @param elems_per_row кол-во элементов на строке
+    ///                      (по умалчанию 10)
     template<typename T>
     void display(T nums[], size_t len, size_t elems_per_row = 10) {
         for(size_t i = 0; i < len; i++) {
@@ -187,9 +205,13 @@ namespace arr {
         }
     }
 
-    /// @param nums последовательность (`std::vector`)
+    /// Отобразить массив на стандартном выводе.
+    ///
+    /// @param nums массив (`std::vector`)
+    /// @param elems_per_row кол-во элементов на строке
+    ///                      (по умалчанию 10)
     template<typename T>
-    void display(const std::vector<T> nums, size_t elems_per_row) {
+    void display(const std::vector<T> nums, size_t elems_per_row = 10) {
         for(size_t i = 0; i < nums.size(); i++) {
             // операция над потоком вывода:
             std::cout
@@ -223,9 +245,9 @@ namespace arr {
 
     /// Работа с файлами
     namespace file {
-        /// Загрузить массив чисел из файла.
+        /// Загрузить массив из файла.
         /// @param name имя файла
-        /// @param[out] size переменная с размером массива
+        /// @return вектор со значениями из файла
         template<typename T>
         std::vector<T> load(const std::string &name) {
             std::ifstream f(name);
@@ -243,9 +265,10 @@ namespace arr {
             return result;
         }
 
-        /// Загрузить массив чисел из файла.
+        /// Загрузить массив из файла.
         /// @param name имя файла
         /// @param[out] size переменная с размером массива
+        /// @return массив (`T *`) со значениями из файла
         template<typename T>
         T *load(const std::string &name, size_t &size) {
             std::ifstream f(name);
@@ -267,10 +290,9 @@ namespace arr {
             return result;
         }
 
-        /// сохранить массив в файл
+        /// Сохранить массив в файл
         /// @param name имя файла
-        /// @param nums массив чисел
-        /// @param size размер массива
+        /// @param nums массив (`std::vector`)
         template<typename T>
         void dump(const std::string &name, std::vector<T> nums) {
             std::ofstream f(name);
@@ -280,6 +302,10 @@ namespace arr {
             }
         }
 
+        /// Сохранить массив в файл
+        /// @param name имя файла
+        /// @param nums массив
+        /// @param size размер массива
         template<typename T>
         void dump(const std::string &name, T *nums, size_t size) {
             std::ofstream f(name);
