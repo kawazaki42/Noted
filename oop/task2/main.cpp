@@ -58,37 +58,34 @@ constexpr void print_help(const string &progname) {
 /// Главная процедура программы.
 /// @return 0 при успешном завершении программы
 int main(int argc, char **argv) {
-    // const size_t n = 20;
+    // входная последовательность (вид массива на выбор)
+    /// режим без вектора
+    bool no_vector = false;
 
+    /// входной вектор
     vector<double> input_vec;
 
+    /// входной массив (указатель)
     double *input_ptr;
+
+    /// размер входных данных
     size_t input_size{0};
 
+    /// имя выходного файла
     string outfile;
 
-    // const std::string FLAG_TEST = "--test";
+    // обработка аргументов командной строки
+    // используем argv как итератор
 
     using cstr = char *;
-
-    size_t orig_argc = argc;
     cstr *orig_argv = argv;
-
-    bool no_vector = false;
-    
-    // итератор "массива" аргументов-строк
-    // cstr *parse_argv = argv;
+    size_t orig_argc = argc;
 
     // пропускаем argv[0], т.е. имя программы
     argc--;
     argv++;
 
     while(argc) {
-
-    // }
-
-    // if(argc-1 >= 1) {
-        // if(argv[1] == FLAG_TEST) {
         if(*argv == "--help"s) {
             // используем класс std::filesystem::path
             // чтобы выводить имя программы без каталогов
@@ -112,6 +109,7 @@ int main(int argc, char **argv) {
             outfile = *argv;
         }
         else {
+            // примем любой другой аргумент как имя входного файла
             if(no_vector) {
                 input_ptr = arr::file::load<double>(*argv, input_size);
             }
@@ -125,16 +123,14 @@ int main(int argc, char **argv) {
         argv++;
         argc--;
     }
-    // else {
-    // if(input.size() == 0) {
+
+    // если мы не считали данные из файла
     if(input_size == 0) {
         char response;
         std::cout << "Ввести числа вручную? (y/N) ";
         std::cin >> response;
 
-        // size_t n;
         std::cout << "Длина последовательности: ";
-        // std::cin >> n;
         std::cin >> input_size;
 
         if(no_vector) {
@@ -148,7 +144,6 @@ int main(int argc, char **argv) {
         }
 
         if(response == 'y') {
-            // std::cout << std::format("Введите числа ({}):\n", n);
             std::cout << std::format("Введите числа ({}):\n", input_size);
 
             if(no_vector) {
@@ -189,12 +184,6 @@ int main(int argc, char **argv) {
         }
     }
 
-    // Последовательность действительных чисел согласно условию задачи.
-    // double *a = new double[n];
-
-    // Заполняем случайными числами
-    // arr::randomize(a, n);
-
     double result;
     if(no_vector) {
         result = calc::sin_abs_sum(input_ptr, input_size);
@@ -212,5 +201,4 @@ int main(int argc, char **argv) {
     if(no_vector) {
         delete[] input_ptr;
     }
-    // delete[] a;
 }
