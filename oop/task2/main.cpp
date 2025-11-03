@@ -30,6 +30,9 @@ using std::string_literals::operator ""s;
 
 using std::vector;
 using std::string;
+using std::cout;
+using std::cin;
+using std::endl;
 
 
 // const string HELP_FORMAT =
@@ -51,7 +54,7 @@ R"({} [<infile>] [--help] [--test] [--dump <outfile>] [--no-vector]
 /// Вывести справку
 /// @param progname имя программы (`argv[0]`)
 constexpr void print_help(const string &progname) {
-    std::cout << std::format(HELP_FORMAT, progname);
+    cout << std::format(HELP_FORMAT, progname);
 }
 
 
@@ -127,24 +130,24 @@ int main(int argc, char **argv) {
     // если мы не считали данные из файла
     if(input_size == 0) {
         char response;
-        std::cout << "Ввести числа вручную? (y/N) ";
-        std::cin >> response;
+        cout << "Ввести числа вручную? (y/N) ";
+        cin >> response;
 
-        std::cout << "Длина последовательности: ";
-        std::cin >> input_size;
+        cout << "Длина последовательности: ";
+        cin >> input_size;
 
         if(no_vector) {
             input_ptr = new double[input_size];
             std::cerr
                 << "Вручную создан массив по адресу: " << input_ptr
-                << std::endl;
+                << endl;
         }
         else {
             input_vec.resize(input_size);
         }
 
         if(response == 'y') {
-            std::cout << std::format("Введите числа ({}):\n", input_size);
+            cout << std::format("Введите числа ({}):\n", input_size);
 
             if(no_vector) {
                 arr::fill_from_stdin(input_ptr, input_size);
@@ -162,7 +165,8 @@ int main(int argc, char **argv) {
             }
 
             // Отображение последовательности
-            std::cout << "Последовательность:" << std::endl;
+
+            cout << "Последовательность:" << endl;
 
             if(no_vector) {
                 arr::display(input_ptr, input_size);
@@ -171,7 +175,7 @@ int main(int argc, char **argv) {
                 arr::display(input_vec);
             }
 
-            std::cout << std::endl;
+            cout << endl;
         }
     }
 
@@ -193,9 +197,8 @@ int main(int argc, char **argv) {
     }
 
     // Ответ на задачу
-    std::cout
-        << "Синус модуля суммы последовательности: " << result
-        << std::endl;
+    cout
+        << "Синус модуля суммы последовательности: " << result << endl;
 
     // Не забываем очистить память
     if(no_vector) {
