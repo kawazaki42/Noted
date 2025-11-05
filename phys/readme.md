@@ -1,0 +1,3 @@
+- [practice.md](practice.md) - практика
+- [stream.md](stream.md) - лекция вперемешку с чем то еще
+- [images/](images/) - картинки, в основном вклеенные в лекцию
