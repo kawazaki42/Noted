@@ -859,6 +859,8 @@ P(X > 1.5) = 4.625 - 3 \cdot 1.75 + 1.5
 }
 ```
 
+![alt text](density_prob.excalidraw.svg)
+
 ### используя интрегальную функцию
 
 пусть $F(+\infty) = F(b) = F(x) \forall x \geqslant b$
@@ -870,3 +872,5 @@ $$F(+\infty) = F(2) = (2-1)^3 = 1$$
 $$F(1.5) = (1.5-1)^3 = 2^{-3} = 0.125$$
 
 $$\boxed{P(X > 1.5) = 1 - 0.125 = 0.875}$$
+
+![alt text](cumul_prob.excalidraw.svg)
