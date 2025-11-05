@@ -631,3 +631,5 @@ $$\int _1 ^2 (x-1)^2 dx = \frac{ 7 }{ 3 } - \frac{ 6 }{ 3 } = 1/3$$
 $$\frac{ 1 }{ 3 }C = 1$$
 
 $$C=3$$
+
+![alt text](density.excalidraw.svg)
