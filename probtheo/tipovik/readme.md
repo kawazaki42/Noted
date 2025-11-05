@@ -460,3 +460,4 @@ F(x) =
 \end{cases}
 ```
 
+![alt text](func.excalidraw.svg)
