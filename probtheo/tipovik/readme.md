@@ -632,4 +632,84 @@ $$\frac{ 1 }{ 3 }C = 1$$
 
 $$C=3$$
 
+1 график функции плотности
+---
+
 ![alt text](density.excalidraw.svg)
+
+2 интрегальная функция
+---
+
+$$F(x_0) = \int _{ -\infty } ^{ x_0 } f(x)dx$$
+
+<!-- $$F(x_0) = \int _{ -\infty } ^{ 1 } f(x)dx + \int _{ 1 } ^{ 2 } f(x)dx + \int _{ 2 } ^{ x_0 } f(x)dx$$ -->
+
+При $x_0 < 1$:
+
+```math
+\int _{-\infty} ^{x_0} f(x)dx = 0
+```
+
+При $x_0 \in [1; 2]$:
+
+```math
+\int 3(x-1)^2
+= 3\int (x-1)^2
+= 3(x^3/3 - x^2 + x + D)
+= x^3 - 3x^2 + 3x + 3D
+```
+
+```math
+\int _{-\infty} ^{x_0} f(x)dx
+= \int _{-\infty} ^{1} f(x)dx
++ \int _{1} ^{x_0} 3(x-1)^2 dx
+= 0 + (x_0^3 - 1^3) - 3(x_0^2 - 1^2) + 3(x_0 - 1)
+```
+
+```math
+\int _{-\infty} ^{x_0} f(x)dx
+= x_0^3 - 1 - 3x_0^2 + 3 + 3x_0 - 3
+```
+
+```math
+\int _{-\infty} ^{x_0} f(x)dx
+= x_0^3 - 3x_0^2 + 3x_0 - 1
+```
+
+При $x > 2$:
+
+```math
+\int _{-\infty} ^{x_0} f(x)dx
+= \int _{-\infty} ^{1} f(x)dx
++ \int _{1} ^{2} 3(x-1)^2 dx
++ \int _{2} ^{x_0} f(x) dx
+```
+
+$$\int _{2} ^{x_0} f(x) dx = \int _{2} ^{x_0} 0 dx = 0$$
+
+```math
+\int _{-\infty} ^{x_0} f(x)dx
+= 0 + 1 + 0 = 1
+```
+
+---
+
+```math
+F(x) =
+\begin{cases}
+0, x < 1  \\
+x^3 - 3x^2 + 3x - 1, 1 \leqslant x \leqslant 2  \\
+1, x > 2  \\
+%   \\
+\end{cases}
+```
+
+```math
+F(x) =
+\begin{cases}
+0, x < 1  \\
+(x-1)^3, 1 \leqslant x \leqslant 2  \\
+1, x > 2  \\
+%   \\
+\end{cases}
+```
