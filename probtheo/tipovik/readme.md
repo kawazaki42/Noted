@@ -525,3 +525,12 @@ $$M[Y] = 3 - 4 \cdot 66 = -261$$
 
 ---
 
+> $$D[\alpha + X] = D[X]$$
+
+$$D[Y] = D[3 + (-4X)] = D[-4X]$$
+
+> $$D[\alpha \cdot X] = \alpha ^2 \cdot D[X]$$
+
+$$D[Y] = D[-4X] = (-4)^2 \cdot D[X] = 16D[X]$$
+
+$$D[Y] = 16 \cdot 204 = 3264$$
