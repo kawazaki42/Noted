@@ -713,3 +713,5 @@ F(x) =
 %   \\
 \end{cases}
 ```
+
+![alt text](cumul.excalidraw.svg)
