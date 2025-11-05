@@ -152,7 +152,7 @@ $$\sigma = 3.183098862 * 10^{10} \frac{ См }{ м }$$
 
 ---
 
-![alt text](electro_task.excalidraw.svg)
+![alt text](images/electro_task.excalidraw.svg)
 
 общее сопротивление цепи
 
