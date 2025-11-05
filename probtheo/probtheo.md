@@ -1135,7 +1135,7 @@ F(x_0) = \begin{cases}
 \end{cases}
 ```
 
-![alt text](func2.excalidraw.svg)
+![alt text](images/func2.excalidraw.svg)
 
 ## Другие характеристики случайных величин
 
@@ -1239,7 +1239,7 @@ Cx | _a ^b = C(b - a) = 1
 C = \frac{ 1 }{ b-a }
 ```
 
-![alt text](func3.excalidraw.svg)
+![alt text](images/func3.excalidraw.svg)
 
 ---
 
@@ -1251,7 +1251,7 @@ F(x) = \begin{cases}
 \end{cases}
 ```
 
-![alt text](func4.excalidraw.svg)
+![alt text](images/func4.excalidraw.svg)
 
 ```math
 M[x] = \frac{ a + b }{ 2 }
@@ -1280,4 +1280,4 @@ $$D[x] = \sigma ^2$$
 
 $$\sigma[x] = \sigma$$
 
-![alt text](func5.excalidraw.svg)
+![alt text](images/func5.excalidraw.svg)

@@ -623,7 +623,7 @@ $$4 \leqslant x < 7: 0.1+0.2 = 0.3$$
 $$7 \leqslant x < 10: 0.1 + 0.2 + 0.5 = 0.8$$
 $$x \geqslant 10: 0.1 + 0.2 + 0.5 + 0.2 = 1$$
 
-![alt text](func.excalidraw.svg)
+![alt text](images/func.excalidraw.svg)
 
 ---
 
