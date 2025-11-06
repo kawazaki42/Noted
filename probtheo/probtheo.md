@@ -1248,9 +1248,9 @@ C = \frac{ 1 }{ b-a }
 
 ```math
 F(x) = \begin{cases}
-0, x < a \\
-\frac{ x - a }{ b - a }, a \leqslant x \leqslant b \ (x \in [a; b]) \\
-1, x > b
+0, & x < a \\
+\frac{ x - a }{ b - a }, & a \leqslant x \leqslant b \ (x \in [a; b]) \\
+1, & x > b
 \end{cases}
 ```
 
@@ -1284,3 +1284,90 @@ $$D[x] = \sigma ^2$$
 $$\sigma[x] = \sigma$$
 
 ![alt text](images/func5.excalidraw.svg)
+
+
+![alt text](images/func6.excalidraw.svg)
+
+x = m; f(x) = f(m)
+
+$$f(m) = \frac{ 1 }{ \sigma \sqrt{2 \pi} }$$
+
+Точки перегиба:
+
+$$(m-\sigma, \frac{ 1 }{ \sigma \sqrt{2 \pi} })$$
+
+$$(m+\sigma, \frac{ 1 }{ \sigma \sqrt{2 \pi} })$$
+
+![alt text](images/func7.excalidraw.svg)
+
+#### Нормированное нормальное распределение
+
+> $$m = 0$$
+> 
+> $$\sigma = 1$$
+> 
+> $$f(x) = \frac{ 1 }{ \sqrt{2 \pi} } e ^{-\frac{ x^2 }{ 2 }}$$
+
+![alt text](images/func8.excalidraw.svg)
+
+```math
+F(x_0) = \frac{ 1 }{ \sqrt{2 \pi} }
+\int _{ -\infty } ^{ x_0 } e ^{-\frac{ x^2 }{ 2 }} dx
+```
+
+(функция Лапласа)
+
+нечетная
+
+$$\Phi(-x) = -\Phi(x)$$
+
+есть готовая таблица
+
+Вероятность того что нормированная нормальная величина
+принимает значение из интервала $(0, x_0), x_0 >0$
+
+$$P(0 \leqslant x \leqslant x_0) = \int _{ 0 } ^{ x_0 } f(x) dx = \Phi(x_0)$$
+
+- табличное значение
+
+$$F(x) = 0.5 + \Phi(x)$$
+
+потому что f(x) симметрична
+
+#### Вероятность попадания в заданный интервал нормальной случайной величины
+
+пусть X - нормально распределенная случайная величина
+
+с параметрами m и \sigma
+
+тогда
+
+```math
+P(A < X < B) = \int _{ A } ^{ B } f(x) dx
+= \frac{ 1 }{ \sigma \sqrt{2\pi} }
+  \int _{ A } ^{ B } e^{\frac{ -(x-m)^2 }{ 2\sigma^2 }} dx
+```
+
+сделаем замену по переменной z
+
+$$z = \frac{ x-m }{ \sigma }$$
+
+$$\boxed{\Phi(\frac{ B-m }{ \sigma }) - \Phi(\frac{ A-m }{ \sigma })}$$
+
+#### Пример
+
+распределение нормальное
+
+$$m = 48$$
+
+$$\sigma = 2$$
+
+определить процент спроса на 50 размер при условии разброса от 49 до 51
+
+$$(49,51)$$
+
+$$P(49 < X < 51) = \Phi(\frac{ 51-48 }{ 2 }) - \Phi(\frac{ 49-48 }{ 2 })$$
+
+$$P(49 < X < 51) = \Phi(\frac{ 3 }{ 2 }) - \Phi(\frac{ 1 }{ 2 })$$
+
+$$P(49 < X < 51) = 0.4332 - 0.1915 = 0.2417$$
