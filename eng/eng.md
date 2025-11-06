@@ -517,7 +517,7 @@ focus is <i>software engineering and machine learning</i>.
 This is research for my coursework
 <i>on creating a simple computer vision model</i>.
 I got interested in this area because
-<i>AI is a growing trend that may be useful virtually in any other area and
+<i>AI is a growing trend that may be useful virtually in any other areas and
 I wanted to see how it is implemented</i>.
 
 ### Research question and significance
@@ -547,6 +547,12 @@ working with ANNs.
 I loaded the files into a multi-dimensional NumPy array and passed them
 as arguments to the library functions.
 
+In order to make sure that the model works on real data, it needs to be
+_evaluated_.
+
+Evaluation of a model is measuring its performance on a special, usually
+smaller dataset that is separate from main training data.
+
 ### Results
 
 Here's what I found out.
@@ -569,7 +575,32 @@ collection of neuron layers.
 
 There are different kinds of neurons.
 They are organized into classes that represent layers of the same kind.
-One widely used kind is convolution layer.
+In computer vision, one widely used kind is convolution layer.
+
+A convolution is operation on an array creating a smaller array
+where each element gets influenced by adjacent elements in the source array.
+
+It increases overall accuracy and helps spending less time and power for
+training.
+For example, a model without convolution layer had error rate of 25.8%,
+and the one with them had only 16.4%.
+
+So, for computer vision models, popular solution is a sequence of groups
+of convolution, activation, and pooling methods.
+
+Activation layers apply a <!-- non-linear --> function to arrays, which
+<!-- helps the model work with  -->
+prevents the model from becoming linear and helps it to work with a wider
+range of input data.
+
+Pooling is reducing the array's size by applying a simple function such as
+arithmetic mean (average) or maximum.
+It reduces the amount of parameters,
+and thus time and power needed for training.
+
+Classifier ANN's output is usually
+one-dimensional array of values between 0 and 1,
+representing probabilities of pertaining of an input data unit to each class.
 
 ### Significance of results
 
@@ -577,6 +608,10 @@ This result matters because _I've learned the basics of ML technology_.
 <!-- it doesn't. -->
 Now that I've learned this, I see that some other questions to ask are
 _what architectures I should use for particular tasks_.
+
+Computer vision models are commonly used in OCR...
+
+Now
 
 ### Conclusion/Summary of main points
 
