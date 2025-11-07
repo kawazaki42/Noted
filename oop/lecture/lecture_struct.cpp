@@ -122,4 +122,23 @@ int main() {
     file << lec_oop_13.get_duration() << endl;
 
     file.close();
+
+    // массив из обьектов
+    vector<Lecture> arr77;  // пустой (0 обьектов)
+    vector<Lecture> arr78(10);  // 10 обьектов с дефолтным конструктором
+
+    cout << arr78[4].to_string();
+
+    vector<Lecture> arr79;  // пока пустой
+    arr79.resize(10);   // положили 10 обьектов с дефолтным конструктором
+
+    // массив из указателей
+    vector<Lecture *> arr80(10);  // массив из указателей
+    // мы создали 0 обьектов но 10 указателей
+
+    arr80[4] = new Lecture("Введение в ООП", 55);
+
+    cout << arr80[4]->to_string();
+
+    delete arr80[4];
 }
