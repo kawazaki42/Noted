@@ -6,7 +6,13 @@ var
   res: Int32;
 
 begin
-  res := 7;
+  res := 0;
+
+  // WriteLn(ParamCount);
+
+  if ParamCount > 0 then
+    ReadStr(ParamStr(1), res);
+
   asm
     // input
     mov eax, res
