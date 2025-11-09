@@ -97,6 +97,10 @@ int main(int argc, char **argv) {
             print_help( p.filename().string() );
             return 0;
         }
+        else if(*argv == "--version"s) {
+            cout << "commit summary: add version flag" << endl;
+            return 0;
+        }
         else if(*argv == "--test"s) {
             calc::test::all();
             return 0;
