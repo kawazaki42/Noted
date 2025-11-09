@@ -42,6 +42,7 @@ R"({} [<infile>] [--help] [--test] [--dump <outfile>] [--no-vector]
 Вычислить синус модуля суммы последовательности чисел.
 
 --help  Вывести эту справку
+--random  использовать случайные числа вместо стандартного ввода
 --test  Выполнить тесты вместо обычной работы программы.
         Если тесты пройдены, не выводит сообщений и
         завершает программу с нулевым статусом.
@@ -77,6 +78,9 @@ int main(int argc, char **argv) {
     /// имя выходного файла
     string outfile;
 
+    /// использовать ли случайные числа
+    bool random;
+
     // обработка аргументов командной строки
     // используем argv как итератор
 
@@ -98,8 +102,11 @@ int main(int argc, char **argv) {
             return 0;
         }
         else if(*argv == "--version"s) {
-            cout << "commit summary: add version flag" << endl;
+            cout << "commit summary: add random flag" << endl;
             return 0;
+        }
+        else if(*argv == "--random"s) {
+            random = true;
         }
         else if(*argv == "--test"s) {
             calc::test::all();
@@ -133,9 +140,9 @@ int main(int argc, char **argv) {
 
     // если мы не считали данные из файла
     if(input_size == 0) {
-        char response;
-        cout << "Ввести числа вручную? (y/N) ";
-        cin >> response;
+        // char response;
+        // cout << "Ввести числа вручную? (y/N) ";
+        // cin >> response;
 
         cout << "Длина последовательности: ";
         cin >> input_size;
@@ -150,7 +157,7 @@ int main(int argc, char **argv) {
             input_vec.resize(input_size);
         }
 
-        if(response == 'y') {
+        if(not random) {
             cout << std::format("Введите числа ({}):\n", input_size);
 
             if(no_vector) {
