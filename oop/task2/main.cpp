@@ -79,7 +79,7 @@ int main(int argc, char **argv) {
     string outfile;
 
     /// использовать ли случайные числа
-    bool random;
+    bool random{false};
 
     // обработка аргументов командной строки
     // используем argv как итератор
