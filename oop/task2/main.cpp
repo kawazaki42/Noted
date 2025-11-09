@@ -149,6 +149,11 @@ int main(int argc, char **argv) {
         cout << "Длина последовательности: ";
         cin >> input_size;
 
+        if(cin.fail() and not cin.eof())
+            throw std::runtime_error(
+                "Неправильная длина последовательности"
+            );
+
         const std::string MEMORY_ERROR{
             "Не удалось выделить память.\n"
             "Возможно, длина последовательности отрицательна"
@@ -212,13 +217,19 @@ int main(int argc, char **argv) {
         }
     }
 
-    if( !outfile.empty() ) {
-        if(no_vector) {
-            arr::file::dump(outfile, input_ptr, input_size);
+    try {
+        if( !outfile.empty() ) {
+            if(no_vector) {
+                arr::file::dump(outfile, input_ptr, input_size);
+            }
+            else {
+                arr::file::dump(outfile, input_vec);
+            }
         }
-        else {
-            arr::file::dump(outfile, input_vec);
-        }
+    } catch(const std::runtime_error &e) {
+        std::cerr
+            << "WARNING: " << e.what() << endl
+            << "WARNING: не удалось записать массив в файл" << endl;
     }
 
     double result;

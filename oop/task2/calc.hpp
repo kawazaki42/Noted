@@ -20,6 +20,7 @@
 #include <iomanip>
 #include <iostream>
 #include <random>
+#include <stdexcept>
 #include <string>
 #include <vector>
 
@@ -365,7 +366,26 @@ void arr::display(const std::vector<T> &nums, size_t elems_per_row) {
 /// @return вектор со значениями из файла
 template<typename T>
 std::vector<T> arr::file::load(const std::string &name) {
-    std::ifstream f(name);
+    if(not std::filesystem::exists(name)) {
+        throw std::runtime_error("файл не существует: " + name);
+    }
+
+    // std::ifstream f(name);
+    std::ifstream f;
+
+    // вызываем исключение при ошибке
+    // f.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    f.open(name);
+    // fail() может появиться при eof()
+    // f.exceptions(std::ifstream::badbit);
+
+    if(!f) {
+        // throw std::ifstream::failure(
+        throw std::runtime_error(
+            "не удалось открыть файл для чтения: " + name
+        );
+    }
+
 
     std::vector<T> result;
 
@@ -387,7 +407,29 @@ std::vector<T> arr::file::load(const std::string &name) {
 /// @return массив (`T *`) со значениями из файла
 template<typename T>
 T *arr::file::load(const std::string &name, size_t &size) {
-    std::ifstream f(name);
+    if(not std::filesystem::exists(name)) {
+        throw std::runtime_error("файл не существует: " + name);
+    }
+
+    // std::ifstream f(name);
+    std::ifstream f;
+
+    // вызываем исключение при ошибке
+    // f.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    f.open(name);
+    // fail() может появиться при eof()
+    // f.exceptions(std::ifstream::badbit);
+
+
+
+    if(!f) {
+        // throw std::ifstream::failure(
+        throw std::runtime_error(
+            "не удалось открыть файл для чтения: " + name
+        );
+    }
+
+    // вычисляем размер памяти перед выделением
 
     size = 0;
     for(T ignored; f >> ignored;)
@@ -395,8 +437,9 @@ T *arr::file::load(const std::string &name, size_t &size) {
 
     T *result = new T[size];
 
+    // сбросить флаги и перейти в начало файла
     f.clear();
-    f.seekg(0, std::ios::beg);
+    f.seekg(0, std::ifstream::beg);
 
     // // it - указатель, который мы используем в качестве итератора
     // // да, я просто хейтер простого индекса итерации ;)
@@ -446,7 +489,25 @@ void arr::file::dump(const std::string &name, std::vector<T> &nums) {
 /// @param size размер массива
 template<typename T>
 void arr::file::dump(const std::string &name, T *nums, size_t size) {
-    std::ofstream f(name);
+    if(not std::filesystem::exists(name)) {
+        throw std::runtime_error("файл не существует: " + name);
+    }
+
+    std::ofstream f;
+
+    // вызываем исключение при ошибке
+    // f.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    f.open(name);
+    // fail() может появиться при eof()
+    // f.exceptions(std::ifstream::badbit);
+
+
+    if(!f) {
+        // throw std::ofstream::failure(
+        throw std::runtime_error(
+            "не удалось открыть файл для записи: " + name
+        );
+    }
 
     for(size_t i{0}; i < size; i++) {
         f << nums[i] << std::endl;
