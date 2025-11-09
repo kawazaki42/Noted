@@ -35,7 +35,7 @@ namespace calc {
     /// Найти синус модуля суммы последовательности.
     /// @param nums последовательность (`std::vector`)
     template<typename T>
-    T sin_abs_sum(const std::vector<T> nums);
+    T sin_abs_sum(const std::vector<T> &nums);
 
     /// Тесты для логики программы.
     namespace test {
@@ -79,16 +79,19 @@ T calc::sin_abs_sum(const T nums[], size_t len) {
 /// Найти синус модуля суммы последовательности.
 /// @param nums последовательность (`std::vector`)
 template<typename T>
-T calc::sin_abs_sum(const std::vector<T> nums) {
+T calc::sin_abs_sum(const std::vector<T> &nums) {
     // T sum = std::accumulate(nums.begin(), nums.end(), 0);
 
-    T sum = 0.0;
+    // T sum = 0.0;
 
-    for(T elem : nums) {
-        sum += elem;
-    }
+    // for(T elem : nums) {
+    //     sum += elem;
+    // }
 
-    return std::sin( std::abs(sum) );
+    // return std::sin( std::abs(sum) );
+
+    // don't repeat yourself
+    return sin_abs_sum(nums.data(), nums.size());
 }
 
 
@@ -149,7 +152,7 @@ namespace arr {
     /// @param elems_per_row кол-во элементов на строке
     ///                      (по умалчанию 10)
     template<typename T>
-    void display(const std::vector<T> nums, size_t elems_per_row = 10);
+    void display(const std::vector<T> &nums, size_t elems_per_row = 10);
 
     /// Работа с файлами
     namespace file {
@@ -170,7 +173,7 @@ namespace arr {
         /// @param name имя файла
         /// @param nums массив (`std::vector`)
         template<typename T>
-        void dump(const std::string &name, std::vector<T> nums);
+        void dump(const std::string &name, std::vector<T> &nums);
 
         /// Сохранить массив в файл
         /// @param name имя файла
@@ -230,22 +233,24 @@ void arr::randomize(
     T min,
     T max
 ) {
-    // устройство-источник случайных чисел
-    std::random_device rd;
+    // // устройство-источник случайных чисел
+    // std::random_device rd;
 
-    // реализация генератора случайных чисел
-    std::default_random_engine eng(rd());
+    // // реализация генератора случайных чисел
+    // std::default_random_engine eng(rd());
 
-    // диапазон случайных чисел
-    std::uniform_real_distribution dist(min, max);
+    // // диапазон случайных чисел
+    // std::uniform_real_distribution dist(min, max);
 
-    // для заполнения вектора необходимо брать каждый элемент по ссылке
-    for(T &e : nums) {
-        // следующее случайное число
-        // в диапазоне dist
-        // сгенерированное при помощи eng
-        e = dist(eng);
-    }
+    // // для заполнения вектора необходимо брать каждый элемент по ссылке
+    // for(T &e : nums) {
+    //     // следующее случайное число
+    //     // в диапазоне dist
+    //     // сгенерированное при помощи eng
+    //     e = dist(eng);
+    // }
+
+    return arr::randomize(nums.data(), nums.size(), min, max);
 }
 
 
@@ -254,9 +259,11 @@ void arr::randomize(
 ///             (`std::vector::resize`)
 template<typename T>
 void arr::fill_from_stdin(std::vector<T> &nums) {
-    for(double &e : nums) {
-        std::cin >> e;
-    }
+    // for(double &e : nums) {
+    //     std::cin >> e;
+    // }
+
+    return arr::fill_from_stdin(nums.data(), nums.size());
 }
 
 /// Заполнить массив со стандартного ввода.
@@ -316,36 +323,40 @@ void arr::display(T nums[], size_t len, size_t elems_per_row) {
 /// @param elems_per_row кол-во элементов на строке
 ///                      (по умалчанию 10)
 template<typename T>
-void arr::display(const std::vector<T> nums, size_t elems_per_row) {
-    for(size_t i = 0; i < nums.size(); i++) {
-        // операция над потоком вывода:
-        std::cout
+void arr::display(const std::vector<T> &nums, size_t elems_per_row) {
+    // for(size_t i = 0; i < nums.size(); i++) {
+    //     // операция над потоком вывода:
+    //     std::cout
 
-            // не использовать формат по типу 6.022e+23
-            // для дробных чисел
-            << std::fixed
+    //         // не использовать формат по типу 6.022e+23
+    //         // для дробных чисел
+    //         << std::fixed
 
-            // кол-во цифр после запятой
-            << std::setprecision(2)
+    //         // кол-во цифр после запятой
+    //         << std::setprecision(2)
 
-            // ширина одного поля (числа)
-            << std::setw(10)
+    //         // ширина одного поля (числа)
+    //         << std::setw(10)
 
-            // само число
-            << nums[i];
+    //         // само число
+    //         << nums[i];
         
-        // делим числа на группы:
-        // 0-9, 10-19, 20-29...
-        // (по 10 чисел в каждой)
+    //     // делим числа на группы:
+    //     // 0-9, 10-19, 20-29...
+    //     // (по 10 чисел в каждой)
 
-        /// Позиция элемента в строке
-        size_t rowpos = i % elems_per_row;
+    //     /// Позиция элемента в строке
+    //     size_t rowpos = i % elems_per_row;
 
-        // Если элемент последний в строке, выполнить перенос
-        if(rowpos == elems_per_row-1) {
-            std::cout << std::endl;
-        }
-    }
+    //     // Если элемент последний в строке, выполнить перенос
+    //     if(rowpos == elems_per_row-1) {
+    //         std::cout << std::endl;
+    //     }
+    // }
+
+    // whoa i repeated so much...
+
+    return arr::display(nums.data(), nums.size(), elems_per_row);
 }
 
 
@@ -387,12 +398,30 @@ T *arr::file::load(const std::string &name, size_t &size) {
     f.clear();
     f.seekg(0, std::ios::beg);
 
-    // it - указатель, который мы используем в качестве итератора
+    // // it - указатель, который мы используем в качестве итератора
+    // // да, я просто хейтер простого индекса итерации ;)
 
-    for(T *it = result; it < (result + size); it++)
-        f >> *it;
+    // for(T *it = result; it < (result + size); it++)
+    //     f >> *it;
+
+    // хотя, раз он до тошноты простой,
+    // компилятор может его оптимизировать...
+
+    for(size_t i{0}; i < size; i++) {
+        f >> result[i];
+    }
 
     return result;
+
+    // NOTE: а, не, это не проканало. У вектора нельзя украсть data()
+    //       и чтоб при этом десткуктор его не за'delet'ил.
+
+    // NOTE: тут наоборот функция которая работает с обычным указателем
+    // вызывает векторную
+
+    // std::vector<T> result{ arr::file::load<T>(name) };
+    // size = result.size();
+    // return result.data();
 }
 
 
@@ -400,12 +429,14 @@ T *arr::file::load(const std::string &name, size_t &size) {
 /// @param name имя файла
 /// @param nums массив (`std::vector`)
 template<typename T>
-void arr::file::dump(const std::string &name, std::vector<T> nums) {
-    std::ofstream f(name);
+void arr::file::dump(const std::string &name, std::vector<T> &nums) {
+    // std::ofstream f(name);
 
-    for(const auto x : nums) {
-        f << x << std::endl;
-    }
+    // for(const auto x : nums) {
+    //     f << x << std::endl;
+    // }
+
+    return arr::file::dump(name, nums.data(), nums.size());
 }
 
 
