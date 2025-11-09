@@ -18,6 +18,8 @@
 #include <filesystem>
 #include <format>
 #include <iostream>
+#include <ostream>
+#include <stdexcept>
 #include <string>
 
 // Зависимости внутри проекта
@@ -147,14 +149,34 @@ int main(int argc, char **argv) {
         cout << "Длина последовательности: ";
         cin >> input_size;
 
-        if(no_vector) {
-            input_ptr = new double[input_size];
-            std::cerr
-                << "Вручную создан массив по адресу: " << input_ptr
-                << endl;
-        }
-        else {
-            input_vec.resize(input_size);
+        const std::string MEMORY_ERROR{
+            "Не удалось выделить память.\n"
+            "Возможно, длина последовательности отрицательна"
+            " (или слишком большая)"
+        };
+        
+        try {
+            if(no_vector) {
+                input_ptr = new double[input_size];
+                std::cerr
+                    << "Вручную создан массив по адресу: " << input_ptr
+                    << endl;
+            }
+            else {
+                    input_vec.resize(input_size);
+            }
+        } catch(std::length_error &e) {
+            // std::cerr
+            //     << "Неверная длина последовательности:"
+            //        " отрицательная или слишком большая\n"
+            //     << input_size << endl;
+            //     // << e.what() << endl;
+            // return 1;
+            std::cerr << MEMORY_ERROR << endl << e.what() << endl;
+            return 1;
+        } catch(std::bad_alloc &e) {
+            std::cerr << MEMORY_ERROR << endl << e.what() << endl;
+            return 1;
         }
 
         if(not random) {
