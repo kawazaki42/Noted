@@ -1158,3 +1158,140 @@ $$M[X] = -3$$
 
 ---
 
+X равномерная величина
+
+[-16; 18]
+
+P(-3 < X)
+
+```math
+f(x) =
+\begin{cases}
+\frac{ 1 }{ b-a }, x \in (a; b)  \\
+0, x \notin  (a;b)
+%   \\
+\end{cases}
+```
+
+```math
+f(x) =
+\begin{cases}
+\frac{ 1 }{ 34 }, x \in (-16; 18)  \\
+0, x \notin  (-16;18)
+%   \\
+\end{cases}
+```
+
+$$P(-3 < x < 18) = \int _{ -3 } ^{ +18 } \frac{ 1 }{ 34 } dx = x/34 | _{-3} ^{18} = 21/34$$
+
+---
+
+1. ```math
+   f(x) =
+   \begin{cases}
+   0, x \notin (1; 4)  \\
+   x/4, x \in (1;4)
+   %   \\
+   %   \\
+   \end{cases}
+   ```
+
+   P(2 < X < 3)
+
+   M[X]; D[X]; \sigma[X]
+
+```math
+f(x) =
+\begin{cases}
+0, x \notin (1; 4)  \\
+x/4, x \in (1;4)
+%   \\
+%   \\
+\end{cases}
+```
+
+```math
+F(x) =
+\begin{cases}
+0, x \notin (1; 4)  \\
+\int _{ 1 } ^{ 4 } xdx/4, x \in (1;4)
+%   \\
+%   \\
+\end{cases}
+```
+
+```math
+F(x) =
+\begin{cases}
+0, x \notin (1; 4)  \\
+\int _{ 1 } ^{ 4 } xdx/4, x \in (1;4)
+\end{cases}
+```
+
+---
+
+2.
+
+норм расп СВ
+
+M[X] = 4
+
+\sigma[X] = 2
+
+```math
+P(5 < X < 8) =
+\Phi(\frac{ m - \beta }{ \sigma }) - \Phi(\frac{ m - \alpha }{ \sigma })
+```
+
+```math
+P(5 < X < 8) =
+\Phi(\frac{ 4 - 8 }{ 2 }) - \Phi(\frac{ 4 - 5 }{ 2 })
+```
+
+```math
+P(5 < X < 8) =
+\Phi(\frac{ -4 }{ 2 }) - \Phi(\frac{ -1 }{ 2 })
+```
+
+```math
+P(5 < X < 8) =
+-\Phi(2) + \Phi(0.5)
+```
+
+0.1915 - 0.4772 = -0.2857
+
+System halted.
+
+---
+
+```math
+F(x) =
+\begin{cases}
+0, x \leqslant 2  \\
+(x-8)^2, 2 < x \leqslant 3  \\
+1, x > 3
+%   \\
+\end{cases}
+```
+
+```math
+f(x) =
+\begin{cases}
+0, x \leqslant 2  \\
+d((x-8)^2)/dx, 2 < x \leqslant 3  \\
+0, x > 3
+%   \\
+\end{cases}
+```
+
+```math
+f(x) =
+\begin{cases}
+0, x \leqslant 2  \\
+2x-16/dx, 2 < x \leqslant 3  \\
+0, x > 3
+%   \\
+\end{cases}
+```
+
+P(1 < x < 2.5) = F(2.5) - F(1)
