@@ -636,6 +636,10 @@ I would be happy to take your questions.
 
 A database using XML and Java for Muslim Hadiths
 
+There are already many Hadith database projects,
+but they are not designed for interopreability.
+This project aims to address this issue.
+
 XML (eXtensible Markup Language) is a text format,
 so it's easy to parse and read.
 <!-- It  hierarchical format. -->
@@ -650,10 +654,6 @@ On top of that, HPSG natural language format is used to store the texts.
 
 An HPSG object is visualised using Attribute Value Matrix (AVM)
 
-There are already many sites with Hadiths
-
-but they are not designed for interopreability
-
 <!-- in different formats -->
 
 Each Hadith is composed of two parts:
@@ -661,7 +661,7 @@ Each Hadith is composed of two parts:
 - and the text itself (matn)
 
 Types of Hadiths:
-- Qudsi Hadith: start with "prophed said: God said:"
+- Qudsi Hadith: start with "prophet said: God said:"
 - Marfoo' Hadith ': words of the Prophet
 - Hadith mawqoof: by companions (of the Prophet?)
 - Maqtoo' Hadith: by successors
@@ -680,3 +680,6 @@ and search it by several criteria.
 The first phase of the project includes biograpical information of the first
 4 generations of narrators, covering the first 300 years after the migration
 of Prophet Mohammad (Peace Be upon Him)
+
+In conclusion, author states that it was an effort to collect and store
+authentic information about Hadiths and narrators.
