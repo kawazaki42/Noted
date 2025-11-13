@@ -631,3 +631,52 @@ building ANN architectures_.
 ### Questions
 
 I would be happy to take your questions.
+
+## retell arabic java app
+
+A database using XML and Java for Muslim Hadiths
+
+XML (eXtensible Markup Language) is a text format,
+so it's easy to parse and read.
+<!-- It  hierarchical format. -->
+It supports hierarchy: a root element, its child elements,
+children of child elements and so on.
+It supports Unicode and works with data types.
+
+Java is an object-oriented language that also supports Unicode and has
+built-in support for XML.
+
+On top of that, HPSG natural language format is used to store the texts.
+
+An HPSG object is visualised using Attribute Value Matrix (AVM)
+
+There are already many sites with Hadiths
+
+but they are not designed for interopreability
+
+<!-- in different formats -->
+
+Each Hadith is composed of two parts:
+- a chain of _narrators_ (isnads)
+- and the text itself (matn)
+
+Types of Hadiths:
+- Qudsi Hadith: start with "prophed said: God said:"
+- Marfoo' Hadith ': words of the Prophet
+- Hadith mawqoof: by companions (of the Prophet?)
+- Maqtoo' Hadith: by successors
+
+During the design of the database,
+<!-- when the database was designed. -->
+
+UML (Unified Modeling Language) was used
+to create a use-case diagram and a class diagram.
+
+Class diagrams are used for object-oriented languages like Java.
+
+This app can save information about Hadiths in a file `Hadithdb.xml`
+and search it by several criteria.
+
+The first phase of the project includes biograpical information of the first
+4 generations of narrators, covering the first 300 years after the migration
+of Prophet Mohammad (Peace Be upon Him)
