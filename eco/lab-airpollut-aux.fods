@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2025-11-13T18:39:04.043349000</meta:creation-date><dc:date>2025-11-14T10:42:34.128173200</dc:date><meta:editing-duration>PT2H50M6S</meta:editing-duration><meta:editing-cycles>46</meta:editing-cycles><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator><meta:document-statistic meta:table-count="2" meta:cell-count="128" meta:object-count="5"/></office:meta>
+ <office:meta><meta:creation-date>2025-11-13T18:39:04.043349000</meta:creation-date><dc:date>2025-11-14T11:06:04.384773200</dc:date><meta:editing-duration>PT3H2M23S</meta:editing-duration><meta:editing-cycles>50</meta:editing-cycles><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator><meta:document-statistic meta:table-count="2" meta:cell-count="162" meta:object-count="5"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -13,8 +13,8 @@
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">11</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">49</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">12</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">18</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">3</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
@@ -345,7 +345,7 @@
    <table:table table:name="Sheet1" table:style-name="ta1">
     <table:shapes>
      <draw:frame draw:z-index="0" draw:style-name="gr1" draw:text-style-name="P1" svg:width="6.2988in" svg:height="3.5429in" svg:x="0.6445in" svg:y="4.9154in">
-      <draw:object draw:notify-on-update-of-ranges="Sheet1.A7:Sheet1.A7 Sheet1.A8:Sheet1.A14 Sheet1.I7:Sheet1.I7 Sheet1.I8:Sheet1.I14">
+      <draw:object draw:notify-on-update-of-ranges="Sheet1.B7:Sheet1.B7 Sheet1.B8:Sheet1.B14 Sheet1.J7:Sheet1.J7 Sheet1.J8:Sheet1.J14">
        <loext:p/>
        <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:chartooo="http://openoffice.org/2010/chart" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.chart">
         <office:meta><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator></office:meta>
@@ -412,7 +412,7 @@
                
                <text:span text:style-name="T2">x, м</text:span></text:p>
              </chart:title>
-             <chart:categories table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+             <chart:categories table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
             </chart:axis>
             <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch4">
              <chart:title svg:x="0.451cm" svg:y="5.384cm" chart:style-name="ch5">
@@ -421,8 +421,8 @@
              </chart:title>
              <chart:grid chart:style-name="ch6" chart:class="major"/>
             </chart:axis>
-            <chart:series chart:style-name="ch7" chart:values-cell-range-address="Sheet1.I8:Sheet1.I14" chart:label-cell-address="Sheet1.I7:Sheet1.I7" chart:class="chart:scatter">
-             <chart:domain table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+            <chart:series chart:style-name="ch7" chart:values-cell-range-address="Sheet1.J8:Sheet1.J14" chart:label-cell-address="Sheet1.J7:Sheet1.J7" chart:class="chart:scatter">
+             <chart:domain table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
              <chart:data-point chart:repeated="7"/>
             </chart:series>
             <chart:wall chart:style-name="ch8"/>
@@ -443,7 +443,7 @@
               <table:table-cell office:value-type="string">
                <text:p>C_тв, мг/м^3</text:p>
                <draw:g>
-                <svg:desc>Sheet1.I7:Sheet1.I7</svg:desc></draw:g>
+                <svg:desc>Sheet1.J7:Sheet1.J7</svg:desc></draw:g>
               </table:table-cell>
              </table:table-row>
             </table:table-header-rows>
@@ -452,12 +452,12 @@
               <table:table-cell office:value-type="float" office:value="50">
                <text:p>50</text:p>
                <draw:g>
-                <svg:desc>Sheet1.A8:Sheet1.A14</svg:desc></draw:g>
+                <svg:desc>Sheet1.B8:Sheet1.B14</svg:desc></draw:g>
               </table:table-cell>
-              <table:table-cell office:value-type="float" office:value="0.0368882815114262">
-               <text:p>0.0368882815114262</text:p>
+              <table:table-cell office:value-type="float" office:value="0.0368882815114261">
+               <text:p>0.0368882815114261</text:p>
                <draw:g>
-                <svg:desc>Sheet1.I8:Sheet1.I14</svg:desc></draw:g>
+                <svg:desc>Sheet1.J8:Sheet1.J14</svg:desc></draw:g>
               </table:table-cell>
              </table:table-row>
              <table:table-row>
@@ -1134,7 +1134,7 @@
       </draw:image>
      </draw:frame>
      <draw:frame draw:z-index="1" draw:style-name="gr1" draw:text-style-name="P1" svg:width="6.2988in" svg:height="3.5429in" svg:x="0.6425in" svg:y="9.5894in">
-      <draw:object draw:notify-on-update-of-ranges="Sheet1.A7:Sheet1.A7 Sheet1.A8:Sheet1.A14 Sheet1.J7:Sheet1.J7 Sheet1.J8:Sheet1.J14">
+      <draw:object draw:notify-on-update-of-ranges="Sheet1.B7:Sheet1.B7 Sheet1.B8:Sheet1.B14 Sheet1.K7:Sheet1.K7 Sheet1.K8:Sheet1.K14">
        <loext:p/>
        <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:chartooo="http://openoffice.org/2010/chart" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.chart">
         <office:meta><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator></office:meta>
@@ -1220,8 +1220,8 @@
              </chart:title>
              <chart:grid chart:style-name="ch7" chart:class="major"/>
             </chart:axis>
-            <chart:series chart:style-name="ch8" chart:values-cell-range-address="Sheet1.J8:Sheet1.J14" chart:label-cell-address="Sheet1.J7:Sheet1.J7" chart:class="chart:scatter">
-             <chart:domain table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+            <chart:series chart:style-name="ch8" chart:values-cell-range-address="Sheet1.K8:Sheet1.K14" chart:label-cell-address="Sheet1.K7:Sheet1.K7" chart:class="chart:scatter">
+             <chart:domain table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
              <chart:data-point chart:repeated="7"/>
             </chart:series>
             <chart:wall chart:style-name="ch9"/>
@@ -1246,12 +1246,12 @@
                <text:p/>
               </table:table-cell>
               <table:table-cell office:value-type="string">
-               <text:p>Column A</text:p>
+               <text:p>Column B</text:p>
               </table:table-cell>
               <table:table-cell office:value-type="string">
                <text:p>C_SO_2, мг/м^3</text:p>
                <draw:g>
-                <svg:desc>Sheet1.J7:Sheet1.J7</svg:desc></draw:g>
+                <svg:desc>Sheet1.K7:Sheet1.K7</svg:desc></draw:g>
               </table:table-cell>
              </table:table-row>
             </table:table-header-rows>
@@ -1263,12 +1263,12 @@
               <table:table-cell office:value-type="float" office:value="50">
                <text:p>50</text:p>
                <draw:g>
-                <svg:desc>Sheet1.A8:Sheet1.A14</svg:desc></draw:g>
+                <svg:desc>Sheet1.B8:Sheet1.B14</svg:desc></draw:g>
               </table:table-cell>
               <table:table-cell office:value-type="float" office:value="0.00177005473138191">
                <text:p>0.00177005473138191</text:p>
                <draw:g>
-                <svg:desc>Sheet1.J8:Sheet1.J14</svg:desc></draw:g>
+                <svg:desc>Sheet1.K8:Sheet1.K14</svg:desc></draw:g>
               </table:table-cell>
              </table:table-row>
              <table:table-row>
@@ -1278,8 +1278,8 @@
               <table:table-cell office:value-type="float" office:value="100">
                <text:p>100</text:p>
               </table:table-cell>
-              <table:table-cell office:value-type="float" office:value="0.0054141315242629">
-               <text:p>0.0054141315242629</text:p>
+              <table:table-cell office:value-type="float" office:value="0.00541413152426289">
+               <text:p>0.00541413152426289</text:p>
               </table:table-cell>
              </table:table-row>
              <table:table-row>
@@ -1863,9 +1863,9 @@
     <table:table-column table:style-name="co1" table:number-columns-repeated="9" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>F</text:p>
      </table:table-cell>
@@ -1882,13 +1882,14 @@
      <table:table-cell table:number-columns-repeated="6"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
+     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>тв</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="3" calcext:value-type="float">
       <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=(5-[.B2])/4 *[.$E$2] *[.$F$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
+     <table:table-cell table:formula="of:=(5-[.C2])/4 *[.$F$2] *[.$G$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
       <text:p>145.4469010976</text:p>
      </table:table-cell>
      <table:table-cell/>
@@ -1901,28 +1902,30 @@
      <table:table-cell table:number-columns-repeated="6"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
+     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>газ</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=(5-[.B3])/4 *[.$E$2] *[.$F$2]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
+     <table:table-cell table:formula="of:=(5-[.C3])/4 *[.$F$2] *[.$G$2]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
       <text:p>290.8938021952</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
-     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:number-columns-repeated="13"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
+     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>x_м, м</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$C$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$D$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
       <text:p>145.4469010976</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$C$3]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$D$3]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
       <text:p>290.8938021952</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
@@ -1943,6 +1946,7 @@
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
+     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>x, м</text:p>
      </table:table-cell>
@@ -1977,208 +1981,326 @@
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="50" calcext:value-type="float">
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="50" calcext:value-type="float">
       <text:p>50</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A8]/[.B$6]" office:value-type="float" office:value="0.343768066714933" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B8]/[.C$6]" office:value-type="float" office:value="0.343768066714933" calcext:value-type="float">
       <text:p>0.343768066714933</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A8]/[.C$6]" office:value-type="float" office:value="0.171884033357466" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B8]/[.D$6]" office:value-type="float" office:value="0.171884033357466" calcext:value-type="float">
       <text:p>0.171884033357466</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.B8]&lt;=1; 3*([.B8]^4)-8*[.B8]^3+6*[.B8]^2;1.13/(0.13*[.B8]^2+1))" office:value-type="float" office:value="0.425953535409328" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C8]&lt;=1; 3*([.C8]^4)-8*[.C8]^3+6*[.C8]^2;1.13/(0.13*[.C8]^2+1))" office:value-type="float" office:value="0.425953535409328" calcext:value-type="float">
       <text:p>0.425953535409328</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C8]&lt;=1; 3*([.C8]^4)-8*[.C8]^3+6*[.C8]^2;1.13/(0.13*[.C8]^2+1))" office:value-type="float" office:value="0.139257989452478" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.D8]&lt;=1; 3*([.D8]^4)-8*[.D8]^3+6*[.D8]^2;1.13/(0.13*[.D8]^2+1))" office:value-type="float" office:value="0.139257989452478" calcext:value-type="float">
       <text:p>0.139257989452478</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.E8]*[.$I$6]" office:value-type="float" office:value="0.0368882815114262" calcext:value-type="float">
-      <text:p>0.0368882815114262</text:p>
+     <table:table-cell table:formula="of:=[.F8]*[.$J$6]" office:value-type="float" office:value="0.0368882815114261" calcext:value-type="float">
+      <text:p>0.0368882815114261</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F8]*[.J$6]" office:value-type="float" office:value="0.00177005473138191" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G8]*[.K$6]" office:value-type="float" office:value="0.00177005473138191" calcext:value-type="float">
       <text:p>0.00177005473138191</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F8]*[.K$6]" office:value-type="float" office:value="0.00161694500038297" calcext:value-type="float">
-      <text:p>0.00161694500038297</text:p>
+     <table:table-cell table:formula="of:=[.$G8]*[.L$6]" office:value-type="float" office:value="0.00161694500038298" calcext:value-type="float">
+      <text:p>0.00161694500038298</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F8]*[.L$6]" office:value-type="float" office:value="0.0000560910710590132" calcext:value-type="float">
-      <text:p>5.60910710590132E-05</text:p>
+     <table:table-cell table:formula="of:=[.$G8]*[.M$6]" office:value-type="float" office:value="0.0000560910710590134" calcext:value-type="float">
+      <text:p>5.60910710590134E-05</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="100" calcext:value-type="float">
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="100" calcext:value-type="float">
       <text:p>100</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A9]/[.B$6]" office:value-type="float" office:value="0.687536133429866" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B9]/[.C$6]" office:value-type="float" office:value="0.687536133429866" calcext:value-type="float">
       <text:p>0.687536133429866</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A9]/[.C$6]" office:value-type="float" office:value="0.343768066714933" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B9]/[.D$6]" office:value-type="float" office:value="0.343768066714933" calcext:value-type="float">
       <text:p>0.343768066714933</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.B9]&lt;=1; 3*([.B9]^4)-8*[.B9]^3+6*[.B9]^2;1.13/(0.13*[.B9]^2+1))" office:value-type="float" office:value="0.906569025797047" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C9]&lt;=1; 3*([.C9]^4)-8*[.C9]^3+6*[.C9]^2;1.13/(0.13*[.C9]^2+1))" office:value-type="float" office:value="0.906569025797047" calcext:value-type="float">
       <text:p>0.906569025797047</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C9]&lt;=1; 3*([.C9]^4)-8*[.C9]^3+6*[.C9]^2;1.13/(0.13*[.C9]^2+1))" office:value-type="float" office:value="0.425953535409328" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.D9]&lt;=1; 3*([.D9]^4)-8*[.D9]^3+6*[.D9]^2;1.13/(0.13*[.D9]^2+1))" office:value-type="float" office:value="0.425953535409328" calcext:value-type="float">
       <text:p>0.425953535409328</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.E9]*[.$I$6]" office:value-type="float" office:value="0.0785103788398055" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.F9]*[.$J$6]" office:value-type="float" office:value="0.0785103788398055" calcext:value-type="float">
       <text:p>0.0785103788398055</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F9]*[.J$6]" office:value-type="float" office:value="0.0054141315242629" calcext:value-type="float">
-      <text:p>0.0054141315242629</text:p>
+     <table:table-cell table:formula="of:=[.$G9]*[.K$6]" office:value-type="float" office:value="0.00541413152426289" calcext:value-type="float">
+      <text:p>0.00541413152426289</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F9]*[.K$6]" office:value-type="float" office:value="0.00494580915740277" calcext:value-type="float">
-      <text:p>0.00494580915740277</text:p>
+     <table:table-cell table:formula="of:=[.$G9]*[.L$6]" office:value-type="float" office:value="0.00494580915740276" calcext:value-type="float">
+      <text:p>0.00494580915740276</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F9]*[.L$6]" office:value-type="float" office:value="0.000171567822545907" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G9]*[.M$6]" office:value-type="float" office:value="0.000171567822545907" calcext:value-type="float">
       <text:p>0.000171567822545907</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=[.$C$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>C_м тв</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$D$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
       <text:p>145.4469010976</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A10]/[.B$6]" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B10]/[.C$6]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.B10]&lt;=1; 3*([.B10]^4)-8*[.B10]^3+6*[.B10]^2;1.13/(0.13*[.B10]^2+1))" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C10]&lt;=1; 3*([.C10]^4)-8*[.C10]^3+6*[.C10]^2;1.13/(0.13*[.C10]^2+1))" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:formula="of:=[.E10]*[.$I$6]" office:value-type="float" office:value="0.08660165592" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.F10]*[.$J$6]" office:value-type="float" office:value="0.08660165592" calcext:value-type="float">
       <text:p>0.08660165592</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="200" calcext:value-type="float">
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="200" calcext:value-type="float">
       <text:p>200</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A11]/[.B$6]" office:value-type="float" office:value="1.37507226685973" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B11]/[.C$6]" office:value-type="float" office:value="1.37507226685973" calcext:value-type="float">
       <text:p>1.37507226685973</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A11]/[.C$6]" office:value-type="float" office:value="0.687536133429866" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B11]/[.D$6]" office:value-type="float" office:value="0.687536133429866" calcext:value-type="float">
       <text:p>0.687536133429866</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.B11]&lt;=1; 3*([.B11]^4)-8*[.B11]^3+6*[.B11]^2;1.13/(0.13*[.B11]^2+1))" office:value-type="float" office:value="0.907042520968834" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C11]&lt;=1; 3*([.C11]^4)-8*[.C11]^3+6*[.C11]^2;1.13/(0.13*[.C11]^2+1))" office:value-type="float" office:value="0.907042520968834" calcext:value-type="float">
       <text:p>0.907042520968834</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C11]&lt;=1; 3*([.C11]^4)-8*[.C11]^3+6*[.C11]^2;1.13/(0.13*[.C11]^2+1))" office:value-type="float" office:value="0.906569025797047" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.D11]&lt;=1; 3*([.D11]^4)-8*[.D11]^3+6*[.D11]^2;1.13/(0.13*[.D11]^2+1))" office:value-type="float" office:value="0.906569025797047" calcext:value-type="float">
       <text:p>0.906569025797047</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.E11]*[.$I$6]" office:value-type="float" office:value="0.0785513843057523" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.F11]*[.$J$6]" office:value-type="float" office:value="0.0785513843057523" calcext:value-type="float">
       <text:p>0.0785513843057523</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F11]*[.J$6]" office:value-type="float" office:value="0.011523050129802" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G11]*[.K$6]" office:value-type="float" office:value="0.011523050129802" calcext:value-type="float">
       <text:p>0.011523050129802</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F11]*[.K$6]" office:value-type="float" office:value="0.0105263063148332" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G11]*[.L$6]" office:value-type="float" office:value="0.0105263063148332" calcext:value-type="float">
       <text:p>0.0105263063148332</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F11]*[.L$6]" office:value-type="float" office:value="0.000365152677026372" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G11]*[.M$6]" office:value-type="float" office:value="0.000365152677026372" calcext:value-type="float">
       <text:p>0.000365152677026372</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:formula="of:=[.$C$3]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>C_м газ</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.$D$3]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
       <text:p>290.8938021952</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:formula="of:=[.$A12]/[.C$6]" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B12]/[.D$6]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C12]&lt;=1; 3*([.C12]^4)-8*[.C12]^3+6*[.C12]^2;1.13/(0.13*[.C12]^2+1))" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.D12]&lt;=1; 3*([.D12]^4)-8*[.D12]^3+6*[.D12]^2;1.13/(0.13*[.D12]^2+1))" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:formula="of:=[.$F12]*[.J$6]" office:value-type="float" office:value="0.0127106153" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G12]*[.K$6]" office:value-type="float" office:value="0.0127106153" calcext:value-type="float">
       <text:p>0.0127106153</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F12]*[.K$6]" office:value-type="float" office:value="0.0116111471" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G12]*[.L$6]" office:value-type="float" office:value="0.0116111471" calcext:value-type="float">
       <text:p>0.0116111471</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F12]*[.L$6]" office:value-type="float" office:value="0.0004027853" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G12]*[.M$6]" office:value-type="float" office:value="0.0004027853" calcext:value-type="float">
       <text:p>0.0004027853</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="400" calcext:value-type="float">
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="400" calcext:value-type="float">
       <text:p>400</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A13]/[.B$6]" office:value-type="float" office:value="2.75014453371946" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B13]/[.C$6]" office:value-type="float" office:value="2.75014453371946" calcext:value-type="float">
       <text:p>2.75014453371946</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A13]/[.C$6]" office:value-type="float" office:value="1.37507226685973" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B13]/[.D$6]" office:value-type="float" office:value="1.37507226685973" calcext:value-type="float">
       <text:p>1.37507226685973</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.B13]&lt;=1; 3*([.B13]^4)-8*[.B13]^3+6*[.B13]^2;1.13/(0.13*[.B13]^2+1))" office:value-type="float" office:value="0.569778060722773" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C13]&lt;=1; 3*([.C13]^4)-8*[.C13]^3+6*[.C13]^2;1.13/(0.13*[.C13]^2+1))" office:value-type="float" office:value="0.569778060722773" calcext:value-type="float">
       <text:p>0.569778060722773</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C13]&lt;=1; 3*([.C13]^4)-8*[.C13]^3+6*[.C13]^2;1.13/(0.13*[.C13]^2+1))" office:value-type="float" office:value="0.907042520968834" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.D13]&lt;=1; 3*([.D13]^4)-8*[.D13]^3+6*[.D13]^2;1.13/(0.13*[.D13]^2+1))" office:value-type="float" office:value="0.907042520968834" calcext:value-type="float">
       <text:p>0.907042520968834</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.E13]*[.$I$6]" office:value-type="float" office:value="0.0493437235654784" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.F13]*[.$J$6]" office:value-type="float" office:value="0.0493437235654784" calcext:value-type="float">
       <text:p>0.0493437235654784</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F13]*[.J$6]" office:value-type="float" office:value="0.011529068544777" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G13]*[.K$6]" office:value-type="float" office:value="0.011529068544777" calcext:value-type="float">
       <text:p>0.011529068544777</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F13]*[.K$6]" office:value-type="float" office:value="0.010531804136924" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G13]*[.L$6]" office:value-type="float" office:value="0.010531804136924" calcext:value-type="float">
       <text:p>0.010531804136924</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F13]*[.L$6]" office:value-type="float" office:value="0.000365343393921188" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G13]*[.M$6]" office:value-type="float" office:value="0.000365343393921188" calcext:value-type="float">
       <text:p>0.000365343393921188</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell office:value-type="float" office:value="1000" calcext:value-type="float">
+     <table:table-cell table:number-columns-repeated="2" office:value-type="float" office:value="1000" calcext:value-type="float">
       <text:p>1000</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A14]/[.B$6]" office:value-type="float" office:value="6.87536133429866" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B14]/[.C$6]" office:value-type="float" office:value="6.87536133429866" calcext:value-type="float">
       <text:p>6.87536133429866</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$A14]/[.C$6]" office:value-type="float" office:value="3.43768066714933" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$B14]/[.D$6]" office:value-type="float" office:value="3.43768066714933" calcext:value-type="float">
       <text:p>3.43768066714933</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.B14]&lt;=1; 3*([.B14]^4)-8*[.B14]^3+6*[.B14]^2;1.13/(0.13*[.B14]^2+1))" office:value-type="float" office:value="0.158148633120824" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C14]&lt;=1; 3*([.C14]^4)-8*[.C14]^3+6*[.C14]^2;1.13/(0.13*[.C14]^2+1))" office:value-type="float" office:value="0.158148633120824" calcext:value-type="float">
       <text:p>0.158148633120824</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.C14]&lt;=1; 3*([.C14]^4)-8*[.C14]^3+6*[.C14]^2;1.13/(0.13*[.C14]^2+1))" office:value-type="float" office:value="0.445531894836818" calcext:value-type="float">
+     <table:table-cell table:style-name="ce1" table:formula="of:=IF([.D14]&lt;=1; 3*([.D14]^4)-8*[.D14]^3+6*[.D14]^2;1.13/(0.13*[.D14]^2+1))" office:value-type="float" office:value="0.445531894836818" calcext:value-type="float">
       <text:p>0.445531894836818</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:formula="of:=[.E14]*[.$I$6]" office:value-type="float" office:value="0.0136959335097479" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.F14]*[.$J$6]" office:value-type="float" office:value="0.0136959335097479" calcext:value-type="float">
       <text:p>0.0136959335097479</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F14]*[.J$6]" office:value-type="float" office:value="0.00566298451915085" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G14]*[.K$6]" office:value-type="float" office:value="0.00566298451915085" calcext:value-type="float">
       <text:p>0.00566298451915085</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F14]*[.K$6]" office:value-type="float" office:value="0.00517313636869203" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G14]*[.L$6]" office:value-type="float" office:value="0.00517313636869203" calcext:value-type="float">
       <text:p>0.00517313636869203</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=[.$F14]*[.L$6]" office:value-type="float" office:value="0.000179453697921416" calcext:value-type="float">
+     <table:table-cell table:formula="of:=[.$G14]*[.M$6]" office:value-type="float" office:value="0.000179453697921416" calcext:value-type="float">
       <text:p>0.000179453697921416</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="13">
-     <table:table-cell table:number-columns-repeated="12"/>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
+     <table:table-cell table:number-columns-repeated="13"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="50" calcext:value-type="float">
+      <text:p>50</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:formula="of:=[.J8]" office:value-type="float" office:value="0.0368882815114261" calcext:value-type="float">
+      <text:p>0.0368882815114261</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.K8]" office:value-type="float" office:value="0.00177005473138191" calcext:value-type="float">
+      <text:p>0.00177005473138191</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.L8]" office:value-type="float" office:value="0.00161694500038298" calcext:value-type="float">
+      <text:p>0.00161694500038298</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.M8]" office:value-type="float" office:value="0.0000560910710590134" calcext:value-type="float">
+      <text:p>5.60910710590134E-05</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="100" calcext:value-type="float">
+      <text:p>100</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:formula="of:=[.J9]" office:value-type="float" office:value="0.0785103788398055" calcext:value-type="float">
+      <text:p>0.0785103788398055</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.K9]" office:value-type="float" office:value="0.00541413152426289" calcext:value-type="float">
+      <text:p>0.00541413152426289</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.L9]" office:value-type="float" office:value="0.00494580915740276" calcext:value-type="float">
+      <text:p>0.00494580915740276</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.M9]" office:value-type="float" office:value="0.000171567822545907" calcext:value-type="float">
+      <text:p>0.000171567822545907</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=[.$D$2]" office:value-type="float" office:value="145.4469010976" calcext:value-type="float">
+      <text:p>145.4469010976</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="200" calcext:value-type="float">
+      <text:p>200</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:formula="of:=[.J11]" office:value-type="float" office:value="0.0785513843057523" calcext:value-type="float">
+      <text:p>0.0785513843057523</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.K11]" office:value-type="float" office:value="0.011523050129802" calcext:value-type="float">
+      <text:p>0.011523050129802</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.L11]" office:value-type="float" office:value="0.0105263063148332" calcext:value-type="float">
+      <text:p>0.0105263063148332</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.M11]" office:value-type="float" office:value="0.000365152677026372" calcext:value-type="float">
+      <text:p>0.000365152677026372</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=[.$D$3]" office:value-type="float" office:value="290.8938021952" calcext:value-type="float">
+      <text:p>290.8938021952</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="11"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="400" calcext:value-type="float">
+      <text:p>400</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:formula="of:=[.J13]" office:value-type="float" office:value="0.0493437235654784" calcext:value-type="float">
+      <text:p>0.0493437235654784</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.K13]" office:value-type="float" office:value="0.011529068544777" calcext:value-type="float">
+      <text:p>0.011529068544777</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.L13]" office:value-type="float" office:value="0.010531804136924" calcext:value-type="float">
+      <text:p>0.010531804136924</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.M13]" office:value-type="float" office:value="0.000365343393921188" calcext:value-type="float">
+      <text:p>0.000365343393921188</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="float" office:value="1000" calcext:value-type="float">
+      <text:p>1000</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:formula="of:=[.J14]" office:value-type="float" office:value="0.0136959335097479" calcext:value-type="float">
+      <text:p>0.0136959335097479</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.K14]" office:value-type="float" office:value="0.00566298451915085" calcext:value-type="float">
+      <text:p>0.00566298451915085</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.L14]" office:value-type="float" office:value="0.00517313636869203" calcext:value-type="float">
+      <text:p>0.00517313636869203</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.M14]" office:value-type="float" office:value="0.000179453697921416" calcext:value-type="float">
+      <text:p>0.000179453697921416</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="4">
+     <table:table-cell table:number-columns-repeated="13"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="8"/>
      <table:table-cell>
       <draw:frame draw:z-index="2" draw:style-name="gr1" draw:text-style-name="P1" svg:width="6.2988in" svg:height="3.5429in" svg:x="0.8181in" svg:y="0.1016in">
-       <draw:object draw:notify-on-update-of-ranges="Sheet1.A8:Sheet1.A14 Sheet1.K7:Sheet1.K7 Sheet1.K8:Sheet1.K14">
+       <draw:object draw:notify-on-update-of-ranges="Sheet1.B8:Sheet1.B14 Sheet1.L7:Sheet1.L7 Sheet1.L8:Sheet1.L14">
         <loext:p/>
         <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:chartooo="http://openoffice.org/2010/chart" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.chart">
          <office:meta><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator></office:meta>
@@ -2245,7 +2367,7 @@
                
                 <text:span text:style-name="T2">x, м</text:span></text:p>
               </chart:title>
-              <chart:categories table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+              <chart:categories table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
              </chart:axis>
              <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch4">
               <chart:title svg:x="0.451cm" svg:y="5.264cm" chart:style-name="ch5">
@@ -2254,8 +2376,8 @@
               </chart:title>
               <chart:grid chart:style-name="ch6" chart:class="major"/>
              </chart:axis>
-             <chart:series chart:style-name="ch7" chart:values-cell-range-address="Sheet1.K8:Sheet1.K14" chart:label-cell-address="Sheet1.K7:Sheet1.K7" chart:class="chart:scatter">
-              <chart:domain table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+             <chart:series chart:style-name="ch7" chart:values-cell-range-address="Sheet1.L8:Sheet1.L14" chart:label-cell-address="Sheet1.L7:Sheet1.L7" chart:class="chart:scatter">
+              <chart:domain table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
               <chart:data-point chart:repeated="7"/>
              </chart:series>
              <chart:wall chart:style-name="ch8"/>
@@ -2276,7 +2398,7 @@
                <table:table-cell office:value-type="string">
                 <text:p>C_CO, мг/м^3</text:p>
                 <draw:g>
-                 <svg:desc>Sheet1.K7:Sheet1.K7</svg:desc></draw:g>
+                 <svg:desc>Sheet1.L7:Sheet1.L7</svg:desc></draw:g>
                </table:table-cell>
               </table:table-row>
              </table:table-header-rows>
@@ -2285,20 +2407,20 @@
                <table:table-cell office:value-type="float" office:value="50">
                 <text:p>50</text:p>
                 <draw:g>
-                 <svg:desc>Sheet1.A8:Sheet1.A14</svg:desc></draw:g>
+                 <svg:desc>Sheet1.B8:Sheet1.B14</svg:desc></draw:g>
                </table:table-cell>
-               <table:table-cell office:value-type="float" office:value="0.00161694500038297">
-                <text:p>0.00161694500038297</text:p>
+               <table:table-cell office:value-type="float" office:value="0.00161694500038298">
+                <text:p>0.00161694500038298</text:p>
                 <draw:g>
-                 <svg:desc>Sheet1.K8:Sheet1.K14</svg:desc></draw:g>
+                 <svg:desc>Sheet1.L8:Sheet1.L14</svg:desc></draw:g>
                </table:table-cell>
               </table:table-row>
               <table:table-row>
                <table:table-cell office:value-type="float" office:value="100">
                 <text:p>100</text:p>
                </table:table-cell>
-               <table:table-cell office:value-type="float" office:value="0.00494580915740277">
-                <text:p>0.00494580915740277</text:p>
+               <table:table-cell office:value-type="float" office:value="0.00494580915740276">
+                <text:p>0.00494580915740276</text:p>
                </table:table-cell>
               </table:table-row>
               <table:table-row>
@@ -2870,16 +2992,16 @@
        </draw:image>
       </draw:frame>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="26">
-     <table:table-cell table:number-columns-repeated="12"/>
+     <table:table-cell table:number-columns-repeated="13"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="9"/>
      <table:table-cell>
       <draw:frame draw:z-index="3" draw:style-name="gr1" draw:text-style-name="P1" svg:width="6.2988in" svg:height="3.5429in" svg:x="0.0047in" svg:y="0.0087in">
-       <draw:object draw:notify-on-update-of-ranges="Sheet1.A8:Sheet1.A14 Sheet1.A8:Sheet1.A14 Sheet1.K7:Sheet1.K7 Sheet1.K8:Sheet1.K14">
+       <draw:object draw:notify-on-update-of-ranges="Sheet1.B8:Sheet1.B14 Sheet1.M7:Sheet1.M7 Sheet1.M8:Sheet1.M14">
         <loext:p/>
         <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:chartooo="http://openoffice.org/2010/chart" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.chart">
          <office:meta><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator></office:meta>
@@ -2946,7 +3068,7 @@
                
                 <text:span text:style-name="T2">x, м</text:span></text:p>
               </chart:title>
-              <chart:categories table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+              <chart:categories table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
              </chart:axis>
              <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch4">
               <chart:title svg:x="0.451cm" svg:y="5.464cm" chart:style-name="ch5">
@@ -2955,8 +3077,8 @@
               </chart:title>
               <chart:grid chart:style-name="ch6" chart:class="major"/>
              </chart:axis>
-             <chart:series chart:style-name="ch7" chart:values-cell-range-address="Sheet1.L8:Sheet1.L14" chart:label-cell-address="Sheet1.L7:Sheet1.L7" chart:class="chart:scatter">
-              <chart:domain table:cell-range-address="Sheet1.A8:Sheet1.A14"/>
+             <chart:series chart:style-name="ch7" chart:values-cell-range-address="Sheet1.M8:Sheet1.M14" chart:label-cell-address="Sheet1.M7:Sheet1.M7" chart:class="chart:scatter">
+              <chart:domain table:cell-range-address="Sheet1.B8:Sheet1.B14"/>
               <chart:data-point chart:repeated="7"/>
              </chart:series>
              <chart:wall chart:style-name="ch8"/>
@@ -2977,7 +3099,7 @@
                <table:table-cell office:value-type="string">
                 <text:p>C_NO_2, мг/м^3</text:p>
                 <draw:g>
-                 <svg:desc>Sheet1.L7:Sheet1.L7</svg:desc></draw:g>
+                 <svg:desc>Sheet1.M7:Sheet1.M7</svg:desc></draw:g>
                </table:table-cell>
               </table:table-row>
              </table:table-header-rows>
@@ -2986,12 +3108,12 @@
                <table:table-cell office:value-type="float" office:value="50">
                 <text:p>50</text:p>
                 <draw:g>
-                 <svg:desc>Sheet1.A8:Sheet1.A14</svg:desc></draw:g>
+                 <svg:desc>Sheet1.B8:Sheet1.B14</svg:desc></draw:g>
                </table:table-cell>
-               <table:table-cell office:value-type="float" office:value="0.0000560910710590132">
-                <text:p>0.0000560910710590132</text:p>
+               <table:table-cell office:value-type="float" office:value="0.0000560910710590134">
+                <text:p>0.0000560910710590134</text:p>
                 <draw:g>
-                 <svg:desc>Sheet1.L8:Sheet1.L14</svg:desc></draw:g>
+                 <svg:desc>Sheet1.M8:Sheet1.M14</svg:desc></draw:g>
                </table:table-cell>
               </table:table-row>
               <table:table-row>
@@ -3637,7 +3759,7 @@
        </draw:image>
       </draw:frame>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
    </table:table>
    <table:table table:name="Sheet2" table:style-name="ta1">
