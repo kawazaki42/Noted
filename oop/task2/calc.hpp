@@ -489,9 +489,9 @@ void arr::file::dump(const std::string &name, std::vector<T> &nums) {
 /// @param size размер массива
 template<typename T>
 void arr::file::dump(const std::string &name, T *nums, size_t size) {
-    if(not std::filesystem::exists(name)) {
-        throw std::runtime_error("файл не существует: " + name);
-    }
+    // if(not std::filesystem::exists(name)) {
+    //     throw std::runtime_error("файл не существует: " + name);
+    // }
 
     std::ofstream f;
 
