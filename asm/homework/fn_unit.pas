@@ -17,4 +17,7 @@ asm
   ret
 end;
 
-begin end.
+exports
+  fake_add;
+
+end.
