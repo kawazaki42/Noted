@@ -16,6 +16,8 @@ begin
   asm
     // input
     mov eax, res
+
+    // iteration counter
     mov ecx, 10
 
     // main loop
