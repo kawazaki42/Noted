@@ -7,7 +7,7 @@
 
 Для этого есть сочетание клавиш <code>Ctrl+`</code>.
 
-![alt text]({D691ADF8-2002-44D0-8C2D-48204E57329D}.png)
+![alt text](vscode-terminal.png)
 
 После этого рекомендуется выполнить команду `chcp 65001`, чтобы установить
 UTF-8 как кодировку консоли.
@@ -28,7 +28,7 @@ __вверх__ и __вниз__
 
 Пример `fish`-подобного дополнения на примере `nushell`:
 
-![alt text](image-2.png)
+![alt text](working-in-terminal.png)
 
 Компиляция программы на C++ из командной строки
 ===
@@ -38,7 +38,7 @@ __вверх__ и __вниз__
 На MS Windows можно использовать `g++` (входит в набор `c++`)
 в среде MSYS2.
 
-![alt text]({C57DE9DF-407B-47EE-A8C1-4F3CF69A6F27}.png)
+![alt text](gdb-installation.png)
 
 Исполняемый файл компилятора C++ обычно доступен как `c++`.
 
@@ -47,9 +47,9 @@ __вверх__ и __вниз__
 
 На MS Windows это можно сделать так:
 
-![alt text](image.png)
+![alt text](find-env-cfg.png)
 
-![alt text](image-1.png)
+![alt text](envvars.png)
 
 Пример команды компиляции:
 
@@ -68,4 +68,4 @@ c++ -o main.exe main.cpp calc.cpp -std=c++20
 
 - `-std=c++20` - версия стандарта языка
 
-![alt text]({1F733B20-F282-41CC-B777-4D0620663041}.png)
+![alt text](build-in-terminal.png)
