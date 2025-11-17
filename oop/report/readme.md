@@ -74,7 +74,7 @@ c++ -o main.exe main.cpp calc.cpp -std=c++20
 
 ## `std::string`
 
-Класс - текстовая строка.
+Класс для текстовой строки.
 
 Объявлен в заголовочном файле `<string>`.
 
@@ -89,7 +89,7 @@ std::string a(5, 'A');  // "AAAAA"
 
 std::string s5 = "abcdef";   // непустая строка
 std::string s5c("abcdef");   // то же самое
-std::string s5i{"abcdef"};   // то же самое  // TODO: verify
+std::string s5i{"abcdef"};   // то же самое
 
 
 using std::literals::operator ""s;
@@ -168,7 +168,7 @@ std::cin >> a;
 
 ## `std::vector`
 
-Класс - динамический массив
+Класс для динамического массива.
 
 <!-- Это класс, который работает как динамический массив. -->
 
