@@ -874,3 +874,189 @@ $$F(1.5) = (1.5-1)^3 = 2^{-3} = 0.125$$
 $$\boxed{P(X > 1.5) = 1 - 0.125 = 0.875}$$
 
 ![alt text](cumul_prob.excalidraw.svg)
+
+# Задача 6. Нормально распределенная случайная величина
+
+$$a = M[X] = 11$$
+
+$$\sigma = \sigma[X] = 3$$
+
+```math
+f(x) = \frac{ 1 }{ \sigma \sqrt{2 \pi} } e ^{\frac{ -(x-m)^2 }{ 2 \sigma ^2 }}
+```
+
+```math
+f(x) = \frac{ 1 }{ \sigma \sqrt{2 \pi} } e ^{\frac{ -(x-11)^2 }{ 2 \cdot  3^2 }}
+```
+
+```math
+f(x) = \frac{ 1 }{ \sigma \sqrt{2 \pi} } e ^{\frac{ -(x-11)^2 }{ 18 }}
+```
+
+---
+
+$$\alpha = 13$$
+
+$$\beta = 23$$
+
+$$\delta = 6$$
+
+$$\gamma = 0.8386$$
+
+> [!NOTE]
+>
+> функция лапласа тут взята от минус бесконечности
+>
+> (они оказывается еще и разные бывают!)
+>
+> $$\Phi _0 = \Phi _{-\infty} - 0.5$$
+>
+> но их разность одинакова:
+>
+> $$\Phi _0 (b) - \Phi _0 (a) = \Phi _{-\infty} (b) - \Phi _{-\infty} (a)$$
+>
+> а свойство нечетности - нет:
+> 
+> $$\Phi _0 (a) - \Phi _0 (-a) = 2\Phi _0 (a) = 2\Phi _{-\infty} (a) - 1$$
+>
+<!-- > $$\Phi _{-\infty} (a) - \Phi _{-\infty} (-a) = $$ -->
+
+## 1. вероятность попадания в интервал
+
+$$P(\alpha < X < \beta) =$$
+
+```math
+= \Phi _{-\infty} \left( \frac{ \beta - a }{ \sigma } \right)
+- \Phi _{-\infty} \left( \frac{ \alpha - a }{ \sigma } \right)
+```
+
+где $\Phi _{-\infty}(x)$ - ф-ция Лапласа
+
+```math
+\Phi _{-\infty} \left( \frac{ 23 - 11 }{ 3 } \right)
+- \Phi _{-\infty} \left( \frac{ 13 - 11 }{ 3 } \right)
+```
+
+```math
+\Phi _{-\infty} \left( \frac{ 12 }{ 3 } \right)
+- \Phi _{-\infty} \left( \frac{ 2 }{ 3 } \right)
+```
+
+```math
+\Phi _{-\infty} \left( 4 \right)
+- \Phi _{-\infty} \left( \frac{ 2 }{ 3 } \right)
+```
+
+```math
+\approx 0.9999683288 - 0.74537
+\approx 0.2545983288
+\approx 0.2546
+```
+
+<!-- ## 2. вероятность попадания в радиус $\delta$ от $a$ -->
+## 2. вероятность отклонения $\delta$
+
+$$P(|X-a| < \delta)$$
+
+$$P(a - \delta < X < a + \delta)$$
+
+$$P(11 - 6 < X < 11 + 6)$$
+
+$$P(5 < X < 17)$$
+
+```math
+= \Phi _{-\infty} \left( \frac{ 17 - a }{ \sigma } \right)
+- \Phi _{-\infty} \left( \frac{ 5 - a }{ \sigma } \right)
+```
+
+```math
+= \Phi _{-\infty} \left( \frac{ 17 - 11 }{ 3 } \right)
+- \Phi _{-\infty} \left( \frac{ 5 - 11 }{ 3 } \right)
+```
+
+```math
+= \Phi _{-\infty} \left( \frac{ 6 }{ 3 } \right)
+- \Phi _{-\infty} \left( \frac{ -6 }{ 3 } \right)
+```
+
+<!-- ```math
+= \Phi \left( 2 \right)
++ \Phi \left( 2 \right)
+```
+
+```math
+= 2\Phi \left( 2 \right)
+```
+
+$$\approx 2 \cdot 0.97725 = 1.9545$$
+
+но так не бывает! -->
+
+<!--
+\Phi _{-\infty}(-x) = 1 - \Phi _{-\infty}(x)
+
+\Phi _{-\infty}(x) - (1 - \Phi _{-\infty}(x)) = 2\Phi _{-\infty}(x) - 1
+-->
+
+```math
+= \Phi _{-\infty} \left( 2 \right)
+- \Phi _{-\infty} \left( -2 \right)
+```
+
+```math
+\approx 0.97725 - 0.02275
+\approx 0.9545
+```
+
+## 3. найти интервал по вероятности
+
+иными словами найти $\lambda$ в
+
+$$\gamma = P(|x - a| < \lambda)$$
+
+$$0.8384 = P(a - \lambda < x < a + \lambda)$$
+
+$$0.8384 = P(11 - \lambda < x < 11 + \lambda)$$
+
+```math
+0.8384
+= \Phi _0 \left (\frac{ 11+\lambda - 11 }{ 3 } \right)
+- \Phi _0 \left (\frac{ 11-\lambda - 11 }{ 3 } \right)
+```
+
+```math
+0.8384
+= \Phi _0 \left (\frac{ \lambda }{ 3 } \right)
+- \Phi _0 \left (\frac{ -\lambda }{ 3 } \right)
+```
+
+```math
+0.8384
+= 2\Phi _0 \left (\frac{ \lambda }{ 3 } \right)
+```
+
+```math
+0.4192 = \Phi _0 \left (\frac{ \lambda }{ 3 } \right)
+```
+
+$$\Phi _0 = \Phi _{-\infty} - 0.5$$
+
+```math
+0.9192 = \Phi _{-\infty} \left (\frac{ \lambda }{ 3 } \right)
+```
+
+```math
+0.9192 = \Phi _{-\infty} (1.4)
+```
+
+$$\lambda / 3 \approx 1.4$$
+
+$$\lambda \approx 4.2$$
+
+Интервал:
+
+$$(a-\lambda; a+\lambda)$$
+
+$$(11-4.2; 11+4.2)$$
+
+$$(6.8; 15.2)$$
