@@ -1388,7 +1388,7 @@ $$P(|x-m| < \alpha) = P(m - \alpha \leqslant x \leqslant m + \alpha)=$$
 
 $$= 2\Phi(\frac{ \alpha }{ \sigma })$$
 
-Правило трех сигм:
+#### Правило трех сигм:
 
 $$\delta = \sigma t$$
 
