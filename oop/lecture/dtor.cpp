@@ -57,6 +57,37 @@ struct Inventory {
 };
 
 
+class Quest {
+public:
+    std::string description;
+
+    Quest(std::string desc): description{desc} {}
+};
+
+
+class Biography {
+    // ...
+};
+
+
+class Weapon {
+
+};
+
+
+class GameCharacter {
+    public:
+        Inventory inventory;   // композиция с Inventory
+        vector<Quest> quests;  // агрегация с Quest
+        Biography bio;         // композиция с Biography
+        Weapon *hand;          // агрегация с Weapon
+
+    GameCharacter() {
+        hand = nullptr;
+    }
+};
+
+
 size_t Inventory::objcount{0};
 
 
@@ -154,74 +185,90 @@ public:
 
 
 int main() {
-    // A a1;       // c
-    // A *a2;      // -
-    // A aaa1[3];  // ccc
+    // // A a1;       // c
+    // // A *a2;      // -
+    // // A aaa1[3];  // ccc
+    // // cout << endl;
+
+    // // A *aaa2[3]; // -
+    // // aaa2[0] = new A(100);  // c
+
+    // // vector<A> vec1;       // -
+    // // vector<A> vec2(3);  // ccc
+
+    // // delete aaa2[0];  // d
+
+    // // Array a;
+    // // Array a(1, 1000);
+
+    // Inventory i1(7, 15), i2(1, 2);
+
+    // // работает благодаря 1-аргументному конструктору
+    // Inventory i3 = 24;
+    // Inventory i33(24);
+    // Inventory i333 = Inventory(24);
+
+    // cout << i1.to_string() << endl;
+    // cout << i2.to_string() << endl;
+
+    // // i1.add(i2);
+
+    // cout << i1.to_string() << endl;
     // cout << endl;
 
-    // A *aaa2[3]; // -
-    // aaa2[0] = new A(100);  // c
+    // // Inventory i4 = merge(i1, i2);
+    // Inventory i4 = i1 + i2;
+    // cout << i4.to_string() << endl;
 
-    // vector<A> vec1;       // -
-    // vector<A> vec2(3);  // ccc
+    // Array a1(10);
+    // Array a2(a1);  // вызывается конструктор копирования
+    // Array a3 = a1; // тоже
+    // a2 = a1; // вызывается оператор присвоения, потому что a2 уже существует
 
-    // delete aaa2[0];  // d
+    // // правило трех: деструктор, operator =, конструктор копирования
+    // // т.н. deepcopy
 
-    // Array a;
-    // Array a(1, 1000);
+    // // если бы мы не перегрузили, то был бы shallow copy
 
-    Inventory i1(7, 15), i2(1, 2);
+    // // правило пяти: (то же, но с перемещением) сами конспект
 
-    // работает благодаря 1-аргументному конструктору
-    Inventory i3 = 24;
-    Inventory i33(24);
-    Inventory i333 = Inventory(24);
+    // // оператор присвоения!
+    // a2 = a1;
 
-    cout << i1.to_string() << endl;
-    cout << i2.to_string() << endl;
+    // a1.arr[0] = 123;
+    // cout << "arr[0] = " << a2.arr[0];  // 123
+    // // это потому что мы скопировали указатель, а не весь массив!
+    // // переписываем реалицацию `operator =`!
 
-    // i1.add(i2);
-
-    cout << i1.to_string() << endl;
-    cout << endl;
-
-    // Inventory i4 = merge(i1, i2);
-    Inventory i4 = i1 + i2;
-    cout << i4.to_string() << endl;
-
-    Array a1(10);
-    Array a2(a1);  // вызывается конструктор копирования
-    Array a3 = a1; // тоже
-    a2 = a1; // вызывается оператор присвоения, потому что a2 уже существует
-
-    // правило трех: деструктор, operator =, конструктор копирования
-    // т.н. deepcopy
-
-    // если бы мы не перегрузили, то был бы shallow copy
-
-    // правило пяти: (то же, но с перемещением) сами конспект
-
-    // оператор присвоения!
-    a2 = a1;
-
-    a1.arr[0] = 123;
-    cout << "arr[0] = " << a2.arr[0];  // 123
-    // это потому что мы скопировали указатель, а не весь массив!
-    // переписываем реалицацию `operator =`!
-
-    Inventory i5(12, 4);
+    // Inventory i5(12, 4);
     
-    Inventory i6(2, 1);
+    // Inventory i6(2, 1);
 
-    cout << "max_count = " << i5.max_count << endl;
-    // так можно благодаря static
-    cout << "max_count = " << Inventory::max_count << endl;
+    // cout << "max_count = " << i5.max_count << endl;
+    // // так можно благодаря static
+    // cout << "max_count = " << Inventory::max_count << endl;
 
-    // работает, но нам не нужно
-    // Inventory::objcount = 100;
+    // // работает, но нам не нужно
+    // // Inventory::objcount = 100;
 
-    Inventory i7 = Inventory::create_random_inventory();
+    // Inventory i7 = Inventory::create_random_inventory();
 
-    // тоже можно, но нечитаемо
-    Inventory i8 = i7.create_random_inventory();
+    // // тоже можно, но нечитаемо
+    // Inventory i8 = i7.create_random_inventory();
+
+    GameCharacter Steve;
+
+    Weapon *sword = new Weapon();
+
+    Steve.hand = sword;
+
+    Quest kill_dragon("Убить дракона");
+
+    Steve.quests.push_back(kill_dragon);
+
+    delete sword;
+
+    // Weapon *bow = new Weapon();
+
+    // delete bow;
 }
