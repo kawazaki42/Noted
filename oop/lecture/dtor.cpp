@@ -70,7 +70,42 @@ class Biography {
 };
 
 
+/// базовый класс
 class Weapon {
+    private:
+        float damage;
+    public:
+        std::string name;
+
+    Weapon(): damage(1) {}
+    Weapon(std::string name, float damage) {
+        this->name = name;
+        set_damage(damage);
+    }
+
+    void set_damage(float d) {
+        if(d > 0)
+            this->damage = d;
+    }
+
+    float get_damage() const {
+        return this->damage;
+    }
+
+    std::string to_string() const {
+        return format("<Weapon {}\ndamage={}>", name, damage);
+    }
+};
+
+
+class Axe: public Weapon {
+public:
+    bool can_break_armor;
+
+    std::string to_string() const {
+        return format("<Weapon {}\ndamage={} break_armor={}>",
+                      name, get_damage(), can_break_armor);
+    }
 
 };
 
@@ -267,6 +302,15 @@ int main() {
     Steve.quests.push_back(kill_dragon);
 
     delete sword;
+
+    Weapon w("Меч", 20);
+
+    cout << w.to_string() << endl;
+
+    Axe a;
+
+    // унаследовали метод to_string
+    cout << a.to_string() << endl;
 
     // Weapon *bow = new Weapon();
 
