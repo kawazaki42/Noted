@@ -8,7 +8,7 @@ from matrix import Matrix
 
 DEBUG = False
 
-REVISION = 'lower iterates from 0'
+REVISION = 'rotation method'
 
 # 8 1 2 5 5 21
 # 7 9 3 9 3 31
@@ -178,7 +178,32 @@ def solve_lower(lower, column):
     return y
 
 
-def solve_upper(upper, y):
+def rotate180(mat):
+    result = Matrix(mat.nrows, mat.ncols)
+
+    for i in range(mat.nrows):
+        for j in range(mat.ncols):
+            result[i,j] = mat[mat.nrows-1-i, mat.ncols-1-j]
+    
+    return result
+
+
+def solve_upper_rotating(upper, r):
+    # lower = upper.transpose()
+
+    # lower = Matrix.from_list( list(reversed( upper.to_list() )) )
+
+    lower = rotate180(upper)
+    r = rotate180(r)
+
+    return rotate180( solve_lower(lower, r) )
+
+
+
+    # r = Matrix.from_list( list(reversed( r.to_list() )) )
+
+
+def solve_upper_directly(upper, y):
     """Шаг 3. Решаем систему UX = Y"""
     # order = len(upper)
     assert upper.nrows == y.nrows
@@ -194,7 +219,7 @@ def solve_upper(upper, y):
     # x[-1] = y[-1]
 
     # k - индекс элемента вектора-столбца
-    # k - индекс искомой переменной x[k]
+    # k - индекс искомой переменной x[k], а также номер уравнения
     # k = order-1, ..., 0
     for k in reversed(range(order)):
         # ищем решение для x[k] исходя из уравнения номер k
@@ -213,6 +238,10 @@ def solve_upper(upper, y):
         x[k] /= upper[k, k]
 
     return x
+
+
+solve_upper = solve_upper_directly
+
 
 def solve(mat, col):
     l, u = decompose(mat)

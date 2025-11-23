@@ -17,10 +17,10 @@ class Matrix:
         assert self.is_size_valid()
 
     @classmethod
-    def from_list(cls, list):
-        self = cls(len(list), len(list[0]))
+    def from_list(cls, l):
+        self = cls(len(l), len(l[0]))
 
-        self._data = list
+        self._data = l
 
         if not self.is_size_valid():
             raise ValueError
