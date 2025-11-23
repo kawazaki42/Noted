@@ -1,24 +1,32 @@
+"""
+Нахождение обратной матрицы методом LU-разложения.
+
+Вариант 4
+"""
+
+from matrix import Matrix
 import lu
 
-
-# вариант 4
-
-test_matrix = """
+test = Matrix.from_dsv("""
 9 8 1 4 9
 6 5 5 2 9
 5 7 9 9 1
 6 8 2 1 3
 6 8 9 9 2
-""".strip().splitlines()
+""")
 
-test_matrix = [map(int, line.split()) for line in test_matrix]
+# assert test.is_square()
 
-test_matrix = [list(i) for i in test_matrix]
+# test_matrix = [map(int, line.split()) for line in test_matrix]
+
+# test_matrix = [list(i) for i in test_matrix]
 
 # print(test_matrix)
 
 def invert(orig_mat):
-    l, u = lu.decompose(test_matrix)
+    assert orig_mat.is_square()
+
+    l, u = lu.decompose(orig_mat)
 
     linv = invert_triangle(l, upper=False)
     # matrix_print( matrix_multiply(l, linv) )
@@ -26,72 +34,82 @@ def invert(orig_mat):
     uinv = invert_triangle(u, upper=True)
     # matrix_print( matrix_multiply(u, uinv) )
 
-    return matrix_multiply(uinv, linv)
+    # return matrix_multiply(uinv, linv)
+
+    return uinv.multiply(linv)
 
 
-def matrix_multiply(a, b):
-    result_rows = len(a)
-    result_cols = len(b[0])
-    result = matrix_filled(result_rows, result_cols, filler=0)
+# def matrix_multiply(a, b):
+#     result_rows = len(a)
+#     result_cols = len(b[0])
+#     result = matrix_filled(result_rows, result_cols, filler=0)
 
-    assert len(a[0]) == len(b)
-    vec_size = len(b)
+#     assert len(a[0]) == len(b)
+#     vec_size = len(b)
 
-    for i in range(result_rows):
-        for j in range(result_cols):
-            for m in range(vec_size):
-                result[i][j] += a[i][m] * b[m][j]
+#     for i in range(result_rows):
+#         for j in range(result_cols):
+#             for m in range(vec_size):
+#                 result[i][j] += a[i][m] * b[m][j]
 
-    return result
+#     return result
 
 
 def invert_triangle(mat, upper=False):
-    order = len(mat)
+    # order = len(mat)
+    # assert mat.nrows == mat.ncols
+    assert mat.is_square
 
-    inv = matrix_filled(order, order, filler=0)
+    order = mat.nrows
+
+    inv = Matrix(order, order, filler=0)
 
     # диагональ
     for i in range(order):
-        inv[i][i] = 1 / mat[i][i]
+        inv[i, i] = 1 / mat[i, i]
 
     ir = range(order)
     if upper:
         ir = reversed(ir)
 
     for i in ir:
-        jr = range(i)
-        if upper:
+        if not upper:
+            jr = range(i)
+        else:
             jr = range(i+1, order)
             jr = reversed(jr)
+
         for j in jr:
-            r = range(j, i)
-            if upper:
-                r = range(i+1, j+1)
-            for m in r:
-                inv[i][j] += mat[i][m] * inv[m][j]
-            inv[i][j] *= -inv[i][i]
+            if not upper:
+                mr = range(j, i)
+            else:
+                mr = range(i+1, j+1)
+
+            for m in mr:
+                inv[i, j] += mat[i, m] * inv[m, j]
+            inv[i, j] *= -inv[i, i]
 
     return inv
 
 
 # print(test_matrix)
 
-def matrix_filled(rows, cols, filler=None):
-    result = []
+# def matrix_filled(rows, cols, filler=None):
+#     result = []
 
-    for i in range(rows):
-        result.append([filler] * cols)
+#     for i in range(rows):
+#         result.append([filler] * cols)
 
-    return result
+#     return result
 
-def matrix_print(mat, end='\n'):
-    for line in mat:
-        line = (round(elem, 2) for elem in line)
-        print(*line)
-        # for elem in line:
-        #     print()
+# def matrix_print(mat, end='\n'):
+#     for line in mat:
+#         line = (round(elem, 2) for elem in line)
+#         print(*line)
+#         # for elem in line:
+#         #     print()
 
-    print(end=end)
+#     print(end=end)
 
 # matrix_print(l)
 
@@ -102,8 +120,14 @@ def matrix_print(mat, end='\n'):
 if __name__ == '__main__':
     # matrix_print( matrix_multiply( *lu.decompose(test_matrix) ) )
     # print()
-    result = invert(test_matrix)
+    result = invert(test)
 
-    matrix_print(result)
+    # matrix_print(result)
 
-    matrix_print( matrix_multiply(result, test_matrix) )
+    print(result)
+
+    # matrix_print( matrix_multiply(result, test_matrix) )
+
+    print("проверка: умножим входную матрицу на обратную")
+
+    print( test.multiply(result) )
