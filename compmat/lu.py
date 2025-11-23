@@ -189,11 +189,12 @@ def solve_upper(upper, y):
     # assert x.nrows == y.nrows
 
     # В верхней матрице идем снизу (как в обычном методе Гаусса)
-    x[-1] = y[-1]
+    # x[-1] = y[-1]
 
     # k - индекс элемента вектора-столбца
-    # k = matrix_order-2, ..., 0
-    for k in reversed(range(order-1)):
+    # k - индекс искомой переменной x[k]
+    # k = order-1, ..., 0
+    for k in reversed(range(order)):
         # ищем решение для x[k] исходя из уравнения номер k
 
         x[k] = y[k]
@@ -205,6 +206,9 @@ def solve_upper(upper, y):
         # вычитаем все что правее диагонали с соответствующим коэффицентом
         for m in range(k+1, order):
             x[k] -= x[m] * upper[k, m]
+
+        # делим на коэффицент при нашей переменной (y[k])
+        x[k] /= upper[k, k]
 
     return x
 
