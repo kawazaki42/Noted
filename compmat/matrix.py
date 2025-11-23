@@ -1,4 +1,5 @@
 import pprint
+import copy
 
 
 class Matrix:
@@ -56,6 +57,9 @@ class Matrix:
 
         return self
 
+    def copy(self):
+        return Matrix.from_list(copy.deepcopy(self.to_list()))
+
     def is_size_valid(self):
         if len(self._data) != self.nrows:
             return False
@@ -94,6 +98,43 @@ class Matrix:
 
         i, j = ij
         self._data[i][j] = value
+
+    def __add__(self, other):
+        result = self.copy()
+        result += other
+        return result
+
+    def __neg__(self):
+        result = self.copy()
+        for i in range(self.nrows):
+            for j in range(self.ncols):
+                result[i,j] = -result[i,j]
+        return result
+
+    def __isub__(self, other):
+        self += -other
+        return self
+
+    def __sub__(self, other):
+        return self + -other
+
+    def __iadd__(self, other):
+        scalar_add = not isinstance(other, Matrix)
+
+        if not scalar_add:
+            if (self.nrows == other.nrows) and (self.ncols == other.ncols):
+                pass
+            else:
+                raise ValueError
+
+        for i in range(self.nrows):
+            for j in range(self.ncols):
+                if scalar_add:
+                    self._data[i][j] += other
+                else:
+                    self._data[i][j] += other[i, j]
+
+        return self
 
     def __iter__(self):
         return iter(self._data)

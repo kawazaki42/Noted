@@ -239,4 +239,5 @@ if __name__ == '__main__':
 
     print()
     print("x =", xvec)
-    print(recomputed_column)
+    print("результирующий столбец: ", recomputed_column)
+    print("разница с исходными данными: ", recomputed_column - col)
