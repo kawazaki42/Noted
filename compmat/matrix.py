@@ -90,6 +90,15 @@ class Matrix:
         result.iround()
         return result
 
+    def transpose(self):
+        result = Matrix(self.ncols, self.nrows)
+
+        for i in range(self.nrows):
+            for j in range(self.ncols):
+                result[j, i] = self[i, j]
+
+        return result
+
     def __str__(self):
         if self.ncols == 1:
             # return str(self.column_to_list())
