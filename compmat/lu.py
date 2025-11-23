@@ -8,6 +8,8 @@ from matrix import Matrix
 
 DEBUG = False
 
+REVISION = 'lower iterates from 0'
+
 # 8 1 2 5 5 21
 # 7 9 3 9 3 31
 # 8 3 5 7 9 32
@@ -154,10 +156,10 @@ def solve_lower(lower, column):
     # print(y.ncols)
 
     # первый элемент найти легче всего.
-    y[0] = column[0] / lower[0, 0]
+    # y[0] = column[0] / lower[0, 0]
 
     # k - индекс элемента вектора-столбца
-    for k in range(1, order):
+    for k in range(order):
         # ищем решение для y[k] исходя из уравнения номер k
 
         y[k] = column[k]
