@@ -189,18 +189,10 @@ def rotate180(mat):
 
 
 def solve_upper_rotating(upper, r):
-    # lower = upper.transpose()
-
-    # lower = Matrix.from_list( list(reversed( upper.to_list() )) )
-
     lower = rotate180(upper)
     r = rotate180(r)
 
     return rotate180( solve_lower(lower, r) )
-
-
-
-    # r = Matrix.from_list( list(reversed( r.to_list() )) )
 
 
 def solve_upper_directly(upper, y):
