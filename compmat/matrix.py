@@ -44,10 +44,12 @@ class Matrix:
     @classmethod
     def from_dsv(cls, values, delimiter=None, elemtype=float):
         values = values.strip()
-
         rows = values.splitlines()
+        data = [[elemtype(e) for e in r.split(delimiter)] for r in rows]
 
-        data = [elemtype(r.split(delimiter)) for r in rows]
+        # for i in range(self.nrows):
+        #     for j in range(self.ncols):
+        #         rows[i][j]
 
         self = cls(len(data), len(data[0]))
         self._data = data
