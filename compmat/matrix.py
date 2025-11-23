@@ -2,6 +2,7 @@ import pprint
 
 
 class Matrix:
+    round_to = 2
 
     def __init__(self, nrows, ncols, filler=None):
         self.nrows = nrows
@@ -72,7 +73,8 @@ class Matrix:
 
     def __str__(self):
         if self.ncols == 1:
-            return str(self.column_to_list())
+            # return str(self.column_to_list())
+            return str([round(r[0], self.round_to) for r in self._data])
 
         return pprint.pformat(self._data)
 
