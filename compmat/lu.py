@@ -221,17 +221,21 @@ def solve(mat, col):
 if __name__ == '__main__':
     # x = solve(test_matrix_2, test_column_2)
 
-    xvec = solve(*tests[1])
+    mat, col = tests[1]
+
+    xvec = solve(mat, col)
 
     # order = len(test_matrix_2)
-    order = tests[1][0].nrows
+    order = mat.nrows
 
-    recomputed_column = [0] * order
+    # recomputed_column = [0] * order
+    #
+    # for i in range(order):
+    #     for j in range(order):
+    #         # recomputed_column[i] += xvec[j] * test_matrix_2[i, j]
+    #         recomputed_column[i] += xvec[j] * tests[1][0][i, j]
 
-    for i in range(order):
-        for j in range(order):
-            # recomputed_column[i] += xvec[j] * test_matrix_2[i, j]
-            recomputed_column[i] += xvec[j] * tests[1][0][i, j]
+    recomputed_column = mat.multiply(xvec)
 
     print()
     print("x =", xvec)

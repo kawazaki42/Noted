@@ -104,8 +104,8 @@ class Matrix:
 
         result = Matrix(self.nrows, other.ncols, filler=0)
 
-        for i in range(self.nrows):
-            for j in range(self.ncols):
+        for i in range(result.nrows):
+            for j in range(result.ncols):
                 for k in range(vecsize):
                     result[i, j] += self[i,k] * other[k,j]
 
