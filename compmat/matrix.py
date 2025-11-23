@@ -77,12 +77,25 @@ class Matrix:
 
         return self.nrows == self.ncols
 
+    def iround(self, round_to=None):
+        if round_to is None:
+            round_to = self.round_to
+
+        for i in range(self.nrows):
+            for j in range(self.ncols):
+                self._data[i][j] = round(self._data[i][j], round_to)
+
+    def round(self, round_to=None):
+        result = self.copy()
+        result.iround()
+        return result
+
     def __str__(self):
         if self.ncols == 1:
             # return str(self.column_to_list())
             return str([round(r[0], self.round_to) for r in self._data])
 
-        return pprint.pformat(self._data)
+        return pprint.pformat(self.round()._data)
 
     def __getitem__(self, ij):
         if not isinstance(ij, tuple):
