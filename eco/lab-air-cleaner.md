@@ -278,3 +278,37 @@ X = \frac{ \lg(d_M/d_{50}) }{
 }
 \end{equation}
 ```
+
+```math
+% \begin{equation}
+X \approx \frac{ \lg(56\,мкм/2.9779149832\, мкм) }{
+  \sqrt{ 0.283^2 + 0.97^2 }
+}
+% \end{equation}
+```
+
+```math
+% \begin{equation}
+X \approx \frac{ \lg(18.8051036769) }{
+  \sqrt{ 0.080089 + 0.9409 }
+}
+% \end{equation}
+```
+
+```math
+% \begin{equation}
+X \approx \frac{ 1.2742757321 }{
+  \sqrt{ 1.020989 }
+}
+% \end{equation}
+```
+
+```math
+% \begin{equation}
+X \approx \frac{ 1.2742757321 }{
+  1.0104400032
+}
+\approx 1.2611097424
+% \end{equation}
+```
+
