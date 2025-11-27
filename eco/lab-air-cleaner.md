@@ -172,3 +172,35 @@ $$D_Ц = 0.2\,м$$
 $9.05\% \leqslant 15\%$; условие выполняется, проверяем дальше
 
 ---
+
+Диаметр частиц, реально осаждаемых с эффективностью 50% при рабочих условиях:
+
+```math
+\begin{equation}
+d_{50} = d_{50} ^T \cdot \sqrt{
+  \frac{ D_Ц }{ D_Т }
+  % \cdot \frac{ \rho _ч }{ \rho _{чт} }
+  \cdot \frac{ \rho _{чт} }{ \rho _ч }
+  \cdot \frac{ \mu }{ \mu _T }
+  \cdot \frac{ \omega _T }{ \omega _P }
+}
+\end{equation}
+```
+
+- $\omega _T = 3.5\,м/с$
+- $D _T = 0.6\,м$
+- $\rho _{чт} = 1930\,кг/м^3$
+- $\mu _T = 22.2 \cdot 10^{-6}\,Па \cdot с$
+
+```math
+\begin{equation}
+d_{50} = d_{50} ^T \cdot \sqrt{
+  \frac{ D_Ц }{ 0.6\,м }
+  % \cdot \frac{ \rho _ч }{ \rho _{чт} }
+  \cdot \frac{ 1930\,кг/м^3 }{ \rho _ч }
+  \cdot \frac{ \mu }{ 22.2 \cdot 10^{-6}\,Па \cdot с }
+  \cdot \frac{ 3.5\,м/с }{ \omega _P }
+}
+\end{equation}
+```
+
