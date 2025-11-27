@@ -77,6 +77,12 @@ D = \sqrt{ \frac{4 \cdot Q}{\pi \cdot \omega _{оп}} }
 
 ```math
 % \begin{equation}
+D = \sqrt{ \frac{4 \cdot Q}{\pi \cdot \omega _{оп}} }
+% \end{equation}
+```
+
+```math
+% \begin{equation}
 D = \sqrt{ \frac{4 \cdot 0.1\,м^3/с}{\pi \cdot 4.5\,м/с} }
 % \end{equation}
 ```
@@ -96,6 +102,12 @@ D \approx 0.1682088348\,м
 выбираем ближайшее значение в таблице (наименьшее)
 
 $$D_Ц = 0.2\,м$$
+
+```math
+% \begin{equation}
+\omega _Р = \frac{ 4 \cdot Q }{ \pi \cdot D_Ц^2 }
+% \end{equation}
+```
 
 ```math
 % \begin{equation}
@@ -143,5 +155,20 @@ $$D \approx 0.1907308908\,м$$
 
 $$D_Ц = 0.2\,м$$
 
-- не изменилось, $\omega _Р$ не изменилось,
-  условие по-прежнему не выполняется.
+- (не изменилось)
+
+```math
+\omega _Р
+\approx 3.1830988618 \,м/с
+```
+
+```math
+100\% \cdot \left|
+  \frac{ 3.1830988618\,м/с - 3.5\,м/с }{ 3.5\,м/с }
+\right|
+\approx 9.05\%
+```
+
+$9.05\% \leqslant 15\%$; условие выполняется, проверяем дальше
+
+---
