@@ -268,3 +268,13 @@ $$d_{50} < d_м$$
 $$2.9779149832\, мкм < 56 \, мкм$$
 
 выполняется; проверяем дальше
+
+---
+
+```math
+\begin{equation}
+X = \frac{ \lg(d_M/d_{50}) }{
+  \sqrt{ \lg^2 \delta _\eta ^T + \lg^2 \delta _ч }
+}
+\end{equation}
+```
