@@ -326,3 +326,62 @@ X \approx \frac{ 1.2742757321 }{
 %   \\
 \end{cases}
 ```
+
+---
+
+```math
+\Phi(X) \approx
+% \begin{cases}
+% 0.3762 \cdot X + 0.5, & 0 \leqslant X \leqslant 0.6  \\
+1 - \frac{ 1 }{ 5.8 \cdot 1.2611097424 + 0.5 } %, & X > 0.6
+%   \\
+% \end{cases}
+```
+
+```math
+\Phi(X) \approx
+1 - \frac{ 1 }{ 7.3144365059 + 0.5 }
+```
+
+```math
+\Phi(X) \approx
+1 - \frac{ 1 }{ 7.8144365059 }
+```
+
+```math
+\Phi(X) \approx
+1 - 0.1279682801
+```
+
+```math
+\Phi(X) \approx 0.8720317199
+```
+
+---
+
+Эффективность очистки газа:
+
+```math
+\begin{equation}
+\eta = \frac{ 1 + \Phi(X) }{ 2 }
+\end{equation}
+```
+
+```math
+% \begin{equation}
+\eta \approx \frac{ 1 + 0.8720317199 }{ 2 }
+% \end{equation}
+```
+
+$$\eta \approx \frac{ 1.8720317199 }{ 2 } \approx 0.9360158600$$
+
+Условие:
+
+$$\eta _{выч} \geqslant \eta _{треб}$$
+
+иначе выбираем другой тип аппарата с меньшим значением
+$\omega _{оп}$ и $d_{50} ^T$
+
+$$0.9360158600 \geqslant 0.80$$
+
+выполняется; считаем дальше
