@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-using std::cout, std::endl, std::vector;
+using std::cout, std::cerr, std::string, std::endl, std::vector;
 
 
 struct Inventory {
@@ -396,4 +396,40 @@ int main() {
     //   - virtual делаем все что предназначено для переопределения
 
     // еще можно ключевое слово override указать, для самопроверки
+
+    // w2->can_break_armor = false;  // нету такого поля
+
+    // придется кастовать!
+
+    // C-style cast
+    int x = (int)33.22;
+
+    // тоже, но кринж! осуждаем. почему?
+    ( (Axe *)w2 )->can_break_armor = false;  // работает вроде
+    // потому что компилятор пропускает такую ерунду:
+    ( (std::string *)w2 )[0] = 'O';
+
+    cout << w2->to_string() << endl;
+
+    // надо вот так!
+    Axe *axe22 = dynamic_cast<Axe *>(w2);
+    if(axe22 == nullptr)
+        // не удалось преобразовать
+        cerr << "каст не проканал :(" << endl;
+    else {
+        axe22->can_break_armor = false;
+        cout << axe22->to_string() << endl;
+    }
+
+    string *axe33 = dynamic_cast<string *>(w2);  // дает nullptr
+    if(axe33 == nullptr)
+        // не удалось преобразовать
+        cerr << "каст не проканал :(ну и правильно)" << endl;
+    else {
+        axe33[0] = '?';
+        // cout << axe22->to_string() << endl;
+        cerr << "WTF??" << endl;
+    }
+
+    // если бы w2 был не Axe, а просто Weapon, то dynamic_cast провалится
 }
