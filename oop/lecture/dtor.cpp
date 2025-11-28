@@ -1,6 +1,7 @@
 #include <cstddef>
 #include <iostream>
 #include <string>
+#include <vector>
 
 using std::cout, std::endl, std::vector;
 
@@ -93,7 +94,9 @@ class Weapon {
         return this->damage;
     }
 
-    std::string to_string() const {
+    // virtual отвечает за динамический полиморфизм
+    // для реализаций to_string у потомков
+    virtual std::string to_string() const {
         return format("<Weapon {}\ndamage={}>", name, damage);
     }
 };
@@ -107,7 +110,7 @@ public:
         Weapon(name1, damage1), can_break_armor(can_break_armor) {}
 
     // а лучше родительский вызвать просто!
-    std::string to_string() const {
+    std::string to_string() const override {
         return format("<Weapon {}\ndamage={} break_armor={}>",
                       name, get_damage(), can_break_armor);
     }
@@ -371,4 +374,26 @@ int main() {
     // w.can_break_armor = true  // ошибка: его больше нет
 
     // a = w;  // ошибка
+
+    Axe *axe2 = new Axe("Bloody Hell Axe of Pain", 40, false);
+    cout << axe2->to_string() << endl;
+
+    Weapon *w2 = axe2;  // тут тоже преобразование
+    cout << w2->to_string() << endl;  // поле can_break_armor не отображается!
+    
+    // а с virtual - без преобразования
+    // после virtual - отображается
+
+    // virtual "отключает" приведение типов при указателях
+
+    Axe axe3 = Axe("Базовый топор", 4, false);
+    Weapon w3 = a;  // преобразование
+    cout << w3.to_string() << endl;  // поле can_break_armor не отображается!
+
+    // чтоб работал динамический полиморфизм:
+    // - используем указатели
+    // - нужны virtual методы
+    //   - virtual делаем все что предназначено для переопределения
+
+    // еще можно ключевое слово override указать, для самопроверки
 }
