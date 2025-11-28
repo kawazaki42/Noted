@@ -1,5 +1,6 @@
 #include <cstddef>
 #include <iostream>
+#include <string>
 
 using std::cout, std::endl, std::vector;
 
@@ -102,11 +103,48 @@ class Axe: public Weapon {
 public:
     bool can_break_armor;
 
+    Axe(std::string name1, float damage1, bool can_break_armor):
+        Weapon(name1, damage1), can_break_armor(can_break_armor) {}
+
+    // а лучше родительский вызвать просто!
     std::string to_string() const {
         return format("<Weapon {}\ndamage={} break_armor={}>",
                       name, get_damage(), can_break_armor);
     }
 
+};
+
+
+///
+class Bow: public Weapon {
+    float distance;
+
+    public:
+        // дополнительно автоматически вызовется
+        // конструктор без параметров базового класса
+        Bow(): distance{1} {}
+
+        ///
+        Bow(std::string name1, float damage1, float distance1):
+            Weapon(name1, damage1) {
+                set_distance(distance1);
+        }
+
+        float get_distance() const {
+            return distance;
+        }
+
+        void set_distance(float distance1) {
+            if(distance1 >= 0)
+                distance = distance1;
+        }
+
+        // переопределение метода (override)
+        std::string to_string() const {
+            // вызовет метод базового класса
+            return Weapon::to_string()
+                + std::format("\ndistance: {:.1f}", distance);
+        }
 };
 
 
@@ -307,12 +345,30 @@ int main() {
 
     cout << w.to_string() << endl;
 
-    Axe a;
+    Axe a("Базовый топор", 4, false);
 
     // унаследовали метод to_string
     cout << a.to_string() << endl;
 
+    Bow bow("Простой лук", 2, 5);
+
+    cout << bow.to_string() << endl;
+
+    // вызов родительского метода вне класса (но зачем)
+    cout << bow.Weapon::to_string() << endl;
+
     // Weapon *bow = new Weapon();
 
     // delete bow;
+
+    w = a;  // записать можно, но пропадет доп. поле can_break_armor
+
+    // воду перелили, грубо говоря, и пролили
+
+    // родительский метод (тот который в Weapon)
+    cout << w.to_string() << endl;
+
+    // w.can_break_armor = true  // ошибка: его больше нет
+
+    // a = w;  // ошибка
 }
