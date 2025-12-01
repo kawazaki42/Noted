@@ -206,3 +206,264 @@ $q \rarr \exists x P(x;y)$ входят:
 называется исчислением 1 порядка
 
 > домашняя контрольная 3 декабря
+
+---
+
+# 7.3. Интерпретация
+
+Интерпретация I исчисления предикатов K с областью интерпретации M
+
+это набор функций который сопоставляет
+
+- каждой предметной константе а - элемент $I(a) \in M$ из области интерпретации м
+- каждому n-местному функтору f - операцию $I(f): f \rarr M$
+- каждому n-местному предикату p - отношение $I(P) \subset M$
+
+будем рассматривать только интерпретируемые предикаты
+
+то есть те предикаты которым в соответствие поставлены некоторые отношения
+(свойства)
+
+### Пример
+
+рассмотрим формулы
+
+1) $P(x; y)$
+2) $\forall y P(x;y)$
+3) $\exists y P(x;y)$
+
+$$M = Z^+$$
+
+$$P(x;y): x \leqslant y$$
+
+тогда формула 1 - это просто предикат, где $x \leqslant y$
+
+будет истинным при любых целых положительных где $x \leqslant y$
+
+иначе ложно
+
+(когда нет кванторов)
+
+---
+
+2ая -  принимает истинное значение при x=1
+
+3я - также предикат, который всегда истинный
+
+---
+
+Определение
+
+формула называется истинной, если она выполнима на любом наборе элементов
+из области интерпретации
+
+формула будет ложной, если она невыполнима на любом наборе элементов
+из области интерпретации
+
+формула будет __общезначима__ (__тавтология__),
+если она выполнима в любой интерпретации
+
+то же что и для __противоречий__
+
+---
+
+Теорема
+
+любая выводимая в исчислении предикатов формула - общезначима
+
+---
+
+# 7.4. Основные равносильности теории предикатов
+
+Пусть A,B имеют одно и то же множество свободных переменных (в т.ч. пустое)
+
+Формулы A и B равносильны в данной интерпретации,
+если на любом наборе свободных переменных
+они имеют одинаковое значение
+
+то есть выражают один и тот же предикат
+
+Формулы A и B равносильны на мн-ве M, т.е. на обл. интерпретации,
+если они равносильны во всех интерпретациях, заданных на обл. M
+
+Формулы A и B равносильны, если они равносильны на всех множествах
+
+- Перенос квантора через отрицание (закон де Моргана)
+  - $\overline{\forall x P(x)} = \exist \overline{P(x)}$
+  - $\overline{\exist P(x)} = \forall x \overline{P(x)}$
+  - $\overline{\forall x \overline{P(x)}} = \exist {P(x)}$
+  - $\overline{\exist \overline{P(x)}} = \forall x {P(x)}$
+
+- Вынос квантора за скобки
+  - Q - высказывание либо предикат не зависящий от $x$
+    - $\exist x (P(x) \land Q) = \exist x P(x) \land Q$
+    - $\forall x (P(x) \land Q) = \forall x P(x) \land Q$
+    - $\exist x (P(x) \lor Q) = \exist x P(x) \lor Q$
+    - $\forall x (P(x) \lor Q) = \forall x P(x) \lor Q$
+  - а если зависит:
+    - $\forall x (P(x) \land Q(x)) = \forall x P(x) \land \forall x Q(x)$
+    - $\exist x (P(x) \lor Q(x)) = \exist x P(x) \lor \exist x Q(x)$
+    - работают только в 1 сторону:
+    - $\forall x (P(x) \lor \forall x Q(x)) \rarr \forall x (P(x) \lor Q(x))$
+      - "поглощение кванторов"
+    - $\exist x (P(x) \land Q(x)) \rarr \exist x (P(x) \land \exist x Q(x))$
+
+### Пример
+
+P(x): "x пошел в театр"
+
+Q(x): "x пошел в кино"
+
+$$\forall x P(x) \lor \forall x Q(x) = \forall x (P(x) \lor Q(x))$$
+
+- Перестановка одноименных кванторов
+  - $\forall y \forall x P(x;y) = \forall x \forall y P(x;y)$
+  - $\exist y \exist x P(x;y) = \exist x \exist y P(x;y)$
+- перестановка разноименных кванторов
+  - только в одну сторону:
+  - $\exist x \forall y P(x;y) \rarr \forall y \exist x P(x;y)$
+  - $\exist y \forall x P(x;y) \rarr \forall x \exist y P(x;y)$
+- переименование связных переменных
+  - $\forall x P(x) = \forall y P(y)$
+  - $\exist x P(x) = \exist y P(y)$
+  - x, y принадлежат одной предметной области
+  - пример
+    - $\forall x P(x;y) = \forall t P(t;y)$
+- отбрасывание квантора
+  - только если предикат не зависит от переменной (напр. высказывание)
+  - $\forall x P = P$
+  - $\exist x P = P$
+
+### Пример
+
+упростить формулу алгебры предикатов
+
+$$\exist x \forall y P(x, y) \rarr \forall y \exist x P(x, y)$$
+
+// снимаем импликацию
+
+$$\overline{\exist x \forall y P(x, y)} \lor \forall y \exist x P(x, y)$$
+
+// перестановка разноименных кванторов
+
+$$\overline{\forall y \exist x P(x;y)} \lor \forall y \exist x P(x, y) = 1$$
+
+> данная формула является общезначимой
+
+<!-- // закон де Моргана для квантора $\exist x$
+
+$$\forall x \overline{\forall y P(x, y)} \lor \forall y \exist x P(x, y)$$ -->
+
+# 7.5. Приведенная форма представления предикатов
+
+пренексная
+
+определение
+
+формула в которой встречаются из логических операторов только базис Буля,
+притом инверсия не должна быть над кванторами,
+называется приведенной формой
+
+$\overline{\forall y \exist x P(x,y)}$ - неприведенная
+
+$\exist y \overline{\exist x P(x,y)}$
+
+$\exist y \forall x \overline{P(x,y)}$ - приведенная
+
+приведенная форма называяется нормальной (ПНФ),
+если она не содержит символов кванторов
+или все символы кванторов стоят в начале формулы за скобками
+(кванторная приставка)
+
+## Алгоритм приведения:
+
+### 1. привести формулу к виду формулы, реализованной над базисом Буля
+### 2. снять инверсию с кванторов
+### 3. в случае необходимости, переименовать связные переменные
+### 4. используя законы логики вынести кванторы за скобки в начало формулы
+
+## Пример
+
+$(\overline{\forall x P(x,y)} \lor \exist y Q(x,y)) \rarr \exist z R(x,y,z)$
+
+// снимаем импликацию
+
+$\overline{(\overline{\forall x P(x,y)} \lor \exist y Q(x,y))} \lor \exist z R(x,y,z)$
+
+// синмаем инверсию над дизъюнкцией предикатов
+
+$(\overline {\overline{\forall x P(x,y)}} \land \overline{\exist y Q(x,y)}) \lor \exist z R(x,y,z)$
+
+// снимаем двойное отрицание, закон де моргана для $\exist y$
+
+$(\forall x P(x,y) \land \forall y \overline{Q(x,y)}) \lor \exist z R(x,y,z)$
+
+// $\exist x (P(x) \lor Q) = \exist x P(x) \lor Q$
+
+$\exist z ((\forall x P(x,y) \land \forall y \overline{Q(x,y)}) \lor R(x,y,z))$
+
+// переименование связных переменных
+
+$\exist z ((\forall t P(t,y) \land \forall y \overline{Q(x,y)}) \lor R(x,y,z))$
+
+// $\forall x (P(x) \land Q) = \forall x P(x) \land Q$
+
+$\exist z ( \forall y (\forall t P(t,y) \land \overline{Q(x,y)}) \lor R(x,y,z))$
+
+// опять
+
+$\exist z (\forall y \forall t (P(t,y) \land \overline{Q(x,y)}) \lor R(x,y,z))$
+
+$\exist z \forall y \forall t (P(t,y) \land \overline{Q(x,y)}) \lor R(x,y,z)$
+
+> кайф `return`
+
+## Пример
+
+упростить формулу алгебры предикатов
+
+```math
+\overline{\forall x \forall y (P(x, y) \lor \exist z \overline{R(z)})} \rarr
+Q(x) \land \forall y M(x, y)
+```
+
+```math
+\overline {\overline{\forall x \forall y (P(x, y) \lor \exist z \overline{R(z)})}} \lor
+Q(x) \land \forall y M(x, y)
+```
+
+```math
+\forall x \forall y (P(x, y) \lor \exist z \overline{R(z)}) \lor
+Q(x) \land \forall y M(x, y)
+```
+
+```math
+\forall x \forall y \exist z (P(x, y) \lor \overline{R(z)}) \lor
+Q(x) \land \forall y M(x, y)
+```
+
+```math
+\forall x \forall y \exist z (P(x, y) \lor \overline{R(z)}) \lor
+\forall y (Q(x) \land M(x, y))
+```
+
+// $\forall x P(x) \lor \forall x Q(x) \rarr \forall x (P(x) \lor Q(x))$
+
+```math
+\forall y \forall x \exist z (P(x, y) \lor \overline{R(z)}) \lor
+\forall y (Q(x) \land M(x, y))
+```
+
+```math
+\forall y (\forall x \exist z (P(x, y) \lor \overline{R(z)}) \lor
+(Q(x) \land M(x, y)))
+```
+
+// чтоооооо
+
+```math
+\forall y \forall x \exist z (P(x, y) \lor \overline{R(z)}) \lor
+(Q(x) \land M(x, y))
+```
+
+в эту субботу контроша 12:00 - 14:00
