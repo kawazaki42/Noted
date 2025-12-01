@@ -1,3 +1,8 @@
+#include <cmath>
+#include <numbers>
+#include <stdexcept>
+
+
 namespace fake {
     /// Точка на двухмерном пространстве.
     template<typename P>
@@ -10,19 +15,25 @@ namespace fake {
     class shape {
     public:
         /// Вычислить площадь.
-        virtual get_area() const = 0;
+        virtual P get_area() const = 0;
         /// Вычислить периметр.
-        virtual get_perimeter() const = 0;
+        virtual P get_perimeter() const = 0;
     };
 
     /// Прямоугольник.
     template<typename P>
-    class rect: public shape {
+    class rect: public shape<P> {
     protected:
         /// Два противоположных угла.
         point2d<P> begin, end;
 
     public:
+
+        rect(point2d<P> begin, point2d<P> end): begin(begin), end(end) {}
+
+        rect(P bx, P by, P ex, P ey): rect({bx, by}, {ex, ey}) {}
+
+        rect(P x, P y): rect(0, 0, x, y) {}
 
         /// Получить верхний левый угол.
         point2d<P> get_corner_ul() const {
@@ -78,9 +89,9 @@ namespace fake {
 
     /// Квадрат.
     template<typename P>
-    class square: public rect {
+    class square: public rect<P> {
         /// Точность сравнения.
-        static const P COMPARE_PRECISION = P(1e-6);
+        static inline const P COMPARE_PRECISION = P(1e-6);
 
         /// Проверить предусловие: равенство ширины и высоты.
         ///
@@ -101,6 +112,15 @@ namespace fake {
 
     public:
 
+        // square(P side): rect<P>(0, 0, side, side) {}
+
+        square(P side, point2d<P> begin):
+            rect<P>(begin, {begin.x + side, begin.y + side}) {}
+
+        square(P side, P x, P y): square(side, {x, y}) {}
+
+        square(P side): square(side, {0, 0}) {}
+
         // TODO: call parent method?
 
         /// Установить верхний левый угол.
@@ -108,8 +128,8 @@ namespace fake {
         /// @throws std::invalid_argument
         ///     если ширина и высота перестанут совпадать при перемещении.
         void set_corner_ul(P x, P y) override {
-            ensure_square({x, y}, end);
-            begin = {x, y};
+            ensure_square({x, y}, this->end);
+            this->begin = {x, y};
         }
 
         /// Установить нижний правый угол.
@@ -117,14 +137,14 @@ namespace fake {
         /// @throws std::invalid_argument
         ///     если ширина и высота перестанут совпадать при перемещении.
         void set_corner_br(P x, P y) override {
-            ensure_square(begin, {x, y});
-            end = {x, y};
+            ensure_square(this->begin, {x, y});
+            this->end = {x, y};
         }
     };
 
     /// Круг.
     template<typename P>
-    class circle: public shape {
+    class circle: public shape<P> {
         /// Радиус.
         P radius;
 
@@ -132,6 +152,25 @@ namespace fake {
 
         /// Центр.
         point2d<P> center;
+
+        /// Инициализировать объект.
+        ///
+        /// @param radius радиус
+        /// @param center центр
+        circle(P radius, point2d<P> center): center(center) {
+            set_radius(radius);
+        }
+
+        /// Инициализировать объект.
+        ///
+        /// @param radius радиус
+        /// @param x, y координаты центра
+        circle(P radius, P x, P y): circle(radius, {x, y}) {}
+
+        /// Инициализировать окружность в центре координат.
+        ///
+        /// @param radius радиус
+        circle(P radius): circle(radius, {0, 0}) {}
 
         /// Получить радиус.
         P get_radius() const {
