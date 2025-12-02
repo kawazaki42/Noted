@@ -61,7 +61,7 @@ shape <|-- circle
 %% point2d *-- square
 %% point2d *-- circle
 
-rect   --* point2d
-square --* point2d
-circle --* point2d
+rect   *-- point2d
+square *-- point2d
+circle *-- point2d
 ```
