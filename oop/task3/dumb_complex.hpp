@@ -1,14 +1,51 @@
+#ifndef DUMB_COMPLEX_HPP
+#define DUMB_COMPLEX_HPP
+
+#include <string>
+
+
 namespace dumb {
+    /// Комплексное число.
     struct complex {
-        double real, imag;
+        /// Вещественная часть.
+        double real;
+        /// Мнимая часть.
+        double imag;
 
+        /// Нулевое комплексное число (0+0i).
         complex();
-        complex(double real, double imag = 0);
 
+        // complex(const double real);
+
+        /// Комплексное число с указанными вещественной и мнимой частью.
+        ///
+        /// Мнимая часть нулевая по умолчанию, поэтому возможно неявное
+        /// преобразование из обычного числа
+        complex(const double real, const double imag = 0);
+
+        /// Сложение комплексных чисел (по компонентам).
         complex operator +(const complex &other) const;
+        /// Вычитание комплексных чисел (по компонентам).
         complex operator -(const complex &other) const;
+        /// Умножение комплексных чисел (по закону дистрибутивности).
         complex operator *(const complex &other) const;
+
+        /// Вычислить аргумент комплексного числа в радианах.
+        ///
+        /// Аргумент - это угол между осью Ox и вектором (real, imag).
         double arg() const;
+
+        /// Модуль (абсолютное значение) комплексного числа.
+        ///
+        /// Модуль - это длина вектора (real, imag)
         double abs() const;
+
+        /// Строковое представление.
+        std::string to_string() const;
     };
+
+    /// Равенство.
+    bool operator ==(const complex &a, const complex &b);
 }
+
+#endif  // DUMB_COMPLEX_HPP
