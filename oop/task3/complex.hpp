@@ -34,12 +34,12 @@ namespace fake {
             return *this;
         }
 
-        // complex operator +(const complex &other) const {
-        //     // complex result = *this;
-        //     // result += other;
-        //     // return result;
-        //     return {real + other.real, imag + other.imag};
-        // }
+        complex operator +(const complex &other) const {
+            // complex result = *this;
+            // result += other;
+            // return result;
+            return {real + other.real, imag + other.imag};
+        }
 
         complex &operator *=(const complex &other) {
             return *this = *this * other;
@@ -52,8 +52,13 @@ namespace fake {
         }
 
         complex operator -(const complex &other) {
-            return {real + other.real, imag + other.imag};
+            return {real - other.real, imag - other.imag};
         }
+
+        // template<typename O>
+        // complex operator -(const O other) {
+        //     return {real - other, imag};
+        // }
 
         complex operator *(const complex<R> &other) const {
             return {
@@ -77,23 +82,75 @@ namespace fake {
         }
     };
 
-    template<typename A, typename B>
-    complex<A> operator +(const complex<A> &a, const complex<B> &b) {
+    // template<typename C, typename R>
+    // complex<C> &operator +=(const C &c, const R other) {
+    //     c.real += other.real;
+    //     c.imag += other.imag;
+    //     return c;
+    // }
+
+    // template<typename C, typename R>
+    // complex<C> &operator +=(const C &c, const R other) {
+    //     c.real += other.real;
+    //     c.imag += other.imag;
+    //     return c;
+    // }
+
+    // template<typename A, typename B>
+    // complex<A> operator +(const complex<A> &a, const complex<B> &b) {
+    //     // complex result = *this;
+    //     // result += other;
+    //     // return result;
+    //     return {a.real + b.real, a.imag + b.imag};
+    // }
+
+    template<typename C, typename R>
+    complex<C> operator +(const complex<C> &c, const R r) {
         // complex result = *this;
         // result += other;
         // return result;
-        return {a.real + b.real, a.imag + b.imag};
+        return {c.real + r, c.imag};
     }
+
+    // template<typename C, typename R>
+    // complex<C> operator -(const complex<C> &c, const R r) {
+    //     return {c.real - r, c.imag};
+    // }
+
+    template<typename C, typename R>
+    complex<C> operator +(const R r, const complex<C> &c) {
+        return {c.real + r, c.imag};
+    }
+
+    template<typename C, typename R>
+    complex<C> operator -(const R r, const complex<C> &c) {
+        return {r - c.real, -c.imag};
+    }
+
+    template<typename C, typename R>
+    complex<C> operator*(const complex<C> &c, const R r) {
+        return {c.real * r, c.imag * r};
+    }
+
+    template<typename C, typename R>
+    complex<C> operator*(const R r, const complex<C> &c) {
+        return {c.real * r, c.imag * r};
+    }
+
+    // template<typename C, typename R>
+    // fake::complex<C> operator +(const fake::complex<C> &c, const R r) {
+    //     return {r + c.real, c.imag};
+    // }
+
+    // template<typename C, typename R>
+    // fake::complex<C> operator +(const R r, const fake::complex<C> &c) {
+    //     return {r + c.real, c.imag};
+    // }
 
     // template<typename A, typename B>
     // fake::complex<B> std::operator +(const A a, const fake::complex<B> &b) {
     //     return {a + b.real, b.imag};
     // }
-
-    template<typename A, typename B>
-    fake::complex<B> std::operator +(const A a, const fake::complex<B> &b) {
-        return {a + b.real, b.imag};
-    }
 
     // template struct complex<long double>;
 
@@ -108,7 +165,6 @@ namespace fake {
         return {0, imag};
     }
 }
-
 
 // template<typename R>
 // void fake::complex<R>::operator +=(const complex &other) {
