@@ -1688,7 +1688,7 @@ $$\Theta$$
 
 1) $f_x(x, \Theta)$
 
-$$\overgroup{ } f_x ^{\^} (x, \Theta) = f_x (x, \Theta ^{\^})$$
+$$\widehat {f_x}  (x, \Theta) = f_x (x, \widehat \Theta)$$
 
 <!-- $\overgroup{ }$ -->
 
