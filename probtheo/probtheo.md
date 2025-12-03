@@ -1506,6 +1506,39 @@ $$\sigma[X] = \sqrt{cov(X)}$$
 \end{matrix} \right ]
 ```
 
+для фции плотности:
+
+```math
+P(X \in A) = \int _A f(X) dX
+```
+
+где A - некоторая область
+
+для двухмерной случайной величины вероятность попадания в прямоугольник:
+
+```math
+P(a_1 \leqslant X_1 \leqslant b_1, a_2 \leqslant X_2 \leqslant b_2)
+= \int _{ a_1 } ^{ b_1 } \int _{ a_2 } ^{ b_2 } f(x_1, x_2) dx_2 dx_1
+```
+
+для интрегальной фции:
+
+```math
+F(X) = P(X_1 \leqslant x_1, X_2 \leqslant x_2, ..., X_n \leqslant x_n)
+```
+
+```math
+F(X) = \int _{ -\infty } ^{ x_1 } ... \int _{ -\infty } ^{ x_n } f(X) dX
+```
+
+```math
+\frac{ \partial F(X)  }{  \partial x_i } = f_i(X)
+```
+
+```math
+f(X) = \frac{ \partial ^n F(X)  }{  \partial x_1 \partial x_2 ... \partial x_n }
+```
+
 # Элементы математической статистики
 
 ## Задачи
