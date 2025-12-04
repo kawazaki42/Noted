@@ -73,7 +73,7 @@ $$x=x_{min} - \frac{ 1 }{ 2 } h$$
 Полигон частот - ломаная линия, отрезки которой соединяют точки
 $(x_i, n_i)$
 
-![text](images/polygon.excalidraw.svg)
+![text](../images/polygon.excalidraw.svg)
 
 Полигон относительных частот: $(x_i, \omega _i)$
 
@@ -86,7 +86,7 @@ $$x_i ^* = \frac{ x_{i+1} - x_i }{ 2 }$$
 основания которых - частичные интервалы,
 а высоты - плотность частот
 
-![alt text](images/hist.excalidraw.svg)
+![alt text](../images/hist.excalidraw.svg)
 
 
 Эмпирическая фция распределения

@@ -361,7 +361,7 @@ F(x_0) = \begin{cases}
 \end{cases}
 ```
 
-![alt text](images/func2.excalidraw.svg)
+![alt text](../images/func2.excalidraw.svg)
 
 ## Другие характеристики случайных величин
 
@@ -465,7 +465,7 @@ Cx | _a ^b = C(b - a) = 1
 C = \frac{ 1 }{ b-a }
 ```
 
-![alt text](images/func3.excalidraw.svg)
+![alt text](../images/func3.excalidraw.svg)
 
 ---
 
@@ -477,7 +477,7 @@ F(x) = \begin{cases}
 \end{cases}
 ```
 
-![alt text](images/func4.excalidraw.svg)
+![alt text](../images/func4.excalidraw.svg)
 
 ```math
 M[x] = \frac{ a + b }{ 2 }
@@ -506,10 +506,10 @@ $$D[x] = \sigma ^2$$
 
 $$\sigma[x] = \sigma$$
 
-![alt text](images/func5.excalidraw.svg)
+![alt text](../images/func5.excalidraw.svg)
 
 
-![alt text](images/func6.excalidraw.svg)
+![alt text](../images/func6.excalidraw.svg)
 
 x = m; f(x) = f(m)
 
@@ -521,7 +521,7 @@ $$(m-\sigma, \frac{ 1 }{ \sigma \sqrt{2 \pi} })$$
 
 $$(m+\sigma, \frac{ 1 }{ \sigma \sqrt{2 \pi} })$$
 
-![alt text](images/func7.excalidraw.svg)
+![alt text](../images/func7.excalidraw.svg)
 
 #### Нормированное нормальное распределение
 
@@ -531,7 +531,7 @@ $$(m+\sigma, \frac{ 1 }{ \sigma \sqrt{2 \pi} })$$
 > 
 > $$f(x) = \frac{ 1 }{ \sqrt{2 \pi} } e ^{-\frac{ x^2 }{ 2 }}$$
 
-![alt text](images/func8.excalidraw.svg)
+![alt text](../images/func8.excalidraw.svg)
 
 ```math
 F(x_0) = \frac{ 1 }{ \sqrt{2 \pi} }
@@ -656,7 +656,7 @@ f_{\chi}(x) =
 
 $$\Gamma(x) = \int _{ 0 } ^{ +\infty } t^{x-1} e^{-t} dt$$
 
-![alt text](images/func9.excalidraw.svg)
+![alt text](../images/func9.excalidraw.svg)
 
 ### распределение Стьюдента
 
