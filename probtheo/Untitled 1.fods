@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2025-11-27T13:17:33.653714000</meta:creation-date><dc:date>2025-11-27T13:26:41.764608000</dc:date><meta:editing-duration>PT9M8S</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="72" meta:object-count="0"/><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator></office:meta>
+ <office:meta><meta:creation-date>2025-11-27T13:17:33.653714000</meta:creation-date><dc:date>2025-12-04T13:42:42.752419500</dc:date><meta:editing-duration>PT52M9S</meta:editing-duration><meta:editing-cycles>11</meta:editing-cycles><meta:generator>LibreOffice/25.2.6.1$Windows_X86_64 LibreOffice_project/13f8d05e475a6b6572cdd8fe3af1421c659c51c2</meta:generator><meta:document-statistic meta:table-count="2" meta:cell-count="193" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">13547</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">11289</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">27093</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">12192</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
-       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">16</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">8</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">8</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">130</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Sheet2">
+       <config:config-item config:name="CursorPositionX" config:type="int">7</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
@@ -30,7 +47,7 @@
        <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">Sheet2</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1486</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">130</config:config-item>
@@ -72,6 +89,15 @@
    <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
    <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
@@ -83,9 +109,9 @@
    <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
    <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterName" config:type="string">Microsoft Print to PDF</config:config-item>
    <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAENPTVBBVF9EVVBMRVhfTU9ERRMARHVwbGV4TW9kZTo6VW5rbm93bgwAUFJJTlRFUl9OQU1FFgBNaWNyb3NvZnQgUHJpbnQgdG8gUERGCwBEUklWRVJfTkFNRRYATWljcm9zb2Z0IFByaW50IFRvIFBERg==</config:config-item>
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
    <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
@@ -99,10 +125,14 @@
    <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item-map-named config:name="ScriptConfiguration">
     <config:config-item-map-entry config:name="Sheet1">
      <config:config-item config:name="CodeName" config:type="string">Sheet1</config:config-item>
+    </config:config-item-map-entry>
+    <config:config-item-map-entry config:name="Sheet2">
+     <config:config-item config:name="CodeName" config:type="string">Sheet2</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-named>
   </config:config-item-set>
@@ -124,7 +154,7 @@
   </style:default-style>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" style:writing-mode="page"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="page" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" loext:tab-stop-distance="0in" style:writing-mode="page" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-family-asian="&apos;Segoe UI&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-family-complex="Tahoma" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -280,7 +310,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2025-11-27">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2025-12-04">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="12:59:35.392630400">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -296,7 +326,7 @@
   <office:spreadsheet>
    <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
    <table:table table:name="Sheet1" table:style-name="ta1">
-    <table:table-column table:style-name="co1" table:number-columns-repeated="6" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="12" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>\[66;70]</text:p>
@@ -313,6 +343,22 @@
      <table:table-cell/>
      <table:table-cell table:formula="of:=[.D1]/4" office:value-type="float" office:value="0.01" calcext:value-type="float">
       <text:p>0.01</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B1];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.00433189132965219" calcext:value-type="float">
+      <text:p>0.00433189132965219</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B1];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.00433189132965219" calcext:value-type="float">
+      <text:p>0.00433189132965219</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B1];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.0143394789445472" calcext:value-type="float">
+      <text:p>0.0143394789445472</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D1])" office:value-type="float" office:value="0.04" calcext:value-type="float">
+      <text:p>0.04</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B1]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.0364312060823749" calcext:value-type="float">
+      <text:p>0.0364312060823749</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -332,6 +378,22 @@
      <table:table-cell table:formula="of:=[.D2]/4" office:value-type="float" office:value="0.0075" calcext:value-type="float">
       <text:p>0.0075</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B2] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0159972318501019" calcext:value-type="float">
+      <text:p>0.0159972318501019</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B2];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0109517561398243" calcext:value-type="float">
+      <text:p>0.0109517561398243</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B2];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.0434255497536727" calcext:value-type="float">
+      <text:p>0.0434255497536727</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D2])" office:value-type="float" office:value="0.07" calcext:value-type="float">
+      <text:p>0.07</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B2]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.0921042691359223" calcext:value-type="float">
+      <text:p>0.0921042691359223</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -349,6 +411,22 @@
      <table:table-cell/>
      <table:table-cell table:formula="of:=[.D3]/4" office:value-type="float" office:value="0.0175" calcext:value-type="float">
       <text:p>0.0175</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B3] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0288059978892472" calcext:value-type="float">
+      <text:p>0.0288059978892472</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B3];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0220823128798053" calcext:value-type="float">
+      <text:p>0.0220823128798053</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B3];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.108113525931953" calcext:value-type="float">
+      <text:p>0.108113525931953</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D3])" office:value-type="float" office:value="0.14" calcext:value-type="float">
+      <text:p>0.14</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B3]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.185712251319163" calcext:value-type="float">
+      <text:p>0.185712251319163</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -368,6 +446,22 @@
      <table:table-cell table:formula="of:=[.D4]/4" office:value-type="float" office:value="0.04" calcext:value-type="float">
       <text:p>0.04</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B4] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0413690542485813" calcext:value-type="float">
+      <text:p>0.0413690542485813</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B4];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0355107574261528" calcext:value-type="float">
+      <text:p>0.0355107574261528</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B4];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.223328888731769" calcext:value-type="float">
+      <text:p>0.223328888731769</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D4])" office:value-type="float" office:value="0.3" calcext:value-type="float">
+      <text:p>0.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B4]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.298645469953945" calcext:value-type="float">
+      <text:p>0.298645469953945</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -385,6 +479,22 @@
      <table:table-cell/>
      <table:table-cell table:formula="of:=[.D5]/4" office:value-type="float" office:value="0.045" calcext:value-type="float">
       <text:p>0.045</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B5] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0473830315117128" calcext:value-type="float">
+      <text:p>0.0473830315117128</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B5];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.045543866195536" calcext:value-type="float">
+      <text:p>0.045543866195536</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B5];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.387678600119806" calcext:value-type="float">
+      <text:p>0.387678600119806</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D5])" office:value-type="float" office:value="0.48" calcext:value-type="float">
+      <text:p>0.48</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B5]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.383023914704458" calcext:value-type="float">
+      <text:p>0.383023914704458</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -404,6 +514,22 @@
      <table:table-cell table:formula="of:=[.D6]/4" office:value-type="float" office:value="0.05" calcext:value-type="float">
       <text:p>0.05</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B6] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.043283729667939" calcext:value-type="float">
+      <text:p>0.043283729667939</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B6];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0465858942633213" calcext:value-type="float">
+      <text:p>0.0465858942633213</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B6];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.575443267435527" calcext:value-type="float">
+      <text:p>0.575443267435527</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D6])" office:value-type="float" office:value="0.68" calcext:value-type="float">
+      <text:p>0.68</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B6]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.391787370754532" calcext:value-type="float">
+      <text:p>0.391787370754532</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -421,6 +547,22 @@
      <table:table-cell/>
      <table:table-cell table:formula="of:=[.D7]/4" office:value-type="float" office:value="0.0375" calcext:value-type="float">
       <text:p>0.0375</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B7] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.031534147269281" calcext:value-type="float">
+      <text:p>0.031534147269281</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B7];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0380043720393225" calcext:value-type="float">
+      <text:p>0.0380043720393225</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B7];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.747254166855383" calcext:value-type="float">
+      <text:p>0.747254166855383</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D7])" office:value-type="float" office:value="0.83" calcext:value-type="float">
+      <text:p>0.83</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B7]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.319616768850702" calcext:value-type="float">
+      <text:p>0.319616768850702</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -440,6 +582,22 @@
      <table:table-cell table:formula="of:=[.D8]/4" office:value-type="float" office:value="0.0175" calcext:value-type="float">
       <text:p>0.0175</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B8] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0183228104828998" calcext:value-type="float">
+      <text:p>0.0183228104828998</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B8];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0247267630851969" calcext:value-type="float">
+      <text:p>0.0247267630851969</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B8];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.873168673101653" calcext:value-type="float">
+      <text:p>0.873168673101653</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D8])" office:value-type="float" office:value="0.9" calcext:value-type="float">
+      <text:p>0.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B8]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.207952077546506" calcext:value-type="float">
+      <text:p>0.207952077546506</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -457,6 +615,22 @@
      <table:table-cell/>
      <table:table-cell table:formula="of:=[.D9]/4" office:value-type="float" office:value="0.015" calcext:value-type="float">
       <text:p>0.015</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B9] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.00849097711295573" calcext:value-type="float">
+      <text:p>0.00849097711295573</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B9];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.0128308538190573" calcext:value-type="float">
+      <text:p>0.0128308538190573</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B9];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.947074076633432" calcext:value-type="float">
+      <text:p>0.947074076633432</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D9])" office:value-type="float" office:value="0.96" calcext:value-type="float">
+      <text:p>0.96</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B9]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.107907480618272" calcext:value-type="float">
+      <text:p>0.107907480618272</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -476,9 +650,31 @@
      <table:table-cell table:formula="of:=[.D10]/4" office:value-type="float" office:value="0.01" calcext:value-type="float">
       <text:p>0.01</text:p>
      </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.B10] + 2;[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.00313817987848851" calcext:value-type="float">
+      <text:p>0.00313817987848851</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B10];[.$F$26];[.$F$27];0)" office:value-type="float" office:value="0.00531004778172815" calcext:value-type="float">
+      <text:p>0.00531004778172815</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B10];[.$F$26];[.$F$27];1)" office:value-type="float" office:value="0.981814115317456" calcext:value-type="float">
+      <text:p>0.981814115317456</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUM([.$D$1:.D10])" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=PHI(([.B10]-[.$F$26])/[.$F$27])" office:value-type="float" office:value="0.0446575018443338" calcext:value-type="float">
+      <text:p>0.0446575018443338</text:p>
+     </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="4">
-     <table:table-cell table:number-columns-repeated="6"/>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="3">
+     <table:table-cell table:number-columns-repeated="12"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="11"/>
+     <table:table-cell table:formula="of:=PHI(3)" office:value-type="float" office:value="0.00443184841193801" calcext:value-type="float">
+      <text:p>0.00443184841193801</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -487,7 +683,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>F^*(X)</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="70" calcext:value-type="float">
@@ -495,6 +691,10 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.D1]" office:value-type="float" office:value="0.04" calcext:value-type="float">
       <text:p>0.04</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>f_max = f(a) = f(86.4)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -505,7 +705,7 @@
      <table:table-cell table:formula="of:=[.B16]+[.D2]" office:value-type="float" office:value="0.07" calcext:value-type="float">
       <text:p>0.07</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="78" calcext:value-type="float">
@@ -514,7 +714,7 @@
      <table:table-cell table:formula="of:=[.B17]+[.D3]" office:value-type="float" office:value="0.14" calcext:value-type="float">
       <text:p>0.14</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="82" calcext:value-type="float">
@@ -523,7 +723,14 @@
      <table:table-cell table:formula="of:=[.B18]+[.D4]" office:value-type="float" office:value="0.3" calcext:value-type="float">
       <text:p>0.3</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>\overline X_B</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUMPRODUCT([.B1:.B10];[.D1:.D10])" office:value-type="float" office:value="86.4" calcext:value-type="float">
+      <text:p>86.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="86" calcext:value-type="float">
@@ -532,7 +739,14 @@
      <table:table-cell table:formula="of:=[.B19]+[.D5]" office:value-type="float" office:value="0.48" calcext:value-type="float">
       <text:p>0.48</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>D_B</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SUMPRODUCT([.B1:.B10];[.B1:.B10];[.D1:.D10]) - [.F19]^2" office:value-type="float" office:value="70.079999999999" calcext:value-type="float">
+      <text:p>70.079999999999</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="90" calcext:value-type="float">
@@ -541,7 +755,14 @@
      <table:table-cell table:formula="of:=[.B20]+[.D6]" office:value-type="float" office:value="0.68" calcext:value-type="float">
       <text:p>0.68</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>\sigma _B</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SQRT([.F20])" office:value-type="float" office:value="8.37137981458248" calcext:value-type="float">
+      <text:p>8.37137981458248</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="94" calcext:value-type="float">
@@ -550,7 +771,7 @@
      <table:table-cell table:formula="of:=[.B21]+[.D7]" office:value-type="float" office:value="0.83" calcext:value-type="float">
       <text:p>0.83</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="10"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="98" calcext:value-type="float">
@@ -559,7 +780,14 @@
      <table:table-cell table:formula="of:=[.B22]+[.D8]" office:value-type="float" office:value="0.9" calcext:value-type="float">
       <text:p>0.9</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>D_исп = s^2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=100/(100-1) * [.F20]" office:value-type="float" office:value="70.7878787878778" calcext:value-type="float">
+      <text:p>70.7878787878778</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="float" office:value="102" calcext:value-type="float">
@@ -567,6 +795,17 @@
      </table:table-cell>
      <table:table-cell table:formula="of:=[.B23]+[.D9]" office:value-type="float" office:value="0.96" calcext:value-type="float">
       <text:p>0.96</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>\sigma _исп = s</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=SQRT([.F23])" office:value-type="float" office:value="8.41355327955305" calcext:value-type="float">
+      <text:p>8.41355327955305</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>F(x) = ½ + Phi((x-a)/\sigma)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -577,7 +816,250 @@
      <table:table-cell table:formula="of:=[.B24]+[.D10]" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="10"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>M[X] = a = \overline X_B</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.F19]" office:value-type="float" office:value="86.4" calcext:value-type="float">
+      <text:p>86.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>\sigma = s</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8.41" calcext:value-type="float">
+      <text:p>8.41</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="6"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Sheet2" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:number-columns-repeated="10" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>p_i – вероятность попадания между x_i-1 и x_i (включа)</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>n_i ‘ = n * p_i</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="66" calcext:value-type="float">
+      <text:p>66</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="74" calcext:value-type="float">
+      <text:p>74</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="70" calcext:value-type="float">
+      <text:p>70</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B2]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A2]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.0625424367971929" calcext:value-type="float">
+      <text:p>0.0625424367971929</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F2]" office:value-type="float" office:value="6.25424367971929" calcext:value-type="float">
+      <text:p>6.25424367971929</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="74" calcext:value-type="float">
+      <text:p>74</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="78" calcext:value-type="float">
+      <text:p>78</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="76" calcext:value-type="float">
+      <text:p>76</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B3]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A3]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.0887609159258773" calcext:value-type="float">
+      <text:p>0.0887609159258773</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F3]" office:value-type="float" office:value="8.87609159258773" calcext:value-type="float">
+      <text:p>8.87609159258773</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="78" calcext:value-type="float">
+      <text:p>78</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="82" calcext:value-type="float">
+      <text:p>82</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="80" calcext:value-type="float">
+      <text:p>80</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B4]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A4]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.141479031183499" calcext:value-type="float">
+      <text:p>0.141479031183499</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F4]" office:value-type="float" office:value="14.1479031183499" calcext:value-type="float">
+      <text:p>14.1479031183499</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="82" calcext:value-type="float">
+      <text:p>82</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="86" calcext:value-type="float">
+      <text:p>86</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="84" calcext:value-type="float">
+      <text:p>84</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="18" calcext:value-type="float">
+      <text:p>18</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B5]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A5]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.180610315003177" calcext:value-type="float">
+      <text:p>0.180610315003177</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F5]" office:value-type="float" office:value="18.0610315003177" calcext:value-type="float">
+      <text:p>18.0610315003177</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="86" calcext:value-type="float">
+      <text:p>86</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="90" calcext:value-type="float">
+      <text:p>90</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="88" calcext:value-type="float">
+      <text:p>88</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="20" calcext:value-type="float">
+      <text:p>20</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B6]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A6]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.184664458602799" calcext:value-type="float">
+      <text:p>0.184664458602799</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F6]" office:value-type="float" office:value="18.4664458602799" calcext:value-type="float">
+      <text:p>18.4664458602799</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="90" calcext:value-type="float">
+      <text:p>90</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="94" calcext:value-type="float">
+      <text:p>94</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="92" calcext:value-type="float">
+      <text:p>92</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="15" calcext:value-type="float">
+      <text:p>15</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B7]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A7]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.151222113321984" calcext:value-type="float">
+      <text:p>0.151222113321984</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F7]" office:value-type="float" office:value="15.1222113321984" calcext:value-type="float">
+      <text:p>15.1222113321984</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="94" calcext:value-type="float">
+      <text:p>94</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="98" calcext:value-type="float">
+      <text:p>98</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="96" calcext:value-type="float">
+      <text:p>96</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7" calcext:value-type="float">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B8]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A8]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.0991813948573285" calcext:value-type="float">
+      <text:p>0.0991813948573285</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F8]" office:value-type="float" office:value="9.91813948573285" calcext:value-type="float">
+      <text:p>9.91813948573285</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="float" office:value="98" calcext:value-type="float">
+      <text:p>98</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="106" calcext:value-type="float">
+      <text:p>106</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="102" calcext:value-type="float">
+      <text:p>102</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=COM.MICROSOFT.NORM.DIST([.$B9]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1) - COM.MICROSOFT.NORM.DIST([.$A9]; [Sheet1.$F$26]; [Sheet1.$F$27]; 1)" office:value-type="float" office:value="0.0740112276726308" calcext:value-type="float">
+      <text:p>0.0740112276726308</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=100 * [.F9]" office:value-type="float" office:value="7.40112276726308" calcext:value-type="float">
+      <text:p>7.40112276726308</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>(102;106]</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="9"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="3">
+     <table:table-cell table:number-columns-repeated="10"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="8"/>
+     <table:table-cell table:formula="of:=PHI(-3)" office:value-type="float" office:value="0.00443184841193801" calcext:value-type="float">
+      <text:p>0.00443184841193801</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=1 - [.I14]" office:value-type="float" office:value="0.995568151588062" calcext:value-type="float">
+      <text:p>0.995568151588062</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="8"/>
+     <table:table-cell table:formula="of:=PHI(3)" office:value-type="float" office:value="0.00443184841193801" calcext:value-type="float">
+      <text:p>0.00443184841193801</text:p>
+     </table:table-cell>
+     <table:table-cell/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
