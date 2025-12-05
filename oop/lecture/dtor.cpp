@@ -1,7 +1,12 @@
+#include <cassert>
 #include <cstddef>
 #include <iostream>
+#include <stdexcept>
 #include <string>
 #include <vector>
+
+// если кто не понял читайте учебник!
+// (а вы и не поймете...)
 
 using std::cout, std::cerr, std::string, std::endl, std::vector;
 
@@ -88,6 +93,8 @@ class Weapon {
     void set_damage(float d) {
         if(d > 0)
             this->damage = d;
+        else
+            throw std::invalid_argument("?");
     }
 
     float get_damage() const {
@@ -432,4 +439,89 @@ int main() {
     }
 
     // если бы w2 был не Axe, а просто Weapon, то dynamic_cast провалится
+
+    srand(time(0));
+
+    Weapon *w4;
+
+    if(rand() % 2 == 0) {
+        w4 = new Bow("чеснок", 5, 10);
+    } else {
+        w4 = new Axe("дезодорант", 10, 1);
+    }
+
+    // если убрать virtual, спец. поля не будут выводиться
+    w4->to_string();
+
+    // В Weapon нету set_distance!
+    // Даже если у нас 100% Bow, то не скомпилируется!
+    // w4->set_distance(10);
+
+    // если мы уверены что там Bow *, можем сделать так
+    dynamic_cast<Bow *>(w4)->set_distance(10);
+    // делает то же самое но это небезопасно!
+    // но если мы прям очень увертены м
+    ((Bow *)w4)->set_distance(10);
+
+    // переопределенный метод
+    dynamic_cast<Bow *>(w4)->to_string();
+    // то же самое, потому что virtual метод
+    w4->to_string();
+
+    Bow *b = new Bow("чеснок", 5, 10);
+    dynamic_cast<Weapon *>(b)->to_string();
+
+    Weapon *w5 = dynamic_cast<Weapon *>(b);
+    w5->to_string();
+
+    // если очень надо вызвать именно родительский
+    w5->Weapon::to_string();
+
+    Bow *b2 = dynamic_cast<Bow *>(w4);
+    if ( b2 != nullptr)
+        b2->set_distance(10);
+
+    // показать полиморфизм:
+    // - dynamic_cast
+    // - и без dynamic_cast
+
+    delete w4;
+    delete b;
+
+    {
+        // пример для юниттестов
+        Bow b("Лук1", 5, 10);
+
+        assert( b.get_distance() == 10 );
+        assert( b.get_damage() == 5 );
+        assert( b.name == "Лук1" );
+    }
+
+    {
+        Bow b;
+        assert( b.get_distance() == 1 );
+        assert( b.get_damage() == 1 );
+    }
+
+    {
+        Bow b;
+        b.set_distance(8);
+        assert( b.get_distance() == 8 );
+    }
+
+    {
+        Bow b;
+        try {
+            b.set_distance(-1);
+
+            // мы не должны дойти сюда.
+
+            // используем заведомо ложные условия
+            assert( ("Исключение не брошено!", false) );
+            assert( "Исключение не брошено!" == "!" );
+        } catch (const std::invalid_argument &e) {
+            // исключение брошено - тест пройден
+        }
+        // assert( b.get_distance() == 8 );
+    }
 }
