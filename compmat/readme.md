@@ -8,3 +8,11 @@
 8. [text](lu_invert.py)
 9. sqrt_invert
 10. (optional) block_invert
+
+<!-- $$a^x = (e * \frac{ a }{ e })^x = e^x * a^x * e^{-x}$$ -->
+
+$$a^x = e^{(\ln a) \cdot x}$$
+
+$$(a^x)' = e^{(\ln a) \cdot x} * \ln a$$
+
+$$(a^x)' = a^x * \ln a$$
