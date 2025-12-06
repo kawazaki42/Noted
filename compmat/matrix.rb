@@ -30,15 +30,15 @@ class Matrix
   end
 
   def self.diagonal(size, elem = 1)
-    new Array.new(size) do |i|
-      Array.new(size) do |j|
+    new Array.new(size) { |i|
+      Array.new(size) { |j|
         if i == j then
           elem
         else
           0
         end
-      end
-    end
+      }
+    }
   end
 
   def to_a
