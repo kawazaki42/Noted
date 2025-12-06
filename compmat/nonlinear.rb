@@ -24,20 +24,47 @@ module NonLinear
       9 * x**2 + 2*x + 2
     end
 
-    def self.main
-      h = HalfDivisionSolver.new(method(:f), -10r..10r)
-
-      h.each_with_index.find { |c, i|
-        h.delta < DEFAULT_PRECISION
+    def self.report(solver)
+      solver.each_with_index.find { |c, i|
+        # pp solver.delta
+        solver.delta < DEFAULT_PRECISION
       }.then { |c, i|
-        puts "f(%f) = %f" % [c, f(c)]
+        puts "f(%f) = %f" % [c, solver.fun.(c)]
         puts "Кол-во итераций: #{i}"
       }
+    end
+
+    def self.main
+      hf = HalfDivisionSolver.new(method(:f), -10r..10r)
+      hg = HalfDivisionSolver.new(method(:g), -10r..10r)
+
+      # плохо работают с дробями (Rational), используем обычные Float'ы
+      cf = ChordSolver.new(method(:f), -10.0..10.0)
+      cg = ChordSolver.new(method(:g), -10.0..10.0)
+
+      puts "Метод половинного деления"
+      puts "==="
+      report(hf)
+      report(hg)
+
+      puts
+
+      puts "Метод хорд"
+      puts "==="
+      # binding.irb
+      report(cf)
+      report(cg)
+
+      # solvers = [hf]
+      # solvers.each do |s|
+      # end
     end
   end
 
   class IntervalSolver
     include Enumerable
+
+    attr_reader :fun, :begin, :end
 
     def initialize(fun, range)
       @fun = fun
@@ -45,6 +72,20 @@ module NonLinear
       @end = range.end
 
       fail "В диапазоне нет корня" if @fun.(@begin) * @fun.(@end) >= 0
+    end
+
+    def step
+      a = @begin
+      b = @end
+      c = value
+
+      root_in_ac = @fun.(a) * @fun.(c) < 0
+      root_in_cb = @fun.(c) * @fun.(b) < 0
+
+      @end = c if root_in_ac
+      @begin = c if root_in_cb
+
+      value
     end
 
     def each
@@ -55,34 +96,47 @@ module NonLinear
 
       self
     end
+  end
 
+
+  class HalfDivisionSolver < IntervalSolver
     def value
       (@begin + @end)/2
     end
 
     alias center value
 
-    def precision
+    def delta
       ((@begin - @end)/2).abs
     end
 
-    alias delta precision
+    # alias delta precision
   end
 
-
-  class HalfDivisionSolver < IntervalSolver
-    def step
+  class ChordSolver < IntervalSolver
+    def value
       a = @begin
       b = @end
-      c = center
 
-      root_in_ac = @fun.(a) * @fun.(c) < 0
-      root_in_cb = @fun.(c) * @fun.(b) < 0
+      c = a * @fun.(b) - b * @fun.(a)
+      c /= @fun.(b) - @fun.(a)
+      c
+    end
 
-      @end = c if root_in_ac
-      @begin = c if root_in_cb
+    # def initialize(*args, **kwargs)
+    #   super
+    #   @old_value = value
+    # end
 
-      center
+    def step
+      @old_value = value
+      super
+    end
+
+    def delta
+      return Float::INFINITY unless @old_value
+      # return 10 unless @old_value
+      (value - @old_value).abs
     end
   end
 end
