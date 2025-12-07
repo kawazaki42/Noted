@@ -579,6 +579,163 @@ $$f(x, y, z, t) = \Sigma (2, 4, 6, 7, 8, 9, 12, 13, 14)$$
 \lor x y z \,\overline t
 ```
 
+### Равносильные преобразования
+
+```math
+\,\overline x \,\overline y z \,\overline t
+\lor \,\overline x y \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline y \,\overline z t
+\lor x y \,\overline z \,\overline t
+\lor x y \,\overline z t
+\lor x y z \,\overline t
+```
+
+```math
+\,\overline x \,\overline y z \,\overline t
+\lor \,\overline x y \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline y \,\overline z t
+\lor x y \,\overline z t
+\lor x y \,\overline t
+```
+
+```math
+\,\overline x \,\overline y z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline y \,\overline z t
+\lor x y \,\overline z t
+\lor y \,\overline t
+```
+
+```math
+\,\overline x \,\overline y z \,\overline t
+\lor \,\overline x y z t
+% \lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline y \,\overline z
+\lor x y \,\overline z t
+\lor y \,\overline t
+```
+
+```math
+\overline y (\overline x z \overline t \lor x \overline z)
+\lor y (\overline x z t \lor x \overline z t \lor \overline t)
+```
+
+```math
+\overline y (\overline x z \overline t \lor x \overline z)
+\lor y (t(\overline x z \lor x \overline z) \lor \overline t)
+```
+
+```math
+\overline y (\overline x z \overline t \lor x \overline z)
+\lor y (\overline x z \lor x \overline z \lor \overline t)
+```
+
+```math
+(\,\overline x \,\overline y z \,\overline t \lor x \,\overline y \,\overline z)
+\lor (\,\overline x y z \lor x y \,\overline z \lor y \,\overline t)
+```
+
+```math
+\,\overline x \,\overline y z \,\overline t \lor x \,\overline y \,\overline z
+\lor \,\overline x y z \lor x y \,\overline z \lor y \,\overline t
+```
+
+```math
+\,\overline x \,\overline y z \,\overline t
+% \lor x \,\overline y \,\overline z
+\lor \,\overline x y z
+\lor x \,\overline z
+\lor y \,\overline t
+```
+
+```math
+\overline t (
+\,\overline x \,\overline y z
+\lor y
+)
+\lor \,\overline x y z
+\lor x \,\overline z
+```
+
+```math
+\overline t (
+\,\overline y (\,\overline x z)
+\lor y
+)
+\lor \,\overline x y z
+\lor x \,\overline z
+```
+
+```math
+\overline t (
+\,\overline x z
+\lor y
+)
+\lor \,\overline x y z
+\lor x \,\overline z
+```
+
+> ```math
+> % (
+> \,\overline x z \overline t 
+> \lor y \overline t 
+> % )
+> \lor \,\overline x y z
+> \lor x \,\overline z
+> ```
+
+<!-- ```math
+\,\overline x \,\overline y z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline z t
+\lor y \,\overline t
+``` -->
+
+<!-- ```math
+\,\overline x z \,\overline t
+\lor \,\overline x y \,\overline z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline y \,\overline z t
+\lor x y \,\overline z \,\overline t
+\lor x y \,\overline z t
+\lor x y z \,\overline t
+```
+
+```math
+\,\overline x z \,\overline t
+\lor \,\overline x y \,\overline z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z
+\lor x y \,\overline z \,\overline t
+\lor x y \,\overline z t
+\lor x y z \,\overline t
+```
+
+```math
+\,\overline x z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z
+\lor y \,\overline z \,\overline t
+\lor x y \,\overline z t
+\lor x y z \,\overline t
+```
+
+```math
+\,\overline x z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z
+\lor y \,\overline z \,\overline t
+\lor x y \,\overline z t
+\lor x y z \,\overline t
+```
+ -->
 <!-- склейки:
 
 - 2-3:  -->
@@ -623,20 +780,49 @@ $$f(x, y, z, t) = \Sigma (2, 4, 6, 7, 8, 9, 12, 13, 14)$$
 
 ### Метод Квайна
 
-| .   | .             | .     | .         | .           | .     |
-| :-- | :------------ | :---- | :-------- | :---------- | :---- |
-| 1 * | notXnotYZnotT | 1-3 ~ | notXZnotT | .           | .     |
-| 2 * | notXYnotZnotT | 2-3 * | notXYnotT | (2-3)-(7-9) | YnotT |
-| 3 * | notXYZnotT    | 2-7 * | YnotZnotT | (2-7)-(3-9) | YnotT |
-| 4 * | notXYZT       | 3-4 ~ | notXYZ    | .           | .     |
-| 5 * | XnotYnotZnotT | 3-9 * | YZnotT    | .           | .     |
-| 6 * | XnotYnotZT    | 5-6 * | XnotYnotZ | (5-6)-(7-8) | XnotZ |
-| 7 * | XYnotZnotT    | 5-7 * | XnotZnotT | (5-7)-(6-8) | XnotZ |
-| 8 * | XYnotZT       | 6-8 * | XnotZT    | .           | .     |
-| 9 * | XYZnotT       | 7-8 * | XYnotZ    | .           | .     |
-| .   | .             | 7-9 * | XYnotT    | .           | .     |
+| .   | .             | .     | .         | .           | .       |
+| :-- | :------------ | :---- | :-------- | :---------- | :------ |
+| 1 * | notXnotYZnotT | 1-3 ~ | notXZnotT | .           | .       |
+| 2 * | notXYnotZnotT | 2-3 * | notXYnotT | (2-3)-(7-9) | YnotT ~ |
+| 3 * | notXYZnotT    | 2-7 * | YnotZnotT | (2-7)-(3-9) | YnotT ~ |
+| 4 * | notXYZT       | 3-4 ~ | notXYZ    | .           | .       |
+| 5 * | XnotYnotZnotT | 3-9 * | YZnotT    | .           | .       |
+| 6 * | XnotYnotZT    | 5-6 * | XnotYnotZ | (5-6)-(7-8) | XnotZ ~ |
+| 7 * | XYnotZnotT    | 5-7 * | XnotZnotT | (5-7)-(6-8) | XnotZ ~ |
+| 8 * | XYnotZT       | 6-8 * | XnotZT    | .           | .       |
+| 9 * | XYZnotT       | 7-8 * | XYnotZ    | .           | .       |
+| .   | .             | 7-9 * | XYnotT    | .           | .       |
 
 см. [#импликантная-матрица](#импликантная-матрица)
+
+> МДНФ:
+> 
+> ```math
+> y \overline t
+> \lor x \overline z
+> \lor \overline x z \overline t
+> \lor \overline x y z
+> ```
+
+### Метод МакКласки
+
+| interval |     |      |       |      |        |      |
+| -------- | --- | ---- | ----- | ---- | ------ | ---- |
+| 1        | a * | 0010 | a-d ~ | 0_10 | bdfi ~ | _1_0 |
+|          | b * | 0100 | b-d * | 01_0 | bfdi ~ | _1_0 |
+|          | c * | 1000 | b-f * | _100 | cefh ~ | 1_0_ |
+| 2        | d * | 0110 | c-e * | 100_ | cfeh ~ | 1_0_ |
+|          | e * | 1001 | c-f * | 1_00 |        |      |
+|          | f * | 1100 | d-g ~ | 011_ |        |      |
+| 3        | g * | 0111 | d-i * | _110 |        |      |
+|          | h * | 1101 | e-h * | 1_01 |        |      |
+|          | i * | 1110 | f-h * | 110_ |        |      |
+|          |     |      | f-i * | 11_0 |        |      |
+
+$$y \overline t \lor x \overline z \lor \overline x z \overline t \lor \overline x yz$$
+
+см. [#импликантная-матрица](#импликантная-матрица)
+
 
 > МДНФ:
 > 
