@@ -7,6 +7,7 @@ module NonLinear
   module Test
     # Всегда возрастает.
     def self.f x
+      # binding.debugger
       x + 2**x + 5
     end
 
@@ -52,6 +53,9 @@ module NonLinear
       tf = TangentSolver.new(method(:f), -10r..10r, method(:df), method(:ddf))
       tg = TangentSolver.new(method(:g), -10r..10r, method(:dg), method(:ddg))
 
+      tcf = TangentChordSolver.new(method(:f), -10r..10r, method(:df), method(:ddf))
+      tcg = TangentChordSolver.new(method(:g), -10.0..10.0, method(:dg), method(:ddg))
+
       puts "Метод половинного деления"
       puts "==="
       report(hf)
@@ -73,6 +77,14 @@ module NonLinear
       report(tf)
       report(tg)
 
+      puts
+
+      puts "Метод хорд и касательных"
+      puts "==="
+      # binding.irb
+      report(tcf)
+      report(tcg)
+
       # solvers = [hf]
       # solvers.each do |s|
       # end
@@ -91,7 +103,11 @@ module NonLinear
       @end = range.end
       @old_value = Float::INFINITY
 
-      fail "В диапазоне нет корня" if @fun.(@begin) * @fun.(@end) >= 0
+      fa = @fun.(@begin)
+      fb = @fun.(@end)
+
+      binding.debugger if fa * fb >= DEFAULT_PRECISION
+      fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
     end
 
     def step
@@ -145,9 +161,18 @@ module NonLinear
       a = @begin
       b = @end
 
-      c = a * @fun.(b) - b * @fun.(a)
-      c /= @fun.(b) - @fun.(a)
-      c
+      n = a * @fun.(b) - b * @fun.(a)
+      d = @fun.(b) - @fun.(a)
+
+      # avoid division by 0
+      return (a+b)/2 if d.abs < DEFAULT_PRECISION
+      
+      c = n/d
+
+      # return c if c < DEFAULT_PRECISION
+      @begin = @end = c if @fun.(c).abs < DEFAULT_PRECISION
+
+      n / d
     end
 
     # def initialize(*args, **kwargs)
@@ -184,7 +209,43 @@ module NonLinear
         fail
       end
 
-      z - @fun.(z)/@der1.(z)
+      d = z - @fun.(z)/@der1.(z)
+
+      @begin = @end = d if @fun.(d).abs < DEFAULT_PRECISION
+
+      d
+    end
+  end
+
+
+  class TangentChordSolver < TangentSolver
+    def initialize(f, range, df, ddf)
+      super
+      @chord = ChordSolver.new(f, range)
+    end
+
+    def step
+      # binding.debugger
+      c = @chord.step
+      d = super
+
+      @begin, @end = [c, d].minmax
+
+      # @chord.begin = @begin
+      # @chord.end = @end
+
+      @chord = ChordSolver.new(@fun, @begin..@end)
+
+      value
+    end
+
+    def delta
+      ((@begin - @end)/2).abs
+    end
+
+    def value
+      # @chord.value
+      (@begin + @end)/2
     end
   end
 end
