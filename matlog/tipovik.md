@@ -541,3 +541,48 @@ f4["1=1"]
   - $\overline x = 1 \oplus x = f_1(f_4, x)$
 - $L$
   - $x \land y = xy \land 1 = f_2(x, y, f_4)$
+
+## задача 10
+
+Исходная (неоптимизированная версия):
+
+$$(x \lor y) \overline z \lor \overline x \lor z$$
+
+![alt text](tipovik-scheme.excalidraw.svg)
+
+<!-- ```math
+(x \lor y) \overline z
+\lor \overline x
+\lor ((x \lor y) \lor \overline{(x \lor y)})z
+```
+
+```math
+(x \lor y) \overline z
+\lor \overline x
+\lor (x \lor y)z \lor \overline{(x \lor y)} \land z
+```
+
+```math
+\overline x
+\lor (x \lor y) \lor \overline{(x \lor y)} \land z
+``` -->
+
+<!-- $$x \overline z \lor y \overline z \lor \overline x \lor z$$
+
+$$x \overline z \lor y \overline z \lor \overline x \lor z(x \lor \overline x)$$ -->
+
+<!-- $$(x \lor y) \overline z \lor \overline x \lor z$$ -->
+
+| x   | y   | z   | x v y | not z | (x v y) ^ not z | not x | (x v y) ^ not z v not x | (x v y) ^ not z v not x v z |
+| :-- | :-- | :-- | :---- | :---- | :-------------- | :---- | :---------------------- | :-------------------------- |
+| 0   | 0   | 0   | 0     | 1     | 0               | 1     | 1                       | 1                           |
+| 0   | 0   | 1   | 0     | 0     | 0               | 1     | 1                       | 1                           |
+| 0   | 1   | 0   | 1     | 1     | 1               | 1     | 1                       | 1                           |
+| 0   | 1   | 1   | 1     | 0     | 0               | 1     | 1                       | 1                           |
+| 1   | 0   | 0   | 1     | 1     | 1               | 0     | 1                       | 1                           |
+| 1   | 0   | 1   | 1     | 0     | 0               | 0     | 0                       | 1                           |
+| 1   | 1   | 0   | 1     | 1     | 1               | 0     | 1                       | 1                           |
+| 1   | 1   | 1   | 1     | 0     | 0               | 0     | 0                       | 1                           |
+
+упрощенная функция тождественно истинна,
+по ней не получится построить по ней декомпозиционную схему.
