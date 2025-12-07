@@ -375,7 +375,7 @@ n = 2
 
 Графически функцию алгебры логики можно представить в виде многомерного куба
 
-![alt text](image.png)
+![alt text](../images/image.png)
 
 > Если две функции алгебры логики принимают на всевозможных на борах входных
 > 
@@ -1072,14 +1072,14 @@ k^1_1 \lor k^{00}_{23} = 1
 3.4 Многомерный куб
 ---
 
-![alt text](cube.excalidraw.svg)
+![alt text](../images/cube.excalidraw.svg)
 
 получилать МДНФ! но это чисто совпадение
 
 3.5 Карты Карно
 ---
 
-![alt text](karnaugh.excalidraw.svg)
+![alt text](../images/karnaugh.excalidraw.svg)
 
 3.6 Метод Квайна.
 ---
@@ -1424,7 +1424,7 @@ x2 x3  or not x1 not x2 not x4  or not x1 x2 x4  or x1 not x2 not x3
 
 ## 4.2. Логические элементы И; ИЛИ; НЕ; И-НЕ; ИЛИ-НЕ.
 
-![alt text](log_elems.excalidraw.svg)
+![alt text](../images/log_elems.excalidraw.svg)
 
 ### Логический элемент И (конъюнктор)
 
@@ -1446,7 +1446,7 @@ x2 x3  or not x1 not x2 not x4  or not x1 x2 x4  or x1 not x2 not x3
 
 f(X;Y;Z) = notX and (Y or Z)
 
-![alt text](log_example.excalidraw.svg)
+![alt text](../images/log_example.excalidraw.svg)
 
 ---
 
@@ -1516,7 +1516,7 @@ _Поставлены в соответствие_ x и X
 Данная переменная является функцией от переменных соответствующих
 переключателям и носит название **переключательной функции**
 
-![alt text](switch.excalidraw.svg)
+![alt text](../images/switch.excalidraw.svg)
 
 схема проще если меньше лог. операций (элементов)
 
@@ -1549,7 +1549,7 @@ XnotY or Z
 
 f(x;y;z) = notX or XY or XZ or notXY or notXZ
 
-![alt text](comb_scheme.excalidraw.svg)
+![alt text](../images/comb_scheme.excalidraw.svg)
 
 Развертываем (склейка наоборот)
 
@@ -1566,7 +1566,7 @@ f(x;y;z) = notX or XY or XZ or notXY or notXZ
 МДНФ:
 notX or Y or Z
 
-![alt text](comb_scheme_example.excalidraw.svg)
+![alt text](../images/comb_scheme_example.excalidraw.svg)
 
 ---
 
@@ -1824,7 +1824,7 @@ k_1^1 \lor k_2^1 \lor k_3^0 \lor k_{12}^{11} \lor k_{13}^{10} \lor k_{23}^{10} \
 k_1^1 \lor k_2^1 \lor k_3^1 \lor k_{12}^{11} \lor k_{13}^{11} \lor k_{23}^{11} \lor k_{123}^{111} = 1
 ```
 
-![alt text](circuits_practice.excalidraw.svg)
+![alt text](../images/circuits_practice.excalidraw.svg)
 
 ## Делаем СКНФ из СДНФ
 

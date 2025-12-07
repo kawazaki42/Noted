@@ -34,7 +34,7 @@ $P(a) \in \{ 0;1 \}$
 в этом случае предикат можно считать логической фцией,
 определенной на элементах множества $U$
 
-![alt text](predicate-euler.excalidraw.svg)
+![alt text](../images/predicate-euler.excalidraw.svg)
 
 $$U = P \cup P'$$
 
