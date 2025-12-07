@@ -272,13 +272,13 @@ $$\rightarrowtail (A \rarr (B \rarr C)) \rarr (A \rarr (B \rarr C)) =$$
 
 $$(A \rarr (B \rarr C)); A; B \rightarrowtail C$$
 
-$$(A \rarr (B \rarr C)); A; B \overline{C} \rightarrowtail$$
+$$(A \rarr (B \rarr C)); A; B; \overline{C} \rightarrowtail$$
 
 $$(A \rarr (B \rarr C)) = (\overline A \lor (\overline B \lor C))$$
 
-$$(\overline A \lor (\overline B \lor C)); A; B \overline{C} \rightarrowtail$$
+$$(\overline A \lor (\overline B \lor C)); A; B; \overline{C} \rightarrowtail$$
 
-S = \{ \overline A \lor \overline B \lor C; A; B; \overline C \}
+$$S = \{ \overline A \lor \overline B \lor C; A; B; \overline C \}$$
 
 $$res_A \{\overline A \lor \overline B \lor C; A\} = \overline B \lor C$$
 
