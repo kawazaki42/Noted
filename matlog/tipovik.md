@@ -1040,7 +1040,7 @@ f(0, 1, 1, 0)
 \lor \cancel{k_{13} ^{01}}
 \lor \cancel{k_{14} ^{00}}
 % 
-\lor k_{23} ^{11}
+\lor \cancel{k_{23} ^{11}}
 \lor k_{24} ^{10}
 % 
 \lor \cancel{k_{34} ^{10}}
@@ -1065,12 +1065,12 @@ f(0, 1, 1, 1)
 \lor \cancel{k_{13} ^{01}}
 \lor \cancel{k_{14} ^{01}}
 % 
-\lor k_{23} ^{11}
+\lor \cancel{k_{23} ^{11}}
 \lor \cancel{k_{24} ^{11}}
 % 
 \lor \cancel{k_{34} ^{11}}
 %%
-\lor k_{234} ^{111}
+\lor \cancel{k_{234} ^{111}}
 \lor \cancel{k_{134} ^{011}}
 \lor \cancel{k_{124} ^{011}}
 \lor k_{123} ^{011}
@@ -1186,7 +1186,7 @@ f(1, 1, 0, 0)
 \lor \cancel{k_3 ^0}
 \lor \cancel{k_4 ^0}
 % 
-\lor k_{12} ^{11}
+\lor \cancel{k_{12} ^{11}}
 \lor k_{13} ^{10}
 \lor \cancel{k_{14} ^{10}}
 % 
@@ -1211,7 +1211,7 @@ f(1, 1, 0, 1)
 \lor \cancel{k_3 ^0}
 \lor \cancel{k_4 ^1}
 % 
-\lor k_{12} ^{11}
+\lor \cancel{k_{12} ^{11}}
 \lor k_{13} ^{10}
 \lor \cancel{k_{14} ^{11}}
 % 
@@ -1222,7 +1222,7 @@ f(1, 1, 0, 1)
 %%
 \lor \cancel{k_{234} ^{101}}
 \lor k_{134} ^{101}
-\lor k_{124} ^{111}
+\lor \cancel{k_{124} ^{111}}
 \lor k_{123} ^{110}
 %%
 \lor k_{1234} ^{1101}
@@ -1236,11 +1236,11 @@ f(1, 1, 1, 0)
 \lor \cancel{k_3 ^1}
 \lor \cancel{k_4 ^0}
 % 
-\lor k_{12} ^{11}
+\lor \cancel{k_{12} ^{11}}
 \lor \cancel{k_{13} ^{11}}
 \lor \cancel{k_{14} ^{10}}
 % 
-\lor k_{23} ^{11}
+\lor \cancel{k_{23} ^{11}}
 \lor k_{24} ^{10}
 % 
 \lor \cancel{k_{34} ^{10}}
@@ -1248,10 +1248,10 @@ f(1, 1, 1, 0)
 \lor k_{234} ^{110}
 \lor \cancel{k_{134} ^{110}}
 \lor k_{124} ^{110}
-\lor k_{123} ^{111}
+\lor \cancel{k_{123} ^{111}}
 %%
 \lor k_{1234} ^{1110}
-= 0
+= 1
 ```
 
 ```math
@@ -1261,22 +1261,22 @@ f(1, 1, 1, 1)
 \lor \cancel{k_3 ^1}
 \lor \cancel{k_4 ^1}
 % 
-\lor k_{12} ^{11}
+\lor \cancel{k_{12} ^{11}}
 \lor \cancel{k_{13} ^{11}}
 \lor \cancel{k_{14} ^{11}}
 % 
-\lor k_{23} ^{11}
+\lor \cancel{k_{23} ^{11}}
 \lor \cancel{k_{24} ^{11}}
 % 
 \lor \cancel{k_{34} ^{11}}
 %%
-\lor k_{234} ^{111}
+\lor \cancel{k_{234} ^{111}}
 \lor \cancel{k_{134} ^{111}}
-\lor k_{124} ^{111}
-\lor k_{123} ^{111}
+\lor \cancel{k_{124} ^{111}}
+\lor \cancel{k_{123} ^{111}}
 %%
-\lor k_{1234} ^{1111}
-= 1
+\lor \cancel{k_{1234} ^{1111}}
+= 0
 ```
 
 ###### end
