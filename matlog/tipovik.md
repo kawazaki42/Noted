@@ -542,6 +542,111 @@ f4["1=1"]
 - $L$
   - $x \land y = xy \land 1 = f_2(x, y, f_4)$
 
+## задача 9
+
+$$f(x, y, z, t) = \Sigma (2, 4, 6, 7, 8, 9, 12, 13, 14)$$
+
+| .   | x   | y   | z   | t   |     | f(x, y, z, t) |
+| :-- | :-- | :-- | :-- | :-- | --- | :------------ |
+| 0   | 0   | 0   | 0   | 0   |     | 0             |
+| 1   | 0   | 0   | 0   | 1   |     | 0             |
+| 2   | 0   | 0   | 1   | 0   |     | 1             |
+| 3   | 0   | 0   | 1   | 1   |     | 0             |
+| 4   | 0   | 1   | 0   | 0   |     | 1             |
+| 5   | 0   | 1   | 0   | 1   |     | 0             |
+| 6   | 0   | 1   | 1   | 0   |     | 1             |
+| 7   | 0   | 1   | 1   | 1   |     | 1             |
+| 8   | 1   | 0   | 0   | 0   |     | 1             |
+| 9   | 1   | 0   | 0   | 1   |     | 1             |
+| 10  | 1   | 0   | 1   | 0   |     | 0             |
+| 11  | 1   | 0   | 1   | 1   |     | 0             |
+| 12  | 1   | 1   | 0   | 0   |     | 1             |
+| 13  | 1   | 1   | 0   | 1   |     | 1             |
+| 14  | 1   | 1   | 1   | 0   |     | 1             |
+| 15  | 1   | 1   | 1   | 1   |     | 0             |
+
+СДНФ:
+
+```math
+\,\overline x \,\overline y z \,\overline t
+\lor \,\overline x y \,\overline z \,\overline t
+\lor \,\overline x y z \,\overline t
+\lor \,\overline x y z t
+\lor x \,\overline y \,\overline z \,\overline t
+\lor x \,\overline y \,\overline z t
+\lor x y \,\overline z \,\overline t
+\lor x y \,\overline z t
+\lor x y z \,\overline t
+```
+
+<!-- склейки:
+
+- 2-3:  -->
+
+### Карта Карно
+
+| .   | 00  | 01  | 11  | 10  |
+| :-- | :-- | :-- | :-- | :-- |
+| 00  | .   | .   | .   | 1   |
+| 01  | 1   | .   | 1   | 1   |
+| 11  | 1   | 1   | .   | 1   |
+| 10  | 1   | 1   | .   | .   |
+
+![alt text](tipovik-karnaugh.excalidraw.svg)
+
+#### импликантная матрица
+
+| implicant | notXnotYZnotT | notXYnotZnotT | notXYZnotT | notXYZT | XnotYnotZnotT | XnotYnotZT | XYnotZnotT | XYnotZT | XYZnotT |
+| :-------- | :------------ | :------------ | :--------- | :------ | :------------ | :--------- | :--------- | :------ | :------ |
+| YnotT     | .             | O             | O          | .       | .             | .          | O          | .       | O       |
+| XnotZ     | .             | .             | .          | .       | O             | O          | O          | O       | .       |
+| notXZnotT | O             | .             | O          | .       | .             | .          | .          | .       | .       |
+| notXYZ    | .             | .             | O          | O       | .             | .          | .          | .       | .       |
+
+Ни одну строку вычеркнуть нельзя.
+
+> МДНФ:
+> 
+> ```math
+> y \overline t
+> \lor x \overline z
+> \lor \overline x z \overline t
+> \lor \overline x y z
+> ```
+
+<!-- > ```math
+> x \overline z
+> \lor y \overline t
+> \lor \overline x y z
+> \lor \overline x z \overline t
+> ``` -->
+
+### Метод Квайна
+
+| .   | .             | .     | .         | .           | .     |
+| :-- | :------------ | :---- | :-------- | :---------- | :---- |
+| 1 * | notXnotYZnotT | 1-3 ~ | notXZnotT | .           | .     |
+| 2 * | notXYnotZnotT | 2-3 * | notXYnotT | (2-3)-(7-9) | YnotT |
+| 3 * | notXYZnotT    | 2-7 * | YnotZnotT | (2-7)-(3-9) | YnotT |
+| 4 * | notXYZT       | 3-4 ~ | notXYZ    | .           | .     |
+| 5 * | XnotYnotZnotT | 3-9 * | YZnotT    | .           | .     |
+| 6 * | XnotYnotZT    | 5-6 * | XnotYnotZ | (5-6)-(7-8) | XnotZ |
+| 7 * | XYnotZnotT    | 5-7 * | XnotZnotT | (5-7)-(6-8) | XnotZ |
+| 8 * | XYnotZT       | 6-8 * | XnotZT    | .           | .     |
+| 9 * | XYZnotT       | 7-8 * | XYnotZ    | .           | .     |
+| .   | .             | 7-9 * | XYnotT    | .           | .     |
+
+см. [#импликантная-матрица](#импликантная-матрица)
+
+> МДНФ:
+> 
+> ```math
+> y \overline t
+> \lor x \overline z
+> \lor \overline x z \overline t
+> \lor \overline x y z
+> ```
+
 ## задача 10
 
 Исходная (неоптимизированная версия):
