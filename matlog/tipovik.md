@@ -1575,7 +1575,29 @@ f(0, 1, 1, 1)
 = 1
 ```
 
-Пусть $k_{134} ^{010} = k_{123} ^{011} = 1$
+Пусть $k_{134} ^{010} = k_{123} ^{011} = 1$.
+
+Пусть все остальные $k$ равны нулю.
+
+Тогда
+
+```math
+f(x, y, z, t) =
+k_{24} ^{10} y \overline t
+\lor k_{13} ^{10} x \overline z
+\lor k_{134} ^{010} \overline x z \overline t
+\lor k_{123} ^{011} \overline x y z
+```
+
+> ```math
+> f(x, y, z, t) =
+> y \overline t
+> \lor x \overline z
+> \lor \overline x z \overline t
+> \lor \overline x y z
+> ```
+
+что также совпадает с остальными методами.
 
 ## задача 10
 
