@@ -352,3 +352,50 @@ $$A \land B \lor \overline C$$
 (A \lor \overline B \lor \overline C)
 (\overline A \lor B \lor \overline C)
 ```
+
+## задача 6
+
+$$f(A;B;C) = A \land B \lor \overline C$$
+
+Двойственная функция - это отрицание оригинальной функции,
+на вход которой подаются аргументы двойственной функции также под отрицанием.
+
+$$f^*(A;B;C) = \overline{f(\overline A; \overline B; \overline C)}$$
+
+Это выполняется для функций любого числа аргументов.
+
+```math
+f^*(A;B;C)
+= \overline{\overline A \land \overline B \lor \overline {\overline C}}
+```
+
+```math
+f^*(A;B;C)
+= \overline{\overline{A \lor B} \lor C}
+```
+
+```math
+f^*(A;B;C)
+= \overline{\overline{A \lor B}} \land \overline C
+```
+
+```math
+f^*(A;B;C)
+= (A \lor B) \land \overline C
+```
+
+отрицание оригинальной ф-ции:
+
+$$\overline{f(A;B;C)} = \overline{A \land B \lor \overline C}$$
+
+$$\overline{f(A;B;C)} = \overline{A \land B} \land \overline{\overline C}$$
+
+$$\overline{f(A;B;C)} = (\overline A \lor \overline B) \land C$$
+
+отрицание двойственной:
+
+```math
+\overline{f^*(A;B;C)}
+= \overline{A \lor B} \lor C
+= \overline A \land \overline B \lor C
+```
