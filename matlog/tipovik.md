@@ -60,6 +60,101 @@ $$A \land B \neq B$$
 >
 > формулы не равносильны.
 
+## задача 3
+
+равносильными преобразованиями прийти к СКНФ; затем перейти к СДНФ
+
+$$A \land (A \rarr B) \rarr B$$
+
+$$A \land (\overline A \lor B) \rarr B$$
+
+$$\overline{A \land (\overline A \lor B)} \lor B$$
+
+$$\overline A \lor \overline{(\overline A \lor B)} \lor B$$
+
+$$\overline A \lor \overline{\overline A} \land \overline B \lor B$$
+
+$$(\overline A \lor B) \lor (A \land \overline B)$$
+
+$$(\overline A \lor B \lor A) \land (\overline A \lor B \lor \overline B)$$
+
+<!-- $$B \land \overline A$$ -->
+
+$$(B \lor 1) \land (\overline A \lor 1)$$
+
+$$1 \land 1$$
+
+$$1$$
+
+> [!CAUTION]
+>
+> ФОРМУЛА ТАВТОЛОГИЧНА!
+>
+> (она представляет modus ponens кстати, но это не так важно)
+
+тогда отрицание СКНФ (элементарные дизъюнкты, не вошедшие в ориг. СКНФ):
+- $A \lor B$
+- $A \lor \overline B$
+- $\overline A \lor B$
+- $\overline A \lor \overline B$
+
+то есть все возможные.
+
+```math
+\overline f(A; B)
+= (A \lor B)
+\land (A \lor \overline B)
+\land (\overline A \lor B)
+\land (\overline A \lor \overline B)
+```
+
+согласно закону об отрицании функции над базисом Буля:
+
+```math
+\overline {\overline f(A; B)}
+= (\overline A \land \overline B)
+\lor (\overline A \land B)
+\lor (A \land \overline B)
+\lor (A \land B)
+```
+
+> ```math
+> f(A; B)
+> = \overline A \, \overline B
+> \lor \overline A B
+> \lor A \overline B
+> \lor AB
+> ```
+
+или, через таблицу истинности:
+
+по отрицанию СКНФ получаем соот. наборы входных значений:
+- $\overline f(0, 0) = 0$
+- $\overline f(0, 1) = 0$
+- $\overline f(1, 0) = 0$
+- $\overline f(1, 1) = 0$
+
+---
+
+- $f(0, 0) = 1$
+- $f(0, 1) = 1$
+- $f(1, 0) = 1$
+- $f(1, 1) = 1$
+
+элементарные конъюнкты:
+- $\overline A \land \overline B$
+- $\overline A \land B$
+- $A \land \overline B$
+- $A \land B$
+
+> ```math
+> f(A; B)
+> = \overline A \, \overline B
+> \lor \overline A B
+> \lor A \overline B
+> \lor AB
+> ```
+
 ## задача 4
 
 Является ли рассуждение логически правильным
@@ -200,8 +295,8 @@ $$(\overline A \rarr (B \lor C))(\overline B \rarr D)(D \land \overline A \rarr 
 |  0  |  1  |  0  |  0  |               1                |           1           |  1  |  1  |
 |  0  |  1  |  0  |  1  |               1                |           1           |  1  |  1  |
 |  0  |  1  |  1  |  0  |               1                |           1           |  1  |  1  |
-|  1  |  0  |  0  |  1  |               1                |           1           |  1  |  0  |
-|  1  |  0  |  1  |  1  |               1                |           1           |  1  |  0  |
+|  1  |  0  |  0  |  1  |               1                |           1           |  1  |  __0__  |
+|  1  |  0  |  1  |  1  |               1                |           1           |  1  |  __0__  |
 |  1  |  1  |  0  |  0  |               1                |           1           |  1  |  1  |
 |  1  |  1  |  0  |  1  |               1                |           1           |  1  |  1  |
 |  1  |  1  |  1  |  0  |               1                |           1           |  1  |  1  |
