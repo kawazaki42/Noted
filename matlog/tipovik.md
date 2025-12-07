@@ -865,7 +865,7 @@ f(x, y, z, t)
 
 ```math
 f(x, y, z, t)
-= x k_1 ^1 \lor \overline x \cancel{k_1 ^0}
+= x \cancel{k_1 ^1} \lor \overline x \cancel{k_1 ^0}
 \lor y \cancel{k_2 ^1} \lor \overline y \cancel{k_2 ^0}
 \lor z \cancel{k_3 ^1} \lor \overline z k_3 ^0
 \lor t \cancel{k_4 ^1} \lor \overline t k_4 ^0
@@ -943,9 +943,9 @@ f(0, 0, 1, 0)
 \lor \cancel{k_{23} ^{01}}
 \lor \cancel{k_{24} ^{00}}
 % 
-\lor k_{34} ^{10}
+\lor \cancel{k_{34} ^{10}}
 %%
-\lor k_{234} ^{010}
+\lor \cancel{k_{234} ^{010}}
 \lor k_{134} ^{010}
 \lor \cancel{k_{124} ^{000}}
 \lor \cancel{k_{123} ^{001}}
@@ -1043,7 +1043,7 @@ f(0, 1, 1, 0)
 \lor k_{23} ^{11}
 \lor k_{24} ^{10}
 % 
-\lor k_{34} ^{10}
+\lor \cancel{k_{34} ^{10}}
 %%
 \lor k_{234} ^{110}
 \lor k_{134} ^{010}
@@ -1081,14 +1081,14 @@ f(0, 1, 1, 1)
 
 ```math
 f(1, 0, 0, 0)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^0}
 \lor \cancel{k_3 ^0}
 \lor \cancel{k_4 ^0}
 % 
-\lor k_{12} ^{10}
+\lor \cancel{k_{12} ^{10}}
 \lor k_{13} ^{10}
-\lor k_{14} ^{10}
+\lor \cancel{k_{14} ^{10}}
 % 
 \lor \cancel{k_{23} ^{00}}
 \lor \cancel{k_{24} ^{00}}
@@ -1097,7 +1097,7 @@ f(1, 0, 0, 0)
 %%
 \lor \cancel{k_{234} ^{000}}
 \lor k_{134} ^{100}
-\lor k_{124} ^{100}
+\lor \cancel{k_{124} ^{100}}
 \lor k_{123} ^{100}
 %%
 \lor k_{1234} ^{1000}
@@ -1106,12 +1106,12 @@ f(1, 0, 0, 0)
 
 ```math
 f(1, 0, 0, 1)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^0}
 \lor \cancel{k_3 ^0}
 \lor \cancel{k_4 ^1}
 % 
-\lor k_{12} ^{10}
+\lor \cancel{k_{12} ^{10}}
 \lor k_{13} ^{10}
 \lor k_{14} ^{11}
 % 
@@ -1131,38 +1131,38 @@ f(1, 0, 0, 1)
 
 ```math
 f(1, 0, 1, 0)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^0}
 \lor \cancel{k_3 ^1}
 \lor \cancel{k_4 ^0}
 % 
-\lor k_{12} ^{10}
-\lor k_{13} ^{11}
-\lor k_{14} ^{10}
+\lor \cancel{k_{12} ^{10}}
+\lor \cancel{k_{13} ^{11}}
+\lor \cancel{k_{14} ^{10}}
 % 
 \lor \cancel{k_{23} ^{01}}
 \lor \cancel{k_{24} ^{00}}
 % 
-\lor k_{34} ^{10}
+\lor \cancel{k_{34} ^{10}}
 %%
-\lor k_{234} ^{010}
-\lor k_{134} ^{110}
-\lor k_{124} ^{100}
-\lor k_{123} ^{101}
+\lor \cancel{k_{234} ^{010}}
+\lor \cancel{k_{134} ^{110}}
+\lor \cancel{k_{124} ^{100}}
+\lor \cancel{k_{123} ^{101}}
 %%
-\lor k_{1234} ^{1010}
+\lor \cancel{k_{1234} ^{1010}}
 = 0
 ```
 
 ```math
 f(1, 0, 1, 1)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^0}
 \lor \cancel{k_3 ^1}
 \lor \cancel{k_4 ^1}
 % 
-\lor k_{12} ^{10}
-\lor k_{13} ^{11}
+\lor \cancel{k_{12} ^{10}}
+\lor \cancel{k_{13} ^{11}}
 \lor k_{14} ^{11}
 % 
 \lor \cancel{k_{23} ^{01}}
@@ -1173,7 +1173,7 @@ f(1, 0, 1, 1)
 \lor \cancel{k_{234} ^{011}}
 \lor k_{134} ^{111}
 \lor k_{124} ^{101}
-\lor k_{123} ^{101}
+\lor \cancel{k_{123} ^{101}}
 %%
 \lor k_{1234} ^{1011}
 = 0
@@ -1181,14 +1181,14 @@ f(1, 0, 1, 1)
 
 ```math
 f(1, 1, 0, 0)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^1}
 \lor \cancel{k_3 ^0}
 \lor \cancel{k_4 ^0}
 % 
 \lor k_{12} ^{11}
 \lor k_{13} ^{10}
-\lor k_{14} ^{10}
+\lor \cancel{k_{14} ^{10}}
 % 
 \lor \cancel{k_{23} ^{10}}
 \lor k_{24} ^{10}
@@ -1206,7 +1206,7 @@ f(1, 1, 0, 0)
 
 ```math
 f(1, 1, 0, 1)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^1}
 \lor \cancel{k_3 ^0}
 \lor \cancel{k_4 ^1}
@@ -1231,22 +1231,22 @@ f(1, 1, 0, 1)
 
 ```math
 f(1, 1, 1, 0)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^1}
 \lor \cancel{k_3 ^1}
 \lor \cancel{k_4 ^0}
 % 
 \lor k_{12} ^{11}
-\lor k_{13} ^{11}
-\lor k_{14} ^{10}
+\lor \cancel{k_{13} ^{11}}
+\lor \cancel{k_{14} ^{10}}
 % 
 \lor k_{23} ^{11}
 \lor k_{24} ^{10}
 % 
-\lor k_{34} ^{10}
+\lor \cancel{k_{34} ^{10}}
 %%
 \lor k_{234} ^{110}
-\lor k_{134} ^{110}
+\lor \cancel{k_{134} ^{110}}
 \lor k_{124} ^{110}
 \lor k_{123} ^{111}
 %%
@@ -1256,13 +1256,13 @@ f(1, 1, 1, 0)
 
 ```math
 f(1, 1, 1, 1)
-= k_1 ^1
+= \cancel{k_1 ^1}
 \lor \cancel{k_2 ^1}
 \lor \cancel{k_3 ^1}
 \lor \cancel{k_4 ^1}
 % 
 \lor k_{12} ^{11}
-\lor k_{13} ^{11}
+\lor \cancel{k_{13} ^{11}}
 \lor k_{14} ^{11}
 % 
 \lor k_{23} ^{11}
