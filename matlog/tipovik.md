@@ -1284,25 +1284,26 @@ f(1, 1, 1, 1)
 #### Упрощенная система
 
 ```math
-f(0, 0, 1, 0)
-= \cancel{k_1 ^0}
-\lor \cancel{k_2 ^0}
-\lor \cancel{k_3 ^1}
-\lor \cancel{k_4 ^0}
+f(0, 0, 1, 0) =
+% \cancel{k_1 ^0}
+% \lor \cancel{k_2 ^0}
+% \lor \cancel{k_3 ^1}
+% \lor \cancel{k_4 ^0}
 % 
-\lor \cancel{k_{12} ^{00}}
-\lor \cancel{k_{13} ^{01}}
-\lor \cancel{k_{14} ^{00}}
+% \lor \cancel{k_{12} ^{00}}
+% \lor \cancel{k_{13} ^{01}}
+% \lor \cancel{k_{14} ^{00}}
 % 
-\lor \cancel{k_{23} ^{01}}
-\lor \cancel{k_{24} ^{00}}
+% \lor \cancel{k_{23} ^{01}}
+% \lor \cancel{k_{24} ^{00}}
 % 
-\lor \cancel{k_{34} ^{10}}
+% \lor \cancel{k_{34} ^{10}}
 %%
-\lor \cancel{k_{234} ^{010}}
-\lor k_{134} ^{010}
-\lor \cancel{k_{124} ^{000}}
-\lor \cancel{k_{123} ^{001}}
+% \lor \cancel{k_{234} ^{010}}
+% \lor
+k_{134} ^{010}
+% \lor \cancel{k_{124} ^{000}}
+% \lor \cancel{k_{123} ^{001}}
 %%
 \lor k_{1234} ^{0010}
 = 1
@@ -1310,44 +1311,46 @@ f(0, 0, 1, 0)
 
 ```math
 f(0, 1, 0, 0)
-= \cancel{k_1 ^0}
-\lor \cancel{k_2 ^1}
-\lor \cancel{k_3 ^0}
-\lor \cancel{k_4 ^0}
+=
+% \cancel{k_1 ^0}
+% \lor \cancel{k_2 ^1}
+% \lor \cancel{k_3 ^0}
+% \lor \cancel{k_4 ^0}
 % 
-\lor \cancel{k_{12} ^{01}}
-\lor \cancel{k_{13} ^{00}}
-\lor \cancel{k_{14} ^{00}}
+% \lor \cancel{k_{12} ^{01}}
+% \lor \cancel{k_{13} ^{00}}
+% \lor \cancel{k_{14} ^{00}}
 % 
-\lor \cancel{k_{23} ^{10}}
-\lor k_{24} ^{10}
+% \lor \cancel{k_{23} ^{10}}
+% \lor
+k_{24} ^{10}
 % 
-\lor \cancel{k_{34} ^{00}}
+% \lor \cancel{k_{34} ^{00}}
 %%
 \lor k_{234} ^{100}
-\lor \cancel{k_{134} ^{000}}
+% \lor \cancel{k_{134} ^{000}}
 \lor k_{124} ^{010}
-\lor \cancel{k_{123} ^{010}}
+% \lor \cancel{k_{123} ^{010}}
 %%
 \lor k_{1234} ^{0100}
 = 1
 ```
 
 ```math
-f(0, 1, 1, 0)
-= \cancel{k_1 ^0}
-\lor \cancel{k_2 ^1}
-\lor \cancel{k_3 ^1}
-\lor \cancel{k_4 ^0}
+f(0, 1, 1, 0) =
+% = \cancel{k_1 ^0}
+% \lor \cancel{k_2 ^1}
+% \lor \cancel{k_3 ^1}
+% \lor \cancel{k_4 ^0}
 % 
-\lor \cancel{k_{12} ^{01}}
-\lor \cancel{k_{13} ^{01}}
-\lor \cancel{k_{14} ^{00}}
+% \lor \cancel{k_{12} ^{01}}
+% \lor \cancel{k_{13} ^{01}}
+% \lor \cancel{k_{14} ^{00}}
 % 
-\lor \cancel{k_{23} ^{11}}
-\lor k_{24} ^{10}
+% \lor \cancel{k_{23} ^{11}}
+k_{24} ^{10}
 % 
-\lor \cancel{k_{34} ^{10}}
+% \lor \cancel{k_{34} ^{10}}
 %%
 \lor k_{234} ^{110}
 \lor k_{134} ^{010}
@@ -1360,24 +1363,24 @@ f(0, 1, 1, 0)
 
 ```math
 f(0, 1, 1, 1)
-= \cancel{k_1 ^0}
-\lor \cancel{k_2 ^1}
-\lor \cancel{k_3 ^1}
-\lor \cancel{k_4 ^1}
+% = \cancel{k_1 ^0}
+% \lor \cancel{k_2 ^1}
+% \lor \cancel{k_3 ^1}
+% \lor \cancel{k_4 ^1}
 % 
-\lor \cancel{k_{12} ^{01}}
-\lor \cancel{k_{13} ^{01}}
-\lor \cancel{k_{14} ^{01}}
+% \lor \cancel{k_{12} ^{01}}
+% \lor \cancel{k_{13} ^{01}}
+% \lor \cancel{k_{14} ^{01}}
 % 
-\lor \cancel{k_{23} ^{11}}
-\lor \cancel{k_{24} ^{11}}
+% \lor \cancel{k_{23} ^{11}}
+% \lor \cancel{k_{24} ^{11}}
 % 
-\lor \cancel{k_{34} ^{11}}
+% \lor \cancel{k_{34} ^{11}}
 %%
-\lor \cancel{k_{234} ^{111}}
-\lor \cancel{k_{134} ^{011}}
-\lor \cancel{k_{124} ^{011}}
-\lor k_{123} ^{011}
+% \lor \cancel{k_{234} ^{111}}
+% \lor \cancel{k_{134} ^{011}}
+% \lor \cancel{k_{124} ^{011}}
+= k_{123} ^{011}
 %%
 \lor k_{1234} ^{0111}
 = 1
@@ -1385,23 +1388,23 @@ f(0, 1, 1, 1)
 
 ```math
 f(1, 0, 0, 0)
-= \cancel{k_1 ^1}
-\lor \cancel{k_2 ^0}
-\lor \cancel{k_3 ^0}
-\lor \cancel{k_4 ^0}
+% = \cancel{k_1 ^1}
+% \lor \cancel{k_2 ^0}
+% \lor \cancel{k_3 ^0}
+% \lor \cancel{k_4 ^0}
 % 
-\lor \cancel{k_{12} ^{10}}
-\lor k_{13} ^{10}
-\lor \cancel{k_{14} ^{10}}
+% \lor \cancel{k_{12} ^{10}}
+= k_{13} ^{10}
+% \lor \cancel{k_{14} ^{10}}
 % 
-\lor \cancel{k_{23} ^{00}}
-\lor \cancel{k_{24} ^{00}}
+% \lor \cancel{k_{23} ^{00}}
+% \lor \cancel{k_{24} ^{00}}
 % 
-\lor \cancel{k_{34} ^{00}}
+% \lor \cancel{k_{34} ^{00}}
 %%
-\lor \cancel{k_{234} ^{000}}
+% \lor \cancel{k_{234} ^{000}}
 \lor k_{134} ^{100}
-\lor \cancel{k_{124} ^{100}}
+% \lor \cancel{k_{124} ^{100}}
 \lor k_{123} ^{100}
 %%
 \lor k_{1234} ^{1000}
@@ -1410,23 +1413,23 @@ f(1, 0, 0, 0)
 
 ```math
 f(1, 0, 0, 1)
-= \cancel{k_1 ^1}
-\lor \cancel{k_2 ^0}
-\lor \cancel{k_3 ^0}
-\lor \cancel{k_4 ^1}
+% = \cancel{k_1 ^1}
+% \lor \cancel{k_2 ^0}
+% \lor \cancel{k_3 ^0}
+% \lor \cancel{k_4 ^1}
 % 
-\lor \cancel{k_{12} ^{10}}
-\lor k_{13} ^{10}
-\lor \cancel{k_{14} ^{11}}
+% \lor \cancel{k_{12} ^{10}}
+= k_{13} ^{10}
+% \lor \cancel{k_{14} ^{11}}
 % 
-\lor \cancel{k_{23} ^{00}}
-\lor \cancel{k_{24} ^{01}}
+% \lor \cancel{k_{23} ^{00}}
+% \lor \cancel{k_{24} ^{01}}
 % 
-\lor \cancel{k_{34} ^{01}}
+% \lor \cancel{k_{34} ^{01}}
 %%
-\lor \cancel{k_{234} ^{001}}
+% \lor \cancel{k_{234} ^{001}}
 \lor k_{134} ^{101}
-\lor \cancel{k_{124} ^{101}}
+% \lor \cancel{k_{124} ^{101}}
 \lor k_{123} ^{100}
 %%
 \lor k_{1234} ^{1001}
@@ -1435,19 +1438,19 @@ f(1, 0, 0, 1)
 
 ```math
 f(1, 1, 0, 0)
-= \cancel{k_1 ^1}
-\lor \cancel{k_2 ^1}
-\lor \cancel{k_3 ^0}
-\lor \cancel{k_4 ^0}
+% = \cancel{k_1 ^1}
+% \lor \cancel{k_2 ^1}
+% \lor \cancel{k_3 ^0}
+% \lor \cancel{k_4 ^0}
 % 
-\lor \cancel{k_{12} ^{11}}
-\lor k_{13} ^{10}
-\lor \cancel{k_{14} ^{10}}
+% \lor \cancel{k_{12} ^{11}}
+= k_{13} ^{10}
+% \lor \cancel{k_{14} ^{10}}
 % 
-\lor \cancel{k_{23} ^{10}}
+% \lor \cancel{k_{23} ^{10}}
 \lor k_{24} ^{10}
 % 
-\lor \cancel{k_{34} ^{00}}
+% \lor \cancel{k_{34} ^{00}}
 %%
 \lor k_{234} ^{100}
 \lor k_{134} ^{100}
@@ -1460,23 +1463,23 @@ f(1, 1, 0, 0)
 
 ```math
 f(1, 1, 0, 1)
-= \cancel{k_1 ^1}
-\lor \cancel{k_2 ^1}
-\lor \cancel{k_3 ^0}
-\lor \cancel{k_4 ^1}
+% = \cancel{k_1 ^1}
+% \lor \cancel{k_2 ^1}
+% \lor \cancel{k_3 ^0}
+% \lor \cancel{k_4 ^1}
 % 
-\lor \cancel{k_{12} ^{11}}
-\lor k_{13} ^{10}
-\lor \cancel{k_{14} ^{11}}
+% \lor \cancel{k_{12} ^{11}}
+= k_{13} ^{10}
+% \lor \cancel{k_{14} ^{11}}
 % 
-\lor \cancel{k_{23} ^{10}}
-\lor \cancel{k_{24} ^{11}}
+% \lor \cancel{k_{23} ^{10}}
+% \lor \cancel{k_{24} ^{11}}
 % 
-\lor \cancel{k_{34} ^{01}}
+% \lor \cancel{k_{34} ^{01}}
 %%
-\lor \cancel{k_{234} ^{101}}
+% \lor \cancel{k_{234} ^{101}}
 \lor k_{134} ^{101}
-\lor \cancel{k_{124} ^{111}}
+% \lor \cancel{k_{124} ^{111}}
 \lor k_{123} ^{110}
 %%
 \lor k_{1234} ^{1101}
@@ -1485,24 +1488,24 @@ f(1, 1, 0, 1)
 
 ```math
 f(1, 1, 1, 0)
-= \cancel{k_1 ^1}
-\lor \cancel{k_2 ^1}
-\lor \cancel{k_3 ^1}
-\lor \cancel{k_4 ^0}
+% = \cancel{k_1 ^1}
+% \lor \cancel{k_2 ^1}
+% \lor \cancel{k_3 ^1}
+% \lor \cancel{k_4 ^0}
 % 
-\lor \cancel{k_{12} ^{11}}
-\lor \cancel{k_{13} ^{11}}
-\lor \cancel{k_{14} ^{10}}
+% \lor \cancel{k_{12} ^{11}}
+% \lor \cancel{k_{13} ^{11}}
+% \lor \cancel{k_{14} ^{10}}
 % 
-\lor \cancel{k_{23} ^{11}}
-\lor k_{24} ^{10}
+% \lor \cancel{k_{23} ^{11}}
+= k_{24} ^{10}
 % 
-\lor \cancel{k_{34} ^{10}}
+% \lor \cancel{k_{34} ^{10}}
 %%
 \lor k_{234} ^{110}
-\lor \cancel{k_{134} ^{110}}
+% \lor \cancel{k_{134} ^{110}}
 \lor k_{124} ^{110}
-\lor \cancel{k_{123} ^{111}}
+% \lor \cancel{k_{123} ^{111}}
 %%
 \lor k_{1234} ^{1110}
 = 1
