@@ -1,5 +1,6 @@
 #include <iostream>
-#include "shape.hpp"
+#include "square.hpp"
+#include "circle.hpp"
 
 using std::cout, std::endl;
 
