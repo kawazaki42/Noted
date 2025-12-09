@@ -107,7 +107,7 @@ module NonLinear
       fb = @fun.(@end)
 
       # binding.debugger if fa * fb >= DEFAULT_PRECISION
-      # fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
+      fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
     end
 
     def step
@@ -218,23 +218,29 @@ module NonLinear
   end
 
 
-  class TangentChordSolver < TangentSolver
+  # class TangentChordSolver < TangentSolver
+  class TangentChordSolver < IntervalSolver
     def initialize(f, range, df, ddf)
-      super
-      @chord = ChordSolver.new(f, range)
+      super(f, range)
+      @der1 = df
+      @der2 = ddf
+      # @chord = ChordSolver.new(f, range)
+      # @tangent = TangentSolver.new(f, range, df, ddf)
     end
 
     def step
+      chord = ChordSolver.new(@fun, @begin..@end)
+      tangent = TangentSolver.new(@fun, @begin..@end, @der1, @der2)
+
       # binding.debugger
-      c = @chord.step
-      d = super
+      c = chord.step
+      # d = super
+      d = tangent.step
 
       @begin, @end = [c, d].minmax
 
       # @chord.begin = @begin
       # @chord.end = @end
-
-      @chord = ChordSolver.new(@fun, @begin..@end)
 
       value
     end
