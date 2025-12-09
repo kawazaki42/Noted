@@ -96,6 +96,7 @@ module NonLinear
     include Enumerable
 
     attr_reader :fun, :begin, :end
+    attr_writer :fun, :begin, :end
 
     def initialize(fun, range)
       @fun = fun
@@ -224,23 +225,23 @@ module NonLinear
       super(f, range)
       @der1 = df
       @der2 = ddf
-      # @chord = ChordSolver.new(f, range)
-      # @tangent = TangentSolver.new(f, range, df, ddf)
+      @chord = ChordSolver.new(f, range)
+      @tangent = TangentSolver.new(f, range, df, ddf)
     end
 
     def step
-      chord = ChordSolver.new(@fun, @begin..@end)
-      tangent = TangentSolver.new(@fun, @begin..@end, @der1, @der2)
+      # chord = ChordSolver.new(@fun, @begin..@end)
+      # tangent = TangentSolver.new(@fun, @begin..@end, @der1, @der2)
 
       # binding.debugger
-      c = chord.step
+      c = @chord.step
       # d = super
-      d = tangent.step
+      d = @tangent.step
 
       @begin, @end = [c, d].minmax
 
-      # @chord.begin = @begin
-      # @chord.end = @end
+      @chord.begin = @tangent.begin = @begin
+      @chord.end = @chord.end = @end
 
       value
     end
