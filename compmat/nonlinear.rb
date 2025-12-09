@@ -106,8 +106,8 @@ module NonLinear
       fa = @fun.(@begin)
       fb = @fun.(@end)
 
-      # binding.debugger if fa * fb >= DEFAULT_PRECISION
-      # fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
+      binding.debugger if fa * fb >= DEFAULT_PRECISION
+      fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
     end
 
     def step
@@ -156,8 +156,8 @@ module NonLinear
   end
 
 
-  class ChordSolver < IntervalSolver
-    def value
+  module ChordMixin
+    protected def value_chord
       a = @begin
       b = @end
 
@@ -174,6 +174,10 @@ module NonLinear
 
       n / d
     end
+  end
+
+
+  class ChordSolver < IntervalSolver
 
     # def initialize(*args, **kwargs)
     #   super
@@ -190,17 +194,14 @@ module NonLinear
     #   # return 10 unless @old_value
     #   (value - @old_value).abs
     # end
+    include ChordMixin
+
+    def value = value_chord
   end
 
 
-  class TangentSolver < IntervalSolver
-    def initialize(f, range, df, ddf)
-      super(f, range)
-      @der1 = df
-      @der2 = ddf
-    end
-
-    def value
+  module TangentMixin
+    protected def value_tangent
       z = if @fun.(@begin) * @der2.(@begin) >= 0 then
         @begin
       elsif @fun.(@end) * @der2.(@end) >= 0 then
@@ -218,26 +219,48 @@ module NonLinear
   end
 
 
-  class TangentChordSolver < TangentSolver
+  class TangentSolver < IntervalSolver
+    include TangentMixin
+
     def initialize(f, range, df, ddf)
-      super
-      @chord = ChordSolver.new(f, range)
+      super(f, range)
+      @der1 = df
+      @der2 = ddf
     end
 
-    def step
-      # binding.debugger
-      c = @chord.step
-      d = super
+    def value = value_tangent
+  end
 
-      @begin, @end = [c, d].minmax
 
-      # @chord.begin = @begin
-      # @chord.end = @end
+  class TangentChordSolver < TangentSolver
+    # def initialize(f, range, df, ddf)
+    #   super
+    #   @chord = ChordSolver.new(f, range)
+    # end
 
-      @chord = ChordSolver.new(@fun, @begin..@end)
+    include ChordMixin, TangentMixin
 
-      value
+    def initialize(f, range, df, ddf)
+      super(f, range)
+      @der1 = df
+      @der2 = ddf
     end
+
+
+    # def step
+    #   # binding.debugger
+    #   c = @chord.step
+    #   d = super
+
+    #   @begin, @end = [c, d].minmax
+
+    #   # @chord.begin = @begin
+    #   # @chord.end = @end
+
+    #   @chord = ChordSolver.new(@fun, @begin..@end)
+
+    #   value
+    # end
 
     def delta
       ((@begin - @end)/2).abs
@@ -245,6 +268,8 @@ module NonLinear
 
     def value
       # @chord.value
+      c = value_chord
+      d = value_tangent
       (@begin + @end)/2
     end
   end
