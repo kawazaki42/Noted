@@ -1,10 +1,6 @@
 #ifndef SHAPE_HPP
 #define SHAPE_HPP
 
-// #include <cmath>
-// #include <numbers>
-// #include <stdexcept>
-
 
 namespace fake {
 
@@ -24,6 +20,8 @@ namespace fake {
         virtual P get_area() const = 0;
         /// Вычислить периметр.
         virtual P get_perimeter() const = 0;
+        /// Переместить на указанное смещение.
+        virtual void move_relative(P x, P y) = 0;
     };
 
 

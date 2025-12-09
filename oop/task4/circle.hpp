@@ -53,9 +53,9 @@ namespace fake {
         }
 
         /// Переместить фигуру на указанное смещение.
-        void move_relative(P x, P y) {
-            center += x;
-            center += y;
+        void move_relative(P x, P y) override {
+            center.x += x;
+            center.y += y;
         }
 
         /// Вычислить площадь.
