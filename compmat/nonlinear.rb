@@ -106,8 +106,8 @@ module NonLinear
       fa = @fun.(@begin)
       fb = @fun.(@end)
 
-      binding.debugger if fa * fb >= DEFAULT_PRECISION
-      fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
+      # binding.debugger if fa * fb >= DEFAULT_PRECISION
+      # fail "В диапазоне нет корня" if fa * fb >= DEFAULT_PRECISION
     end
 
     def step
