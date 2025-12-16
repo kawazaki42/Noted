@@ -22,6 +22,8 @@ namespace fake {
         virtual P get_perimeter() const = 0;
         /// Переместить на указанное смещение.
         virtual void move_relative(P x, P y) = 0;
+
+        virtual ~shape() {}
     };
 
 

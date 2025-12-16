@@ -55,7 +55,7 @@ namespace fake {
 
             point2d<P> new_end{
                 std::max(begin.x, end.x),
-                std::min(begin.y, end.y),
+                std::max(begin.y, end.y),
             };
 
             begin = new_begin;
@@ -64,8 +64,11 @@ namespace fake {
 
     public:
 
-        rect(point2d<P> begin, point2d<P> end): begin(begin), end(end) {}
+        rect(point2d<P> begin, point2d<P> end): begin(begin), end(end) {
+            sort_corners();
+        }
 
+        // делегирующий конструктор
         rect(P bx, P by, P ex, P ey): rect({bx, by}, {ex, ey}) {}
 
         rect(P x, P y): rect(0, 0, x, y) {}

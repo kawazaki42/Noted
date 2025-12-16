@@ -19,8 +19,6 @@ namespace fake {
         /// Точность сравнения.
         static inline const P COMPARE_PRECISION = P(1e-6);
 
-        /// NOTE: 1e-6 преобразуется в 0 для целочисленных типов!
-
         /// Проверить предусловие: равенство ширины и высоты.
         ///
         /// Нужно для изменения координат углов.
@@ -32,6 +30,7 @@ namespace fake {
             P height = std::abs(end.y - begin.y);
 
             // сравнение с учетом машинной погрешности
+            /// NOTE: 1e-6 преобразуется в 0 для целочисленных типов!
             if(std::abs(width - height) > COMPARE_PRECISION)
                 throw std::invalid_argument(
                     "width and height of square must match"

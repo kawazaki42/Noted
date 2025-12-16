@@ -9,28 +9,45 @@ namespace fake {
     }
 
     class shape~P~ {
-        + virtual get_area() P
-        + virtual get_perimeter() P
+        + abstract get_area() P
+        + abstract get_perimeter() P
+        + abstract move_relative(x : P, y : P)
+    }
+
+    class basic_rect~P~ {
+        + abstract get_begin() point2d~P~
+        + abstract get_end() point2d~P~
+
+        + abstract set_begin(x : P, y : P)
+        + abstract set_end(x : P, y : P)
+
+        + abstract get_width() P
+        + abstract get_height() P
+
+        + override get_area() P
+        + override get_perimeter() P
     }
 
     class rect~P~ {
         %% - width : P
         %% - height : P
-        # begin: point2d~P~
-        # end: point2d~P~
+        - begin: point2d~P~
+        - end: point2d~P~
 
-        + get_corner_ul() point2d~P~
-        + get_corner_br() point2d~P~
+        - sort_corners()
 
-        + virtual set_corner_ul(P x, P  y)
-        + virtual set_corner_br(P x, Py)
+        + override get_begin() point2d~P~
+        + override get_end() point2d~P~
 
-        + get_width() P
-        + get_height() P
+        + override set_begin(x : P, y : P)
+        + override set_end(x : P, y : P)
 
-        + move_relative(P x, P y)
-        + get_area() P
-        + get_perimeter() P
+        + override get_width() P
+        + override get_height() P
+
+        + override move_relative(P x, P y)
+        + override get_area() P
+        + override get_perimeter() P
     }
 
     class square~P~ {
