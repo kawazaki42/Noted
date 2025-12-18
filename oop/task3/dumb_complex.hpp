@@ -43,8 +43,8 @@ namespace dumb {
         /// Строковое представление.
         std::string to_string() const;
 
-        /// Преобразовать из строки.
-        static complex from_string(const std::string &s);
+        // /// Преобразовать из строки.
+        // static complex from_string(const std::string &s);
     };
 
     /// Равенство.
