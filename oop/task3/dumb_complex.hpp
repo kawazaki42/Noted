@@ -42,10 +42,16 @@ namespace dumb {
 
         /// Строковое представление.
         std::string to_string() const;
+
+        /// Преобразовать из строки.
+        static complex from_string(const std::string &s);
     };
 
     /// Равенство.
     bool operator ==(const complex &a, const complex &b);
+
+    /// Ввод с `istream` (напр. файлы, `cin`)
+    std::istream &operator >>(std::istream &s, complex &c);
 }
 
 #endif  // DUMB_COMPLEX_HPP

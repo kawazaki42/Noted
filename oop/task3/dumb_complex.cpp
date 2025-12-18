@@ -1,5 +1,6 @@
 #include <cmath>
 #include <format>
+#include <istream>
 #include <string>
 #include "dumb_complex.hpp"
 
@@ -60,6 +61,27 @@ namespace dumb {
             "{} {} {}i", real, imag_sign, std::abs(imag)
         );
     }
+
+    // /// Преобразовать из строки.
+    // complex complex::from_string(const std::string &s) {
+
+    // }
+
+    /// Ввод с `istream` (напр. файлы, `cin`)
+    std::istream &operator >>(std::istream &s, complex &c) {
+        char sign;
+
+        s >> c.real >> std::ws >> sign >> std::ws >> c.imag;
+
+        if(sign == '-') {
+            c.imag = -c.imag;
+        } else if(sign != '+') {
+            s.setstate(std::istream::failbit);
+        }
+
+        return s;
+    }
+
 
     /// Равенство.
     bool operator ==(const complex &a, const complex &b) {

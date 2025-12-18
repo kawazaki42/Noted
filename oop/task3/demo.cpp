@@ -1,6 +1,8 @@
+#include <cassert>
 #include <cstddef>
 #include <ios>
 #include <iostream>
+#include <fstream>
 // #include "complex.hpp"
 #include "dumb_complex.hpp"
 
@@ -17,13 +19,18 @@ int main() {
     // fake::complex<double> c = 5;
     // cout << (fake::complex<double>{0, -5} - fake::complex<double>{2, 3}).to_string() << endl;
 
-    cout << dumb::complex(-3, 4).to_string() << endl;
+    // cout << dumb::complex(-3, 4).to_string() << endl;
 
-    dumb::complex c{1, 2};
+    /// статический объект
+    dumb::complex c{3, 4};
 
     cout << (c + 5).to_string() << endl;
 
-    cout << std::boolalpha << (c + 5 != dumb::complex{6, 2}) << endl;
+    // cout << std::boolalpha << (c + 5 != dumb::complex{6, 2}) << endl;
+
+    dumb::complex e{8, 4};
+
+    assert(c + 5 == e);
 
     // c += {3, 4};
 
@@ -35,10 +42,11 @@ int main() {
     /// статический массив из объектов
     dumb::complex cs[10];  // 10 конструкторов сразу
 
+    // изменим один из объектов
     cs[5].imag = 100;
 
     for(auto &c: cs) {
-        cout << c.to_string() << ' ';
+        cout << c.to_string() << "  ";
     }
     cout << endl;
 
@@ -50,21 +58,40 @@ int main() {
 
     // foreach не работает
     for(size_t i = 0; i < 10; i++) {
-        cout << c.to_string() << ' ';
+        cout << c.to_string() << "  ";
     }
     cout << endl;
 
     delete[] dcs;
 
     /// (статический) массив из указателей на объекты
-    dumb::complex *pcs[10];
+    dumb::complex *pcs[10];  // ни один конструктор не вызван
 
     for(size_t i = 0; i < 10; i++) {
         // по одному конструктору за раз
         pcs[i] = new dumb::complex{0, (double)i};
     }
 
+    // foreach работает; p - указатель
     for(auto p: pcs) {
-        cout << p->to_string() << ' ';
+        cout << p->to_string() << "  ";
+        delete p;
+    }
+    cout << endl;
+    
+    const std::string fname{"complex.txt"};
+
+    {
+        // вывод в файл
+        std::ofstream f{fname};
+        f << c.to_string() << endl;
+    }
+
+    {
+        // ввод из файла
+        std::ifstream f{fname};
+        dumb::complex c;
+        f >> c;
+        std::cout << c.to_string();
     }
 }
