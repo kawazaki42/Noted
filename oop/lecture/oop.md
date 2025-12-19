@@ -1002,8 +1002,8 @@ Manager -- Programmer
 ```mermaid
 classDiagram
 
-"<<interface>> Pet" <|.. Cat
-"<<interface>> Pet" <|.. Dog
+Pet["<<interface>> Pet"] <|.. Cat
+%% "<<interface>> Pet" <|.. Dog
 ```
 
 - совершенный код - стив макконелл

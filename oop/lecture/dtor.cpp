@@ -150,12 +150,26 @@ class Bow: public Weapon {
         }
 
         // переопределение метода (override)
-        std::string to_string() const {
-            // вызовет метод базового класса
-            return Weapon::to_string()
-                + std::format("\ndistance: {:.1f}", distance);
-        }
+        std::string to_string() const;
 };
+
+
+// реализация
+std::string Bow::to_string() const {
+    // вызовет метод базового класса
+    return Weapon::to_string()
+        + std::format("\ndistance: {:.1f}", distance);
+}
+
+
+float f1(int x) {return     sqrt(x); }
+float f2(int x) {return 1.0/sqrt(x); }
+
+// тип указателя на фцию
+using FPointer1 = float (int);
+using FPointer2 = float(*)(int);
+
+using MPointer1 = float(Bow::*)() const;
 
 
 class GameCharacter {
@@ -524,4 +538,60 @@ int main() {
         }
         // assert( b.get_distance() == 8 );
     }
+
+    // c-style cast
+    int y = (int) 3.14;
+    char *c = (char *) y;
+    // string s = (string) x;  // даже не работает
+    vector<int> v;
+    // string s = (string) v;  // тоже
+
+    // static_cast
+    int y2 = static_cast<int>(3.14);
+
+    // dynamic_cast - на этапе выполнения (runtime)
+    Weapon *wb = new Bow;
+
+    // кайф, он знает что он на самом деле Bow
+    // каст не требуется
+    cout << wb->to_string() << endl;
+
+    // не знает такой метод!
+    // w->set_distance(42);
+
+    Bow *bw = dynamic_cast<Bow *>(wb);
+
+    if(bw == nullptr)
+        cerr << "каст не проканал" << endl;
+    else
+        bw->set_distance(42);
+
+    // reinterpret_cast - читает двоичное представление "по-другому"
+
+    // динамический массив из байт для записи в файл
+    char *bytes = reinterpret_cast<char *>(bw);
+    sizeof(*bw);  // размер массива
+    sizeof(Bow);  // делает то же самое
+
+    Bow b1("Лук1", 5, 10);
+    Bow b12("Лук1", 5, 10);
+
+    // надо перегрузить оператор сравнения
+    // равенство: если компоненты равны
+    // bool is_equal = b1 == b12;  // по идее true
+
+    // идентичность: если хранятся в одной ячейки памяти
+    Bow &b3 = b1;  // идентичны
+    Bow *b4 = &b1; // *b4 и b1 идентичны
+
+    FPointer2 fp = f1;
+    // FPointer1 fp2;
+    // float f = 3.14;
+    // fp2 = &f;
+    fp(90);  // вызовет f1
+    fp = f2;
+    fp(90);  // вызовет f2
+
+    const MPointer1 p = &Bow::get_distance;
+    // b.*p();  // TODO
 }
