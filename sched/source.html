@@ -1,0 +1,2151 @@
+<script>
+	var rewrite_url_page_in_htaccess = "1";
+	var equal_request_and_cookie = "1";
+	var eqoual_letterSpace_and_cookie = "1";
+	var equal_font_request_and_cookie = "1";
+	var equal_img_request_and_cookie = "1";
+
+	if (rewrite_url_page_in_htaccess) {
+		if (!equal_request_and_cookie)
+			document.location.reload();
+		if (!eqoual_letterSpace_and_cookie)
+			document.location.reload();
+		if (!equal_font_request_and_cookie)
+			document.location.reload();
+		if (!equal_img_request_and_cookie) {
+			document.location.reload();
+		}
+	}
+
+</script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "//www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<!-- 	<link rel="stylesheet" type="text/css" href="/css/innerpage.css">
+	<link rel="stylesheet" type="text/css" href="/css/addresses.css">
+	<link rel="stylesheet" type="text/css" href="/css/page.css"> -->
+	<link rel="stylesheet" type="text/css" href="/css/comments.css">
+	<link rel="stylesheet" type="text/css" href="/css/arcticModal.css">
+	<link rel="stylesheet" type="text/css" href="/css/tinymce.filesuploader.css">
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/innerpage_ie.css" />
+		<link rel="stylesheet" type="text/css" href="css/addresses_ie.css" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="../css/innerpage.css">
+	<link rel="stylesheet" type="text/css" href="../css/addresses.css">
+	<link rel="stylesheet" type="text/css" href="../css/page.css">
+	<script src="../js/menu_list_slide_down.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/delete_edit_buttons.css">
+	<link rel="shortcut icon" href="/icon/favicon.ico" type="image/x-icon" />
+	<link
+		href='//fonts.googleapis.com/css?family=Cousine:400,400italic|Ubuntu+Condensed|Comfortaa&subset=cyrillic,cyrillic-ext,latin'
+		rel='stylesheet' type='text/css'>
+	<script src="/js/jquery-1.8.2.min.js"></script>
+	<script src="/js/jquery.form.js"></script>
+	<script src="/js/jquery.arcticmodal.js"></script>
+	<script src="/js/frame.js"></script>
+	<script src="/js/login.js"></script>
+	<script src="/js/comment.js"></script>
+	<script src="/js/delete_edit_buttons.js"></script>
+
+	<title>Расписание занятий - Забайкальский государственный университет</title>
+</head>
+
+<body onload="onload();">
+
+	<div id="main">
+		<div id="header">
+		</div>
+		<!--################################################ Head_elements ##################################################-->
+		<!-- Top.Mail.Ru counter -->
+		<script type="text/javascript">
+			var _tmr = window._tmr || (window._tmr = []);
+			_tmr.push({ id: "3607433", type: "pageView", start: (new Date()).getTime() });
+			(function (d, w, id) {
+				if (d.getElementById(id)) return;
+				var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+				ts.src = "https://top-fwz1.mail.ru/js/code.js";
+				var f = function () { var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s); };
+				if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+			})(document, window, "tmr-code");
+		</script>
+		<noscript>
+			<div><img src="https://top-fwz1.mail.ru/counter?id=3607433;js=na" style="position:absolute;left:-9999px;"
+					alt="Top.Mail.Ru" /></div>
+		</noscript>
+		<!-- /Top.Mail.Ru counter -->
+
+		<link rel="stylesheet" href="//zabgu.ru/fonts/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="//zabgu.ru/css/head_elements.css?ver=24072502">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script src="../js/js.cookie.js"></script>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function (event) {
+				function getCookie(name) {
+					var matches = document.cookie.match(new RegExp(
+						"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+					));
+					return matches ? decodeURIComponent(matches[1]) : undefined;
+				}
+
+				let impaired_set = getCookie("impairedVersionEnable");
+
+				let content_block = document.querySelector("#content");
+				if (impaired_set && impaired_set !== "off" && content_block) {
+					let press_bar = document.querySelector("#press_bar");
+					let container = document.querySelector("#content");
+					let container_block = document.querySelector('#container');
+
+					press_bar.style.top = content_block.offsetHeight - 20;
+					container_block.style.height = content_block.offsetHeight + press_bar.offsetHeight + 20;
+				}
+			});
+		</script>
+
+		<!--################################################ Head_elements ##################################################-->
+		<script>
+			var equal_request_and_cookie = "1";
+			var equal_letterSpace = "1";
+			var equal_font = "1";
+			var equal_img = "1";
+
+			if (!equal_request_and_cookie)
+				document.location.reload();
+			if (!equal_letterSpace)
+				document.location.reload();
+			if (!equal_font)
+				document.location.reload();
+			if (!equal_img)
+				document.location.reload();
+		</script>
+
+		<div id="head_elements">
+
+			<div class="languges">
+				<div id="rus_wraper" class="lang_wrap"> <a href="index.php"><img id="rus_image" class="lang_img"
+							src="/icon/rus_flag.png" alt=""></a>
+					<p id="rus_text" class="text">Русская верcия</p>
+				</div>
+				<div id="eng_wraper" class="lang_wrap"><a href="page.php?query=about_us"><img id="eng_image"
+							class="lang_img" src="/icon/eng_flag.png" title="About Us"></a></div>
+				<div id="chi_wraper" class="lang_wrap"><a href="page.php?query=about_us_ch"><img id="chi_image"
+							class="lang_img" src="/icon/chin_flag.png" title="關於我們"></a></div>
+			</div>
+			<div id="input_title" class="account_button" onclick="Open_Login_Window()">
+				<p id="input_title_text" class="text"><i class="fa fa-unlock" aria-hidden="true"></i> Авторизация</p>
+			</div>
+			<div id="account_exit_button" class="account_button" title="Вы вошли как  " onclick="Open_Exit_Window()"
+				style='display: none'>
+				<p id="input_title_text" class="text"><i class="fa fa-lock" aria-hidden="true"></i> Выйти из профиля</p>
+			</div>
+
+			<div style="display: none;" id="blockscreen"></div>
+			<div id="anyblock" style="display: none;">
+				<div id="log_in">
+					<div id="headline">
+						<div onclick="modalWindows.authorization_mw.close();" id="icon_close"><i
+								class="fa fa-close"></i></div>
+						<a href="index.php"><img id="zabgu_emblem" src="/icon/emblem.png"></a>
+						<h3 id="zabgu_text">Забайкальский</br> государственный</br> университет</h3>
+					</div>
+					<div id="main_auth_form">
+						<div id="login_wrapper">
+							<form id="login_form" action="/php/login.php" method="POST" name="login_form"
+								enctype="multipart/form-data">
+								<div class="login_block">
+									<h3 class="div_title">ФОРМА АВТОРИЗАЦИИ</h3>
+									<div class="field_login"><input class="inputbox_login" id="inputbox_login"
+											name="login" placeholder="Логин" type="text"></div>
+									<div class="field"><input class="inputbox_login" id="inputbox_pass" name="password"
+											placeholder="Пароль" type="password"></div>
+									<div class="field">
+										<p id="error_auth_text" style="color: red; font-size: 14px;" class="text"></p>
+									</div>
+									<a class="modal_link" href="./password_reset.php">Забыли пароль?</a>
+									<!--										<a class="modal_link" href="#" onclick="add_form('dv1')">Забыли пароль?</a>-->
+									<div class="field"><input name="" id="login_button" type="submit"
+											class="button_login" value="Войти"></div>
+								</div>
+								<!--										<div id="dv1"></div>-->
+							</form>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div id="succ_auth_wrapper" style='display: none'>
+					<div class="name_string"><i class='fa fa-cloud' aria-hidden='true' style='font-size: 20px;'></i>
+						Добрый вечер, </div></br>
+					<p id="succ_auth" class="text">Вы успешно авторизированы на сайте!</p>
+					<input type="button" id="auth_confirm_button" class="button_login ok" value="OK" />
+				</div>
+			</div>
+
+			<div id="exit_confirm" style="display: none;">
+				<div id="headline">
+					<div onclick="modalWindows.exit_mw.close();" id="icon_close"><i class="fa fa-close"></i></div>
+					<a href="index.php"><img id="zabgu_emblem" src="/icon/emblem.png"></a>
+					<h3 id="zabgu_text">Забайкальский</br> государственный</br> университет</h3>
+				</div>
+				<!-- <div id="exit_button"><i class="fa fa-close"></i></div> -->
+				<h3 class="div_title noborder">
+					<div class="auth_name_enter"><i class="fa fa-user" aria-hidden="true"></i> Вы авторизированы как
+					</div><br><i class="fa fa-question-circle" aria-hidden="true"></i> Вы уверены, что хотите выйти из
+					профиля?
+				</h3>
+				<ul class="block_button_exit">
+					<li>
+						<div id="exit_confirm_button">
+							<!--<img id="lock" class="lock_img" src="/icon/input.png" >-->
+							<p><i class="fa fa-sign-out" aria-hidden="true"></i> Выйти</p>
+						</div>
+					</li>
+					<li>
+						<div id="exit_cancel_button">
+							<!--<img id="lock" class="lock_img" src="/icon/input.png" >-->
+							<p><i class="fa fa-ban" aria-hidden="true"></i> Отмена</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div id="searchField">
+				<form id="search_form" action="/php/search_page.php">
+					<input name="query" placeholder="Поиск по сайту.." type="search" id="search_input">
+					<button type="submit" id="search_button">Найти</button>
+				</form>
+			</div>
+
+			<div id="six_plus_text" title="Возрастное ограничение 6+">6+</div>
+
+
+
+		</div>
+
+
+
+		<script>
+			$(document).ready(function () {
+				$('#big_preview_image, #preview_image_block').click(function () {
+					if ($('.img_background').css('display') == "block") {
+						$('#menu_bar, #press_bar, #header, #head_elements, #content, .b-head-decor, .snowContainer, .go-down, .go-up').css('z-index', '0');
+						$('#footer').css('opacity', 'unset');
+					}
+				});
+
+				$('#CloseBigImage').click(function () {
+					$('#menu_bar, #press_bar, #header, #head_elements').css('z-index', '9');
+					$('#content, .b-head-decor').css('z-index', '8');
+					$('.snowContainer').css('z-index', '10');
+					$('#footer').css('opacity', '.99');
+					$('.go-down, .go-up').css('z-index', '9999');
+				});
+			});
+		</script>
+		<!--################################################ Container ##################################################-->
+		<div id="container">
+			<!--################################################ Press ##################################################-->
+			<link rel="stylesheet" type="text/css" href="//zabgu.ru/css/press_bar.css?v=220929">
+
+			<!--################################################ Press ##################################################-->
+
+			<div id="press_bar">
+				<ul class="social_link_block" id="society">
+					<li><a href="//vk.com/press_zabgu" class="sicon" target="_blank" title="Мы Вконтакте">
+							<div class="society_icon vk"><i class="fab fa-vk" aria-hidden="true"></i></div>
+						</a></li>
+					<li><a href="//ok.ru/group/52245425094862" class="sicon" target="_blank"
+							title="Мы в Одноклассниках">
+							<div class="society_icon odnoklassniki"><i class="fab fa-odnoklassniki"
+									aria-hidden="true"></i></div>
+						</a></li>
+					<li><a href="https://mail.zabgu.ru" class="sicon" target="_blank" title="Наша почта">
+							<div class="society_icon mail"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+						</a></li>
+					<li><a href="https://t.me/zabgu" class="sicon" target="_blank" title="Наш телеграм">
+							<div class="society_icon telegram"><i class="fab fa-telegram" aria-hidden="true"></i></i>
+							</div>
+						</a></li>
+					<li><a href="https://rutube.ru/channel/24189151/videos/" class="sicon" target="_blank"
+							title="Наш RUTUBE-канал">
+							<div class="society_icon rutube" style="font-style: italic;">RU</div>
+						</a></li>
+					<li><a href="https://zen.yandex.ru/id/6232ba015917df13926fe683" class="sicon" target="_blank"
+							title="Наш Яндекс.Дзен">
+							<div class="society_icon yandexZen" style="font-style: italic;"><img width="15"
+									src="../img/yandexZen.png" alt=""></div>
+						</a></li>
+				</ul>
+
+				<a href="page.php?query=obratnaya_svyaz'" title="Обратная связь">
+					<div class="info">
+						<p class="info_text"><i class="fa fa-comments" aria-hidden="true"></i> Обратная связь</p>
+					</div>
+				</a>
+				<a target="_blank" href="//social.zabgu.ru/" title="Личный кабинет студента">
+					<div class="info" id="student_personal_area">
+						<p class="info_text"><i class="fa fa-key" aria-hidden="true"></i> Личный кабинет</p>
+					</div>
+				</a>
+				<a target="_blank" href="//social.zabgu.ru/">
+					<div class="info" style="display: none;" id="enter_personal_area_info">
+						<p class="info_text">Войди в меня!</p>
+					</div>
+				</a>
+				<a href="/schedule">
+					<div class="week_info" title="Сейчас Нижняя неделя">
+						<p class="week_info_text"><i class="fa fa-bell-o" aria-hidden="true"></i> Нижняя неделя</p>
+					</div>
+				</a>
+
+
+
+				<!--	<script type="text/javascript">
+				$("#student_personal_area").mouseover(function(){
+					setTimeout(function(){
+						$("#student_personal_area").hide();
+						$("#enter_personal_area_info").show();
+
+					},60000);
+				});
+				/*$("#enter_personal_area_info").mouseout(function(){
+						$("#enter_personal_area_info").hide();
+						$("#student_personal_area").show();
+
+
+				});*/
+			</script> -->
+
+				<div class="incObrAndImairedContainer">
+					<!-- <a href="/php/special/php/index_impaired.php" class="inclusuve_icon"> -->
+					<a href="/schedule?impairedVersionEnable=on" class="inclusuve_icon">
+						<img src="/img/eye.jpg" class="impaired_img" itemprop="copy" title="Версия для слабовидящих"
+							alt="Версия для слабовидящих"></a>
+					<a href="/php/page.php?query=regional%27ny%27j_centr_inklyuzivnogo_obrazovaniya"
+						class="inclusuve_icon" title="Центр инклюзивного образования">
+						<img src="/img/centr_inklyuzivnogo_obrazovaniya.jpg"
+							class="centr_inklyuzivnogo_obrazovaniya_img"
+							alt="Региональный центр инклюзивного образования" />
+					</a>
+				</div>
+				<a target="_blank" href="http://helpdesk.zabgu.ru/" title="Личный кабинет студента">
+					<div class="info" id="student_personal_area">
+						<p class="info_text"><i class="fa fa-solid fa-headset" aria-hidden="true"></i> Тех. поддержка
+						</p>
+					</div>
+				</a>
+
+				<div id="contacts">
+					<p class="contacts"><a class="contacts"
+							href="//zabgu.ru/php/page_phone.php?query=telefonny'j_spravochnik" target="_self">ВСЕ
+							КОНТАКТЫ</a></p>
+					<div id="dot"><a href="map.php" class="rollover_dot" title="Посмотреть на карте"
+							alt="Посмотреть на карте"> </a></div>
+					<p class="address">672039, г.Чита, ул.Александро-Заводская, д.30</p>
+				</div>
+
+				<div style="
+					width: 175px;
+					height: 180px;
+					box-sizing: border-box;
+					margin-bottom: 16px;
+					background: #fff;
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					justify-content: space-around;
+					padding: 10px;
+					align-items: stretch;
+					text-align: center;
+					font-weight: bold;
+				">
+					<a href="/php/page.php?query=edinoe_okno_dlya_molody'x_semej_v_obrazovatel'ny'x_organizaciyax"
+						style="
+							color: #fff;
+							text-decoration:none;
+							font-size: 16px;
+							background: #395fb6;
+							flex-basis: 50%;
+							display: flex;
+							align-items: center;
+						">
+						<div>
+							Единое окно для студенческих семей
+						</div>
+					</a>
+					<a href="/php/open_news.php?query=v_zabgu_otkry%27las%27_gruppa_kratkovremennogo_preby%27vaniya_detej&news_page=2&category="
+						style="
+							color: #fff;
+							text-decoration:none;
+							font-size: 16px;
+							background: #ff9845;
+							flex-basis: 50%;
+							display: flex;
+							align-items: center;
+						">
+						<div>
+							Помоги маме учиться
+						</div>
+					</a>
+				</div>
+
+				<div id="press">
+					<p class="contacts news_block_title"><a class="contacts"
+							href="/php/news.php?category=1&page=1">НОВОСТИ</a></p>
+
+					<div class="preview">
+						<div class="headline_pre" lang="ru">
+							<a href="/php/open_news.php?query=konkurs_pps2025" style="text-decoration: none;">
+								<div class="date_pre">
+									<p class="day">30</br>СЕН</p>
+									<div id="shortLineInTileWithDateOfNews"></div>
+									<p class="day">2025</p>
+								</div>
+							</a>
+							<div id="pressBarMarkersContainer"><a href="/php/news.php?marker=11"
+									class="marker">конкурс</a></div>
+							<a href="/php/open_news.php?query=konkurs_pps2025" style="text-decoration: none;">
+								<p class="news_desc">ЗабГУ объявляет конкурс на замещение вакантных должностей
+									педагогических работников, относящихся к профессорско-преподавательскому составу</p>
+							</a>
+
+							<a href="/php/open_news.php?query=konkurs_pps2025" style="text-decoration: none;">
+								<p class="news_more" title="Подробнее о новости">Подробнее <i
+										class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+							</a>
+						</div>
+					</div>
+
+					<div class="preview">
+						<div class="headline_pre" lang="ru">
+							<a href="/php/open_news.php?query=spisok_kandidatov_dopushhenny'x_k_vy'boram_na_zameshhenie_vakantnoj_dolzhnosti_dekana"
+								style="text-decoration: none;">
+								<div class="date_pre">
+									<p class="day">5</br>НОЯ</p>
+									<div id="shortLineInTileWithDateOfNews"></div>
+									<p class="day">2025</p>
+								</div>
+							</a>
+							<div id="pressBarMarkersContainer"><a href="/php/news.php?marker=17"
+									class="marker">объявление</a></div>
+							<a href="/php/open_news.php?query=spisok_kandidatov_dopushhenny'x_k_vy'boram_na_zameshhenie_vakantnoj_dolzhnosti_dekana"
+								style="text-decoration: none;">
+								<p class="news_desc">Выборы декана ФКиИ: Список кандидатов, допущенных к выборам на
+									замещение вакантной должности декана</p>
+							</a>
+
+							<a href="/php/open_news.php?query=spisok_kandidatov_dopushhenny'x_k_vy'boram_na_zameshhenie_vakantnoj_dolzhnosti_dekana"
+								style="text-decoration: none;">
+								<p class="news_more" title="Подробнее о новости">Подробнее <i
+										class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+							</a>
+						</div>
+					</div>
+
+					<div class="preview">
+						<div class="headline_pre" lang="ru">
+							<a href="/php/open_news.php?query=zabgu_ob''yavlyaet_konkurs_na_dolzhnost'_dekana_fakul'teta_kul'tury'_i_iskusstv"
+								style="text-decoration: none;">
+								<div class="date_pre">
+									<p class="day">30</br>СЕН</p>
+									<div id="shortLineInTileWithDateOfNews"></div>
+									<p class="day">2025</p>
+								</div>
+							</a>
+							<div id="pressBarMarkersContainer"><a href="/php/news.php?marker=11"
+									class="marker">конкурс</a></div>
+							<a href="/php/open_news.php?query=zabgu_ob''yavlyaet_konkurs_na_dolzhnost'_dekana_fakul'teta_kul'tury'_i_iskusstv"
+								style="text-decoration: none;">
+								<p class="news_desc">ЗабГУ объявляет конкурс на должность декана факультета культуры и
+									искусств</p>
+							</a>
+
+							<a href="/php/open_news.php?query=zabgu_ob''yavlyaet_konkurs_na_dolzhnost'_dekana_fakul'teta_kul'tury'_i_iskusstv"
+								style="text-decoration: none;">
+								<p class="news_more" title="Подробнее о новости">Подробнее <i
+										class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+							</a>
+						</div>
+					</div>
+
+					<div class="preview">
+						<div class="headline_pre" lang="ru">
+							<a href="/php/open_news.php?query=*zhizn'_posvyashhyonnaya_nauke_i_lyudyam*"
+								style="text-decoration: none;">
+								<div class="date_pre">
+									<p class="day">13</br>ДЕК</p>
+									<div id="shortLineInTileWithDateOfNews"></div>
+									<p class="day">2025</p>
+								</div>
+							</a>
+							<div id="pressBarMarkersContainer"></div>
+							<a href="/php/open_news.php?query=*zhizn'_posvyashhyonnaya_nauke_i_lyudyam*"
+								style="text-decoration: none;">
+								<p class="news_desc">«Жизнь, посвящённая науке и людям»</p>
+							</a>
+
+							<a href="/php/open_news.php?query=*zhizn'_posvyashhyonnaya_nauke_i_lyudyam*"
+								style="text-decoration: none;">
+								<p class="news_more" title="Подробнее о новости">Подробнее <i
+										class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--################################################ Menu ##################################################-->
+			﻿<!--################################################ Menu ##################################################-->
+			<div id="menu_bar">
+				<div id="menu">
+					</br>
+					<div class="logotype"><a href="//zabgu.ru" title="Главная страница"><img src="/icon/emblem.png"
+								alt="Логотип ЗабГУ"></a></div>
+					<!--<p id="emblem_text" class="text">ЗАБАЙКАЛЬСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ</p>-->
+
+					<div id="menu_wraper">
+						<div id="mainmenu">
+							<ul>
+								<li>
+									<a href="/sveden" class="menu_text">
+										<div class="menu_text">Сведения об образовательной организации</div>
+									</a>
+									<div class="second_level">
+										<ul style="background: red">
+											<a href="/sveden/common" class="menu_text">
+												<li>Основные сведения</li>
+											</a>
+											<a href="/sveden/struct" class="menu_text">
+												<li>Структура и органы управления образовательной организацией</li>
+											</a>
+											<a href="/sveden/document" class="menu_text">
+												<li>Документы</li>
+											</a>
+											<a href="/sveden/education" class="menu_text">
+												<li>Образование</li>
+											</a>
+											<a href="/sveden/managers" class="menu_text">
+												<li>Руководство</li>
+											</a>
+											<a href="/sveden/employees" class="menu_text">
+												<li>Педагогический состав</li>
+											</a>
+											<a href="/sveden/objects" class="menu_text">
+												<li>Материально-техническое обеспечение и оснащенность образовательного
+													процесса. Доступная среда</li>
+											</a>
+											<a href="/sveden/paid_edu" class="menu_text">
+												<li>Платные образовательные услуги</li>
+											</a>
+											<a href="/sveden/budget" class="menu_text">
+												<li>Финансово-хозяйственная деятельность</li>
+											</a>
+											<a href="/sveden/vacant" class="menu_text" target="_blank">
+												<li>Вакантные места для приема (перевода) обучающихся</li>
+											</a>
+											<a href="/sveden/grants" class="menu_text">
+												<li>Стипендии и меры поддержки обучающихся</li>
+											</a>
+											<a href="/sveden/inter" class="menu_text">
+												<li>Международное сотрудничество</li>
+											</a>
+											<a href="/sveden/catering" class="menu_text">
+												<li> Организация питания в образовательной организации</li>
+											</a>
+											<a href="/sveden/eduStandarts" class="menu_text">
+												<li>Образовательные стандарты и требования</li>
+											</a>
+											<!-- <a href="/abitur" class="menu_text">
+									<li>Абитуриенту</li>
+								</a> -->
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href='/php/page.php?query=universitet' class="menu_text">
+										<div class="menu_text">Университет</div>
+									</a>
+									<div class="second_level">
+										<ul style="background: red">
+											<a href="/php/page.php?query=ob_universitete" class="menu_text">
+												<li>Об университете</li>
+											</a>
+											<a href="/php/map.php" class="menu_text">
+												<li>Карта университета</li>
+											</a>
+											<a href="/php/page.php?query=normativny'e_dokumenty'" class="menu_text">
+												<li>Нормативные документы</li>
+											</a>
+											<a href="/php/page.php?query=struktura_universiteta" class="menu_text">
+												<li>Структура университета</li>
+											</a>
+											<a href="/php/page.php?query=rektorat" class="menu_text">
+												<li>Ректорат</li>
+											</a>
+											<a href="/php/page.php?query=ucheny'j_sovet" class="menu_text">
+												<li>Ученый совет</li>
+											</a>
+											<a href="/php/page.php?query=konkursy%27_dolzhnostej_pps" class="menu_text">
+												<li>Конкурсы ППС</li>
+											</a>
+											<a href="/php/faculties.php" class="menu_text">
+												<li>Факультеты</li>
+											</a>
+											<a href="/php/divisions.php" class="menu_text">
+												<li>Отделы и службы</li>
+											</a>
+											<a href="/php/people.php" class="menu_text">
+												<li>Персоналии</li>
+											</a>
+											<a href="/php/index_library.php" class="menu_text" target="_blank">
+												<li>Библиотека</li>
+											</a>
+											<a href="/php/page.php?query=licenziya_i_svidetel'stvo" class="menu_text">
+												<li>Лицензия и свидетельство</li>
+											</a>
+											<a href="/php/page.php?query=rekvizity'_zabgu" class="menu_text">
+												<li>Реквизиты</li>
+											</a>
+											<a href="/php/page.php?query=protivodejstvie_terrorizmu" class="menu_text">
+												<li>Противодействие терроризму</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/page.php?query=sistema_noko" class="menu_text">
+										<p class="menu_text">Система независимой оценки качества образования</p>
+									</a>
+									<div class="second_level">
+										<ul style="background: red">
+											<a href="/php/page.php?query=otdel_monitoringa_i_ocenki_kachestva_obrazovaniya"
+												class="menu_text">
+												<li>Отдел мониторинга и оценки качества образования</li>
+											</a>
+											<a href="/php/page.php?query=samoocenka_deyatel%27nosti" class="menu_text">
+												<li>Самооценка деятельности университета</li>
+											</a>
+											<a href="/php/page.php?query=nezavisimaya_ocenka_kachestva_obrazovaniya"
+												class="menu_text">
+												<li>Независимая оценка качества образования</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/page.php?query=uchebnaya_deyatel'nost'" class="menu_text">
+										<p class="menu_text">Учебная </br> деятельность</p>
+									</a>
+									<div class="second_level">
+										<ul>
+											<a href="/php/page.php?query=dovuzovskoe_obrazovanie" class="menu_text">
+												<li>Довузовское образование</li>
+											</a>
+											<a href="/php/index_gtk.php" class="menu_text">
+												<li>Среднее профессиональное образование</li>
+											</a>
+											<a href="/php/page.php?query=vy'sshee_obrazovanie" class="menu_text">
+												<li>Высшее образование</li>
+											</a>
+											<a href="/php/additional_education_index.php" class="menu_text">
+												<li>Дополнительное профессиональное образование</li>
+											</a>
+											<a href="/php/page.php?query=otvetstvenny%27e_za_vy%27stavlenie_uchebno_metodicheskix_materialov"
+												class="menu_text">
+												<li>Дистанционное обучение</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/page.php?query=nauchnaya_deyatel'nost'" class="menu_text">
+										<p class="menu_text">Научная</br> деятельность</p>
+									</a>
+									<div class="second_level">
+										<ul>
+											<a href="/php/page.php?query=niu" class="menu_text">
+												<li>Научно-исследовательское управление</li>
+											</a>
+											<a href="/php/page.php?query=sovet_po_niid" class="menu_text">
+												<li>Совет по НиИД</li>
+											</a>
+											<a href="/php/page.php?query=nauchnaya_infrastruktura" class="menu_text">
+												<li>Научная инфраструктура</li>
+											</a>
+											<a href="/php/page.php?query=nauchno_issledovatel'skaya_deyatel'nost'"
+												class="menu_text">
+												<li>Научно-исследовательская деятельность</li>
+											</a>
+											<a href="//zabgu.ru/php/page.php?query=dostup_k_mezhdunarodny%27m_bibliograficheskim_bazam_danny%27x"
+												class="menu_text">
+												<li>Доступ к международным базам данных</li>
+											</a>
+											<a href="/php/page.php?query=muzei" class="menu_text">
+												<li>Научно-образовательный музейный центр</li>
+											</a>
+											<a href="/php/page.php?query=innovacionny'e_razrabotki" class="menu_text">
+												<li>Инновационные разработки</li>
+											</a>
+											<a href="/php/page.php?query=dissertacionny'e_sovety'" class="menu_text">
+												<li>Диссертационные советы</li>
+											</a>
+
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/student_life.php" class="menu_text">
+										<p class="menu_text">Студенческая<br>жизнь</p>
+									</a>
+									<div class="second_level">
+										<ul>
+											<a href="/php/page.php?query=studencheskie_ob%27%27edineniya"
+												class="menu_text">
+												<li>Студенческие объединения</li>
+											</a>
+											<a href="/php/page.php?query=podderzhka_studentov_i_molodezhny%27x_iniciativ"
+												class="menu_text">
+												<li>Поддержка студентов и молодежных инициатив</li>
+											</a>
+											<a href="/php/page.php?query=proekty%27_i_programmy%27" class="menu_text">
+												<li>Проекты и программы</li>
+											</a>
+											<a href="/php/page.php?query=studencheskaya_infrastruktura"
+												class="menu_text">
+												<li>Студенческая инфраструктура</li>
+											</a>
+											<a href="/php/page.php?query=doska_pocheta" class="menu_text">
+												<li>Доска почета</li>
+											</a>
+											<a href="/php/page.php?query=studentu" class="menu_text">
+												<li>Полезная информация</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/page.php?query=mezhdunarodnaya_deyatel'nost'" class="menu_text">
+										<p class="menu_text">Международная деятельность</p>
+									</a>
+									<div class="second_level">
+										<ul>
+											<a href="/php/page.php?query=struktura_otdela" class="menu_text">
+												<li>Структура отдела</li>
+											</a>
+											<a href="/php/page.php?query=md_zabgu" class="menu_text">
+												<li>Международная деятельность ЗабГУ</li>
+											</a>
+											<a href="/php/page.php?query=zarubezhny'e_partnery'" class="menu_text">
+												<li>Зарубежные партнеры ЗабГУ</li>
+											</a>
+											<a href="/php/page.php?query=obuchenie_i_stazhirovki" class="menu_text">
+												<li>Обучение и стажировки за рубежом</li>
+											</a>
+											<a href="/php/page.php?query=inostranny'm_studentam" class="menu_text">
+												<li>Иностранным студентам</li>
+											</a>
+											<a href="/php/page.php?query=podrazdeleniyam_zabgu" class="menu_text">
+												<li>Подразделениям ЗабГУ, приглашающим иностранных граждан</li>
+											</a>
+											<a href="/php/page.php?query=prilozhenie_k_diplomu" class="menu_text">
+												<li>Приложение к диплому европейского образца</br>(Diploma Supplement)
+												</li>
+											</a>
+											<a href="/php/page.php?query=kontakty'_md" class="menu_text">
+												<li>Контакты</li>
+											</a>
+											<a href="/php/page.php?query=lokal'ny'j_centr_testirovaniya_inostranny'x_grazhdan"
+												class="menu_text">
+												<li>Локальный центр тестирования иностранных граждан</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/page.php?query=finansovo-xozyajstvennaya_deyatel'nost'"
+										class="menu_text">
+										<p class="menu_text">Финансово-хозяйственная деятельность</p>
+									</a>
+									<div class="second_level">
+										<ul>
+											<a href="/php/page.php?query=plan_finansovo-xozyajstvennoj_deyatel'nosti_universiteta"
+												class="menu_text">
+												<li>План финансово-хозяйственной деятельности университета</li>
+											</a>
+											<a href="/php/page.php?query=sistema_oplaty'_truda" class="menu_text">
+												<li>Система </br>оплаты труда</li>
+											</a>
+											<a href="/php/page.php?query=zakupka_tovarov_rabot_uslug_dlya_nuzhd_universiteta"
+												class="menu_text">
+												<li>Закупка товаров, работ, услуг для нужд университета</li>
+											</a>
+											<a href="/php/page.php?query=informaciya_o_rasxodovanii_sredstv"
+												class="menu_text">
+												<li>Расходование средств на организацию культурно-массовой,
+													физкультурной и спортивной, оздоровительной работы</li>
+											</a>
+											<a href="/php/page.php?query=otchet_o_rezul'tatax_deyatel'nosti_universiteta"
+												class="menu_text">
+												<li>Отчет о результатах деятельности университета и об использовании
+													закрепленного за ним имущества</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<li>
+									<a href="/php/page.php?query=social'no-vospitatel'naya_deyatel'nost'"
+										class="menu_text">
+										<p class="menu_text">Социально-воспитательная деятельность</p>
+									</a>
+									<div class="second_level">
+										<ul>
+											<a href="/php/page.php?query=upravlenie_po_rabote_s_molodezh'yu"
+												class="menu_text">
+												<li>Управление по работе с молодежью</li>
+											</a>
+											<a href="/php/page.php?query=profsoyuznaya_organizaciya_sotrudnikov_zabgu"
+												class="menu_text">
+												<li>Профсоюзная организация сотрудников ЗабГУ</li>
+											</a>
+											<a href="/php/page.php?query=profsoyuznaya_organizaciya_studentov_zabgu"
+												class="menu_text">
+												<li>Профсоюзная организация студентов ЗабГУ</li>
+											</a>
+										</ul>
+									</div>
+									<img class="retractable" src="/icon/triangle.png" alt="">
+								</li>
+								<a href="/php/page.php?query=trudoustrojstvo_vy'pusknikov" class="menu_text">
+									<li>Трудоустройство</li>
+								</a>
+								<a href="/php/page.php?query=izdaniya" class="menu_text">
+									<li>Издания</li>
+								</a>
+								<a href="/php/page.php?query=antikorrupcionnaya_deyatel'nost'" class="menu_text">
+									<li>Антикоррупционная деятельность</li>
+								</a>
+								<a href="/php/page.php?query=svedeniya_o_doxodax_rasxodax_ob_imushhestve_i_obyazatel'stvax_imushhestvennogo_xaraktera"
+									class="menu_text">
+									<li>Сведения о доходах, об имуществе и обязательствах имущественного характера
+										руководителя и членов его семьи</li>
+								</a>
+								<a href="/php/page.php?query=koordinacionny%27j_centr_zabgu" class="menu_text">
+									<li>Координационный центр ЗабГУ</li>
+								</a>
+								<a href="/php/rcfg_index.php" class="menu_text">
+									<li>Региональный центр финансовой грамотности</li>
+								</a>
+								<a href="/php/index_rmc.php" class="menu_text">
+									<li>Региональный методический центр Национальной системы квалификаций</li>
+								</a>
+								<a href="/php/rector_reception.php" class="menu_text">
+									<li>Виртуальная приемная</li>
+								</a>
+								<a href="/php/frequently_asked_questions.php" class="menu_text">
+									<li>Часто задаваемые вопросы</li>
+								</a>
+								<a href="//zabgu.ru/php/sitemap.php" class="menu_text">
+									<li>Карта сайта</li>
+								</a>
+								<a href="//zabgu.ru/php/page.php?query=yuk_femida" class="menu_text">
+									<li>Юридическая клиника «Фемида»</li>
+								</a>
+								<a href="/php/open_news.php?query=chto_nuzhno_znat%27_o_koronaviruse&news_page=1&category=1"
+									class="menu_text">
+									<li>Коронавирус. Все, что нужно знать об этом</li>
+								</a>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="go-up" title="Вверх" id='ToTop'>&#708;</div>
+			<div class="go-down" title="Вниз" id='OnBottom'> &#709;</div>
+			<script src="/js/scroll.js"></script>
+			<!--################################################ Content ##################################################-->
+
+
+
+			<link href="//zabgu.ru/modules/raspisanie/css/select2.min.css" rel="stylesheet" />
+			<link href="//zabgu.ru/modules/raspisanie/css/css.css?v=1.3" rel="stylesheet" />
+			<script src="//zabgu.ru/modules/raspisanie/js/select2.min.js"></script>
+
+
+
+			<div id="content">
+				<div id="bread_crumbs">
+					<p>
+						<span style="color:rgba(125, 125, 125, 1); text-transform: capitalize;"><a
+								href="index.php">ЗабГУ</a></span>
+						<span style="color:rgba(125, 125, 125, 1); text-transform: capitalize;">&nbsp;/&nbsp; <a
+								href="/schedule">Расписание занятий</a></span>
+						<span style="text-transform: capitalize;">&nbsp;/&nbsp;Расписание группы</span>
+
+					</p>
+				</div>
+				<div style="background: #ff9845;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom:10px;
+    text-align:center;
+    height:20px;
+    line-height: 20px;">
+					<a href="https://zabgu.ru/php/open_news.php?query=mobil%27noe_prilozhenie_*raspisanie_zabgu*"
+						target="_blank" style="color: fff;text-decoration:none">
+						Мобильное приложение «Расписание ЗабГУ»
+					</a>
+				</div>
+				<div id="page_content_wrapper" class="printable">
+
+
+					<div style='display:none'>string(11) "ИВТ-24-1"
+						object(Schedule)#27 (7) {
+						["catalog"]=>
+						string(26) "/modules/raspisanie/files/"
+						["catalog_root"]=>
+						string(39) "/var/www/html/modules/raspisanie/files/"
+						["cols"]=>
+						int(9)
+						["week"]=>
+						array(7) {
+						[0]=>
+						string(22) "понедельник"
+						[1]=>
+						string(14) "вторник"
+						[2]=>
+						string(10) "среда"
+						[3]=>
+						string(14) "четверг"
+						[4]=>
+						string(14) "пятница"
+						[5]=>
+						string(14) "суббота"
+						[6]=>
+						string(22) "воскресенье"
+						}
+						["head"]=>
+						array(9) {
+						[0]=>
+						array(2) {
+						[0]=>
+						string(24) "День<br>недели"
+						[1]=>
+						int(50)
+						}
+						[1]=>
+						array(2) {
+						[0]=>
+						string(12) "№ пары"
+						[1]=>
+						int(100)
+						}
+						[2]=>
+						array(2) {
+						[0]=>
+						string(0) ""
+						[1]=>
+						int(100)
+						}
+						[3]=>
+						array(2) {
+						[0]=>
+						string(7) "п/гр"
+						[1]=>
+						int(100)
+						}
+						[4]=>
+						array(2) {
+						[0]=>
+						string(14) "Предмет"
+						[1]=>
+						int(400)
+						}
+						[5]=>
+						array(2) {
+						[0]=>
+						string(21) "Вид занятий"
+						[1]=>
+						int(100)
+						}
+						[6]=>
+						array(2) {
+						[0]=>
+						string(26) "Преподаватель"
+						[1]=>
+						int(130)
+						}
+						[7]=>
+						array(2) {
+						[0]=>
+						string(14) "Кафедра"
+						[1]=>
+						int(100)
+						}
+						[8]=>
+						array(2) {
+						[0]=>
+						string(18) "Аудитория"
+						[1]=>
+						int(100)
+						}
+						}
+						["head_prepod"]=>
+						array(10) {
+						[0]=>
+						array(2) {
+						[0]=>
+						string(24) "День<br>недели"
+						[1]=>
+						int(50)
+						}
+						[1]=>
+						array(2) {
+						[0]=>
+						string(12) "№ пары"
+						[1]=>
+						int(100)
+						}
+						[2]=>
+						array(2) {
+						[0]=>
+						string(0) ""
+						[1]=>
+						int(100)
+						}
+						[3]=>
+						array(2) {
+						[0]=>
+						string(7) "п/гр"
+						[1]=>
+						int(100)
+						}
+						[4]=>
+						array(2) {
+						[0]=>
+						string(12) "группа"
+						[1]=>
+						int(100)
+						}
+						[5]=>
+						array(2) {
+						[0]=>
+						string(14) "Предмет"
+						[1]=>
+						int(400)
+						}
+						[6]=>
+						array(2) {
+						[0]=>
+						string(21) "Вид занятий"
+						[1]=>
+						int(100)
+						}
+						[7]=>
+						array(2) {
+						[0]=>
+						string(26) "Преподаватель"
+						[1]=>
+						int(130)
+						}
+						[8]=>
+						array(2) {
+						[0]=>
+						string(14) "Кафедра"
+						[1]=>
+						int(100)
+						}
+						[9]=>
+						array(2) {
+						[0]=>
+						string(18) "Аудитория"
+						[1]=>
+						int(100)
+						}
+						}
+						["head_zaoch"]=>
+						array(8) {
+						[0]=>
+						array(2) {
+						[0]=>
+						string(8) "Дата"
+						[1]=>
+						int(50)
+						}
+						[1]=>
+						array(2) {
+						[0]=>
+						string(12) "№ пары"
+						[1]=>
+						int(100)
+						}
+						[2]=>
+						array(2) {
+						[0]=>
+						string(12) "Группа"
+						[1]=>
+						int(100)
+						}
+						[3]=>
+						array(2) {
+						[0]=>
+						string(14) "Предмет"
+						[1]=>
+						int(400)
+						}
+						[4]=>
+						array(2) {
+						[0]=>
+						string(21) "Вид занятий"
+						[1]=>
+						int(100)
+						}
+						[5]=>
+						array(2) {
+						[0]=>
+						string(26) "Преподаватель"
+						[1]=>
+						int(130)
+						}
+						[6]=>
+						array(2) {
+						[0]=>
+						string(14) "Кафедра"
+						[1]=>
+						int(100)
+						}
+						[7]=>
+						array(2) {
+						[0]=>
+						string(18) "Аудитория"
+						[1]=>
+						int(100)
+						}
+						}
+						}
+					</div>
+					<div class="schedule_header">
+						<div class="schedule_header_text">
+							<p style='text-align: center;'><strong>09.03.01 Информатика и вычислительная
+									техника</strong></p>
+							<p style='text-align: center;'><strong>2 курс 3 семестр 2025-2026 уч.год</strong></p>
+							<p style='text-align: center;'><strong>Группа: ИВТ-24-1</strong></p>
+						</div>
+						<div class="schedule_header_bg"></div>
+					</div>
+					<ul class="schedule_menu">
+						<li><a href="#понедельник">Понедельник</a></li>
+						<li><a href="#вторник">Вторник</a></li>
+						<li><a href="#среда">Среда</a></li>
+						<li><a href="#четверг">Четверг</a></li>
+						<li><a href="#пятница">Пятница</a></li>
+						<li><a href="#суббота">Суббота</a></li>
+						<li><a href="#воскресенье">Воскресенье</a></li>
+						<li><a href="javascript://" onclick="javascript:print()"><i class="fa fa-print"
+									aria-hidden="true"></i> Распечатать</a></li>
+					</ul>
+					<div class='schedule_block_table'>
+						<table class='schedule_table' align='center'>
+							<tr class='schedule_head'>
+								<td width="50">День<br>недели</td>
+								<td width="100">№ пары</td>
+								<td width="100"></td>
+								<td width="100">п/гр</td>
+								<td width="400">Предмет</td>
+								<td width="100">Вид занятий</td>
+								<td width="130">Преподаватель</td>
+								<td width="100">Кафедра</td>
+								<td width="100">Аудитория</td>
+							</tr>
+							<tr>
+								<td rowspan="14" class="schedule_day">понедельник</td>
+								<td rowspan='2'>1</td>
+								<td rowspan='1'><a name='понедельник'></a> в</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Элективные курсы по физической культуре и спорту</td>
+							<td>практика</td>
+							<td></td>
+							<td>ФВ</td>
+							<td>ФОК</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Элективные курсы по физической культуре и спорту</td>
+							<td>практика</td>
+							<td></td>
+							<td>ФВ</td>
+							<td>ФОК</td>
+							</tr>
+							<td rowspan='2'>3</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Математическая логика и теория алгоритмов</td>
+							<td>лекция</td>
+							<td>Коган Евгения Семёновна</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Математическая логика и теория алгоритмов</td>
+							<td>лекция</td>
+							<td>Коган Евгения Семёновна</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='2'>4</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Математическая логика и теория алгоритмов</td>
+							<td>практика</td>
+							<td>Коган Евгения Семёновна</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td rowspan="18" class="schedule_day">вторник</td>
+								<td rowspan='2'>1</td>
+								<td rowspan='1'><a name='вторник'></a> в</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Правоведение</td>
+							<td>лекция</td>
+							<td>Побежимов Дмитрий Михайлович</td>
+							<td>ТГП</td>
+							<td>03-01</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Вычислительная математика</td>
+							<td>лекция</td>
+							<td>Забелин Анатолий Анатольевич</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='4'>3</td>
+							<td rowspan='2'>в</td>
+							<td>1</td>
+							<td>Вычислительная математика</td>
+							<td>лабораторная</td>
+							<td>Забелин Анатолий Анатольевич</td>
+							<td>ИВТиПМ</td>
+							<td>03-404</td>
+							</tr>
+							<td>2</td>
+							<td>Объектно-ориентированное программирование</td>
+							<td>лабораторная</td>
+							<td>Ветров Сергей Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-409</td>
+							</tr>
+							<td rowspan='2'>н</td>
+							<td>1</td>
+							<td>Вычислительная математика</td>
+							<td>лабораторная</td>
+							<td>Забелин Анатолий Анатольевич</td>
+							<td>ИВТиПМ</td>
+							<td>03-404</td>
+							</tr>
+							<td>2</td>
+							<td>Объектно-ориентированное программирование</td>
+							<td>лабораторная</td>
+							<td>Ветров Сергей Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-409</td>
+							</tr>
+							<td rowspan='4'>4</td>
+							<td rowspan='2'>в</td>
+							<td>2</td>
+							<td>Вычислительная математика</td>
+							<td>лабораторная</td>
+							<td>Забелин Анатолий Анатольевич</td>
+							<td>ИВТиПМ</td>
+							<td>03-404</td>
+							</tr>
+							<td>1</td>
+							<td>Объектно-ориентированное программирование</td>
+							<td>лабораторная</td>
+							<td>Ветров Сергей Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-409</td>
+							</tr>
+							<td rowspan='2'>н</td>
+							<td>2</td>
+							<td>Вычислительная математика</td>
+							<td>лабораторная</td>
+							<td>Забелин Анатолий Анатольевич</td>
+							<td>ИВТиПМ</td>
+							<td>03-404</td>
+							</tr>
+							<td>1</td>
+							<td>Объектно-ориентированное программирование</td>
+							<td>лабораторная</td>
+							<td>Ветров Сергей Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-409</td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Элективные курсы по физической культуре и спорту </td>
+							<td>секция</td>
+							<td></td>
+							<td>ФВ</td>
+							<td>ФОК</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Элективные курсы по физической культуре и спорту</td>
+							<td>секция</td>
+							<td></td>
+							<td>ФВ</td>
+							<td>ФОК</td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td rowspan="14" class="schedule_day">среда</td>
+								<td rowspan='2'>1</td>
+								<td rowspan='1'><a name='среда'></a> в</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Физика</td>
+							<td>лекция</td>
+							<td>Степанов Николай Петрович</td>
+							<td>Физики</td>
+							<td>14-205</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Физика</td>
+							<td>практика</td>
+							<td>Степанов Николай Петрович</td>
+							<td>Физики</td>
+							<td>14-200</td>
+							</tr>
+							<td rowspan='2'>3</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Физика</td>
+							<td>лабораторная</td>
+							<td>Степанов Николай Петрович</td>
+							<td>Физики</td>
+							<td>14-200</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>4</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td rowspan="14" class="schedule_day">четверг</td>
+								<td rowspan='2'>1</td>
+								<td rowspan='1'><a name='четверг'></a> в</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Теория вероятностей и математическая статистика</td>
+							<td>лекция поток</td>
+							<td>Федотова Алёна Дмитриевна</td>
+							<td>ПиМ</td>
+							<td>03-315</td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Правоведение</td>
+							<td>практика</td>
+							<td>Побежимов Дмитрий Михайлович</td>
+							<td>ТГП</td>
+							<td>03-06</td>
+							</tr>
+							<td rowspan='2'>3</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Теория вероятностей и математическая статистика</td>
+							<td>практика</td>
+							<td>Федотова Алёна Дмитриевна</td>
+							<td>ПиМ</td>
+							<td>03-07</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Теория вероятностей и математическая статистика</td>
+							<td>практика</td>
+							<td>Федотова Алёна Дмитриевна</td>
+							<td>ПиМ</td>
+							<td>03-07</td>
+							</tr>
+							<td rowspan='2'>4</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Иностранный язык</td>
+							<td>практика</td>
+							<td>Чижова Наталья Николаевна</td>
+							<td>ИЯ</td>
+							<td>03-113</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Иностранный язык</td>
+							<td>практика</td>
+							<td>Чижова Наталья Николаевна</td>
+							<td>ИЯ</td>
+							<td>03-113</td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td rowspan="14" class="schedule_day">пятница</td>
+								<td rowspan='2'>1</td>
+								<td rowspan='1'><a name='пятница'></a> в</td>
+								<td></td>
+								<td>Экология</td>
+								<td>лекция поток</td>
+								<td>Зыкова Евгения Хамидуловна</td>
+								<td>ИЭ</td>
+								<td>01-308</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Философия</td>
+							<td>лекция поток</td>
+							<td>Эмих Наталья Александровна</td>
+							<td>Философии</td>
+							<td>01-308</td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Экология</td>
+							<td>практика</td>
+							<td>Зыкова Евгения Хамидуловна</td>
+							<td>ИЭ</td>
+							<td>01-402а</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Философия</td>
+							<td>практика</td>
+							<td>Эмих Наталья Александровна</td>
+							<td>Философии</td>
+							<td>01-304</td>
+							</tr>
+							<td rowspan='2'>3</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Объектно-ориентированное программирование</td>
+							<td>лекция</td>
+							<td>Ветров Сергей Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td>Объектно-ориентированное программирование</td>
+							<td>лекция</td>
+							<td>Ветров Сергей Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='2'>4</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td rowspan="14" class="schedule_day">суббота</td>
+								<td rowspan='2'>1</td>
+								<td rowspan='1'><a name='суббота'></a> в</td>
+								<td>1</td>
+								<td>Язык программирования и Ассемблер</td>
+								<td>лабораторная</td>
+								<td>Лягоцкий Максим Владимирович</td>
+								<td>ИВТиПМ</td>
+								<td>03-202,207</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td>Язык программирования и Ассемблер</td>
+							<td>лекция</td>
+							<td>Палкин Георгий Александрович</td>
+							<td>ИВТиПМ</td>
+							<td>03-316</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>3</td>
+							<td rowspan='1'>в</td>
+							<td>2</td>
+							<td>Язык программирования и Ассемблер</td>
+							<td>лабораторная</td>
+							<td>Лягоцкий Максим Владимирович</td>
+							<td>ИВТиПМ</td>
+							<td>03-202,207</td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>4</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td rowspan='1'>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='1'>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<td rowspan="14" class="schedule_day">воскресенье</td>
+								<td rowspan='2'>1</td>
+								<td> <a name='воскресенье'></a> в</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>2</td>
+							<td>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>3</td>
+							<td>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>4</td>
+							<td>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>5</td>
+							<td>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>6</td>
+							<td>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td rowspan='2'>7</td>
+							<td>в</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+							<td>н</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							</tr>
+						</table>
+					</div>
+
+
+
+				</div>
+			</div>
+
+			<style>
+				@media print {
+
+					.printable,
+					.printable * {
+						visibility: visible !important;
+					}
+
+					*,
+					.schedule_menu * {
+						visibility: hidden !important;
+					}
+
+					.schedule_header * {
+						color: black;
+					}
+
+					.schedule_table {
+						width: 86% !important;
+					}
+				}
+
+				#content {
+					width: 800px;
+				}
+
+				#container {
+					width: 1175px;
+				}
+			</style>
+
+			<!-- # End_container # -->
+
+			<div id="hfooter"></div>
+		</div>
+		<!--################################################ Footer ##################################################-->
+		<!--################################################ Footer ##################################################-->
+
+
+
+		<div id="footer">
+			<!-- <div style="height: 230px; overflow-y: scroll;" class="cookie-notification cookie-notification_hidden_yes"> -->
+			<div class="cookie-notification cookie-notification_hidden_yes">
+				<div class="cookie-notification__header">Мы используем Яндекс Метрику</div>
+				<div class="cookie-notification__body">
+					Этот сайт использует сервис веб-аналитики Яндекс Метрика, предоставляемый компанией ООО «ЯНДЕКС»,
+					119021, Россия, Москва, ул. Л. Толстого, 16 (далее — Яндекс). Сервис Яндекс Метрика использует
+					технологию “cookie”. Вы можете отказаться от использования cookies, выбрав соответствующие настройки
+					в браузере. Также вы можете <a href="https://yandex.ru/support/metrika/general/opt-out.html"
+						target="_blank" style="color:#fff;">использовать инструмент</a>. Однако это может повлиять на
+					работу некоторых функций сайта. Используя этот сайт, вы соглашаетесь на обработку данных о вас
+					Яндексом в порядке и целях, указанных выше.
+				</div>
+				<div class="cookie-notification__buttons">
+					<button class="cookie-notification__button" id="yes" style="width: 150px; height: 50px">Я
+						согласен</button>
+				</div>
+			</div>
+			<!-- Yandex.Metrika informer -->
+			<a href="https://metrika.yandex.ru/stat/?id=51049604&amp;from=informer" target="_blank" rel="nofollow"><img
+					src="https://informer.yandex.ru/informer/51049604/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+					style="width:88px; height:31px; border:0;float: right;margin: 5px;" alt="Яндекс.Метрика"
+					title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
+					class="ym-advanced-informer" data-cid="51049604" data-lang="ru" /></a>
+			<!-- /Yandex.Metrika informer -->
+			<p id="footer_text" class="text">&copy; 2015 ФГБОУ ВО "ЗабГУ" Адрес: 672039, г.Чита,
+				ул.Александро-Заводская, д.30, E-mail:
+				<a class="footer_link" href="mailto:mail@zabgu.ru"> mail@zabgu.ru</a>.
+			</p><br>
+		</div>
+
+		<link rel="stylesheet" type="text/css" href="//zabgu.ru/css/bootstrap.css">
+		<script src="../js/cookie_agreement.js"></script>
+		<script type="text/javascript" src="//zabgu.ru/js/ya-statistics.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<noscript>
+			<div><img src="https://mc.yandex.ru/watch/51049604" style="position:absolute; left:-9999px;" alt="" /></div>
+		</noscript>
+
+		<!-- Аналитика Спутника -->
+		<!-- <script type="text/javascript">
+	(function(d, t, p) {
+		var j = d.createElement(t);
+		j.async = true;
+		j.type = "text/javascript";
+		j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
+		var s = d.getElementsByTagName(t)[0];
+		s.parentNode.insertBefore(j, s);
+	})(document, "script", document.location.protocol);
+</script> -->
+</body>
+
+</html>
