@@ -86,8 +86,8 @@ headermap = dict(
 )
 
 wkdisplay = dict(
-    lower='верхняя неделя',
-    upper='нижняя неделя',
+    upper='верхняя неделя',
+    lower='нижняя неделя',
 )
 
 invert = dict(
