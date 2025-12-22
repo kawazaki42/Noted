@@ -42,7 +42,7 @@ namespace fake {
     /// Прямоугольник.
     template<typename P>
     class rect: public basic_rect<P> {
-    // protected:
+    private:
         /// Два противоположных угла.
         point2d<P> begin, end;
 
@@ -64,31 +64,27 @@ namespace fake {
 
     public:
 
+        /// Прямоугольник, заданный противоположными точками.
         rect(point2d<P> begin, point2d<P> end): begin(begin), end(end) {
             sort_corners();
         }
 
         // делегирующий конструктор
+        /// Прямоугольник, заданный координатами противоположных углов.
         rect(P bx, P by, P ex, P ey): rect({bx, by}, {ex, ey}) {}
 
+        /// Прямоугольник в начале координат с указанным размером.
         rect(P x, P y): rect(0, 0, x, y) {}
 
-        // Получить координаты первого угла.
+        // Получить координаты первого из противоположных углов.
         point2d<P> get_begin() const override {
             return begin;
         }
 
-        /// Получить правый нижний угол.
+        /// Получить координаты второго из противоположных углов.
         point2d<P> get_end() const override {
             return end;
         }
-
-        // TODO: check begin <= end ?
-        
-        // /// Установить верхний левый угол.
-        // virtual void set_corner_ul(P x, P y) {
-        //     begin = {x, y};
-        // }
 
         /// Переместить первый из двух противоположных углов.
         void set_begin(P x, P y) override {

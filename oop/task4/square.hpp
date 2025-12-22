@@ -7,13 +7,15 @@
 
 
 namespace fake {
+
     /// Квадрат.
     template<typename P>
-    // class square: public rect<P> {
     class square: public basic_rect<P> {
+    private:
         // Один из углов.
         point2d<P> begin;
-        // Сторона.
+
+        // Длина стороны.
         P size;
 
         /// Точность сравнения.
@@ -39,26 +41,14 @@ namespace fake {
 
     public:
 
-        // square(P side): rect<P>(0, 0, side, side) {}
+        // Квадрат с заданной стороной и углом.
+        square(P side, point2d<P> begin): begin(begin), size(side) {}
 
-        square(P side, point2d<P> begin):
-            // rect<P>(begin, {begin.x + side, begin.y + side}) {}
-            begin(begin), size(side) {}
-
+        // Квадрат с заданной стороной и координатами одного из углов.
         square(P side, P x, P y): square(side, {x, y}) {}
 
+        // Квадрат в центре координат с заданной длиной стороны.
         square(P side): square(side, {0, 0}) {}
-
-        // // TODO: call parent method?
-
-        // /// Установить верхний левый угол.
-        // ///
-        // /// @throws std::invalid_argument
-        // ///     если ширина и высота перестанут совпадать при перемещении.
-        // void set_corner_ul(P x, P y) override {
-        //     ensure_square({x, y}, this->end);
-        //     this->begin = {x, y};
-        // }
 
         /// Получить координаты первого угла.
         point2d<P> get_begin() const override {
@@ -78,13 +68,8 @@ namespace fake {
             ensure_square({x, y}, get_end());
             size = get_end().x - x;
             begin = {x, y};
+            // TODO: sort_corners
         }
-
-
-        /// Установить верхний левый угол.
-        ///
-        /// @throws std::invalid_argument
-        ///     если ширина и высота перестанут совпадать при перемещении.
 
         /// Переместить второй из двух противоположных углов.
         ///
@@ -92,7 +77,6 @@ namespace fake {
         ///     если ширина и высота перестанут совпадать при перемещении.
         void set_end(P x, P y) override {
             ensure_square(begin, {x, y});
-            // this->end = {x, y};
             size = x - begin.x;
             // assert(std::abs((y - begin.y) - size) < COMPARE_PRECISION);
         }
@@ -107,6 +91,7 @@ namespace fake {
             return size;
         }
 
+        /// Переместить на указанное смещение.
         void move_relative(P x, P y) override {
             begin.x += x;
             begin.y += y;
