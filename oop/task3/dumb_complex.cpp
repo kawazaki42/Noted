@@ -71,8 +71,12 @@ namespace dumb {
     /// Ввод с `istream` (напр. файлы, `cin`)
     std::istream &operator >>(std::istream &s, complex &c) {
         char sign;
+        char i{'\0'};
 
-        s >> c.real >> std::ws >> sign >> std::ws >> c.imag;
+        s >> c.real >> std::ws >> sign >> std::ws >> c.imag >> i;
+
+        if(i != 'i')
+            s.setstate(std::istream::failbit);
 
         if(sign == '-') {
             c.imag = -c.imag;

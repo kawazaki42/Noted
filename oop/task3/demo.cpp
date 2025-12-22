@@ -7,24 +7,46 @@
 
 using std::cout, std::endl;
 // using fake::operator""_i;
+using std::literals::operator ""s;
 
 
-int main() {
-    // cout << (3 + 4_i).to_string() << endl;
-    // fake::complex{5, 6} + 5;
-    // 5 - fake::complex{5, 6};
-    // 4_i - 1;
-    // dumb::complex{5, 6} - 5;
-    // fake::complex<double> c = 5;
-    // cout << (fake::complex<double>{0, -5} - fake::complex<double>{2, 3}).to_string() << endl;
+int main(int argc, char **argv) {
+    // проверка: включен ли assert?
+    if(argc-1 >= 1 and argv[0+1] == "--fail"s) {
+        std::cerr << "Проверка на выполнение тестов." << endl;
+        std::cerr << "Если assert включен, программа должа упасть..." << endl;
+        assert(false);
+        std::cerr << "assert отключен! тесты не запускаются!" << endl;
+    }
 
-    // cout << dumb::complex(-3, 4).to_string() << endl;
+    // тесты
+
+    dumb::test();
+    
+    const std::string fname{"complex.txt"};
+
+    {
+        // вывод в файл
+        dumb::complex c{3, 4};
+        std::ofstream f{fname};
+        f << c.to_string() << endl;
+    }
+
+    {
+        // ввод из файла
+        std::ifstream f{fname};
+        dumb::complex c, e{3, 4};
+        f >> c;
+        assert((c - e).abs() < 1e-6);
+        std::cout << c.to_string() << endl;
+    }
+
+
+    // демонстрация
 
     /// статический объект
     dumb::complex c{3, 4};
     cout << (c + 5).to_string() << endl;
-
-    // c += {3, 4};
 
     /// динамический объект
     dumb::complex *pc = new dumb::complex{13, 37};
@@ -42,15 +64,16 @@ int main() {
     }
     cout << endl;
 
-    /// динамический массив из объектов
+    /// динамический массив из (статических) объектов
     dumb::complex *dcs;
     dcs = new dumb::complex[10];  // 10 вызовов конструкторов
 
-    cs[5].imag = 100;
+    // изменим один из объектов
+    dcs[4].imag = 200;
 
     // foreach не работает
     for(size_t i = 0; i < 10; i++) {
-        cout << c.to_string() << "  ";
+        cout << dcs[i].to_string() << "  ";
     }
     cout << endl;
 
@@ -59,9 +82,11 @@ int main() {
     /// (статический) массив из указателей на объекты
     dumb::complex *pcs[10];  // ни один конструктор не вызван
 
+    // Заполним его указателями на объекты.
+    // Тогда это будет статический массив из динамических объектов.
     for(size_t i = 0; i < 10; i++) {
         // по одному конструктору за раз
-        pcs[i] = new dumb::complex{0, (double)i};
+        pcs[i] = new dumb::complex{0, static_cast<double>(i)};
     }
 
     // foreach работает; p - указатель
@@ -70,25 +95,4 @@ int main() {
         delete p;
     }
     cout << endl;
-
-    // тесты
-
-    dumb::test();
-    
-    const std::string fname{"complex.txt"};
-
-    {
-        // вывод в файл
-        std::ofstream f{fname};
-        f << c.to_string() << endl;
-    }
-
-    {
-        // ввод из файла
-        std::ifstream f{fname};
-        dumb::complex c, e{3, 4};
-        f >> c;
-        assert((c - e).abs() < 1e-6);
-        std::cout << c.to_string();
-    }
 }
