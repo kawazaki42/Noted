@@ -52,6 +52,12 @@ namespace dumb {
 
     /// Ввод с `istream` (напр. файлы, `cin`)
     std::istream &operator >>(std::istream &s, complex &c);
+
+    /// Запустить набор тестов.
+    ///
+    /// Если один из тестов не пройден, завершает программу с ошибкой.
+    /// Если все тесты пройдены, ничего не делает.
+    void test();
 }
 
 #endif  // DUMB_COMPLEX_HPP

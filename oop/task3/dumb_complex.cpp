@@ -1,3 +1,4 @@
+#include <cassert>
 #include <cmath>
 #include <format>
 #include <istream>
@@ -89,5 +90,49 @@ namespace dumb {
             a.real == b.real and
             a.imag == b.imag
         );
+    }
+
+    /// Запустить набор тестов.
+    ///
+    /// Если один из тестов не пройден, завершает программу с ошибкой.
+    /// Если все тесты пройдены, ничего не делает.
+    void test() {
+        {
+            dumb::complex c{3, 4};
+            assert( std::abs(c.real - 3) < 1e-6 );
+            assert( std::abs(c.imag - 4) < 1e-6 );
+
+            auto d = c + 5;
+
+            dumb::complex e{8, 4};
+        
+            assert( (d - e).abs() < 1e-6 );
+        }
+
+        {
+            dumb::complex c;
+            assert( std::abs(c.real) < 1e-6);
+            assert( std::abs(c.imag) < 1e-6);
+        }
+
+        {
+            dumb::complex a{1, 2};
+            dumb::complex b{3, 4};
+
+            dumb::complex c{ a*b };
+
+            assert(std::abs(c.real + 5) < 1e-6);
+            assert(std::abs(c.imag - 10) < 1e-6);
+        }
+
+        {
+            dumb::complex z{3, 4};
+            assert(z.arg() - 0.927 < 0.001);
+        }
+
+        {
+            dumb::complex z{-3, -4};
+            assert(z.abs() - 5 < 1e-6);
+        }
     }
 }

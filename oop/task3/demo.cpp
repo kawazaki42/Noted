@@ -1,6 +1,5 @@
 #include <cassert>
 #include <cstddef>
-#include <ios>
 #include <iostream>
 #include <fstream>
 // #include "complex.hpp"
@@ -24,45 +23,6 @@ int main() {
     /// статический объект
     dumb::complex c{3, 4};
     cout << (c + 5).to_string() << endl;
-
-    {
-        dumb::complex c{3, 4};
-        assert( std::abs(c.real - 3) < 1e-6 );
-        assert( std::abs(c.imag - 4) < 1e-6 );
-
-        auto d = c + 5;
-
-        dumb::complex e{8, 4};
-    
-        assert( (d - e).abs() < 1e-6 );
-    }
-
-    {
-        dumb::complex c;
-        assert( std::abs(c.real) < 1e-6);
-        assert( std::abs(c.imag) < 1e-6);
-    }
-
-    {
-        dumb::complex a{1, 2};
-        dumb::complex b{3, 4};
-
-        dumb::complex c{ a*b };
-
-        assert(std::abs(c.real + 5) < 1e-6);
-        assert(std::abs(c.imag - 10) < 1e-6);
-    }
-
-    {
-        dumb::complex z{3, 4};
-        assert(z.arg() - 0.927 < 0.001);
-    }
-
-    {
-        dumb::complex z{-3, -4};
-        assert(z.abs() - 5 < 1e-6);
-    }
-
 
     // c += {3, 4};
 
@@ -110,6 +70,10 @@ int main() {
         delete p;
     }
     cout << endl;
+
+    // тесты
+
+    dumb::test();
     
     const std::string fname{"complex.txt"};
 
