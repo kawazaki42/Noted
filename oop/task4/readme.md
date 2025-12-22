@@ -45,15 +45,24 @@ namespace fake {
         + override get_width() P
         + override get_height() P
 
-        + override move_relative(P x, P y)
-        + override get_area() P
-        + override get_perimeter() P
+        + override move_relative(x : P, y : P)
     }
 
     class square~P~ {
-        - ensure_square(point2d~P~ begin, point2d~P~ end)
-        + set_corner_ul(P x, P y)
-        + set_corner_br(P x, P y)
+        - begin : point~P~
+        - size : P
+        - ensure_square(begin : point2d~P~, end : point2d~P~)
+
+        + override get_begin() point2d~P~
+        + override get_end() point2d~P~
+
+        + override set_begin(x : P, y : P)
+        + override set_end(x : P, y : P)
+
+        + override get_width() P
+        + override get_height() P
+
+        + override move_relative(x : P, y : P)
     }
 
     class circle~P~ {
@@ -61,22 +70,19 @@ namespace fake {
         + center : point2d~P~
 
         + get_radius() P
-        + set_radius(P new_radius)
+        + set_radius(new_radius: P)
 
-        + move_relative(P x, P y)
-        + get_area() P
-        + get_perimeter() P
+        + override move_relative(x : P, y : P)
+        + override get_area() P
+        + override get_perimeter() P
     }
 }
 
 
-shape <|-- rect
-rect <|-- square
-shape <|-- circle
-
-%% point2d *-- rect
-%% point2d *-- square
-%% point2d *-- circle
+shape <|-- basic_rect
+basic_rect <|.. square
+basic_rect <|.. rect
+shape <|.. circle
 
 rect   *-- point2d
 square *-- point2d
