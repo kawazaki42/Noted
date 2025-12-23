@@ -26,7 +26,7 @@ int main() {
 
     // Демонстрация полиморфизма.
 
-    /// (статический) массив из полиморфных объектов
+    /// (статический) массив из полиморфных объектов (указателей)
     fake::shape<double> *arr[3];
 
     // заполним массив объектами.
@@ -36,12 +36,12 @@ int main() {
     arr[2] = new fake::square<double>(9, 40, 2);
 
     // вызовем некоторый метод на каждом объекте.
-    for(auto &p : arr) {
+    for(auto p : arr) {
         cout << p->get_area() << endl;
     }
 
     // очистка памяти
-    for(auto &p : arr) {
+    for(auto p : arr) {
         delete p;
     }
 
@@ -50,6 +50,8 @@ int main() {
     fake::shape<double> *sh;
 
     sh = &c;  // sh указывает на круг c
+    // compile-time error: no such method
+    // std::cout << sh->get_radius() << endl;
     std::cout << sh->get_area() << endl;
 
     /// указатель на круг (не на любую фигуру)
@@ -59,11 +61,11 @@ int main() {
     // csh = sh;
     csh = dynamic_cast< fake::circle<double> * >(sh);
 
-    cout << "csh->get_area(): ";
+    cout << "csh->get_radius(): ";
     if(csh == nullptr) {
         cout << "dynamic cast failed" << endl;
     } else
-        cout << csh->get_area() << endl;
+        cout << csh->get_radius() << endl;  // shuould be successful
 
     /// указатель на квадрат
     fake::square<double> *ssh;
@@ -77,6 +79,8 @@ int main() {
         cout << "dynamic cast failed" << endl;
     } else
         cout << ssh->get_area() << endl;
+
+    // описать dynamic_cast с get_radius и `shape *`
 
     // Вывод: объект `c` сам помнит, что он круг.
     // На него может указывать `shape *` (`sh` в нашем случае),
