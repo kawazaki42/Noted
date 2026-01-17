@@ -12,3 +12,23 @@ Task 1
 - a point of reference - точка зрения; точка отсчета
 - a frame of reference - (мат.) система отсчета
 - a representative/random sample - показательный/случайный образец
+
+Task 2
+---
+
+- A {surface, careful, thorough, scientific, multidisciplinary} analysis
+- To {perform, carry out, summarize, refine, refer to} an analysis
+- A {reliable, suitable, mathematical, efficient, area-specific} method
+- To {employ, avoid, find, describe, discuss} a method
+
+Task 3
+---
+
+- Reduce, induce, produce, deduce
+- Refer, infer, defer, prefer, transfer
+- Concur, occur, recur
+- Entertain, obtain, retain, pertain, constrain, contain
+- Consume, resume, assume
+- Substitute, institute, constitute
+- Contribute, distribute, attribute
+- Subscribe, proscribe, describe
