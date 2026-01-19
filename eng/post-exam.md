@@ -197,6 +197,16 @@ Task 3
 8. __It__ is no accident that the transformation predicted
    is due to occur in the nearest future.
 
+---
+
+1. In the process of, in essence, in effect, in turn, in most respects,
+   in case, in the same way, in the language of, ~~in the whole~~,
+   in particular, in brief.
+2. By means of, by no means, by analogy, by contrast, ~~by parallel with~~,
+   by far, by and large, by chance.
+3. From now/then on, from (general) perspective, from the (point of) view,
+   ~~from the one hand~~.
+
 idk lol
 ===
 
