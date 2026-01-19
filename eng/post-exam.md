@@ -24,7 +24,7 @@ Task 2
 Task 3
 ---
 
-- Reduce, induce, produce, deduce
+- Reduce, induce, produce, deduce, introduce
 - Refer, infer, defer, prefer, transfer
 - Concur, occur, recur
 - Entertain, obtain, retain, pertain, constrain, contain
@@ -124,6 +124,28 @@ Task 3
 
 позволяет предположить / решить вопрос [x] / предоставляет практический способ
 реализовать [x]
+
+---
+
+1. confine; concentrate on
+2. would like to; examine, consider; dealing with
+3. most of, the bulk of; put, classified
+4. methodology objects/raises questions about; point of view,
+   point of reference, perspective
+
+---
+
+1. Я попытаюсь заработать, пользуясь этим преимуществом...
+2. Для того, чтобы учесть влияние теорий N, требуется ислледование насчет [x]
+3. Рассмотреть возникновение такой перемены
+4. Попытка исследования выводит на поверхность вопросы о [x]
+5. В наши дни существует поразительно широкое
+   соглашение [или дебаты] по вопросу...
+6. Методика примет определенную форму в процессе исследования
+7. Проблемы многочисленны и действительно приобрели некоторую важность в наше время
+8. Такая политика дала начало спорам о...
+9. Метод в некоторой степени еще развивается
+10. Эта практика побуждает академиков искать общий подход...
 
 idk lol
 ===
