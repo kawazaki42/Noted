@@ -151,36 +151,35 @@ Task 3
 <!-- |-|-| -->
 <!-- | | | -->
 
----
+<!------->
 
-1) h
-2) h (k?) i?
+<!--1) /c f g h i j k  /l
+2) a /b d e
 3) b f g (h?) i j k (/l)
 4) (/c) f (/g) h? (/i) j k l
 5) a b d? e? /l
 6) c g? h i? /j /k l?
-7) /a c /d /e /f g? h? i? j k /l
+7) /a c /d /e /f g? h? i j k /l
 8) /a c? d? e? g? h i j k l
 9) l
 10) c f g? h i j k /l
 11) /a /b d e 
-12) a b d? e? /l
+12) a b d? e? /l-->
 
-<!--
 ---
 
-1. h
-2.
-3.
-4.
-5.
-6. c
+1. f
+2. e
+3. i
+4. j
+5. a
+6. g 
 7. k
-8.
+8. h
 9. l
-10.
-11.
-12. -->
+10. c 
+11. d
+12. b
 
 ---
 
