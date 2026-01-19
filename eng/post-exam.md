@@ -147,6 +147,56 @@ Task 3
 9. Метод в некоторой степени еще развивается
 10. Эта практика побуждает академиков искать общий подход...
 
+<!-- | | | -->
+<!-- |-|-| -->
+<!-- | | | -->
+
+---
+
+1) h
+2) h (k?) i?
+3) b f g (h?) i j k (/l)
+4) (/c) f (/g) h? (/i) j k l
+5) a b d? e? /l
+6) c g? h i? /j /k l?
+7) /a c /d /e /f g? h? i? j k /l
+8) /a c? d? e? g? h i j k l
+9) l
+10) c f g? h i j k /l
+11) /a /b d e 
+12) a b d? e? /l
+
+<!--
+---
+
+1. h
+2.
+3.
+4.
+5.
+6. c
+7. k
+8.
+9. l
+10.
+11.
+12. -->
+
+---
+
+1. __It__ will suffice to introduce some basic terms here.
+2. __There__ is no point in distinguishing those terms.
+3. To argue this, __it__ is sufficient to accurately define the notion.
+4. N's approach reveals that __there__ is a certain mismatch
+   between the two phenomena.
+5. __It__ is only realistic to expect certain dramatic changes
+   in the contemporary state of art.
+6. __There__ is a significant shift of perspective here away
+   from 'competence' towards 'performance' in recent studies.
+7. __There__ is as yet no substitute for N's method.
+8. __It__ is no accident that the transformation predicted
+   is due to occur in the nearest future.
+
 idk lol
 ===
 
