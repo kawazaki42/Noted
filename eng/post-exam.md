@@ -200,12 +200,12 @@ Task 3
 ---
 
 1. In the process of, in essence, in effect, in turn, in most respects,
-   in case, in the same way, in the language of, ~~in the whole~~,
+   in case, in the same way, in the language of, ~~in~~ on/as the whole,
    in particular, in brief.
-2. By means of, by no means, by analogy, by contrast, ~~by parallel with~~,
+2. By means of, by no means, by analogy, by contrast, ~~by~~ in parallel with,
    by far, by and large, by chance.
 3. From now/then on, from (general) perspective, from the (point of) view,
-   ~~from the one hand~~.
+   ~~from~~ on the one hand.
 
 idk lol
 ===
