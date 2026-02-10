@@ -1,4 +1,4 @@
-`null`'s public lectures
+`null`'s public lecture notes
 ======
 
 <!-- ![alt text](532bgq3crp961.webp) -->
@@ -11,7 +11,7 @@
 ---
 - матлогика [matlog/](matlog/)
 - теория вероятностей [probtheo/](probtheo/)
-- ф ~~ш~~изика [phys/](phys/)
+- ~~ф~~ шизика [phys/](phys/)
 ---
 - English [eng/](eng/)
   - > Vanechkin, do you speak it?
