@@ -1,0 +1,65 @@
+I = U / R
+
+jS = El / (rho l / S)
+
+jS = E l S/ (rho l)
+
+j = E / rho
+
+j = sigma E
+
+---
+
+I = q/t
+
+I = Ne/t
+
+I = nVe/t
+
+jS = nSle/t
+
+j = nle/t
+
+j = neu
+
+---
+
+F = ma
+
+Ee = ma
+
+a = Ee / m
+
+v = Eet/m
+
+j = ne * Eet/m
+
+j = ne^2Et/m
+
+sigma = ne^2t/m
+
+---
+
+j = neu
+
+F_l = euB = F_k = eE
+
+u = j/ne
+
+E = uB = Bj/ne = U_x / l
+
+S = ld
+
+# I = jS = jld
+
+j = I/S = I/ld
+
+BI / ldne = Ux / l
+
+BI / dne = Ux
+
+---
+
+dne = BI / U_x
+
+n = BI/(U_x ed)
